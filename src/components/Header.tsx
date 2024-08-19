@@ -16,7 +16,7 @@ const Header: React.FC = () => {
         </nav>
         <div className="flex items-center gap-4">
           <ToggleLocale />
-          <Link variant="default" size="default" href="/">
+          <Link variant="primary" size="md" href="/">
             Get a Demo
           </Link>
         </div>
