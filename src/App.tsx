@@ -1,11 +1,11 @@
-import { logo } from "@constants/assets";
+import { BrowserRouter } from "react-router-dom";
+import { AppRouter } from "./router/AppRouter";
 
 const App = () => {
   return (
-    <>
-      <h1>Hellos</h1>
-      <img src={logo} alt="Vesko Logo" />
-    </>
+    <BrowserRouter>
+      <AppRouter />
+    </BrowserRouter>
   );
 };
 
