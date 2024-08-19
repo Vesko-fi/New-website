@@ -1,4 +1,9 @@
 {
   "welcome": "Welcome",
-  "greeting": "Hello, {{name}}!"
+  "notFoundPage": {
+    "error": "404",
+    "heading": "Oops! The page you're looking for isn't here.",
+    "body": "You might have the wrong address, or the page may have moved.",
+    "button": "Back to Home"
+  }
 }

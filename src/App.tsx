@@ -7,7 +7,9 @@ const App = () => {
   return (
     <BrowserRouter>
       <I18nextProvider i18n={i18n}>
-        <AppRouter />
+        <main>
+          <AppRouter />
+        </main>
       </I18nextProvider>
     </BrowserRouter>
   );

@@ -1,4 +1,9 @@
 {
   "welcome": "Tervetuloa",
-  "greeting": "Hei, {{name}}!"
+  "notFoundPage": {
+    "error": "404",
+    "heading": "Hups! Etsimääsi sivua ei löydy.",
+    "body": "Saitat saattavat olla väärät, tai sivu saattaa olla siirretty.",
+    "button": "Takaisin etusivulle"
+  }
 }
