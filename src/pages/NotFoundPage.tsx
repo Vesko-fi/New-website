@@ -1,5 +1,6 @@
-import { ToggleLocale } from "@components/ToggleLocale";
 import { useTranslation } from "react-i18next";
+
+import { ToggleLocale } from "@components/ToggleLocale";
 
 const NotFoundPage = () => {
   const { t } = useTranslation();

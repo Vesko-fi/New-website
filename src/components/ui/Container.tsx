@@ -9,7 +9,7 @@ interface ContainerProps extends HTMLProps<HTMLDivElement> {
 const Container: React.FC<ContainerProps> = ({ className, ...props }) => {
   return (
     <div
-      className={cn("mx-auto max-w-custom-container", className)}
+      className={cn("mx-auto max-w-custom-container px-2 md:px-4", className)}
       {...props}
     />
   );

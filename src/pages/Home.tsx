@@ -1,8 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
 
+import { Header } from "@components/Header";
 import { SEO } from "@components/SEO";
-import { ToggleLocale } from "@components/ToggleLocale";
 import { Button } from "@components/ui/Button";
 import { Container } from "@components/ui/Container";
 
@@ -16,13 +16,10 @@ const Home: React.FC = () => {
         description="Welcome to Vesko"
         keywords="vesko, services"
       />
+      <Header />
       <Container>
-        <ToggleLocale />
         <h1 className="text-3xl font-bold">{t("welcome")}</h1>
-        <Button>
-          Accent 1 Accent 1Accent 1Accent 1Accent 1Accent 1Accent 1 Accent 1
-          Accent 1 Accent 1 Accent 1 Accent 1
-        </Button>
+        <Button>Vesko</Button>
         <Button variant="outline" size="lg">
           Accent 1 lg
         </Button>
