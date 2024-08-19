@@ -7,7 +7,12 @@ interface SEOProps {
   image?: string;
 }
 
-const SEO = ({ title, description, keywords = "", image = "" }: SEOProps) => (
+export const SEO = ({
+  title,
+  description,
+  keywords = "",
+  image = "",
+}: SEOProps) => (
   <HelmetProvider>
     <Helmet>
       <title>Vesko{` - ${title}`}</title>
@@ -21,5 +26,3 @@ const SEO = ({ title, description, keywords = "", image = "" }: SEOProps) => (
     </Helmet>
   </HelmetProvider>
 );
-
-export default SEO;
