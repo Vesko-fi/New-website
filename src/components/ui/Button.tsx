@@ -11,7 +11,7 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 const buttonVariants = cva("", {
   variants: {
     variant: {
-      filled: "bg-blue-500",
+      filled: "bg-accent1-90",
       outlined: "border border-blue-500",
     },
     size: {
