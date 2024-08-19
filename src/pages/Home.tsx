@@ -5,6 +5,7 @@ import { Header } from "@components/Header";
 import { SEO } from "@components/SEO";
 import { Button } from "@components/ui/Button";
 import { Container } from "@components/ui/Container";
+import { Section } from "@components/ui/Section";
 
 const Home: React.FC = () => {
   const { t } = useTranslation();
@@ -17,18 +18,20 @@ const Home: React.FC = () => {
         keywords="vesko, services"
       />
       <Header />
-      <Container>
-        <h1 className="text-3xl font-bold">{t("welcome")}</h1>
-        <Button>Vesko</Button>
-        <Button variant="outline" size="lg">
-          Accent 1 lg
-        </Button>
-        <Button variant="link">Accent 1</Button>
-        <Button variant="ghost">Accent 1</Button>
-        <Button variant="secondary" size="sm">
-          Accent 1
-        </Button>
-      </Container>
+      <Section>
+        <Container>
+          <h1 className="text-3xl font-bold">{t("welcome")}</h1>
+          <Button>Vesko</Button>
+          <Button variant="outline" size="lg">
+            Accent 1 lg
+          </Button>
+          <Button variant="link">Accent 1</Button>
+          <Button variant="ghost">Accent 1</Button>
+          <Button variant="secondary" size="sm">
+            Accent 1
+          </Button>
+        </Container>
+      </Section>
     </>
   );
 };

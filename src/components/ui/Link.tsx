@@ -1,7 +1,7 @@
+import { VariantProps } from "class-variance-authority";
 import { AnchorHTMLAttributes } from "react";
 
 import { cn } from "@utils/cn";
-import { VariantProps } from "class-variance-authority";
 import { buttonVariants } from "./Button";
 
 interface LinkProps
