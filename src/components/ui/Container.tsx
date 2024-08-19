@@ -1,18 +1,20 @@
-import { cn } from "@utils/cn";
 import { HTMLProps } from "react";
+
+import { cn } from "@utils/cn";
 
 interface ContainerProps extends HTMLProps<HTMLDivElement> {
   className?: string;
 }
 
-export const Container: React.FC<ContainerProps> = ({
-  className,
-  ...props
-}) => {
+const Container: React.FC<ContainerProps> = ({ className, ...props }) => {
   return (
     <div
-      className={cn("max-w-custom-container mx-auto", className)}
+      className={cn("mx-auto max-w-custom-container", className)}
       {...props}
     />
   );
 };
+
+Container.displayName = "Container";
+
+export { Container };
