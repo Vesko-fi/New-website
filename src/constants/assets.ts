@@ -1,3 +1,4 @@
-import logo from "../assets/vesko-logo.png";
+import heroImg from "@assets/hero-img.png";
+import logo from "@assets/vesko-logo.png";
 
-export { logo };
+export { heroImg, logo };

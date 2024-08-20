@@ -6,7 +6,7 @@ import { Logo } from "./ui/Logo";
 
 const Header: React.FC = () => {
   return (
-    <header className="py-2 bg-accent1-10">
+    <header className="sticky top-0 z-50 py-2 backdrop-blur-3xl">
       <Container className="flex items-center justify-between">
         <Logo />
         <nav className="hidden md:block">
