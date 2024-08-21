@@ -33,7 +33,7 @@ const Home: React.FC = () => {
         </Container>
       </Section>
       <Section>
-        <Container>
+        <Container className="bg-accent1-50">
           <h1 className="text-3xl font-bold">{t("welcome")}</h1>
           <Button>Vesko</Button>
           <Button variant="outline" size="lg">
