@@ -9,7 +9,7 @@ const MissionSection: React.FC = () => {
         <h2 className="text-center text-xl font-bold lg:text-2xl">
           Our Mission Is To Connect You!
         </h2>
-        <p className="mt-4 px-8 text-center text-base md:px-20 lg:px-32 xl:px-36">
+        <p className="mt-4 px-8 text-center text-sm md:px-20 lg:px-32 xl:px-36">
           Our Mission is to connect you! At Vesko we are committed to bring
           authentic Finnish brands and stores closer to the Finnish Consumer.
         </p>
