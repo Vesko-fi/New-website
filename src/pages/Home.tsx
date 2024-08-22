@@ -6,6 +6,7 @@ import { Button } from "@components/ui/Button";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
 import { HeroSection } from "@features/home/HeroSection";
+import Options from "@features/home/Options";
 
 const Home: React.FC = () => {
   const { t } = useTranslation();
@@ -18,6 +19,7 @@ const Home: React.FC = () => {
         keywords="vesko, services"
       />
       <HeroSection />
+      <Options />
       <Section>
         <Container>
           <h1 className="text-3xl font-bold">{t("welcome")}</h1>
