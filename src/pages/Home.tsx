@@ -7,6 +7,7 @@ import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
 import { HeroSection } from "@features/home/HeroSection";
 import { StoreSection } from "@features/home/StoreSection";
+import { MissionBrandSection } from "@features/home/MissionBrandSection";
 
 const Home: React.FC = () => {
   const { t } = useTranslation();
@@ -20,6 +21,7 @@ const Home: React.FC = () => {
       />
       <HeroSection />
       <StoreSection />
+      <MissionBrandSection />
       <Section>
         <Container>
           <h1 className="text-3xl font-bold">{t("welcome")}</h1>
