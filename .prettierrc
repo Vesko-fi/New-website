@@ -6,5 +6,7 @@
   "tabWidth": 2,
   "jsxSingleQuote": false,
   "arrowParens": "always",
-  "endOfLine": "auto"
+  "endOfLine": "auto",
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindConfig": "./tailwind.config.js"
 }

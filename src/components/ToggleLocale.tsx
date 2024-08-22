@@ -1,5 +1,6 @@
-import { LOCALE_ITEMS } from "@constants/localeItems";
 import { useTranslation } from "react-i18next";
+
+import { LOCALE_ITEMS } from "@constants/lists";
 
 export const ToggleLocale: React.FC = () => {
   const { i18n } = useTranslation();
@@ -11,7 +12,11 @@ export const ToggleLocale: React.FC = () => {
   };
 
   return (
-    <select value={i18n.language} onChange={handleLanguageChange}>
+    <select
+      value={i18n.language}
+      onChange={handleLanguageChange}
+      className="cursor-pointer rounded-md border bg-transparent p-1 text-xs font-semibold tracking-wider border-accent1-10 outline-accent1-40"
+    >
       {LOCALE_ITEMS.map(({ value, label }) => (
         <option value={value}>{label}</option>
       ))}
