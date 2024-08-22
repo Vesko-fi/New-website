@@ -6,6 +6,7 @@ import { Button } from "@components/ui/Button";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
 import { HeroSection } from "@features/home/HeroSection";
+import { StoreSection } from "@features/home/StoreSection";
 import Options from "@features/home/Options";
 
 const Home: React.FC = () => {
@@ -19,6 +20,7 @@ const Home: React.FC = () => {
         keywords="vesko, services"
       />
       <HeroSection />
+      <StoreSection />
       <Options />
       <Section>
         <Container>
