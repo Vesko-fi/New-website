@@ -8,8 +8,8 @@ const Footer: React.FC = () => {
   return (
     <footer className="relative bottom-0 bg-gradient-to-t from-[rgba(2,89,56,0.5)] py-12">
       <Container>
-        <div className="flex flex-col justify-between gap-6 md:flex-row">
-          <div className="max-w-[40%] flex-1">
+        <div className="flex flex-col justify-between gap-12 md:flex-row md:gap-6">
+          <div className="flex-1 px-3 lg:max-w-[40%]">
             <Logo />
             <p className="mt-3 text-balance text-sm lg:text-base">
               The expected release date of the beta version is during the 2
@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
               ))}
             </div>
           </div>
-          <div className="flex max-w-[60%] flex-1">
+          <div className="flex flex-1 lg:max-w-[60%]">
             <div className="flex-1">
               <h4 className="mb-2 px-3 text-lg font-semibold">Information</h4>
               <ul>
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
             </div>
           </div>
         </div>
-        <hr className="border-t-1 my-12 border-accent1" />
+        <hr className="border-t-1 my-12 border-primary-40" />
         <p className="text-center font-medium">
           &copy; 2024 Vesko. All Rights Reserved
         </p>
