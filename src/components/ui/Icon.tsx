@@ -1,5 +1,12 @@
 interface IconProps {
-  icon: "linkedin" | "twitter" | "facebook" | "google" | string;
+  icon:
+    | "linkedin"
+    | "twitter"
+    | "facebook"
+    | "google"
+    | "menu"
+    | "close"
+    | string;
 }
 
 const Icon: React.FC<IconProps> = ({ icon }) => {
@@ -112,6 +119,41 @@ const Icon: React.FC<IconProps> = ({ icon }) => {
             <path
               d="M25.0312 11.2967H24.125V11.25H14V15.75H20.3579C19.9142 16.9967 19.115 18.0862 18.059 18.8837L18.0607 18.8826L21.5426 21.8289C21.2962 22.0528 25.25 19.125 25.25 13.5C25.25 12.7457 25.1724 12.0094 25.0312 11.2967Z"
               fill="currentColor"
+            />
+          </svg>
+        );
+      case "menu":
+        return (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="1.5"
+              d="M20 7H4m16 5H4m16 5H4"
+            />
+          </svg>
+        );
+      case "close":
+        return (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.5"
+              d="m7 7l10 10M7 17L17 7"
             />
           </svg>
         );

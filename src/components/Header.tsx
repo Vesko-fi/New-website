@@ -1,12 +1,20 @@
+import { useState } from "react";
+
 import { NavItem } from "./nav/NavItem";
 import { ToggleLocale } from "./ToggleLocale";
+import { Button } from "./ui/Button";
 import { Container } from "./ui/Container";
+import { Icon } from "./ui/Icon";
 import { Link } from "./ui/Link";
 import { Logo } from "./ui/Logo";
 
 const Header: React.FC = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleToggleMenu = () => setIsOpen((prev) => !prev);
+
   return (
-    <header className="sticky top-0 z-50 py-2 backdrop-blur-3xl">
+    <header className="sticky top-0 z-50 overflow-x-clip py-2 backdrop-blur-2xl bg-background-80">
       <Container className="flex items-center justify-between">
         <Logo />
         <nav className="hidden md:block">
@@ -14,7 +22,28 @@ const Header: React.FC = () => {
             <NavItem />
           </ul>
         </nav>
-        <div className="flex items-center gap-4">
+        <div className="hidden items-center gap-4 md:flex">
+          <ToggleLocale />
+          <Link variant="primary" size="md" href="/">
+            Get a Demo
+          </Link>
+        </div>
+        <Button
+          variant="outline"
+          size="icon"
+          className="md:hidden"
+          onClick={handleToggleMenu}
+        >
+          <Icon icon={isOpen ? "close" : "menu"} />
+        </Button>
+        <div
+          className={`absolute right-2 top-20 flex w-52 flex-col gap-2 rounded-lg border bg-background p-2 transition-all duration-200 border-secondary-20 md:hidden ${isOpen ? "opacity-1 translate-x-0" : "translate-x-[150%] opacity-0"}`}
+        >
+          <nav>
+            <ul>
+              <NavItem />
+            </ul>
+          </nav>
           <ToggleLocale />
           <Link variant="primary" size="md" href="/">
             Get a Demo
