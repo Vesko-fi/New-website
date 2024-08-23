@@ -15,7 +15,7 @@ export const ToggleLocale: React.FC = () => {
     <select
       value={i18n.language}
       onChange={handleLanguageChange}
-      className="cursor-pointer rounded-md border bg-transparent p-1 text-xs font-semibold tracking-wider border-accent1-10 outline-accent1-40"
+      className="block cursor-pointer rounded-md border bg-transparent p-2 text-xs font-semibold tracking-wider border-accent1-10 outline-accent1-40"
     >
       {LOCALE_ITEMS.map(({ value, label }) => (
         <option value={value}>{label}</option>
