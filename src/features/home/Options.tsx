@@ -56,4 +56,4 @@ const Options: React.FC = () => {
   );
 };
 Options.displayName = "Options";
-export default Options;
+export { Options };
