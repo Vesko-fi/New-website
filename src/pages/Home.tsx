@@ -5,6 +5,7 @@ import { HeroSection } from "@features/home/HeroSection";
 import { StoreSection } from "@features/home/StoreSection";
 
 import { Options } from "@features/home/Options";
+import { MissionBrandSection } from "@features/home/MissionBrandSection";
 
 const Home: React.FC = () => {
   return (
@@ -17,6 +18,7 @@ const Home: React.FC = () => {
       <HeroSection />
       <StoreSection />
       <Options />
+      <MissionBrandSection />
     </>
   );
 };
