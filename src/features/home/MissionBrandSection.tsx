@@ -1,15 +1,11 @@
 import Brand from "@components/home/Brand";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-
 const MissionBrandSection: React.FC = () => {
   return (
-    <Section className="bg-gradient-to-b from-white to-green-900">
-      <Container>
-        <h2 className="text-center text-xl font-bold lg:text-2xl">
-          Our Mission Is To Connect You!
-        </h2>
-        <p className="mt-4 px-8 text-center text-sm md:px-20 lg:px-32 xl:px-36">
+    <Section className="bg-accent1-10">
+      <Container className="max-w-4xl py-16">
+        <p className="text-balance text-center text-xl font-medium md:text-2xl">
           Our Mission is to connect you! At Vesko we are committed to bring
           authentic Finnish brands and stores closer to the Finnish Consumer.
         </p>
@@ -19,5 +15,4 @@ const MissionBrandSection: React.FC = () => {
   );
 };
 MissionBrandSection.displayName = "MissionBrandSection";
-
 export { MissionBrandSection };
