@@ -13,10 +13,10 @@ const OptionItems: React.FC<OptionItemsProps> = ({
   width,
 }) => {
   return (
-    <div className="flex flex-col items-center gap-2 rounded-lg border border-gray-300 border-opacity-20 bg-white p-6 lg:w-[358px]">
+    <div className="flex flex-col items-center text-center gap-2 rounded-lg border border-gray-300 border-opacity-20 bg-white p-6 lg:w-[358px]">
       <img src={imageSrc} alt={heading} height={height} width={width} />
-      <h2 className="text-center text-2xl font-bold">{heading}</h2>
-      <p className="text-center text-base font-normal">{text}</p>
+      <h2 className="text-2xl font-bold">{heading}</h2>
+      <p >{text}</p>
     </div>
   );
 };
