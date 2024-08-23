@@ -12,7 +12,7 @@ import {
 
 const Options: React.FC = () => {
   const { t } = useTranslation();
-  
+
   return (
     <Section className="bg-gradient-to-t from-[#F0F5FF]">
       <Container className="flex flex-col gap-4 px-2 lg:gap-12 xl:flex-row xl:items-center">
