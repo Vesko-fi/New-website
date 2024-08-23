@@ -5,5 +5,15 @@
     "heading": "Hups! Etsimääsi sivua ei löydy.",
     "body": "Saitat saattavat olla väärät, tai sivu saattaa olla siirretty.",
     "button": "Takaisin etusivulle"
+  },
+  "options": {
+    "heading": "Integroitu maksujärjestelmä ja logistiikkajärjestelmä, jossa on sisäänrakennettu tilaustenhallintajärjestelmä",
+    "link": "Pyydä demoa",
+    "paymentHeading": "Turvalliset maksut",
+    "paymentText": "Turvalliset maksut alan johtajien tukemana.",
+    "orderHeading": "Tilausten hallinta",
+    "orderText": "Tilaustenhallintajärjestelmä integroituna logistiikkapalveluntarjoajiin.",
+    "logisticHeading": "Optimoitu logistiikka",
+    "logisticText": "Optimoitu logistiikka paikallisille ja kaupunkien välisille lähetyksille."
   }
 }
