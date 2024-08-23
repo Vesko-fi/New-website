@@ -10,23 +10,22 @@ import {
   orderManagementImg,
 } from "@constants/assets";
 
-
 const Options: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <Section
-       className="bg-gradient-to-b from-white to-[#F0F5FF]"
-    >
-      <Container className="flex flex-col items-center gap-4 lg:gap-12 px-2 lg:flex-row">
+    <Section className="bg-gradient-to-b from-white to-[#F0F5FF]">
+      <Container className="flex flex-col items-center gap-4 px-2 lg:flex-row lg:gap-12">
         <div>
-          <h2 className="text-3xl font-bold max-w-4xl">{t("options.heading")}</h2>
+          <h2 className="max-w-4xl text-3xl font-bold">
+            {t("options.heading")}
+          </h2>
           <Link variant="primary" size="lg" href="/" className="mt-8">
             {t("options.link")}
           </Link>
         </div>
-        <div className="flex flex-col md:flex-row items-center gap-4">
-          <div className="flex flex-col md:flex-row lg:flex-col gap-4">
+        <div className="flex flex-col items-center gap-4 md:flex-row">
+          <div className="flex flex-col gap-4 md:flex-row lg:flex-col">
             <OptionItems
               imageSrc={securePaymentImg}
               heading={t("options.paymentHeading")}
