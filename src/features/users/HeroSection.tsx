@@ -7,7 +7,8 @@ const HeroSection: React.FC = () => {
       <Container className="flex flex-col items-center justify-between gap-12 md:flex-row">
         <div>
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
-             Enhancing Your Shopping Experience with Local and Nationwide Retailers{" "}
+            Enhancing Your Shopping Experience with Local and Nationwide
+            Retailers{" "}
           </h1>
         </div>
       </Container>

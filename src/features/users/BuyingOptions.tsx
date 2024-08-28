@@ -29,15 +29,15 @@ const BuyingOptions = () => {
     <Section>
       <Container>
         <div>
-          <h1>Explore How Vesko’s Buying Options Enhance Your Shopping Journey</h1>  
+          <h1>
+            Explore How Vesko’s Buying Options Enhance Your Shopping Journey
+          </h1>
         </div>
-        <div>
-            items to be mapped
-        </div>
+        <div>items to be mapped</div>
       </Container>
     </Section>
-  )
-}
+  );
+};
 BuyingOptions.displayName = "BuyingOptions";
 
 export { BuyingOptions };
