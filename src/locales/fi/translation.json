@@ -15,5 +15,22 @@
     "orderText": "Tilaustenhallintajärjestelmä integroituna logistiikkapalveluntarjoajiin.",
     "logisticHeading": "Optimoitu logistiikka",
     "logisticText": "Optimoitu logistiikka paikallisille ja kaupunkien välisille lähetyksille."
+  },
+  "users" : {
+    "heroHeading": "Parannamme ostokokemustasi paikallisten ja valtakunnallisten jälleenmyyjien kanssa",
+    "heroText": "",
+    "sellingHeading1": "Katso, mitä",
+    "sellingHeadingSpan": "paikalliset vähittäiskaupat",
+    "sellingHeading2": "myyvät",
+    "sellingText": "Pian voit tehdä ostoksia paikallisista vähittäiskaupoista helposti ja nähdä reaaliaikaisen varastotilanteen varmistaaksesi, että et tuhlaa aikaasi epävarmoihin ostosreissuihin.",
+    "optionMainHeading": "Tutustu, kuinka Veskon ostosvaihtoehdot parantavat ostosmatkaasi",
+    "descriptionHeading1": "Kyse ei ole vain paikallisesta vähittäiskaupasta,",
+    "descriptionSpan1": "Vesko",
+    "descriptionHeading2": "yhdistää sinut",
+    "descriptionSpan2": "myyjiin ympäri Suomea",
+    "descriptionText": "Osta verkosta laajasta valikoimasta tuotemerkkejä ja vähittäiskauppoja ympäri Suomea. Vesko yhdistää sinut myös myyjiin ainutlaatuisilla tavoilla, parantaen asiakaspalvelua ja ostokokemustasi.",
+    "missionHeading": "Tehtävämme on yhdistää sinut",
+    "missionP1": "Suomi on monien pienten kauppojen ja merkkien koti, jotka tarjoavat ainutlaatuisia ja aitoja tuotteita, usein paikallisesti ja kestävästi valmistettuja. Nämä tuotteet ovat erikoisia ja usein saatavilla vain suurten ketjuliikkeiden tai ulkomaisten verkkokauppojen ulkopuolella. Useimmat näistä yrityksistä eivät pysty listaamaan tuotteitaan verkkokaupoissa tai niillä ei ole mahdollisuutta verkkonäkyvyyteen.",
+    "missionP2": "Veskolla olemme sitoutuneet kuromaan umpeen tätä kuilua antamalla suomalaisille brändeille ja kaupoille verkkonäkyvyyden, jolloin voit löytää ja tukea näitä paikallisia yrityksiä ja yrittäjiä, olitpa missä tahansa."
   }
 }

@@ -1,3 +1,5 @@
+import { useTranslation } from "react-i18next";
+
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
 
@@ -25,12 +27,13 @@ import { Section } from "@components/ui/Section";
 // ]
 
 const BuyingOptions = () => {
+  const { t } = useTranslation();
   return (
     <Section>
       <Container>
         <div>
-          <h1>
-            Explore How Vesko’s Buying Options Enhance Your Shopping Journey
+          <h1 className="mb-4 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
+            {t("users.heroHeading")}
           </h1>
         </div>
         <div>items to be mapped</div>
