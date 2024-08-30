@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-import { heroImg } from "@constants/assets";
+import { IconImg } from "@constants/assets";
 
 const Description = () => {
   const { t } = useTranslation();
@@ -19,7 +19,7 @@ const Description = () => {
           </h1>
           <p className="text-sm xl:text-base">{t("users.descriptionText")}</p>
         </div>
-        <img src={heroImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />
+        <img src={IconImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />
       </Container>
     </Section>
   );

@@ -12,6 +12,7 @@ import bopis from "@assets/users/bopis-img.png";
 import productBooking from "@assets/users/product-booking-img.png";
 import homeDelivery from "@assets/users/home-delivery-img.png";
 import ReinDeer from "@assets/users/reindeer-img.png";
+import IconImg from "@assets/Icon-img.png";
 
 export {
   expandReachImg,
@@ -28,4 +29,5 @@ export {
   productBooking,
   homeDelivery,
   ReinDeer,
+  IconImg,
 };
