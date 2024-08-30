@@ -7,6 +7,7 @@ import {
   newArrivalImg,
   orderOnlineImg,
 } from "@constants/assets";
+
 interface USPItem {
   id: number;
   usp_num: string;
@@ -14,6 +15,7 @@ interface USPItem {
   subheader: string;
   img: string;
 }
+
 const StoreSection: React.FC = () => {
   /** USP: Unique Selling Points  */
   const usp_items: USPItem[] = [
@@ -68,5 +70,7 @@ const StoreSection: React.FC = () => {
     </Section>
   );
 };
+
 StoreSection.displayName = "StoreSection";
+
 export { StoreSection };

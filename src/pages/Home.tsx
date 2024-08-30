@@ -2,10 +2,9 @@ import React from "react";
 
 import { SEO } from "@components/SEO";
 import { HeroSection } from "@features/home/HeroSection";
-import { StoreSection } from "@features/home/StoreSection";
-
-import { Options } from "@features/home/Options";
 import { MissionBrandSection } from "@features/home/MissionBrandSection";
+import { Options } from "@features/home/Options";
+import { StoreSection } from "@features/home/StoreSection";
 
 const Home: React.FC = () => {
   return (
