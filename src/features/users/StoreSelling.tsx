@@ -13,12 +13,12 @@ const StoreSelling = () => {
         <div>
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("users.sellingHeading1")}{" "}
-            <span className="text-accent1">{t("users.sellingHeadingSpan")}{" "}</span>
+            <span className="text-accent1">
+              {t("users.sellingHeadingSpan")}{" "}
+            </span>
             {t("users.sellingHeading2")}
           </h1>
-          <p className="text-sm xl:text-base">
-          {t("users.sellingText")}
-          </p>
+          <p className="text-sm xl:text-base">{t("users.sellingText")}</p>
         </div>
         <img src={heroImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />
       </Container>

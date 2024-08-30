@@ -9,8 +9,8 @@ const Mission = () => {
 
   return (
     <Section
-    className="bg-no-repeat bg-center bg-cover h-[800px]"
-    style={{ backgroundImage: `url(${ReinDeer})` }}
+      className="h-[800px] bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${ReinDeer})` }}
     >
       <Container className="flex flex-col items-center justify-between gap-12">
         <div className="flex flex-col gap-8 px-40 text-center">
