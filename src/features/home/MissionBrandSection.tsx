@@ -1,9 +1,10 @@
 import Brand from "@components/home/Brand";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
+
 const MissionBrandSection: React.FC = () => {
   return (
-    <Section className="bg-accent1-10">
+    <Section className="bg-gradient-to-t from-[#dafef0]">
       <Container className="max-w-4xl py-16">
         <p className="text-balance text-center text-xl font-medium md:text-2xl">
           Our Mission is to connect you! At Vesko we are committed to bring
@@ -14,5 +15,7 @@ const MissionBrandSection: React.FC = () => {
     </Section>
   );
 };
+
 MissionBrandSection.displayName = "MissionBrandSection";
+
 export { MissionBrandSection };

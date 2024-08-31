@@ -6,7 +6,7 @@ import { Logo } from "./ui/Logo";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="relative bottom-0 bg-gradient-to-t from-[rgba(2,89,56,0.5)] py-12">
+    <footer className="relative bottom-0 bg-gradient-to-t from-[rgba(2,89,56,0.5)] to-[#dafef0ff] py-12">
       <Container>
         <div className="flex flex-col justify-between gap-12 md:flex-row md:gap-6">
           <div className="flex-1 px-3 lg:max-w-[40%]">

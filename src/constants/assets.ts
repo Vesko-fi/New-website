@@ -7,11 +7,7 @@ import logo from "@assets/vesko-logo.png";
 import securePaymentImg from "@assets/secure-payment.png";
 import optimizeLogisticImg from "@assets/optimize-logistics.png";
 import orderManagementImg from "@assets/order-management.png";
-import productAvailability from "@assets/users/product-availability-img.png";
-import bopis from "@assets/users/bopis-img.png";
-import productBooking from "@assets/users/product-booking-img.png";
-import homeDelivery from "@assets/users/home-delivery-img.png";
-import ReinDeer from "@assets/users/reindeer-img.png";
+import ReinDeer from "@assets/reindeer-img.png";
 import IconImg from "@assets/Icon-img.png";
 
 export {
@@ -24,10 +20,6 @@ export {
   securePaymentImg,
   optimizeLogisticImg,
   orderManagementImg,
-  productAvailability,
-  bopis,
-  productBooking,
-  homeDelivery,
   ReinDeer,
   IconImg,
 };
