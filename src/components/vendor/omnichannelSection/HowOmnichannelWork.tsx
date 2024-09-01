@@ -9,7 +9,7 @@ const HowOmnichannelWork: React.FC = () => {
       <div className="mt-8">
         <div>
           <h1 className="p-16 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
-            {t("vendors.workOptionHeading")}
+            {t("vendors.howOmnichannelWorkHeading")}
           </h1>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

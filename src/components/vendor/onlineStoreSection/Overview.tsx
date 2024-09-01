@@ -12,7 +12,11 @@ const Overview: React.FC = () => {
             {t("vendors.onlineStoreOverviewHeading")}
           </h1>
         </div>
-        <img src={omnichannelImg} alt=" Product in store Shelf" />
+        <img
+          src={omnichannelImg}
+          alt=" Product in store Shelf"
+          className="sm:w-96 lg:w-[500px] xl:w-auto"
+        />
       </div>
     </>
   );

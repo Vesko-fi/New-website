@@ -3,6 +3,7 @@ import { Section } from "@components/ui/Section";
 import { HowOmnichannelWork } from "@components/vendor/omnichannelSection/HowOmnichannelWork";
 import { VeskoOmnichannel } from "@components/vendor/omnichannelSection/VeskoOmnichannel";
 import { WhyOmnichannel } from "@components/vendor/omnichannelSection/WhyOmnichannel";
+import {} from "react-i18next";
 
 const OmnichannelSection = () => {
   return (
