@@ -1,3 +1,4 @@
+import omnichannelImg from "@assets/omnichannel-img.png";
 import expandReachImg from "@assets/expand-reach-img.png";
 import heroImg from "@assets/hero-img.png";
 import inventoryImg from "@assets/inventory-img.png";
@@ -18,4 +19,5 @@ export {
   securePaymentImg,
   optimizeLogisticImg,
   orderManagementImg,
+  omnichannelImg,
 };
