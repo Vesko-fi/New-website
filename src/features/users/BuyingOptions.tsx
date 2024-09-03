@@ -11,7 +11,7 @@ const BuyingOptions = () => {
     <Section className="bg-gradient-to-t from-[#F0F5FF]">
       <Container>
         <div>
-          <h1 className="mb-4 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
+          <h1 className=" mb-6 lg:mb-12 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("users.optionMainHeading")}
           </h1>
         </div>

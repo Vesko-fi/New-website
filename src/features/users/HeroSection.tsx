@@ -5,6 +5,7 @@ import { Section } from "@components/ui/Section";
 
 const HeroSection: React.FC = () => {
   const { t } = useTranslation();
+  
   return (
     <Section>
       <Container className="flex flex-col items-center justify-between gap-12 md:flex-row">
