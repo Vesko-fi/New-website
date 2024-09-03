@@ -9,6 +9,7 @@ import securePaymentImg from "@assets/secure-payment.png";
 import optimizeLogisticImg from "@assets/optimize-logistics.png";
 import orderManagementImg from "@assets/order-management.png";
 import omnichannelChartImg from "@assets/omnichannel-chart.png";
+import posImg from "@assets/pos-img.png";
 
 export {
   expandReachImg,
@@ -22,4 +23,5 @@ export {
   orderManagementImg,
   omnichannelImg,
   omnichannelChartImg,
+  posImg,
 };

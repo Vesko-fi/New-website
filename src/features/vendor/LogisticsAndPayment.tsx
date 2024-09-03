@@ -1,6 +1,7 @@
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
 import { BenefitsSecond } from "@components/vendor/logisticsAndPayment/BenefitsSecond";
+import { PointOfSale } from "@components/vendor/logisticsAndPayment/PointOfSale";
 import { Slider } from "@components/vendor/logisticsAndPayment/Slider";
 
 const LogisticsAndPayment: React.FC = () => {
@@ -10,6 +11,7 @@ const LogisticsAndPayment: React.FC = () => {
         <Container>
           <BenefitsSecond />
           <Slider />
+          <PointOfSale />
         </Container>
       </Section>
     </>

@@ -20,21 +20,21 @@ const BenefitsSecond: React.FC = () => {
         </div>
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="odd:mt-16">
+          <div className="lg:mt-16">
             <Card
               icon="box"
               title={t("vendors.benefitsOption1Heading")}
               description={t("vendors.benefitsOption1Text")}
             />
           </div>
-          <div className="">
+          <div>
             <Card
               icon="check-square"
               title={t("vendors.benefitsOption2Heading")}
               description={t("vendors.benefitsOption2Text")}
             />
           </div>
-          <div className="odd:mt-16">
+          <div className="lg:mt-16">
             <Card
               icon="trending-up"
               title={t("vendors.benefitsOption3Heading")}

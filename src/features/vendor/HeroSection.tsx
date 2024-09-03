@@ -8,14 +8,12 @@ const HeroSetion: React.FC = () => {
   return (
     <Section>
       <Container className="flex flex-col items-center">
-        <div>
-          <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
-            {t("vendors.heroHeading1")}{" "}
-            <span className="text-accent1">{t("vendors.heroHeadingSpan")}</span>{" "}
-            {t("vendors.heroHeading2")}
-          </h1>
-          <p className="text-center text-sm">{t("vendors.heroText")}</p>
-        </div>
+        <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
+          {t("vendors.heroHeading1")}{" "}
+          <span className="text-accent1">{t("vendors.heroHeadingSpan")}</span>{" "}
+          {t("vendors.heroHeading2")}
+        </h1>
+        <p className="text-center text-sm">{t("vendors.heroText")}</p>
       </Container>
     </Section>
   );
