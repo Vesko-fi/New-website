@@ -8,6 +8,7 @@ import logo from "@assets/vesko-logo.png";
 import securePaymentImg from "@assets/secure-payment.png";
 import optimizeLogisticImg from "@assets/optimize-logistics.png";
 import orderManagementImg from "@assets/order-management.png";
+import omnichannelChartImg from "@assets/omnichannel-chart.png";
 
 export {
   expandReachImg,
@@ -20,4 +21,5 @@ export {
   optimizeLogisticImg,
   orderManagementImg,
   omnichannelImg,
+  omnichannelChartImg,
 };

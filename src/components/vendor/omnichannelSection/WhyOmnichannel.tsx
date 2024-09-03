@@ -10,12 +10,16 @@ const WhyOmnichannel: React.FC = () => {
         <div>
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("vendors.omnichannelHeading")}
+            <span className="text-accent1">
+              {t("vendors.omnichannelHeadingSpan")}
+            </span>
+            ?
           </h1>
           <p className="text-sm xl:text-base">{t("vendors.omnichannelText")}</p>
         </div>
         <img
           src={omnichannelImg}
-          alt=" Product in store Shelf"
+          alt="Product in store Shelf"
           className="sm:w-96 lg:w-[500px] xl:w-auto"
         />
       </div>

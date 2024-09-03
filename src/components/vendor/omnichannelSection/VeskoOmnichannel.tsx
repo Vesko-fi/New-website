@@ -1,3 +1,4 @@
+import { omnichannelChartImg } from "@constants/assets";
 import { useTranslation } from "react-i18next";
 
 const VeskoOmnichannel: React.FC = () => {
@@ -12,6 +13,11 @@ const VeskoOmnichannel: React.FC = () => {
         <p className="text-balance text-center text-sm">
           {t("vendors.veskoOmnichannelDifferText")}
         </p>
+        <img
+          src={omnichannelChartImg}
+          alt="Omnichannel chart on how Vesko Omnichannel differs from others"
+          className="lg:24 xl:24 p-8 sm:w-96 md:p-20 lg:w-[500px] xl:w-auto"
+        />
       </div>
     </>
   );

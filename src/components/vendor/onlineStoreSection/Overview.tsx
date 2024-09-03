@@ -6,10 +6,14 @@ const Overview: React.FC = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-between gap-12 md:flex-row">
+      <div className="flex flex-col items-center justify-between gap-20 p-4 md:flex-row">
         <div>
-          <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
-            {t("vendors.onlineStoreOverviewHeading")}
+          <h1 className="mb-4 p-8 text-2xl font-bold lg:text-3xl xl:text-4xl">
+            {t("vendors.onlineStoreOverviewHeading1")}
+            <span className="text-accent1">
+              {t("vendors.onlineStoreOverviewHeadingSpan")}
+            </span>
+            {t("vendors.onlineStoreOverviewHeading2")}
           </h1>
         </div>
         <img
