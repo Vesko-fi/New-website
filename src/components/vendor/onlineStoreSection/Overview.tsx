@@ -6,9 +6,9 @@ const Overview: React.FC = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center justify-between gap-20 p-4 md:flex-row">
+      <div className="flex flex-col items-center justify-between gap-12 py-16 md:flex-row">
         <div>
-          <h1 className="mb-4 p-8 text-2xl font-bold lg:text-3xl xl:text-4xl">
+          <h1 className="text-center text-2xl font-bold sm:text-start lg:text-3xl xl:text-4xl">
             {t("vendors.onlineStoreOverviewHeading1")}
             <span className="text-accent1">
               {t("vendors.onlineStoreOverviewHeadingSpan")}
@@ -18,7 +18,7 @@ const Overview: React.FC = () => {
         </div>
         <img
           src={omnichannelImg}
-          alt=" Product in store Shelf"
+          alt=" Product in store shelf"
           className="sm:w-96 lg:w-[500px] xl:w-auto"
         />
       </div>

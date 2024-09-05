@@ -6,7 +6,7 @@ const PointOfSale: React.FC = () => {
 
   return (
     <>
-      <div className="flex flex-col items-center gap-4 p-20">
+      <div className="py-8">
         <h1 className="text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.pointofSaleHeading")}
           <span className="text-accent1">
@@ -17,11 +17,12 @@ const PointOfSale: React.FC = () => {
         <img
           src={posImg}
           alt="point of sale screen dashboard, order is being picked"
-          className="mt-8 sm:w-96 lg:w-[500px] xl:w-auto"
+          className="mx-auto mt-8 sm:w-auto sm:p-0"
         />
       </div>
     </>
   );
 };
+
 PointOfSale.displayName = "PointOfSale";
 export { PointOfSale };
