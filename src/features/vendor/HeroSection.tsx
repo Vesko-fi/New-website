@@ -8,7 +8,7 @@ const HeroSetion: React.FC = () => {
   const { t } = useTranslation();
   return (
     <Section>
-      <Container>
+      <Container className="py-16">
         <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
           {t("vendors.heroHeading1")}{" "}
           <span className="text-accent1">{t("vendors.heroHeadingSpan")}</span>{" "}

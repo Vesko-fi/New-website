@@ -6,16 +6,18 @@ const WhyOmnichannel: React.FC = () => {
 
   return (
     <>
-      <div className="my-16 flex flex-col items-center justify-between gap-12 md:flex-row">
+      <div className="flex flex-col items-center justify-between gap-12 py-16 md:flex-row">
         <div>
-          <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
+          <h1 className="mb-4 text-balance text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("vendors.omnichannelHeading")}
             <span className="text-accent1">
               {t("vendors.omnichannelHeadingSpan")}
             </span>
             ?
           </h1>
-          <p className="text-sm lg:text-base">{t("vendors.omnichannelText")}</p>
+          <p className="text-balance text-center text-sm lg:text-base">
+            {t("vendors.omnichannelText")}
+          </p>
         </div>
 
         <img

@@ -6,11 +6,10 @@ const HowOmnichannelWork: React.FC = () => {
 
   return (
     <>
-      <div>
-        <h1 className="p-12 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
-          {t("vendors.howOmnichannelWorkHeading")}?
-        </h1>
-      </div>
+      <h1 className="p-12 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
+        {t("vendors.howOmnichannelWorkHeading")}?
+      </h1>
+
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         <Card
           icon="box"
