@@ -9,7 +9,7 @@ const Description = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col items-center justify-between gap-12 md:flex-row">
+      <Container className="flex flex-col items-center justify-between gap-12 md:flex-row-reverse">
         <div>
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("users.descriptionHeading1")}{" "}
