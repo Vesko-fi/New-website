@@ -1,3 +1,4 @@
+import omnichannelImg from "@assets/omnichannel-img.png";
 import expandReachImg from "@assets/expand-reach-img.png";
 import heroImg from "@assets/hero-img.png";
 import inventoryImg from "@assets/inventory-img.png";
@@ -7,6 +8,8 @@ import logo from "@assets/vesko-logo.png";
 import securePaymentImg from "@assets/secure-payment.png";
 import optimizeLogisticImg from "@assets/optimize-logistics.png";
 import orderManagementImg from "@assets/order-management.png";
+import omnichannelChartImg from "@assets/omnichannel-chart.png";
+import posImg from "@assets/pos-img.png";
 
 export {
   expandReachImg,
@@ -18,4 +21,7 @@ export {
   securePaymentImg,
   optimizeLogisticImg,
   orderManagementImg,
+  omnichannelImg,
+  omnichannelChartImg,
+  posImg,
 };
