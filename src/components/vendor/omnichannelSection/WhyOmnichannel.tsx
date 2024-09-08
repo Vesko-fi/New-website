@@ -1,25 +1,55 @@
 import { useTranslation } from "react-i18next";
 import { omnichannelImg } from "@constants/assets";
+import { List } from "@components/ui/List";
 
 const WhyOmnichannel: React.FC = () => {
   const { t } = useTranslation();
 
   return (
     <>
-      <div className="flex flex-col items-center justify-between gap-12 py-16 md:flex-row">
-        <div>
-          <h1 className="mb-4 text-balance text-center text-2xl font-bold lg:text-start lg:text-3xl xl:text-4xl">
-            {t("vendors.omnichannelHeading")}
-            <span className="text-accent1">
-              {t("vendors.omnichannelHeadingSpan")}
-            </span>
-            ?
-          </h1>
-          <p className="text-balance text-center text-sm lg:text-start lg:text-base">
-            {t("vendors.omnichannelText")}
-          </p>
-        </div>
+      <div className="space-y-2 py-8 text-center lg:text-balance">
+        <h1 className="text-balance text-2xl font-bold lg:text-3xl xl:text-4xl">
+          {t("vendors.omnichannelHeading")}
+          <span className="text-accent1">
+            {t("vendors.omnichannelHeadingSpan")}
+          </span>
+          ?
+        </h1>
+        <p className="text-sm lg:text-base">{t("vendors.omnichannelText")}</p>
+      </div>
 
+      <div className="flex flex-col items-center justify-between gap-12 space-y-8 md:flex-row">
+        <div>
+          <h2 className="text-2xl font-bold">
+            Traditional Omnichannel Requirements:
+          </h2>
+          <List
+            title="Separate Infrastructure"
+            description="Requires independent warehouses or fulfillment centers for online
+              orders."
+          />
+          <List
+            title="Complex Integration"
+            description="Involves
+              costly, time-consuming IT projects to integrate in-store and
+              online systems."
+          />
+          <List
+            title="Extensive Maintenance"
+            description="Needs dedicated teams to
+              manage online inventory, logistics, and customer service."
+          />
+          <List
+            title="High Costs"
+            description="Expenses from both
+              implementation and operational maintenance are significantly high."
+          />
+          <List
+            title="Long Implementation Time"
+            description="Traditional setups can take
+              several months to over a year to go live."
+          />
+        </div>
         <img
           src={omnichannelImg}
           alt="Product in store shelf"
