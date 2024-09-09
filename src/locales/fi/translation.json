@@ -15,5 +15,11 @@
     "orderText": "Tilaustenhallintajärjestelmä integroituna logistiikkapalveluntarjoajiin.",
     "logisticHeading": "Optimoitu logistiikka",
     "logisticText": "Optimoitu logistiikka paikallisille ja kaupunkien välisille lähetyksille."
+  },
+  "about": {
+    "heroHeading": "Keitä me olemme",
+    "heroP1": "Vesko on uuden sukupolven markkinapaikka, joka tarjoaa monikanavaisia ratkaisuja sekä myyjille että asiakkaille. Se tarjoaa ainutlaatuisen mahdollisuuden fyysisille yrityksille luoda verkkoläsnäolo ja laajentaa asiakaskuntaansa, samalla kun auttaa jo verkossa toimivia yrityksiä tavoittamaan enemmän asiakkaita.",
+    "heroP2": "Ostajille Vesko tarjoaa laajan valikoiman tuotteita, mukaan lukien pienten paikallisten kauppojen tuotteet, joita ei aiemmin ollut saatavilla verkossa. Asiakkaat voivat helposti tarkistaa tuotteiden saatavuuden, mikä säästää heitä turhilta kauppareissuilta, jos tuotetta ei ole varastossa. Lisäksi asiakkaat voivat joko varata tuotteen noudettavaksi kaupasta tai ostaa sen verkosta ja saada toimituksen kotiovelle.",
+    "heroP3": "Vesko on omistautunut auttamaan yrityksiä kasvamaan yhdistämällä ne laajempaan asiakaskuntaan sekä tarjoamaan ostajille laajan valikoiman tuotteita."
   }
 }

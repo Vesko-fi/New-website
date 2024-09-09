@@ -55,5 +55,11 @@
     "pointofSaleHeading": "A Point of Sale to ",
     "pointofSaleHeadingSpan": "Ease Your Sales",
     "pointofSaleText": "Transform Your Checkout Process to Improve Your Customers' Purchasing Experience"
+  },
+  "about": {
+    "heroHeading": "Who we are",
+    "heroP1": "Vesko is a next-generation marketplace offering omnichannel solutions for both vendors and customers. It provides a unique opportunity for physical-only businesses to establish an online presence and expand their reach, while also helping businesses with existing online stores connect with more customers.",
+    "heroP2": "For buyers, Vesko offers an extensive range of products, including items from small local shops that were previously unavailable online. Customers can easily check product availability, saving them unnecessary trips if an item is out of stock. They also have the option to reserve items for in-store pickup or purchase online for doorstep delivery.",
+    "heroP3": "Vesko is dedicated to helping businesses grow by connecting them with a larger customer base, while offering shoppers a wide selection of products to choose from."
   }
 }
