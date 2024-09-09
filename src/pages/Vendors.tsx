@@ -1,4 +1,5 @@
 import { SEO } from "@components/SEO";
+import { Faqs } from "@features/vendor/Faqs";
 import { HeroSetion } from "@features/vendor/HeroSection";
 import { LogisticsAndPayment } from "@features/vendor/LogisticsAndPayment";
 import { OmnichannelSection } from "@features/vendor/OmnichannelSection";
@@ -16,6 +17,7 @@ const Vendors: React.FC = () => {
       <OmnichannelSection />
       <OnlineStoreSection />
       <LogisticsAndPayment />
+      <Faqs />
     </>
   );
 };
