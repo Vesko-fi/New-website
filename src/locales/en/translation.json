@@ -54,6 +54,18 @@
     "logisticPaymentText": "Vesko's stores come equipped with integrated logistics and payment solutions provided by industry leaders. Both will be fully operational and announced prior to Vesko's official launch.",
     "pointofSaleHeading": "A Point of Sale to ",
     "pointofSaleHeadingSpan": "Ease Your Sales",
-    "pointofSaleText": "Transform Your Checkout Process to Improve Your Customers' Purchasing Experience"
+    "pointofSaleText": "Transform Your Checkout Process to Improve Your Customers' Purchasing Experience",
+    "faqHeading": "Frequently Asked Questions",
+    "faqText": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves.",
+    "faqQuestion1": "When will Vesko be ready?",
+    "faqAnswer1": "The beta version is expected to be ready in the second quarter of 2025. We will do two or four weeks of Beta testing in Tampere next spring to test the first version of Vesko. So, if you are a vendor from Tampere and you own or run a local retail store or online store, you can join the waitlist to be among the first who are going to test Vesko.",
+    "faqQuestion2": "Will Vesko be available in Mobile App?",
+    "faqAnswer2": "Vesko will be available on web and mobile apps.",
+    "faqQuestion3": "Where will Vesko be available?",
+    "faqAnswer3": "Vesko will be available in Finland during or after summer of 2025 and in the rest of Nordic countries about three months after launching in Finland.",
+    "faqQuestion4": "What rules does Vesko enforce on vendors?",
+    "faqAnswer4": "For online vendors and brands, no mandatory rules will be imposed on their selling practices, such as enforced returns or reclamations. However, for physical store vendors, one key rule will be strictly enforced: the omnichannel pricing rule. Physical store owners will be required to maintain consistent pricing across both online and offline channels. This ensures that consumers will find the same prices in physical stores as they do in online stores, promoting a seamless and fair shopping experience.",
+    "faqQuestion5": "Who will be handling the customer service (consumer/shoppers)?",
+    "faqAnswer5": "Vesko has a direct messaging feature that allows users and vendors to communicate directly, enabling consumers to address any issues or inquiries. Therefore, vendors handle their own customer service, providing personalized support and resolving customer concerns directly."
   }
 }
