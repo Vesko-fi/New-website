@@ -1,4 +1,4 @@
-const ContactPage: React.FC = () => {
+const ContactInformation: React.FC = () => {
   return (
     <div className="mt-4">
       <h1 className="text-3xl font-bold">
@@ -10,6 +10,6 @@ const ContactPage: React.FC = () => {
     </div>
   );
 };
-ContactPage.displayName = "ContactPage";
+ContactInformation.displayName = "ContactPage";
 
-export { ContactPage };
+export { ContactInformation };

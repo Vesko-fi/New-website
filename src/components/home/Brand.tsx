@@ -1,6 +1,12 @@
 import { Button } from "@components/ui/Button";
+import { useNavigate } from "react-router-dom";
 
 const Brand: React.FC = () => {
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/waiting-list"); // Navigates to the "About" page
+  };
   return (
     <div className="mt-12 text-center">
       <h2 className="text-4xl font-semibold md:text-5xl xl:text-7xl">
@@ -15,7 +21,9 @@ const Brand: React.FC = () => {
       </p>
       <div className="flex items-center justify-center gap-4">
         <Button>Get a Demo</Button>
-        <Button variant="outline">Join the Waitlist</Button>
+        <Button variant="outline" onClick={handleClick}>
+          Join the Waitlist
+        </Button>
       </div>
     </div>
   );
