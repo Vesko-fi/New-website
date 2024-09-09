@@ -1,12 +1,12 @@
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-import { ContactForm } from "@features/contact/ContackForm";
+import { ContactForm } from "@features/contact/ContactForm";
 import { ContactPage } from "@features/contact/ContactPage";
 
 const Contact: React.FC = () => {
   return (
     <Section>
-      <Container className="grid gap-12 bg-gray-500 !px-12 md:grid-cols-2">
+      <Container className="mt-16 grid gap-12 !px-12 md:grid-cols-2">
         <ContactPage />
         <ContactForm />
       </Container>
