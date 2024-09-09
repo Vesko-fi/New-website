@@ -6,11 +6,7 @@ import { HeroSection } from "@features/about/HeroSection";
 const AboutUs: React.FC = () => {
   return (
     <>
-      <SEO
-        title="About"
-        description="About Vesko"
-        keywords="vesko, about"
-      />
+      <SEO title="About" description="About Vesko" keywords="vesko, about" />
       <HeroSection />
     </>
   );
