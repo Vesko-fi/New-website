@@ -1,4 +1,6 @@
 import { Button } from "@components/ui/Button";
+import { Input } from "@components/ui/Input";
+import { Label } from "@components/ui/Label";
 
 const ContactForm: React.FC = () => {
   return (
@@ -6,57 +8,32 @@ const ContactForm: React.FC = () => {
       <form>
         <div className="mb-6 grid gap-6 md:grid-cols-2">
           <div>
-            <label className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
-              First name
-            </label>
-            <input
-              type="text"
-              id="first_name"
-              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-              placeholder="John"
-              required
-            />
+            <Label htmlFor="first_name">First name</Label>
+            <Input id="first_name" type="text" placeholder="John" required />
           </div>
           <div>
-            <label className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
-              Last name
-            </label>
-            <input
-              type="text"
-              id="last_name"
-              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-              placeholder="Doe"
-              required
-            />
+            <div>
+              <Label htmlFor="last_name">Last name</Label>
+              <Input id="last_name" type="text" placeholder="John" required />
+            </div>
           </div>
           <div>
-            <label className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
-              Email
-            </label>
-            <input
-              type="text"
-              id="email"
-              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-              placeholder="Email Address"
-              required
-            />
+            <div>
+              <Label htmlFor="email">Email</Label>
+              <Input id="email" type="text" placeholder="email" required />
+            </div>
           </div>
           <div>
-            <label className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
-              Phone Number
-            </label>
-            <input
+            <Label htmlFor="number">Contact Number</Label>
+            <Input
+              id="number"
               type="number"
-              id="phone_number"
-              className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-              placeholder="Phone Number"
+              placeholder="Phone number"
               required
             />
           </div>
           <div>
-            <label className="mb-2 block text-sm font-medium text-gray-900 dark:text-white">
-              Your Message
-            </label>
+            <Label htmlFor="message">Write your message here</Label>
             <textarea
               id="message"
               className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
