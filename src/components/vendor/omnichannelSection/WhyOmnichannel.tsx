@@ -7,15 +7,15 @@ const WhyOmnichannel: React.FC = () => {
 
   return (
     <>
-      <div className="space-y-2 py-8 text-center lg:text-balance">
-        <h1 className="text-balance text-2xl font-bold lg:text-3xl xl:text-4xl">
-          {t("vendors.omnichannelHeading")}
+      <div className="space-y-2 text-balance py-8 text-center">
+        <h1 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
+          {t("vendors.omnichannel.heading")}
           <span className="text-accent1">
-            {t("vendors.omnichannelHeadingSpan")}
+            {t("vendors.omnichannel.headingSpan")}
           </span>
           ?
         </h1>
-        <p className="text-sm lg:text-base">{t("vendors.omnichannelText")}</p>
+        <p className="text-sm lg:text-base">{t("vendors.omnichannel.text")}</p>
       </div>
 
       <div className="flex flex-col items-center justify-between gap-12 space-y-8 md:flex-row">

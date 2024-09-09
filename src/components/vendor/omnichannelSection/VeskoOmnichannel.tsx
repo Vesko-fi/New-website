@@ -8,10 +8,10 @@ const VeskoOmnichannel: React.FC = () => {
     <>
       <div className="text-balance py-20 text-center">
         <h1 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
-          {t("vendors.veskoOmnichannelDifferHeading")}
+          {t("vendors.uniqueOmnichannel.heading")}
         </h1>
         <p className="mt-2 text-sm lg:text-base">
-          {t("vendors.veskoOmnichannelDifferText")}
+          {t("vendors.uniqueOmnichannel.text")}
         </p>
 
         <img
