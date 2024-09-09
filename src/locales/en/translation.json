@@ -34,7 +34,7 @@
       "options": [
         {
           "heading": "Separate Infrastructure",
-          "text": "You receive new items and you add it to your Vesko's online store (your customer will be informed about new products)."
+          "text": "Requires independent warehouses for online orders."
         },
         {
           "heading": "Complex Integration",
@@ -46,7 +46,7 @@
         },
         {
           "heading": "High Costs",
-          "text": "Expenses from both implementation and operational maintenance are significantly high."
+          "text": "Both implementation and operational maintenance costs are significantly high."
         },
         {
           "heading": "Long Implementation Time",
