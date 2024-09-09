@@ -10,16 +10,16 @@ interface UniqueSellingPointsProps {
 }
 const SellingPointItem: React.FC<UniqueSellingPointsProps> = ({ points }) => {
   return (
-    <div className="mt-6">
+    <div className="mt-6 bg-red-200">
       {points.map((point) => (
         <div
           key={point.id}
-          className="mt-12 flex flex-col items-center justify-between md:flex-row even:md:flex-row-reverse lg:gap-24"
+          className="mt-12 flex flex-col items-center justify-between bg-teal-100 md:flex-row even:md:flex-row-reverse lg:gap-24"
         >
           <img
             src={point.img}
             alt={point.header}
-            className="sm:w-96 lg:w-auto"
+            className="bg-green-300 sm:w-96 md:mr-4 lg:w-auto"
           />
           <div className="flex flex-col items-start gap-4">
             <div className="text-3xl text-accent1-40 sm:text-4xl md:text-5xl lg:text-7xl">

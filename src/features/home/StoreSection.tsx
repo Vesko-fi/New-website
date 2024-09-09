@@ -31,9 +31,8 @@ const StoreSection: React.FC = () => {
       id: 2,
       usp_num: "02",
       header: `Expand your Reach & Grow`,
-      subheader: `Why limit your sales to just one channel when you can maximise your
-           reach by selling through both online and offline channels
-           simultaneously?`,
+      subheader: `Why limit your sales to just one channel? With Vesko, you can maximise your reach by selling seamlessly through both online and offline channels.
+       Soon, Vesko will help you connect with customers across Finland and eventually, around the globe. `,
       img: expandReachImg,
     },
     {
