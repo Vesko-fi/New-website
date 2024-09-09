@@ -1,7 +1,7 @@
 import { Container } from "@components/ui/Container";
 import { Link } from "@components/ui/Link";
 import { Section } from "@components/ui/Section";
-import { heroImg } from "@constants/assets";
+import { homeHeroImg } from "@constants/assets";
 
 const HeroSection: React.FC = () => {
   return (
@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
             Get a Demo
           </Link>
         </div>
-        <img src={heroImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />
+        <img src={homeHeroImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />
       </Container>
     </Section>
   );
