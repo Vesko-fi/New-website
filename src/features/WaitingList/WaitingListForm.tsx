@@ -2,7 +2,7 @@ import { Button } from "@components/ui/Button";
 import { Input } from "@components/ui/Input";
 import { Label } from "@components/ui/Label";
 
-const ContactForm: React.FC = () => {
+const WaitingListForm: React.FC = () => {
   return (
     <div className="rounded-lg border border-green-700 p-4">
       <form>
@@ -19,16 +19,36 @@ const ContactForm: React.FC = () => {
           </div>
           <div>
             <div>
+              <Label htmlFor="Company name">Company name</Label>
+              <Input
+                id="text"
+                type="text"
+                placeholder="Company Name"
+                required
+              />
+            </div>
+          </div>
+          <div>
+            <div>
               <Label htmlFor="email">Email</Label>
               <Input id="email" type="text" placeholder="email" required />
             </div>
           </div>
           <div>
-            <Label htmlFor="number">Contact Number</Label>
+            <Label htmlFor="number">Phone Number</Label>
             <Input
               id="number"
               type="number"
               placeholder="Phone number"
+              required
+            />
+          </div>{" "}
+          <div>
+            <Label htmlFor="sell">What do you sell?</Label>
+            <Input
+              id="sell"
+              type="text"
+              placeholder="What do you sell?"
               required
             />
           </div>
@@ -50,6 +70,6 @@ const ContactForm: React.FC = () => {
     </div>
   );
 };
-ContactForm.displayName = "ContactPage";
+WaitingListForm.displayName = "ContactPage";
 
-export { ContactForm };
+export { WaitingListForm };
