@@ -9,9 +9,9 @@ const HeroSection: React.FC = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col items-center justify-between gap-2">
-        <div className="text-balance text-center">
-          <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
+      <Container className="py-16">
+        <div>
+          <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("users.heroHeading")}
           </h1>
         </div>
