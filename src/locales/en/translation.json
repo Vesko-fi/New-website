@@ -28,6 +28,33 @@
       "headingSpan": "Omnichannel Online Store",
       "text": "The omnichannel system integrates your brick-and-mortar store with your online store, allowing local customers to access real-time product availability at your physical location. This integration helps you attract more local customers, boosting both your online and offline sales."
     },
+
+    "tranditionalRequirements": {
+      "heading": "Traditional Omnichannel Requirements",
+      "options": [
+        {
+          "heading": "Separate Infrastructure",
+          "text": "You receive new items and you add it to your Vesko's online store (your customer will be informed about new products)."
+        },
+        {
+          "heading": "Complex Integration",
+          "text": "Involves costly, time-consuming IT projects to integrate in-store and online systems."
+        },
+        {
+          "heading": "Extensive Maintenance",
+          "text": "Needs dedicated teams to manage online inventory, logistics, and customer service."
+        },
+        {
+          "heading": "High Costs",
+          "text": "Expenses from both implementation and operational maintenance are significantly high."
+        },
+        {
+          "heading": "Long Implementation Time",
+          "text": "Traditional setups can take several months to over a year to go live."
+        }
+      ]
+    },
+
     "whyVesko": {
       "heading": "Why Vesko",
       "text": "Instead of paying a fortune, waiting for months, and hiring an IT team, you can get your omnichannel-powered online store up and running with Vesko in just minutes. It's an efficient, cost-effective, and hassle-free process."
