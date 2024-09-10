@@ -7,13 +7,13 @@ const PointOfSale: React.FC = () => {
   return (
     <>
       <div className="py-8">
-        <h1 className="text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
-          {t("vendors.pointofSaleHeading")}
+        <h1 className="mb-2 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
+          {t("vendors.pointOfSale.heading")}
           <span className="text-accent1">
-            {t("vendors.pointofSaleHeadingSpan")}
+            {t("vendors.pointOfSale.headingSpan")}
           </span>
         </h1>
-        <p className="text-center text-sm">{t("vendors.pointofSaleText")}</p>
+        <p className="text-center text-sm">{t("vendors.pointOfSale.text")}</p>
         <img
           src={posImg}
           alt="point of sale screen dashboard, order is being picked"

@@ -65,55 +65,139 @@
     "logisticText": "Optimised logistics for local and intercity shipment."
   },
   "vendors": {
-    "heroHeading1": "An",
-    "heroHeadingSpan": "Omnichannel-Powered",
-    "heroHeading2": "Online Store",
-    "heroText": "Vesko's online store helps you to boost your offline sales.",
-    "omnichannelHeading": "Why You Need An ",
-    "omnichannelHeadingSpan": "Omnichannel Online Store",
-    "omnichannelText": "The omnichannel system allows local customers to access real-time product availability at your brick-and-mortar store, helping to attract more local customers which boost your offline sales.",
-    "howOmnichannelWorkHeading": "How Vesko's Omnichannel Store Work",
-    "option1Heading": "New Stock",
-    "option1Text": "You receive new items and you add it to your Vesko's online store (your customer will be informed about new products).",
-    "option2Heading": "Product availability",
-    "option2Text": " Your customers will be able to see your store's inventory to check product's availability before buying it online or in store.",
-    "option3Heading": "Purchasing",
-    "option3Text": "Customer will be able book product, buy online & pickup in store, or have it deliver to their doors.",
-    "option4Heading": "Continuous updating",
-    "option4Text": "After an item is being purchased, Vesko's store will update the item inventory balance.",
-    "veskoOmnichannelDifferHeading": "Vesko's Omnichannel Unifies Your Retail Presence",
-    "veskoOmnichannelDifferText": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves.",
-    "onlineStoreOverviewHeading1": "A scalable online store with ",
-    "onlineStoreOverviewHeadingSpan": "unique messaging capabilities ",
-    "onlineStoreOverviewHeading2": "designed to help you grow your brand.",
-    "onlineStoreHeading": "A marketplace, but it's your own online store",
-    "onlineStoreHeading1": "A marketplace, but it's your own ",
-    "onlineStoreHeadingSpan": "online store",
-    "onlineStoreText": "With a built in inventory management system and own search engine,Vesko's store can meet your needs whether you're growing your brand or you have already a big store with hundreds of different products.",
-    "benefitsOption1Heading": "Inventory Management",
-    "benefitsOption1Text": "A predefined and customisable categorising process helps you to sort your product and do upselling.",
-    "benefitsOption2Heading": "Order Fulfilment",
-    "benefitsOption2Text": "Designed to help you fulfil and send an order out for delivery in few clicks.",
-    "benefitsOption3Heading": "Upselling",
-    "benefitsOption3Text": "Vesko's advance categorising and grouping system helps you to sell more even in the checkout process.",
-    "benefitsOption4Heading": "Sales Stats",
-    "benefitsOption4Text": "A comprehensive sales stats that help you in optimising and managing your store & sales.",
-    "logisticPaymentHeading": "Logistics & Payment In Vesko",
-    "logisticPaymentText": "Vesko's stores come equipped with integrated logistics and payment solutions provided by industry leaders. Both will be fully operational and announced prior to Vesko's official launch.",
-    "pointofSaleHeading": "A Point of Sale to ",
-    "pointofSaleHeadingSpan": "Ease Your Sales",
-    "pointofSaleText": "Transform Your Checkout Process to Improve Your Customers' Purchasing Experience",
-    "faqHeading": "Frequently Asked Questions",
-    "faqText": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves.",
-    "faqQuestion1": "When will Vesko be ready?",
-    "faqAnswer1": "The beta version is expected to be ready in the second quarter of 2025. We will do two or four weeks of Beta testing in Tampere next spring to test the first version of Vesko. So, if you are a vendor from Tampere and you own or run a local retail store or online store, you can join the waitlist to be among the first who are going to test Vesko.",
-    "faqQuestion2": "Will Vesko be available in Mobile App?",
-    "faqAnswer2": "Vesko will be available on web and mobile apps.",
-    "faqQuestion3": "Where will Vesko be available?",
-    "faqAnswer3": "Vesko will be available in Finland during or after summer of 2025 and in the rest of Nordic countries about three months after launching in Finland.",
-    "faqQuestion4": "What rules does Vesko enforce on vendors?",
-    "faqAnswer4": "For online vendors and brands, no mandatory rules will be imposed on their selling practices, such as enforced returns or reclamations. However, for physical store vendors, one key rule will be strictly enforced: the omnichannel pricing rule. Physical store owners will be required to maintain consistent pricing across both online and offline channels. This ensures that consumers will find the same prices in physical stores as they do in online stores, promoting a seamless and fair shopping experience.",
-    "faqQuestion5": "Who will be handling the customer service (consumer/shoppers)?",
-    "faqAnswer5": "Vesko has a direct messaging feature that allows users and vendors to communicate directly, enabling consumers to address any issues or inquiries. Therefore, vendors handle their own customer service, providing personalized support and resolving customer concerns directly."
+    "hero": {
+      "heading1": "An ",
+      "headingSpan": "Omnichannel-Powered ",
+      "heading2": "Online Store ",
+      "text": "Vesko's online store helps you to boost your offline sales."
+    },
+    "omnichannel": {
+      "heading": "What is an ",
+      "headingSpan": "Omnichannel Online Store",
+      "text": "The omnichannel system integrates your brick-and-mortar store with your online store, allowing local customers to access real-time product availability at your physical location. This integration helps you attract more local customers, boosting both your online and offline sales."
+    },
+
+    "tranditionalRequirements": {
+      "heading": "Traditional Omnichannel Requirements",
+      "options": [
+        {
+          "heading": "Separate Infrastructure",
+          "text": "Requires independent warehouses for online orders."
+        },
+        {
+          "heading": "Complex Integration",
+          "text": "Time-consuming IT projects to integrate in-store and online systems."
+        },
+        {
+          "heading": "Extensive Maintenance",
+          "text": "Needs dedicated teams to manage online inventory, logistics, and customer service."
+        },
+        {
+          "heading": "High Costs",
+          "text": "Both implementation and operational maintenance costs are significantly high."
+        },
+        {
+          "heading": "Long Implementation Time",
+          "text": "Traditional setups can take several months to over a year to go live."
+        }
+      ]
+    },
+    "whyVesko": {
+      "heading": "Why Vesko",
+      "text": "Instead of paying a fortune, waiting for months, and hiring an IT team, you can get your omnichannel-powered online store up and running with Vesko in just minutes. It's an efficient, cost-effective, and hassle-free process."
+    },
+    "howOmnichannelWorks": {
+      "heading": "How Vesko's Omnichannel Store Works",
+      "options": [
+        {
+          "heading": "New Stock",
+          "text": "You receive new items and you add it to your Vesko's online store (your customer will be informed about new products)."
+        },
+        {
+          "heading": "Product Availability",
+          "text": "Your customers will be able to see your store's inventory to check product's availability before buying it online or in store."
+        },
+        {
+          "heading": "Purchasing",
+          "text": "Customer will be able book product, buy online & pickup in store, or have it deliver to their doors."
+        },
+        {
+          "heading": "Continuous Updating",
+          "text": "After an item is being purchased, Vesko's store will update the item inventory balance."
+        }
+      ]
+    },
+    "uniqueOmnichannel": {
+      "heading": "Vesko's Omnichannel Unifies Your Retail Presence",
+      "text": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves."
+    },
+    "onlineStoreOverview": {
+      "heading1": "A scalable online store with ",
+      "headingSpan": "unique messaging capabilities ",
+      "heading2": "designed to help you grow your brand."
+    },
+    "benefits": {
+      "heading": "A marketplace, but it's your own online store ",
+      "heading1": "A marketplace, but it's your own ",
+      "headingSpan": "online store ",
+      "text": "With a built in inventory management system and own search engine,Vesko's store can meet your needs whether you're growing your brand or you have already a big store with hundreds of different products.",
+      "options": [
+        {
+          "icon": "box",
+          "heading": "Inventory Management",
+          "text": "A predefined and customisable categorising process helps you to sort your product and do upselling."
+        },
+        {
+          "icon": "check-square",
+          "heading": "Order Fulfillment",
+          "text": "Designed to help you fulfil and send an order out for delivery in few clicks."
+        },
+        {
+          "icon": "trending-up",
+          "heading": "Upselling",
+          "text": "Vesko's advance categorising and grouping system helps you to sell more even in the checkout process."
+        },
+        {
+          "icon": "bar-chart",
+          "heading": "Sales Stats",
+          "text": "A comprehensive sales stats that help you in optimising and managing your store & sales."
+        }
+      ]
+    },
+    "logisticPayment": {
+      "heading": "Logistics & Payment in Vesko",
+      "text": "Vesko's stores come equipped with integrated logistics and payment solutions provided by industry leaders. Both will be fully operational and announced prior to Vesko's official launch."
+    },
+    "pointOfSale": {
+      "heading": "A Point of Sale to ",
+      "headingSpan": "Ease Your Sales",
+      "text": " Enhance your customers' purchasing experience and simplify your sales process with an efficient POS system. It not only benefits your customers but also keeps your stock and product availability up to date. Additionally, it's a crucial component of your omnichannel system."
+    },
+    "faq": {
+      "heading": "Frequently Asked Questions",
+      "text": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves.",
+      "options": [
+        {
+          "heading": "When will Vesko be ready?",
+          "text": "The beta version is expected to be ready in the second quarter of 2025. We will do two or four weeks of Beta testing in Tampere next spring to test the first version of Vesko. So, if you are a vendor from Tampere and you own or run a local retail store or online store, you can join the waitlist to be among the first who are going to test Vesko."
+        },
+        {
+          "heading": "Will Vesko be available in Mobile App?",
+          "text": "Vesko will be available on web and mobile apps."
+        },
+        {
+          "heading": "Where will Vesko be available?",
+          "text": "Vesko will be available in Finland during or after summer of 2025 and in the rest of Nordic countries about three months after launching in Finland."
+        },
+        {
+          "heading": "What rules does Vesko enforce on vendors?",
+          "text": "For online vendors and brands, no mandatory rules will be imposed on their selling practices, such as enforced returns or reclamations. However, for physical store vendors, one key rule will be strictly enforced: the omnichannel pricing rule. Physical store owners will be required to maintain consistent pricing across both online and offline channels. This ensures that consumers will find the same prices in physical stores as they do in online stores, promoting a seamless and fair shopping experience."
+        },
+        {
+          "heading": "Who will be handling the customer service (consumer/shoppers)?",
+          "text": "Vesko has a direct messaging feature that allows users and vendors to communicate directly, enabling consumers to address any issues or inquiries. Therefore, vendors handle their own customer service, providing personalized support and resolving customer concerns directly."
+        }
+      ]
+    }
   }
 }

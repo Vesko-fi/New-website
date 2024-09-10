@@ -1,36 +1,38 @@
 import { Card } from "@components/ui/Card";
 import { useTranslation } from "react-i18next";
 
+interface options {
+  heading: string;
+  text: string;
+}
+
 const HowOmnichannelWork: React.FC = () => {
   const { t } = useTranslation();
 
+  const options: Array<options> = t("vendors.howOmnichannelWorks.options", {
+    returnObjects: true,
+  });
+
   return (
     <>
+      <div className="space-y-2 text-balance text-center">
+        <h1 className="text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
+          {t("vendors.whyVesko.heading")}?
+        </h1>
+        <p className="text-sm lg:text-base">{t("vendors.whyVesko.text")}</p>
+      </div>
       <h1 className="p-12 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
-        {t("vendors.howOmnichannelWorkHeading")}?
+        {t("vendors.howOmnichannelWorks.heading")}?
       </h1>
-
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-        <Card
-          icon="box"
-          title={t("vendors.option1Heading")}
-          description={t("vendors.option1Text")}
-        />
-        <Card
-          icon="check-square"
-          title={t("vendors.option2Heading")}
-          description={t("vendors.option2Text")}
-        />
-        <Card
-          icon="cart"
-          title={t("vendors.option3Heading")}
-          description={t("vendors.option3Text")}
-        />
-        <Card
-          icon="rotate-ccw"
-          title={t("vendors.option4Heading")}
-          description={t("vendors.option4Text")}
-        />
+        {options.map((option, index) => (
+          <Card
+            key={index}
+            icon="box"
+            title={t(option.heading)}
+            description={t(option.text)}
+          />
+        ))}
       </div>
     </>
   );

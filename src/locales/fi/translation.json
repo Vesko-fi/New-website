@@ -63,5 +63,140 @@
     "orderText": "Tilaustenhallintajärjestelmä integroituna logistiikkapalveluntarjoajiin.",
     "logisticHeading": "Optimoitu logistiikka",
     "logisticText": "Optimoitu logistiikka paikallisille ja kaupunkien välisille lähetyksille."
+  },
+  "vendors": {
+    "hero": {
+      "heading1": "",
+      "headingSpan": "Monikanavainen ",
+      "heading2": "Verkkokauppa",
+      "text": "Veskon verkkokauppa auttaa sinua kasvattamaan kivijalkakauppasi myyntiä."
+    },
+    "omnichannel": {
+      "heading": "Mikä on ",
+      "headingSpan": "Monikanavainen Verkkokauppa",
+      "text": "Monikanavainen järjestelmä integroi sinun kivijalkakauppai verkkokauppaasi, jolloin paikalliset asiakkaat voivat nähdä reaaliaikaisen tuotteen saatavuuden sinun kivijalkakaupassa. Tämä integraatio auttaa sinua houkuttelemaan lisää paikallisia asiakkaita ja tehostamaan sekä verkko, että fyysistä myyntiä."
+    },
+    "tranditionalRequirements": {
+      "heading": "Perinteisen Monikanavainen Kaupan Vaatimukset",
+      "options": [
+        {
+          "heading": "Erillinen infrastruktuuri",
+          "text": " Edellyttää itsenäisiä varastoja online-tilauksille."
+        },
+        {
+          "heading": "Monimutkainen integrointi",
+          "text": "Aikaa vievät IT-projektit myymälä- ja verkkojärjestelmien integroimiseksi."
+        },
+        {
+          "heading": "Laaja huolto",
+          "text": "Tarvitsee ryhmiä ylläpitämään järjestelmää ja hallitsemaan verkkovarastoa."
+        },
+        {
+          "heading": "Korkeat kustannukset",
+          "text": "Sekä käyttöönotto, että käyttökustannukset ovat huomattavasti korkeat."
+        },
+        {
+          "heading": "Pitkä käyttöönotto-aika",
+          "text": "Perinteisten asetusten käyttöönotto voi kestää useista kuukausista yli vuoteen."
+        }
+      ]
+    },
+    "whyVesko": {
+      "heading": "Miksi Veskon Monikanavainen Verkkokaupan",
+      "text": "Miksi maksaa tuhansia euroja, odottaa kuukausia ja palkata IT-yritys monikanavainen-verkkokauppasi rakentamiseen ja ylläpitoon? Veskon avulla saat sen toimimaan muutamassa minuutissa, prosessi on vaivaton ja kustannustehokas."
+    },
+    "howOmnichannelWorks": {
+      "heading": "Miten Veskon Monikanavainen Verkkokauppa toimii",
+      "options": [
+        {
+          "heading": "Uusi kuorma",
+          "text": "Saat uusia tuotteita ja lisäät ne Veskon verkkokauppaan (asiakkaasi saavat tiedon uusista tuotteista heti)."
+        },
+        {
+          "heading": "Tuotteen saatavuus",
+          "text": "Asiakkaasi voivat tarkistaa myymäläsi varastotilanteen ennen ostopäätöstä, joko verkossa tai myymälässä."
+        },
+        {
+          "heading": "Ostaminen",
+          "text": "Asiakas voi varata tuotteen, ostaa sen verkossa ja noutaa myymälästä tai tilata sen toimitettavaksi kotiin."
+        },
+        {
+          "heading": "Jatkuva päivitys",
+          "text": "Kun tuote ostetaan, Vesko päivittää automaattisesti tuotteen saatavuus."
+        }
+      ]
+    },
+    "uniqueOmnichannel": {
+      "heading": "Veskon monikanavajärjestelmä yhdistää sinun verkkokauppa ja kivijalkakauppa",
+      "text": "Vesko mahdollistaa saman tuotteen listauksen sekä verkossa että myymälässä – maailman ensimmäinen alusta, jolla on tämä ominaisuus. Tämä tarkoittaa, että voit täyttää verkkotilaukset suoraan myymälän hyllyiltä."
+    },
+    "onlineStoreOverview": {
+      "heading1": "Skaalautuva verkkokauppa, jossa on ",
+      "headingSpan": "ainutlaatuiset viestintä ominaisuudet, ",
+      "heading2": " suunniteltu auttamaan brändisi kasvattamisessa."
+    },
+    "benefits": {
+      "heading": "Markkinapaikka, Mutta Se On Sinun Verkkokauppa ",
+      "heading1": "Markkinapaikka, Mutta Se On ",
+      "heading1Span": "Sinun Verkkokauppa",
+      "text": "Sisäänrakennetulla varastonhallinta järjestelmällä ja omalla hakukoneella, Veskon kauppa voi täyttää tarpeesi, olitpa sitten kasvattamassa brändiäsi tai sinulla on jo iso kauppa laaja valikoimalla.",
+      "options": [
+        {
+          "icon": "box",
+          "heading": "Varastonhallinta",
+          "text": " Ennalta määritelty ja räätälöitävä kategorisointi prosessi auttaa sinua lajittelemaan tuotteesi ja tekemään lisämyyntiä."
+        },
+        {
+          "icon": "check-square",
+          "heading": "Tilausten täyttäminen",
+          "text": "Suunniteltu auttamaan tilausten täyttämisessä ja lähettämisessä muutamalla klikkauksella."
+        },
+        {
+          "icon": "trending-up",
+          "heading": "Lisämyynti",
+          "text": "Veskon edistyksellinen kategorisointi, ja ryhmittely järjestelmä auttaa sinua myymään enemmän."
+        },
+        {
+          "icon": "bar-chart",
+          "heading": "Myyntitilastot",
+          "text": "Yksityiskohtaiset myyntitilastot auttavat sinua optimoimaan ja hallitsemaan myymälääsi ja myyntiä."
+        }
+      ]
+    },
+    "logisticPayment": {
+      "heading": "Logistiikka ja maksaminen Veskossa",
+      "text": "Veskon kaupat tarjoavat integroidut logistiikka, ja maksu ratkaisujen johtavilta toimijoilta, ja niistä ilmoitetaan ennen Veskon virallista lanseerausta."
+    },
+    "pointOfSale": {
+      "heading": "Myyntipiste, ",
+      "headingSpan": "joka helpottaa myyntiä",
+      "text": "Paranna asiakkaidesi ostokokemusta ja yksinkertaista myyntiprosessia tehokkaalla kassa järjestelmällä. Se ei ainoastaan hyödytä asiakkaita, vaan pitää myös varastosaldo ja tuotetilanne ajan tasalla. Lisäksi se on olennainen osa monikanavainen-järjestelmässä."
+    },
+    "faq": {
+      "heading": "FAQs",
+      "text": "",
+      "options": [
+        {
+          "heading": "Milloin Vesko on valmis?",
+          "text": "Veskon beta-versio on odotettavissa valmiiksi vuoden 2025 toisella neljänneksellä. Suoritamme kaksi tai neljä viikkoa kestäviä beta-testejä Tampereella ensi keväänä testaaksemme ensimmäistä Vesko-versiota. Jos olet tamperelainen myyjä ja omistat tai ylläpidät paikallista myymälää tai verkkokauppaa, voit liittyä jonotuslistalle ja olla yksi ensimmäisistä, jotka pääsevät testaamaan Veskon."
+        },
+        {
+          "heading": "Onko Vesko saatavilla mobiilisovelluksena?",
+          "text": "Vesko on saatavilla sekä verkkosivustona että mobiilisovelluksena."
+        },
+        {
+          "heading": "Missä Vesko tulee olemaan saatavilla?",
+          "text": "Vesko tulee olemaan saatavilla Suomessa kesän 2025 aikana tai sen jälkeen, ja muissa Pohjoismaissa noin kolme kuukautta Suomen lanseerauksen jälkeen."
+        },
+        {
+          "heading": "Mitä sääntöjä Vesko asettaa myyjille?",
+          "text": "Verkkokauppiaille ja brändeille ei aseteta pakollisia sääntöjä myynti käytännöistä, kuten pakollisista palautuksista tai reklamaatioista. Fyysisille myymälöille kuitenkin sääntö on tiukasti valvottu: omnichannel-hintasääntö. Fyysisten myymälöiden omistajien on ylläpidettävä johdonmukaisia hintoja sekä verkko, että myymälä kanavissa. Tämä varmistaa, että kuluttajat löytävät saman hinnan fyysisissä myymälöissä kuin verkkokaupoissa, edistäen saumattoman ja reilun ostokokemuksen."
+        },
+        {
+          "heading": "Kuka hoitaa asiakaspalvelun (kuluttajat/ostajat)?",
+          "text": "Veskossa on suoran viestinnän ominaisuus, joka mahdollistaa käyttäjien ja myyjien välisen suoran kommunikaation, jolloin kuluttajat voivat käsitellä mahdollisia ongelmia tai kysymyksiä. Tämän vuoksi myyjät hoitavat oman asiakaspalvelunsa, tarjoten henkilökohtaista tukea vastaa asiakasten kysymykset suoraan."
+        }
+      ]
+    }
   }
 }

@@ -9,11 +9,11 @@ const Overview: React.FC = () => {
       <div className="flex flex-col items-center justify-between gap-12 py-16 md:flex-row">
         <div>
           <h1 className="text-center text-2xl font-bold sm:text-start lg:text-3xl xl:text-4xl">
-            {t("vendors.onlineStoreOverviewHeading1")}
+            {t("vendors.onlineStoreOverview.heading1")}
             <span className="text-accent1">
-              {t("vendors.onlineStoreOverviewHeadingSpan")}
+              {t("vendors.onlineStoreOverview.headingSpan")}
             </span>
-            {t("vendors.onlineStoreOverviewHeading2")}
+            {t("vendors.onlineStoreOverview.heading2")}
           </h1>
         </div>
         <img
