@@ -43,6 +43,14 @@
           "img": "src/assets/inventory-img.png"
         }
       ]
+    },
+    "mission": "Missiomme on yhdistää teidät! Olemme Veskolla sitoutuneet tuomaan aitoja suomalaisia ​​brändejä ja myymälää lähemmäs suomalaista kuluttajaa.",
+    "brand": {
+      "heading": "Rakenna brändiäsi Veskon kanssa",
+      "text": "katso, kuinka monikanavainen markkinapaikka auttaa sinua rakentamaan brändiäsi.",
+      "textSpan": "Be the first to access early version of Vesko.",
+      "buttonDemo": "Pyydä esittely",
+      "buttonWaitlist": "Join the Waitlist"
     }
   },
 

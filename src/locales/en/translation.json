@@ -44,6 +44,14 @@
           "img": "src/assets/inventory-img.png"
         }
       ]
+    },
+    "mission": "Our Mission is to connect you! At Vesko we are committed to bring authentic Finnish brands and stores closer to the Finnish Consumer.",
+    "brand": {
+      "heading": "Build your Brand",
+      "text": "See how omnichannel powered marketplace will help you build your brand.",
+      "textSpan": "Be the first to access early version of Vesko.",
+      "buttonDemo": "Get a Demo",
+      "buttonWaitlist": "Join the Waitlist"
     }
   },
   "options": {
