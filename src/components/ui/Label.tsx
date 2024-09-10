@@ -7,7 +7,7 @@ const Label: React.FC<LabelProps> = ({ htmlFor, children }) => {
   return (
     <label
       htmlFor={htmlFor}
-      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+      className="mb-1 block text-sm font-medium text-gray-900 dark:text-white"
     >
       {children}
     </label>

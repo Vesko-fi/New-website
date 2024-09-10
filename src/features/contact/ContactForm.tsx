@@ -4,7 +4,7 @@ import { Label } from "@components/ui/Label";
 
 const ContactForm: React.FC = () => {
   return (
-    <div className="rounded-lg border border-green-700 p-4">
+    <div className="bg- rounded-lg border border-green-700 p-4">
       <form>
         <div className="mb-6 grid gap-6 md:grid-cols-2">
           <div>

@@ -7,7 +7,7 @@ import { WaitingListForm } from "@features/WaitingList/WaitingListForm";
 const WaitingListPage: React.FC = () => {
   return (
     <Section>
-      <Container className="mt-16 grid gap-12 !px-12 md:grid-cols-2">
+      <Container className="mt-16 grid gap-12 !px-12 lg:grid-cols-2">
         <WaitingList />
         <WaitingListForm />
       </Container>
