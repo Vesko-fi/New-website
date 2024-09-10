@@ -4,9 +4,14 @@ import { useNavigate } from "react-router-dom";
 const Brand: React.FC = () => {
   const navigate = useNavigate();
 
-  const handleClick = () => {
-    navigate("/waiting-list"); // Navigates to the "About" page
+  const handleWaitingList = () => {
+    navigate("/waiting-list");
   };
+
+  const handleDemo = () => {
+    navigate("/demo");
+  };
+
   return (
     <div className="mt-12 text-center">
       <h2 className="text-4xl font-semibold md:text-5xl xl:text-7xl">
@@ -20,8 +25,8 @@ const Brand: React.FC = () => {
         </span>
       </p>
       <div className="flex items-center justify-center gap-4">
-        <Button>Get a Demo</Button>
-        <Button variant="outline" onClick={handleClick}>
+        <Button onClick={handleDemo}>Get a Demo</Button>
+        <Button variant="outline" onClick={handleWaitingList}>
           Join the Waitlist
         </Button>
       </div>

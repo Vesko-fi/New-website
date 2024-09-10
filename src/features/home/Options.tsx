@@ -20,7 +20,7 @@ const Options: React.FC = () => {
           <h2 className="max-w-2xl text-2xl font-bold lg:text-3xl">
             {t("options.heading")}
           </h2>
-          <Link variant="primary" size="lg" href="/" className="mt-8">
+          <Link variant="primary" size="lg" href="/demo" className="mt-8">
             {t("options.link")}
           </Link>
         </div>

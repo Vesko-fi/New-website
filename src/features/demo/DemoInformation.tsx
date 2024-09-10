@@ -1,8 +1,8 @@
-const ContactInformation: React.FC = () => {
+const DemoInformation: React.FC = () => {
   return (
     <div className="mt-4">
       <h1 className="text-3xl font-bold">
-        <span className="text-accent1">Contact</span> Us
+        Get a<span className="text-accent1"> Demo</span>
       </h1>
       <p className="mb-4 mt-10 font-bold">
         Fill in the form to get in touch with a representative
@@ -35,6 +35,6 @@ const ContactInformation: React.FC = () => {
     </div>
   );
 };
-ContactInformation.displayName = "ContactPage";
+DemoInformation.displayName = "DemoInformation";
 
-export { ContactInformation };
+export { DemoInformation };

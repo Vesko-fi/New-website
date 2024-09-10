@@ -13,6 +13,6 @@ const Contact: React.FC = () => {
     </Section>
   );
 };
-Contact.displayName = "ContactPage";
+Contact.displayName = "Contact";
 
 export { Contact };

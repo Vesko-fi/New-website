@@ -14,6 +14,6 @@ const WaitingListPage: React.FC = () => {
     </Section>
   );
 };
-WaitingListPage.displayName = "ContactPage";
+WaitingListPage.displayName = "WaitingListPage";
 
 export { WaitingListPage };

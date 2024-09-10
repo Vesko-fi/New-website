@@ -3,7 +3,7 @@ import { SubmitButton } from "@components/forms/SubmitButton";
 import { Input } from "@components/ui/Input";
 import { Label } from "@components/ui/Label";
 
-const WaitingListForm: React.FC = () => {
+const DemoForm: React.FC = () => {
   return (
     <Form
       additional={
@@ -52,12 +52,12 @@ const WaitingListForm: React.FC = () => {
         <Input id="number" type="number" placeholder="Phone number" required />
       </div>{" "}
       <div>
-        <Label htmlFor="sell">What do you sell?</Label>
-        <Input id="sell" type="text" placeholder="What do you sell?" required />
+        <Label htmlFor="city">City</Label>
+        <Input id="city" type="text" placeholder="City" required />
       </div>
     </Form>
   );
 };
-WaitingListForm.displayName = "ContactPage";
+DemoForm.displayName = "DemoForm";
 
-export { WaitingListForm };
+export { DemoForm };

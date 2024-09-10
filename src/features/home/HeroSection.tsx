@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
             purchasing. Vesko&apos;s omnichannel helps you to list and sell the
             same product online or offline.
           </p>
-          <Link variant="primary" size="lg" href="/" className="mt-8">
+          <Link variant="primary" size="lg" href="/demo" className="mt-8">
             Get a Demo
           </Link>
         </div>
