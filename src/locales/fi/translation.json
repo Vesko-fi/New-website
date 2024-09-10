@@ -15,5 +15,56 @@
     "orderText": "Tilaustenhallintajärjestelmä integroituna logistiikkapalveluntarjoajiin.",
     "logisticHeading": "Optimoitu logistiikka",
     "logisticText": "Optimoitu logistiikka paikallisille ja kaupunkien välisille lähetyksille."
+  },
+  "contactForm": {
+    "firstName": "Etunimi",
+    "lastName": "Sukunimi",
+    "email": "Sähköposti",
+    "contactNumber": "Puhelinnumero",
+    "messagePlaceholder": "Kirjoita viestisi tähän",
+    "submitButton": "Lähetä",
+    "privacyText": "Kunnioitamme yksityisyyttäsi. Lähettämällä tämän lomakkeen hyväksyt, että voimme käyttää tietojasi tietosuojakäytäntömme mukaisesti.",
+    "companyName": "Yrityksen nimi",
+    "city": "kaupunki",
+    "submit": "lähetä"
+  },
+  "contactInformation": {
+    "contact": "Ota",
+    "us": "yhteyttä",
+    "formPrompt": "Täytä lomake ottaaksesi yhteyttä edustajaan",
+    "helpText": "Onko sinulla kysymyksiä tai tarvitsetko apua? Olemme täällä auttamassa! Voit ottaa yhteyttä alla olevalla lomakkeella, ja joku tiimimme jäsenistä vastaa sinulle mahdollisimman pian. Arvostamme kyselyitäsi ja pyrimme vastaamaan 24–48 tunnin sisällä.",
+    "emailPrompt": "Jos haluat, voit myös lähettää sähköpostia suoraan osoitteeseen",
+    "phoneText": "tai soittaa asiakaspalveluumme numeroon (123) 456-7890 normaaleina aukioloaikoina.",
+    "privacyText": "Kunnioitamme yksityisyyttäsi. Antamiasi tietoja käytetään vain kyselysi käsittelyyn, emmekä koskaan jaa tietojasi ilman suostumustasi.",
+    "thankYouText": "Kiitos, että valitsit meidät! Odotamme innolla yhteydenottoasi."
+  },
+  "waitingList": {
+    "join": "Liity",
+    "waitlist": "Jonotuslistalle",
+    "formPrompt": "Täytä lomake ottaaksesi yhteyttä edustajaan",
+    "excitingThings": "Jännittäviä asioita on tulossa! Liity jonotuslistallemme, niin saat ensimmäisenä tietää, kun lanseeraamme. Ilmoittautumalla saat varhaisen pääsyn, erikoispäivityksiä ja paljon muuta—suoraan sähköpostiisi.",
+    "nextRelease": "Seuraava julkaisumme on aivan nurkan takana, ja olemme innoissamme voidessamme jakaa sen kanssasi. Ole osa matkaa lisäämällä nimesi listalle, ja pidämme sinut ajan tasalla kaikista jännittävistä tapahtumista.",
+    "dontMissOut": "Älä jää paitsi tästä mahdollisuudesta! Paikkoja on rajoitetusti, ja jonotuslistallamme olevat saavat etuoikeutetun pääsyn.",
+    "signUp": "Ilmoittaudu nyt ja valmistaudu johonkin erityiseen. Emme malta odottaa, että olet mukana!"
+  },
+  "waitingListForm": {
+    "messageLabel": "Kirjoita viestisi tähän",
+    "messagePlaceholder": "Viesti",
+    "privacyText": "Kunnioitamme yksityisyyttäsi. Lähettämällä tämän lomakkeen hyväksyt, että voimme käyttää tietojasi tietosuojakäytäntömme mukaisesti.",
+    "firstName": "Etunimi",
+    "firstNamePlaceholder": "John",
+    "lastName": "Sukunimi",
+    "lastNamePlaceholder": "Doe",
+    "companyName": "Yrityksen nimi",
+    "companyNamePlaceholder": "Yrityksen nimi",
+    "email": "Sähköposti",
+    "emailPlaceholder": "sähköposti@esimerkki.com",
+    "phoneNumber": "Puhelinnumero",
+    "phoneNumberPlaceholder": "Puhelinnumero",
+    "sell": "Mitä myyt?",
+    "sellPlaceholder": "Mitä myyt?"
+  },
+  "demo": {
+    "getDemo": "Pyydä demoa"
   }
 }

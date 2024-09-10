@@ -15,5 +15,56 @@
     "orderText": "Order management system integrated with logistics proividers.",
     "logisticHeading": "Optimized Logistics",
     "logisticText": "Optimised logistics for local and intercity shipment."
+  },
+  "contactForm": {
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "contactNumber": "Contact Number",
+    "messagePlaceholder": "Write your message here",
+    "submitButton": "Submit",
+    "privacyText": "We respect your privacy. By submitting this form, you agree that we may use this information with our privacy policy.",
+    "companyName": "Company Name",
+    "city": "City",
+    "submit": "Submit"
+  },
+  "contactInformation": {
+    "contact": "Contact",
+    "us": "Us",
+    "formPrompt": "Fill in the form to get in touch with a representative",
+    "helpText": "Have any questions or need assistance? We're here to help! Feel free to reach out to us via the form below, and one of our team members will get back to you as soon as possible. We value your inquiries and aim to provide a response within 24-48 hours.",
+    "emailPrompt": "If you prefer, you can also email us directly at",
+    "phoneText": "or call our customer service team at (123) 456-7890 during regular business hours.",
+    "privacyText": "We respect your privacy. Any information you provide will only be used to address your inquiry, and we will never share your details without your consent.",
+    "thankYouText": "Thank you for choosing us! We look forward to hearing from you."
+  },
+  "waitingList": {
+    "join": "Join the",
+    "waitlist": "Waitlist",
+    "formPrompt": "Fill in the form to get in touch with a representative",
+    "excitingThings": "Exciting things are on the way! Join our waiting list to be the first to know when we launch. By signing up, you'll get exclusive early access, special updates, and more—directly to your inbox.",
+    "nextRelease": "Our next release is just around the corner, and we're thrilled to share it with you. Be part of the journey by adding your name to the list, and we’ll keep you posted on all the exciting developments.",
+    "dontMissOut": "Don’t miss out on this opportunity! Spaces are limited, and those on our waiting list will have priority access.",
+    "signUp": "Sign up now and get ready for something special. We can't wait to have you with us!"
+  },
+  "waitingListForm": {
+    "messageLabel": "Write your message here",
+    "messagePlaceholder": "Message",
+    "privacyText": "We respect your privacy. By submitting this form, you agree that we may use this information with our privacy policy.",
+    "firstName": "First name",
+    "firstNamePlaceholder": "John",
+    "lastName": "Last name",
+    "lastNamePlaceholder": "Doe",
+    "companyName": "Company name",
+    "companyNamePlaceholder": "Company Name",
+    "email": "Email",
+    "emailPlaceholder": "email@example.com",
+    "phoneNumber": "Phone Number",
+    "phoneNumberPlaceholder": "Phone number",
+    "sell": "What do you sell?",
+    "sellPlaceholder": "What do you sell?"
+  },
+  "demo": {
+    "getDemo": "Get a Demo"
   }
 }

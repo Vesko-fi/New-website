@@ -1,9 +1,11 @@
+import { useTranslation } from "react-i18next";
+
 import { Button } from "@components/ui/Button";
 import { useNavigate } from "react-router-dom";
 
 const Brand: React.FC = () => {
   const navigate = useNavigate();
-
+  const { t } = useTranslation();
   const handleWaitingList = () => {
     navigate("/waiting-list");
   };
@@ -25,9 +27,10 @@ const Brand: React.FC = () => {
         </span>
       </p>
       <div className="flex items-center justify-center gap-4">
-        <Button onClick={handleDemo}>Get a Demo</Button>
+        <Button onClick={handleDemo}>{t("demo.getDemo")}</Button>
         <Button variant="outline" onClick={handleWaitingList}>
-          Join the Waitlist
+          {t("waitingList.join")}
+          {t("waitingList.waitlist")}
         </Button>
       </div>
     </div>
