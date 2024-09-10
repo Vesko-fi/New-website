@@ -14,7 +14,7 @@ const DemoInformation: React.FC = () => {
       <p className="mb-6">{t("contactInformation.helpText")}</p>
 
       <p className="mb-6">
-        {t("contactInformation.emailPromt")}{" "}
+        {t("contactInformation.emailPrompt")}{" "}
         <a href="mailto:support@example.com" className="text-blue-500">
           support@example.com
         </a>{" "}
