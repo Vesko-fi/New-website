@@ -1,7 +1,7 @@
 import { Container } from "@components/ui/Container";
 import { Link } from "@components/ui/Link";
 import { Section } from "@components/ui/Section";
-import { heroImg } from "@constants/assets";
+import { landingHeroImg } from "@constants/assets";
 import { useTranslation } from "react-i18next";
 
 const HeroSection: React.FC = () => {
@@ -22,7 +22,7 @@ const HeroSection: React.FC = () => {
             {t("home.landingPage.buttonText")}
           </Link>
         </div>
-        <img src={heroImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />
+        <img src={landingHeroImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />
       </Container>
     </Section>
   );
