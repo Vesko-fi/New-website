@@ -20,10 +20,10 @@ const Faqs: React.FC = () => {
       <Container className="py-16">
         <div className="mb-8 flex flex-col items-center gap-4">
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
-            {t("vendors.pointOfSale.faqHeading")}
+            {t("vendors.faq.heading")}
           </h1>
           <p className="text-balance text-center text-base">
-            {t("vendors.pointOfSale.faqText")}
+            {t("vendors.faq.text")}
           </p>
         </div>
 
