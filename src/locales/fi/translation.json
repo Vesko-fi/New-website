@@ -15,5 +15,43 @@
     "orderText": "Tilaustenhallintajärjestelmä integroituna logistiikkapalveluntarjoajiin.",
     "logisticHeading": "Optimoitu logistiikka",
     "logisticText": "Optimoitu logistiikka paikallisille ja kaupunkien välisille lähetyksille."
+  },
+  "vendors": {
+    "hero": {
+      "heading1": "",
+      "headingSpan": "Monikanavainen ",
+      "heading2": "Verkkokauppa",
+      "text": "Veskon verkkokauppa auttaa sinua kasvattamaan kivijalkakauppasi myyntiä."
+    },
+    "omnichannel": {
+      "heading": "Mikä on ",
+      "headingSpan": "Monikanavainen Verkkokauppa",
+      "text": "Monikanavainen järjestelmä integroi sinun kivijalkakauppai verkkokauppaasi, jolloin paikalliset asiakkaat voivat nähdä reaaliaikaisen tuotteen saatavuuden sinun kivijalkakaupassa. Tämä integraatio auttaa sinua houkuttelemaan lisää paikallisia asiakkaita ja tehostamaan sekä verkko, että fyysistä myyntiä."
+    },
+    "tranditionalRequirements": {
+      "heading": "Perinteisen Monikanavainen Kaupan Vaatimukset",
+      "options": [
+        {
+          "heading": "Erillinen infrastruktuuri",
+          "text": " Edellyttää itsenäisiä varastoja online-tilauksille."
+        },
+        {
+          "heading": "Monimutkainen integrointi",
+          "text": "Aikaa vievät IT-projektit myymälä- ja verkkojärjestelmien integroimiseksi."
+        },
+        {
+          "heading": "Laaja huolto",
+          "text": "Tarvitsee ryhmiä ylläpitämään järjestelmää ja hallitsemaan verkkovarastoa."
+        },
+        {
+          "heading": "Korkeat kustannukset",
+          "text": "Sekä käyttöönotto, että käyttökustannukset ovat huomattavasti korkeat."
+        },
+        {
+          "heading": "Pitkä käyttöönotto-aika",
+          "text": "Perinteisten asetusten käyttöönotto voi kestää useista kuukausista yli vuoteen."
+        }
+      ]
+    }
   }
 }
