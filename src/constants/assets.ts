@@ -1,6 +1,7 @@
 import omnichannelImg from "@assets/omnichannel-img.png";
 import expandReachImg from "@assets/expand-reach-img.png";
 import heroImg from "@assets/hero-img.png";
+import landingHeroImg from "@assets/home-hero-img.png";
 import inventoryImg from "@assets/inventory-img.png";
 import newArrivalImg from "@assets/new-arrival-img.png";
 import orderOnlineImg from "@assets/order-online-img.png";
@@ -16,6 +17,7 @@ import IconImg from "@assets/Icon-img.png";
 export {
   expandReachImg,
   heroImg,
+  landingHeroImg,
   inventoryImg,
   logo,
   newArrivalImg,

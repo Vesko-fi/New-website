@@ -6,6 +6,54 @@
     "body": "Saitat saattavat olla väärät, tai sivu saattaa olla siirretty.",
     "button": "Takaisin etusivulle"
   },
+  "home": {
+    "landingPage": {
+      "heading": "Seuraavan Sukupolven Markkinapaikka, Joka ",
+      "headingSpan": "Tarjoaa Käyttövalmiin Monikanavainen",
+      "text": "Vesko auttaa sinua yhdistämään sinun kivijalkamyymälän ja verkkokaupan, tehden asiakkaiden siirtymisestä digitaalisesta selaamisesta fyysiseen ostamiseen saumattoman. Veskon monikanavaratkaisu sujuvoittaa tilausten käsittelyä, jolloin voit myydä samoja tuotteita sekä verkossa että myymälässä.",
+      "buttonText": "Pyydä esittely"
+    },
+    "sellingPoint": {
+      "heading": "Markkinapaikka, ",
+      "heading2": "Mutta Se On Sinun Verkkokauppa",
+      "text": "Vesko Antaa Sinulle Täydellisen Hallinnan Verkkokauppasi Myyntiehtoihin.",
+      "options": [
+        {
+          "usp_num": "01",
+          "heading": "Maksimoi ja Kasvata Sun Kivijalkakaupan Myyntiä",
+          "text": "Sisäänrakennettu monikanavainen järjestelmä tuo kauppasi lähemmäksi asiakkaita, sillä he voivat nähdä suonin kaupan tuotevalikoima ja tarkistaa tuotteiden saatavuuden reaaliajassa. Veskon verkkokauppa auttaa houkuttelemaan lisää paikallisia asiakkaita sinun kivijalkakauppaan.",
+          "img": "src/assets/new-arrival-img.png"
+        },
+        {
+          "usp_num": "02",
+          "heading": "Kasvata Brändiäsi Laajentamalla Tavoittavuuttasi",
+          "text": "Miksi rajoittaa myyntisi vain yhteen kanavaan, kun voit tehdä sen molemmissa? Veskon avulla voit maksimoida tavoittavuutesi myymällä saumattomasti sekä verkossa että myymälässä. Pian Vesko auttaa sinua luomaan yhteyksiä asiakkaisiin ympäri Suomea ja myöhemmin myös globaalisti.",
+          "img": "src/assets/expand-reach-img.png"
+        },
+        {
+          "usp_num": "03",
+          "heading": "Täytä Verkkotilaukset Suoraan Myymälähyllyltä",
+          "text": "Vesko on maailman ensimmäinen verkkokauppa-alusta, joka yhdistää kivijalka- ja verkkokaupan varasto ilman tarvetta lisä varastolle verkko myynnille. Tämä ainutlaatuinen ominaisuus mahdollistaa verkkokaupan perustamisen kivijalkakauppasi rinnalle ilman verkkovarastoa, maksimoi myynnin ja minimoi kustannukset.",
+          "img": "src/assets/order-online-img.png"
+        },
+        {
+          "usp_num": "04",
+          "heading": "Skaalautuva Myymälä Sisäänrakennetuilla Varasto ja Tilaus Järjestelmillä",
+          "text": "Veskossa myymäläsi voi kasvaa brändisi mukana. Se on suunniteltu käsittelemään laajaa varastoa ja sisältää sisäänrakennetun hakukoneen sekä räätälöitävän kategorisointi järjestelmän, jotka tukevat kaupan kasvu.",
+          "img": "src/assets/inventory-img.png"
+        }
+      ]
+    },
+    "mission": "Missiomme on yhdistää teidät! Olemme Veskolla sitoutuneet tuomaan aitoja suomalaisia ​​brändejä ja myymälää lähemmäs suomalaista kuluttajaa.",
+    "brand": {
+      "heading": "Rakenna brändiäsi Veskon kanssa",
+      "text": "katso, kuinka monikanavainen markkinapaikka auttaa sinua rakentamaan brändiäsi.",
+      "textSpan": "Be the first to access early version of Vesko.",
+      "buttonDemo": "Pyydä esittely",
+      "buttonWaitlist": "Join the Waitlist"
+    }
+  },
+
   "options": {
     "heading": "Integroitu maksujärjestelmä ja logistiikkajärjestelmä, jossa on sisäänrakennettu tilaustenhallintajärjestelmä",
     "link": "Pyydä demoa",
@@ -15,6 +63,141 @@
     "orderText": "Tilaustenhallintajärjestelmä integroituna logistiikkapalveluntarjoajiin.",
     "logisticHeading": "Optimoitu logistiikka",
     "logisticText": "Optimoitu logistiikka paikallisille ja kaupunkien välisille lähetyksille."
+  },
+  "vendors": {
+    "hero": {
+      "heading1": "",
+      "headingSpan": "Monikanavainen ",
+      "heading2": "Verkkokauppa",
+      "text": "Veskon verkkokauppa auttaa sinua kasvattamaan kivijalkakauppasi myyntiä."
+    },
+    "omnichannel": {
+      "heading": "Mikä on ",
+      "headingSpan": "Monikanavainen Verkkokauppa",
+      "text": "Monikanavainen järjestelmä integroi sinun kivijalkakauppai verkkokauppaasi, jolloin paikalliset asiakkaat voivat nähdä reaaliaikaisen tuotteen saatavuuden sinun kivijalkakaupassa. Tämä integraatio auttaa sinua houkuttelemaan lisää paikallisia asiakkaita ja tehostamaan sekä verkko, että fyysistä myyntiä."
+    },
+    "tranditionalRequirements": {
+      "heading": "Perinteisen Monikanavainen Kaupan Vaatimukset",
+      "options": [
+        {
+          "heading": "Erillinen infrastruktuuri",
+          "text": " Edellyttää itsenäisiä varastoja online-tilauksille."
+        },
+        {
+          "heading": "Monimutkainen integrointi",
+          "text": "Aikaa vievät IT-projektit myymälä- ja verkkojärjestelmien integroimiseksi."
+        },
+        {
+          "heading": "Laaja huolto",
+          "text": "Tarvitsee ryhmiä ylläpitämään järjestelmää ja hallitsemaan verkkovarastoa."
+        },
+        {
+          "heading": "Korkeat kustannukset",
+          "text": "Sekä käyttöönotto, että käyttökustannukset ovat huomattavasti korkeat."
+        },
+        {
+          "heading": "Pitkä käyttöönotto-aika",
+          "text": "Perinteisten asetusten käyttöönotto voi kestää useista kuukausista yli vuoteen."
+        }
+      ]
+    },
+    "whyVesko": {
+      "heading": "Miksi Veskon Monikanavainen Verkkokaupan",
+      "text": "Miksi maksaa tuhansia euroja, odottaa kuukausia ja palkata IT-yritys monikanavainen-verkkokauppasi rakentamiseen ja ylläpitoon? Veskon avulla saat sen toimimaan muutamassa minuutissa, prosessi on vaivaton ja kustannustehokas."
+    },
+    "howOmnichannelWorks": {
+      "heading": "Miten Veskon Monikanavainen Verkkokauppa toimii",
+      "options": [
+        {
+          "heading": "Uusi kuorma",
+          "text": "Saat uusia tuotteita ja lisäät ne Veskon verkkokauppaan (asiakkaasi saavat tiedon uusista tuotteista heti)."
+        },
+        {
+          "heading": "Tuotteen saatavuus",
+          "text": "Asiakkaasi voivat tarkistaa myymäläsi varastotilanteen ennen ostopäätöstä, joko verkossa tai myymälässä."
+        },
+        {
+          "heading": "Ostaminen",
+          "text": "Asiakas voi varata tuotteen, ostaa sen verkossa ja noutaa myymälästä tai tilata sen toimitettavaksi kotiin."
+        },
+        {
+          "heading": "Jatkuva päivitys",
+          "text": "Kun tuote ostetaan, Vesko päivittää automaattisesti tuotteen saatavuus."
+        }
+      ]
+    },
+    "uniqueOmnichannel": {
+      "heading": "Veskon monikanavajärjestelmä yhdistää sinun verkkokauppa ja kivijalkakauppa",
+      "text": "Vesko mahdollistaa saman tuotteen listauksen sekä verkossa että myymälässä – maailman ensimmäinen alusta, jolla on tämä ominaisuus. Tämä tarkoittaa, että voit täyttää verkkotilaukset suoraan myymälän hyllyiltä."
+    },
+    "onlineStoreOverview": {
+      "heading1": "Skaalautuva verkkokauppa, jossa on ",
+      "headingSpan": "ainutlaatuiset viestintä ominaisuudet, ",
+      "heading2": " suunniteltu auttamaan brändisi kasvattamisessa."
+    },
+    "benefits": {
+      "heading": "Markkinapaikka, Mutta Se On Sinun Verkkokauppa ",
+      "heading1": "Markkinapaikka, Mutta Se On ",
+      "heading1Span": "Sinun Verkkokauppa",
+      "text": "Sisäänrakennetulla varastonhallinta järjestelmällä ja omalla hakukoneella, Veskon kauppa voi täyttää tarpeesi, olitpa sitten kasvattamassa brändiäsi tai sinulla on jo iso kauppa laaja valikoimalla.",
+      "options": [
+        {
+          "icon": "box",
+          "heading": "Varastonhallinta",
+          "text": " Ennalta määritelty ja räätälöitävä kategorisointi prosessi auttaa sinua lajittelemaan tuotteesi ja tekemään lisämyyntiä."
+        },
+        {
+          "icon": "check-square",
+          "heading": "Tilausten täyttäminen",
+          "text": "Suunniteltu auttamaan tilausten täyttämisessä ja lähettämisessä muutamalla klikkauksella."
+        },
+        {
+          "icon": "trending-up",
+          "heading": "Lisämyynti",
+          "text": "Veskon edistyksellinen kategorisointi, ja ryhmittely järjestelmä auttaa sinua myymään enemmän."
+        },
+        {
+          "icon": "bar-chart",
+          "heading": "Myyntitilastot",
+          "text": "Yksityiskohtaiset myyntitilastot auttavat sinua optimoimaan ja hallitsemaan myymälääsi ja myyntiä."
+        }
+      ]
+    },
+    "logisticPayment": {
+      "heading": "Logistiikka ja maksaminen Veskossa",
+      "text": "Veskon kaupat tarjoavat integroidut logistiikka, ja maksu ratkaisujen johtavilta toimijoilta, ja niistä ilmoitetaan ennen Veskon virallista lanseerausta."
+    },
+    "pointOfSale": {
+      "heading": "Myyntipiste, ",
+      "headingSpan": "joka helpottaa myyntiä",
+      "text": "Paranna asiakkaidesi ostokokemusta ja yksinkertaista myyntiprosessia tehokkaalla kassa järjestelmällä. Se ei ainoastaan hyödytä asiakkaita, vaan pitää myös varastosaldo ja tuotetilanne ajan tasalla. Lisäksi se on olennainen osa monikanavainen-järjestelmässä."
+    },
+    "faq": {
+      "heading": "FAQs",
+      "text": "",
+      "options": [
+        {
+          "heading": "Milloin Vesko on valmis?",
+          "text": "Veskon beta-versio on odotettavissa valmiiksi vuoden 2025 toisella neljänneksellä. Suoritamme kaksi tai neljä viikkoa kestäviä beta-testejä Tampereella ensi keväänä testaaksemme ensimmäistä Vesko-versiota. Jos olet tamperelainen myyjä ja omistat tai ylläpidät paikallista myymälää tai verkkokauppaa, voit liittyä jonotuslistalle ja olla yksi ensimmäisistä, jotka pääsevät testaamaan Veskon."
+        },
+        {
+          "heading": "Onko Vesko saatavilla mobiilisovelluksena?",
+          "text": "Vesko on saatavilla sekä verkkosivustona että mobiilisovelluksena."
+        },
+        {
+          "heading": "Missä Vesko tulee olemaan saatavilla?",
+          "text": "Vesko tulee olemaan saatavilla Suomessa kesän 2025 aikana tai sen jälkeen, ja muissa Pohjoismaissa noin kolme kuukautta Suomen lanseerauksen jälkeen."
+        },
+        {
+          "heading": "Mitä sääntöjä Vesko asettaa myyjille?",
+          "text": "Verkkokauppiaille ja brändeille ei aseteta pakollisia sääntöjä myynti käytännöistä, kuten pakollisista palautuksista tai reklamaatioista. Fyysisille myymälöille kuitenkin sääntö on tiukasti valvottu: omnichannel-hintasääntö. Fyysisten myymälöiden omistajien on ylläpidettävä johdonmukaisia hintoja sekä verkko, että myymälä kanavissa. Tämä varmistaa, että kuluttajat löytävät saman hinnan fyysisissä myymälöissä kuin verkkokaupoissa, edistäen saumattoman ja reilun ostokokemuksen."
+        },
+        {
+          "heading": "Kuka hoitaa asiakaspalvelun (kuluttajat/ostajat)?",
+          "text": "Veskossa on suoran viestinnän ominaisuus, joka mahdollistaa käyttäjien ja myyjien välisen suoran kommunikaation, jolloin kuluttajat voivat käsitellä mahdollisia ongelmia tai kysymyksiä. Tämän vuoksi myyjät hoitavat oman asiakaspalvelunsa, tarjoten henkilökohtaista tukea vastaa asiakasten kysymykset suoraan."
+        }
+      ]
+    }
   },
   "users": {
     "heroHeading": "Parannamme ostokokemustasi paikallisten ja valtakunnallisten jälleenmyyjien kanssa",
