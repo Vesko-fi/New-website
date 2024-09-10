@@ -4,8 +4,17 @@ import { Accordion } from "@components/ui/Accordion";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
 
+interface options {
+  heading: string;
+  text: string;
+}
+
 const Faqs: React.FC = () => {
   const { t } = useTranslation();
+
+  const options: Array<options> = t("vendors.faq.options", {
+    returnObjects: true,
+  });
   return (
     <Section className="bg-gradient-to-t from-[#F0F5FF]">
       <Container className="py-16">
@@ -17,26 +26,16 @@ const Faqs: React.FC = () => {
             {t("vendors.pointOfSale.faqText")}
           </p>
         </div>
-        <Accordion
-          title={t("vendors.pointOfSale.faqQuestion1")}
-          children={t("vendors.pointOfSale.faqAnswer1")}
-        />
-        <Accordion
-          title={t("vendors.pointOfSale.faqQuestion2")}
-          children={t("vendors.pointOfSale.faqAnswer2")}
-        />
-        <Accordion
-          title={t("vendors.pointOfSale.faqQuestion3")}
-          children={t("vendors.pointOfSale.faqAnswer3")}
-        />
-        <Accordion
-          title={t("vendors.pointOfSale.faqQuestion4")}
-          children={t("vendors.pointOfSale.faqAnswer4")}
-        />
-        <Accordion
-          title={t("vendors.pointOfSale.faqQuestion5")}
-          children={t("vendors.pointOfSale.faqAnswer5")}
-        />
+
+        {options.map((option, index) => {
+          return (
+            <Accordion
+              key={index}
+              title={t(option.heading)}
+              children={t(option.text)}
+            />
+          );
+        })}
       </Container>
     </Section>
   );
