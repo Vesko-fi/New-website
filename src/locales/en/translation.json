@@ -6,6 +6,46 @@
     "body": "You might have the wrong address, or the page may have moved.",
     "button": "Back to Home"
   },
+
+  "home": {
+    "landingPage": {
+      "heading": "A Next Generation Marketplace Platform with ",
+      "headingSpan": "Omnichannel Capabilities",
+      "text": "Vesko helps you to unify the physical store with the online store enhancing your customer transition from digital browsing to in-store purchasing.Vesko's omnichannel helps you to list and sell the same product online or offline.",
+      "buttonText": "Get a Demo"
+    },
+    "sellingPoint": {
+      "heading": "A marketplace, ",
+      "heading2": "but it's your store",
+      "text": "Vesko gives you a complete control on your store selling terms & conditions.",
+      "options": [
+        {
+          "usp_num": "01",
+          "heading": "Maximise your Physical Store Sales",
+          "text": "The built-in omnichannel system brings your store and its product line closer to your customer by giving them access to your inventory.",
+          "img": "src/assets/new-arrival-img.png"
+        },
+        {
+          "usp_num": "02",
+          "heading": "Expand your Reach & Grow",
+          "text": "Why limit your sales to just one channel when you can maximise your reach by selling through both online and offline channels simultaneously?",
+          "img": "src/assets/expand-reach-img.png"
+        },
+        {
+          "usp_num": "03",
+          "heading": "Fulfill online orders from store shelf",
+          "text": "Vesko unifys your offline and online inventory which enables you listing the same item online and offline to maximise your sales and eliminate the need for extra storage for online sales, 1st e-commerce platform in the world.",
+          "img": "src/assets/order-online-img.png"
+        },
+        {
+          "usp_num": "04",
+          "heading": "Scalable store with built in inventory and order management system",
+          "text": "Vesko's store can hold a large number of products as your store will have its own search engine, predefined and customisable categorising system.",
+          "img": "src/assets/inventory-img.png"
+        }
+      ]
+    }
+  },
   "options": {
     "heading": "Integrated Payment and Logistic System With A Built in Order Management System",
     "link": "Get a Demo",

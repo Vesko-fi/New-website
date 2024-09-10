@@ -1,71 +1,56 @@
-import { SellingPointItem } from "@components/home/SellingPointItem";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-import {
-  expandReachImg,
-  inventoryImg,
-  newArrivalImg,
-  orderOnlineImg,
-} from "@constants/assets";
 
-interface USPItem {
-  id: number;
+import { useTranslation } from "react-i18next";
+
+interface options {
   usp_num: string;
-  header: string;
-  subheader: string;
-  img: string;
+  heading: string;
+  text: string;
+  img?: string;
 }
 
 const StoreSection: React.FC = () => {
-  /** USP: Unique Selling Points  */
-  const usp_items: USPItem[] = [
-    {
-      id: 1,
-      usp_num: "01",
-      header: `Maximise your Physical Store Sales`,
-      subheader: `The built-in omnichannel system brings your store and its product line
-           closer to your customer by giving them access to your inventory.`,
-      img: newArrivalImg,
-    },
-    {
-      id: 2,
-      usp_num: "02",
-      header: `Expand your Reach & Grow`,
-      subheader: `Why limit your sales to just one channel when you can maximise your
-           reach by selling through both online and offline channels
-           simultaneously?`,
-      img: expandReachImg,
-    },
-    {
-      id: 3,
-      usp_num: "03",
-      header: `Fulfill online orders from store shelf`,
-      subheader: `Vesko unifys your offline and online inventory which enables you listing
-         the same item online and offline to maximise your sales and eliminate
-        the need for extra storage for online sales, 1st  e-commerce platform in the world.`,
-      img: orderOnlineImg,
-    },
-    {
-      id: 4,
-      usp_num: "04",
-      header: `Scalable store with built in inventory and order management system`,
-      subheader: `Vesko’s store can hold a large number of products as your store will
-          have its own search engine, predefined and customisable categorising system.`,
-      img: inventoryImg,
-    },
-  ];
+  const { t } = useTranslation();
+
+  const options: Array<options> = t("home.sellingPoint.options", {
+    returnObjects: true,
+  });
+
   return (
     <Section>
       <Container>
         <h2 className="lg:w-53 mb-2 text-center text-3xl font-bold">
-          <span className="block">A marketplace </span>
-          <span className="block">but it's your store</span>
+          <span className="block"> {t("home.sellingPoint.heading")}</span>
+          <span className="block">{t("home.sellingPoint.heading2")}</span>
         </h2>
         <p className="text-balance px-4 text-center">
-          Vesko gives you a complete control on your store selling terms &
-          conditions
+          {t("home.sellingPoint.text")}
         </p>
-        <SellingPointItem points={usp_items} />
+        <div className="mt-6">
+          {options.map((option, index) => (
+            <div
+              key={index}
+              className="mt-12 flex flex-col items-center justify-between md:flex-row even:md:flex-row-reverse lg:gap-24"
+            >
+              <img
+                src={option.img}
+                alt={t(option.heading)}
+                className="sm:w-96 lg:w-auto"
+              />
+              <div className="flex flex-col items-start gap-4">
+                <div className="text-3xl text-accent1-40 sm:text-4xl md:text-5xl lg:text-7xl">
+                  <span>{option.usp_num}</span>
+                  <span className="block h-1 w-full bg-accent1-40"></span>
+                </div>
+                <div className="text-balance text-xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl">
+                  {t(option.heading)}
+                </div>
+                <p className="text-sm md:text-base">{t(option.text)}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </Container>
     </Section>
   );
