@@ -11,6 +11,8 @@ import optimizeLogisticImg from "@assets/optimize-logistics.png";
 import orderManagementImg from "@assets/order-management.png";
 import omnichannelChartImg from "@assets/omnichannel-chart.png";
 import posImg from "@assets/pos-img.png";
+import ReinDeer from "@assets/reindeer-img.png";
+import IconImg from "@assets/Icon-img.png";
 
 export {
   expandReachImg,
@@ -26,4 +28,6 @@ export {
   omnichannelImg,
   omnichannelChartImg,
   posImg,
+  ReinDeer,
+  IconImg,
 };
