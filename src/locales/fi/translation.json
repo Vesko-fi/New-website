@@ -6,6 +6,54 @@
     "body": "Saitat saattavat olla väärät, tai sivu saattaa olla siirretty.",
     "button": "Takaisin etusivulle"
   },
+  "home": {
+    "landingPage": {
+      "heading": "Seuraavan Sukupolven Markkinapaikka, Joka ",
+      "headingSpan": "Tarjoaa Käyttövalmiin Monikanavainen",
+      "text": "Vesko auttaa sinua yhdistämään sinun kivijalkamyymälän ja verkkokaupan, tehden asiakkaiden siirtymisestä digitaalisesta selaamisesta fyysiseen ostamiseen saumattoman. Veskon monikanavaratkaisu sujuvoittaa tilausten käsittelyä, jolloin voit myydä samoja tuotteita sekä verkossa että myymälässä.",
+      "buttonText": "Pyydä esittely"
+    },
+    "sellingPoint": {
+      "heading": "Markkinapaikka, ",
+      "heading2": "Mutta Se On Sinun Verkkokauppa",
+      "text": "Vesko Antaa Sinulle Täydellisen Hallinnan Verkkokauppasi Myyntiehtoihin.",
+      "options": [
+        {
+          "usp_num": "01",
+          "heading": "Maksimoi ja Kasvata Sun Kivijalkakaupan Myyntiä",
+          "text": "Sisäänrakennettu monikanavainen järjestelmä tuo kauppasi lähemmäksi asiakkaita, sillä he voivat nähdä suonin kaupan tuotevalikoima ja tarkistaa tuotteiden saatavuuden reaaliajassa. Veskon verkkokauppa auttaa houkuttelemaan lisää paikallisia asiakkaita sinun kivijalkakauppaan.",
+          "img": "src/assets/new-arrival-img.png"
+        },
+        {
+          "usp_num": "02",
+          "heading": "Kasvata Brändiäsi Laajentamalla Tavoittavuuttasi",
+          "text": "Miksi rajoittaa myyntisi vain yhteen kanavaan, kun voit tehdä sen molemmissa? Veskon avulla voit maksimoida tavoittavuutesi myymällä saumattomasti sekä verkossa että myymälässä. Pian Vesko auttaa sinua luomaan yhteyksiä asiakkaisiin ympäri Suomea ja myöhemmin myös globaalisti.",
+          "img": "src/assets/expand-reach-img.png"
+        },
+        {
+          "usp_num": "03",
+          "heading": "Täytä Verkkotilaukset Suoraan Myymälähyllyltä",
+          "text": "Vesko on maailman ensimmäinen verkkokauppa-alusta, joka yhdistää kivijalka- ja verkkokaupan varasto ilman tarvetta lisä varastolle verkko myynnille. Tämä ainutlaatuinen ominaisuus mahdollistaa verkkokaupan perustamisen kivijalkakauppasi rinnalle ilman verkkovarastoa, maksimoi myynnin ja minimoi kustannukset.",
+          "img": "src/assets/order-online-img.png"
+        },
+        {
+          "usp_num": "04",
+          "heading": "Skaalautuva Myymälä Sisäänrakennetuilla Varasto ja Tilaus Järjestelmillä",
+          "text": "Veskossa myymäläsi voi kasvaa brändisi mukana. Se on suunniteltu käsittelemään laajaa varastoa ja sisältää sisäänrakennetun hakukoneen sekä räätälöitävän kategorisointi järjestelmän, jotka tukevat kaupan kasvu.",
+          "img": "src/assets/inventory-img.png"
+        }
+      ]
+    },
+    "mission": "Missiomme on yhdistää teidät! Olemme Veskolla sitoutuneet tuomaan aitoja suomalaisia ​​brändejä ja myymälää lähemmäs suomalaista kuluttajaa.",
+    "brand": {
+      "heading": "Rakenna brändiäsi Veskon kanssa",
+      "text": "katso, kuinka monikanavainen markkinapaikka auttaa sinua rakentamaan brändiäsi.",
+      "textSpan": "Be the first to access early version of Vesko.",
+      "buttonDemo": "Pyydä esittely",
+      "buttonWaitlist": "Join the Waitlist"
+    }
+  },
+
   "options": {
     "heading": "Integroitu maksujärjestelmä ja logistiikkajärjestelmä, jossa on sisäänrakennettu tilaustenhallintajärjestelmä",
     "link": "Pyydä demoa",
