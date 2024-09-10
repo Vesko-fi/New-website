@@ -16,9 +16,9 @@ const BenefitsSecond: React.FC = () => {
     <>
       <div className="text-balance py-20 text-center">
         <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
-          {t("vendors.benefits.heading")}
+          {t("vendors.benefits.heading1")}
           <span className="text-accent1">
-            {t("vendors.benefits.headingSpan")}
+            {t("vendors.benefits.heading1Span")}
           </span>
         </h1>
         <p className="text-balance text-sm lg:text-base">

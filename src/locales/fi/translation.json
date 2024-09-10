@@ -52,6 +52,68 @@
           "text": "Perinteisten asetusten käyttöönotto voi kestää useista kuukausista yli vuoteen."
         }
       ]
+    },
+    "whyVesko": {
+      "heading": "Miksi Veskon Monikanavainen Verkkokaupan",
+      "text": "Miksi maksaa tuhansia euroja, odottaa kuukausia ja palkata IT-yritys monikanavainen-verkkokauppasi rakentamiseen ja ylläpitoon? Veskon avulla saat sen toimimaan muutamassa minuutissa, prosessi on vaivaton ja kustannustehokas."
+    },
+    "howOmnichannelWorks": {
+      "heading": "Miten Veskon Monikanavainen Verkkokauppa toimii",
+      "options": [
+        {
+          "heading": "Uusi kuorma",
+          "text": "Saat uusia tuotteita ja lisäät ne Veskon verkkokauppaan (asiakkaasi saavat tiedon uusista tuotteista heti)."
+        },
+        {
+          "heading": "Tuotteen saatavuus",
+          "text": "Asiakkaasi voivat tarkistaa myymäläsi varastotilanteen ennen ostopäätöstä, joko verkossa tai myymälässä."
+        },
+        {
+          "heading": "Ostaminen",
+          "text": "Asiakas voi varata tuotteen, ostaa sen verkossa ja noutaa myymälästä tai tilata sen toimitettavaksi kotiin."
+        },
+        {
+          "heading": "Jatkuva päivitys",
+          "text": "Kun tuote ostetaan, Vesko päivittää automaattisesti tuotteen saatavuus."
+        }
+      ]
+    },
+    "uniqueOmnichannel": {
+      "heading": "Veskon monikanavajärjestelmä yhdistää sinun verkkokauppa ja kivijalkakauppa",
+      "text": "Vesko mahdollistaa saman tuotteen listauksen sekä verkossa että myymälässä – maailman ensimmäinen alusta, jolla on tämä ominaisuus. Tämä tarkoittaa, että voit täyttää verkkotilaukset suoraan myymälän hyllyiltä."
+    },
+    "onlineStoreOverview": {
+      "heading1": "Skaalautuva verkkokauppa, jossa on ",
+      "headingSpan": "ainutlaatuiset viestintä ominaisuudet, ",
+      "heading2": " suunniteltu auttamaan brändisi kasvattamisessa."
+    },
+    "benefits": {
+      "heading": "Markkinapaikka, Mutta Se On Sinun Verkkokauppa ",
+      "heading1": "Markkinapaikka, Mutta Se On ",
+      "heading1Span": "Sinun Verkkokauppa",
+      "text": "Sisäänrakennetulla varastonhallinta järjestelmällä ja omalla hakukoneella, Veskon kauppa voi täyttää tarpeesi, olitpa sitten kasvattamassa brändiäsi tai sinulla on jo iso kauppa laaja valikoimalla.",
+      "options": [
+        {
+          "icon": "box",
+          "heading": "Varastonhallinta",
+          "text": " Ennalta määritelty ja räätälöitävä kategorisointi prosessi auttaa sinua lajittelemaan tuotteesi ja tekemään lisämyyntiä."
+        },
+        {
+          "icon": "check-square",
+          "heading": "Tilausten täyttäminen",
+          "text": "Suunniteltu auttamaan tilausten täyttämisessä ja lähettämisessä muutamalla klikkauksella."
+        },
+        {
+          "icon": "trending-up",
+          "heading": "Lisämyynti",
+          "text": "Veskon edistyksellinen kategorisointi, ja ryhmittely järjestelmä auttaa sinua myymään enemmän."
+        },
+        {
+          "icon": "bar-chart",
+          "heading": "Myyntitilastot",
+          "text": "Yksityiskohtaiset myyntitilastot auttavat sinua optimoimaan ja hallitsemaan myymälääsi ja myyntiä."
+        }
+      ]
     }
   }
 }

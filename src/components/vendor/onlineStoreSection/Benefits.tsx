@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import { Card } from "@components/ui/Card";
 
 interface options {
+  icon: string;
   heading: string;
   text: string;
 }
@@ -29,7 +30,7 @@ const Benefits: React.FC = () => {
           return (
             <Card
               key={index}
-              icon="box"
+              icon={option.icon}
               title={t(option.heading)}
               description={t(option.text)}
             />
