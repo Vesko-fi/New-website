@@ -114,6 +114,41 @@
           "text": "Yksityiskohtaiset myyntitilastot auttavat sinua optimoimaan ja hallitsemaan myymälääsi ja myyntiä."
         }
       ]
+    },
+    "logisticPayment": {
+      "heading": "Logistiikka ja maksaminen Veskossa",
+      "text": "Veskon kaupat tarjoavat integroidut logistiikka, ja maksu ratkaisujen johtavilta toimijoilta, ja niistä ilmoitetaan ennen Veskon virallista lanseerausta."
+    },
+    "pointOfSale": {
+      "heading": "Myyntipiste, ",
+      "headingSpan": "joka helpottaa myyntiä",
+      "text": "Paranna asiakkaidesi ostokokemusta ja yksinkertaista myyntiprosessia tehokkaalla kassa järjestelmällä. Se ei ainoastaan hyödytä asiakkaita, vaan pitää myös varastosaldo ja tuotetilanne ajan tasalla. Lisäksi se on olennainen osa monikanavainen-järjestelmässä."
+    },
+    "faq": {
+      "heading": "FAQs",
+      "text": "",
+      "options": [
+        {
+          "heading": "Milloin Vesko on valmis?",
+          "text": "Veskon beta-versio on odotettavissa valmiiksi vuoden 2025 toisella neljänneksellä. Suoritamme kaksi tai neljä viikkoa kestäviä beta-testejä Tampereella ensi keväänä testaaksemme ensimmäistä Vesko-versiota. Jos olet tamperelainen myyjä ja omistat tai ylläpidät paikallista myymälää tai verkkokauppaa, voit liittyä jonotuslistalle ja olla yksi ensimmäisistä, jotka pääsevät testaamaan Veskon."
+        },
+        {
+          "heading": "Onko Vesko saatavilla mobiilisovelluksena?",
+          "text": "Vesko on saatavilla sekä verkkosivustona että mobiilisovelluksena."
+        },
+        {
+          "heading": "Missä Vesko tulee olemaan saatavilla?",
+          "text": "Vesko tulee olemaan saatavilla Suomessa kesän 2025 aikana tai sen jälkeen, ja muissa Pohjoismaissa noin kolme kuukautta Suomen lanseerauksen jälkeen."
+        },
+        {
+          "heading": "Mitä sääntöjä Vesko asettaa myyjille?",
+          "text": "Verkkokauppiaille ja brändeille ei aseteta pakollisia sääntöjä myynti käytännöistä, kuten pakollisista palautuksista tai reklamaatioista. Fyysisille myymälöille kuitenkin sääntö on tiukasti valvottu: omnichannel-hintasääntö. Fyysisten myymälöiden omistajien on ylläpidettävä johdonmukaisia hintoja sekä verkko, että myymälä kanavissa. Tämä varmistaa, että kuluttajat löytävät saman hinnan fyysisissä myymälöissä kuin verkkokaupoissa, edistäen saumattoman ja reilun ostokokemuksen."
+        },
+        {
+          "heading": "Kuka hoitaa asiakaspalvelun (kuluttajat/ostajat)?",
+          "text": "Veskossa on suoran viestinnän ominaisuus, joka mahdollistaa käyttäjien ja myyjien välisen suoran kommunikaation, jolloin kuluttajat voivat käsitellä mahdollisia ongelmia tai kysymyksiä. Tämän vuoksi myyjät hoitavat oman asiakaspalvelunsa, tarjoten henkilökohtaista tukea vastaa asiakasten kysymykset suoraan."
+        }
+      ]
     }
   }
 }
