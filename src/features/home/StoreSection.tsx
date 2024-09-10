@@ -31,7 +31,7 @@ const StoreSection: React.FC = () => {
           {options.map((option, index) => (
             <div
               key={index}
-              className="mt-12 flex flex-col items-center justify-between md:flex-row even:md:flex-row-reverse lg:gap-24"
+              className="mt-12 flex flex-col items-center justify-between gap-4 md:flex-row even:md:flex-row-reverse lg:gap-24"
             >
               <img
                 src={option.img}
