@@ -45,25 +45,27 @@
         }
       ]
     },
+
+    "orderManagement": {
+      "heading": "Integrated  ",
+      "headingSpan": "Safe Payment and Reliable Logistic ",
+      "heading2": "System With A Built in Order Management System",
+      "buttonText": "Get a Demo",
+      "paymentHeading": "Secured payment powered by industry leaders",
+      "logisticHeading": "Order management system integrated with logistics proividers",
+      "orderHeading": "Optimised logistics for local and intercity shipment"
+    },
+
     "mission": "Our Mission is to connect you! At Vesko we are committed to bring authentic Finnish brands and stores closer to the Finnish Consumer.",
     "brand": {
-      "heading": "Build your Brand",
+      "heading": "Build your brand",
       "text": "See how omnichannel powered marketplace will help you build your brand.",
       "textSpan": "Be the first to access early version of Vesko.",
       "buttonDemo": "Get a Demo",
       "buttonWaitlist": "Join the Waitlist"
     }
   },
-  "options": {
-    "heading": "Integrated Payment and Logistic System With A Built in Order Management System",
-    "link": "Get a Demo",
-    "paymentHeading": "Secure Payments",
-    "paymentText": "Secured payment powered by industry leaders.",
-    "orderHeading": "Order Management",
-    "orderText": "Order management system integrated with logistics proividers.",
-    "logisticHeading": "Optimized Logistics",
-    "logisticText": "Optimised logistics for local and intercity shipment."
-  },
+
   "vendors": {
     "hero": {
       "heading1": "An ",

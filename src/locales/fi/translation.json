@@ -34,7 +34,7 @@
           "usp_num": "03",
           "heading": "Täytä Verkkotilaukset Suoraan Myymälähyllyltä",
           "text": "Vesko on maailman ensimmäinen verkkokauppa-alusta, joka yhdistää kivijalka- ja verkkokaupan varasto ilman tarvetta lisä varastolle verkko myynnille. Tämä ainutlaatuinen ominaisuus mahdollistaa verkkokaupan perustamisen kivijalkakauppasi rinnalle ilman verkkovarastoa, maksimoi myynnin ja minimoi kustannukset.",
-          "img": "src/assets/order-online-img.png"
+          "img": "src/assets/fi/vesko-chart.png"
         },
         {
           "usp_num": "04",
@@ -44,26 +44,25 @@
         }
       ]
     },
+    "orderManagement": {
+      "heading": " Integroitu  ",
+      "headingSpan": "turvallinen maksu ja luotettava logistiikkajärjestelmä ",
+      "heading2": "sisäänrakennetulla tilaustenhallinta järjestelmällä",
+      "buttonText": "Pyydä esittely",
+      "paymentHeading": "Turvalliset maksut alan johtavien toimijoiden takaamana",
+      "logisticHeading": "Optimoitu logistiikka paikallisiin ja kaupunkien välisiin toimituksiin",
+      "orderHeading": "Tilaustenhallintajärjestelmä integroituna logistiikka-toimittajien kanssa"
+    },
     "mission": "Missiomme on yhdistää teidät! Olemme Veskolla sitoutuneet tuomaan aitoja suomalaisia ​​brändejä ja myymälää lähemmäs suomalaista kuluttajaa.",
     "brand": {
       "heading": "Rakenna brändiäsi Veskon kanssa",
       "text": "katso, kuinka monikanavainen markkinapaikka auttaa sinua rakentamaan brändiäsi.",
-      "textSpan": "Be the first to access early version of Vesko.",
+      "textSpan": "",
       "buttonDemo": "Pyydä esittely",
       "buttonWaitlist": "Join the Waitlist"
     }
   },
 
-  "options": {
-    "heading": "Integroitu maksujärjestelmä ja logistiikkajärjestelmä, jossa on sisäänrakennettu tilaustenhallintajärjestelmä",
-    "link": "Pyydä demoa",
-    "paymentHeading": "Turvalliset maksut",
-    "paymentText": "Turvalliset maksut alan johtajien tukemana.",
-    "orderHeading": "Tilausten hallinta",
-    "orderText": "Tilaustenhallintajärjestelmä integroituna logistiikkapalveluntarjoajiin.",
-    "logisticHeading": "Optimoitu logistiikka",
-    "logisticText": "Optimoitu logistiikka paikallisille ja kaupunkien välisille lähetyksille."
-  },
   "vendors": {
     "hero": {
       "heading1": "",
