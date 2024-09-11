@@ -2,6 +2,7 @@ import omnichannelImg from "@assets/omnichannel-img.png";
 import expandReachImg from "@assets/expand-reach-img.png";
 import heroImg from "@assets/hero-img.png";
 import landingHeroImg from "@assets/home-hero-img.png";
+import vendorHeroImg from "@assets/vendor-hero-img.jpg";
 import vendorHeroImg1 from "@assets/vendor-hero-img1.jpg";
 import vendorHeroImg2 from "@assets/vendor-hero-img2.jpg";
 import vendorHeroImg3 from "@assets/vendor-hero-img3.jpg";
@@ -22,6 +23,7 @@ export {
   expandReachImg,
   heroImg,
   landingHeroImg,
+  vendorHeroImg,
   vendorHeroImg1,
   vendorHeroImg2,
   vendorHeroImg3,
