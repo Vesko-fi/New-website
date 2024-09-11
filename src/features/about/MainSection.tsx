@@ -9,8 +9,9 @@ const MainSection: React.FC = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col items-center gap-12 py-6">
-        <div className="flex max-w-[800px] flex-col gap-4 text-justify">
+      <img src={AboutImg} alt="" className="w-full h-[500px] object-cover" style={{ clipPath: "inset(0 0 20% 0)" }}/>
+      <Container className="flex flex-col items-center gap-12 pb-6">
+        <div className="flex max-w-[800px] flex-col gap-4 text-justify mt-[-60px]">
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p1.heading")}
           </h1>
@@ -18,7 +19,6 @@ const MainSection: React.FC = () => {
             <span className="font-bold">{t("about.p1.span")} </span>
             {t("about.p1.text")}
           </p>
-          <img src={AboutImg} alt="" className="mx-auto sm:w-auto" />
         </div>
         <div className="flex max-w-[800px] flex-col gap-4 text-justify">
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
