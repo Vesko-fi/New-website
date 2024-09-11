@@ -13,6 +13,9 @@ import omnichannelChartImg from "@assets/omnichannel-chart.png";
 import posImg from "@assets/pos-img.png";
 import ReinDeer from "@assets/reindeer-img.png";
 import IconImg from "@assets/Icon-img.png";
+import UserShoppingImg from "@assets/user-shopping-img.jpeg";
+import UserOnlineShoppingImg from "@assets/user-online-shopping-img.png";
+import UserHeroImg from "@assets/user-hero-img.jpg";
 
 export {
   expandReachImg,
@@ -30,4 +33,7 @@ export {
   posImg,
   ReinDeer,
   IconImg,
+  UserShoppingImg,
+  UserOnlineShoppingImg,
+  UserHeroImg,
 };
