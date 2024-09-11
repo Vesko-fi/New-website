@@ -1,7 +1,7 @@
 import { Container } from "@components/ui/Container";
 import { Link } from "@components/ui/Link";
 import { Section } from "@components/ui/Section";
-import { landingHeroImg } from "@constants/assets";
+import { heroImgBg, heroImgCheckout, heroImgProduct } from "@constants/assets";
 import { useTranslation } from "react-i18next";
 
 const HeroSection: React.FC = () => {
@@ -9,8 +9,8 @@ const HeroSection: React.FC = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col items-center justify-between gap-12 md:flex-row">
-        <div>
+      <Container className="flex flex-col items-center justify-between gap-12 py-24 md:flex-row">
+        <div className="w-full flex-1">
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("home.landingPage.heading")}
             <span className="text-accent1">
@@ -22,7 +22,17 @@ const HeroSection: React.FC = () => {
             {t("home.landingPage.buttonText")}
           </Link>
         </div>
-        <img src={landingHeroImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />
+        <div className="relative flex justify-center">
+          <img src={heroImgBg} className="w-2/3" />
+          <img
+            src={heroImgCheckout}
+            className="absolute -top-12 right-8 w-36"
+          />
+          <img
+            src={heroImgProduct}
+            className="absolute -bottom-28 left-2 w-48 rounded-md"
+          />
+        </div>
       </Container>
     </Section>
   );

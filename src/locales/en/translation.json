@@ -258,5 +258,28 @@
     "missionHeading": "Our Mission is to connect You",
     "missionP1": "Finland is home to many small stores and brands that offer unique & authentic products and items often crafted locally and sustainably. These products are distinct and often unavailable in large chain stores or through major foreign online vendors. Most of these firms are not able to list their product in online stores or do not have the opportunity to have an online presence.",
     "missionP2": "At Vesko, we are committed to bridge this gap by giving the Finnish brands and stores an online presence, allowing you to discover and support these local firms and entrepreneurs, no matter where you are."
+  },
+  "about": {
+    "p1": {
+      "heading": "Who Are We",
+      "span": "Vesko Ltd.",
+      "text": "is a Finland-based company proudly operating from Joensuu, with a dynamic and diverse team of talented individuals. Our team includes both highly experienced engineers and fresh graduates, all united by a common goal: to help Finnish entrepreneurs grow their businesses."
+    },
+    "p2": {
+      "heading": "What We Believe In",
+      "text": "At Vesko, we are transforming how small businesses thrive in a digital world. We believe that every brick-and-mortar  store should have the opportunity to expand its reach without sacrificing its personal touch, nor small online vendors. That’s why we’re building a next-generation marketplace that enables local retailers to create fully integrated omnichannel online stores in few minutes, without the high costs typically associated with such platforms."
+    },
+    "p3": {
+      "heading": "We Are Here & We Will Make A Change",
+      "text": "We understand the complexities of managing both online and offline sales, and we’re here to simplify the process. With Vesko, merchants can seamlessly connect their physical stores to an online platform, making it easier to serve local customers while expanding their reach nationally and, eventually, globally."
+    },
+    "p4": {
+      "heading": "We Understand The Pain",
+      "text": "As international giants and online marketplaces continue to dominate the Finnish market, local businesses are finding it increasingly difficult to compete with their scale and pricing. This challenge extends beyond retailers, impacting local manufacturers of Finnish-made goods and threatening the livelihoods of families who depend on these businesses."
+    },
+    "p5": {
+      "heading": "We Will Do It!",
+      "text": "Our mission is to help these businesses grow by equipping them with the tools they need to compete with larger, foreign retailers, all while reducing overhead costs and time. We are passionate about creating a smarter and more connected shopping experience for everyone."
+    }
   }
 }
