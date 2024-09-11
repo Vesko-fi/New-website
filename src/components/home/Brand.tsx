@@ -27,10 +27,9 @@ const Brand: React.FC = () => {
         </span>
       </p>
       <div className="flex items-center justify-center gap-4">
-        <Button onClick={handleDemo}>{t("demo.getDemo")}</Button>
+        <Button onClick={handleDemo}>{t("demo.formHeader")}</Button>
         <Button variant="outline" onClick={handleWaitingList}>
-          {t("waitingList.join")}
-          {t("waitingList.waitlist")}
+          {t("waitlist.formHeader")}
         </Button>
       </div>
     </div>

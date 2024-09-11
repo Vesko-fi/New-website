@@ -1,9 +1,12 @@
+import { useTranslation } from "react-i18next";
+
 import { Container } from "@components/ui/Container";
 import { Link } from "@components/ui/Link";
 import { Section } from "@components/ui/Section";
 import { heroImg } from "@constants/assets";
 
 const HeroSection: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <Section>
       <Container className="flex flex-col items-center justify-between gap-12 md:flex-row">
@@ -19,7 +22,7 @@ const HeroSection: React.FC = () => {
             same product online or offline.
           </p>
           <Link variant="primary" size="lg" href="/demo" className="mt-8">
-            Get a Demo
+            {t("demo.formHeader")}
           </Link>
         </div>
         <img src={heroImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />

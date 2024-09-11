@@ -5,25 +5,26 @@ const ContactInformation: React.FC = () => {
   return (
     <div className="mt-4">
       <h1 className="text-3xl font-bold">
-        <span className="text-accent1">{t("contactInformation.contact")}</span>{" "}
-        {t("contactInformation.us")}
+        <span className="text-accent1">{t("contact.header")}</span>{" "}
       </h1>
-      <p className="mb-4 mt-10 font-bold">
-        {t("contactInformation.formPrompt")}
-      </p>
-      <p className="mb-6">{t("contactInformation.helpText")}</p>
+      <p className="mb-4 mt-10 font-bold">{t("contact.subheader")}</p>
 
-      <p className="mb-6">
-        {t("contactInformation.emailPrompt")}{" "}
-        <a href="mailto:support@example.com" className="text-blue-500">
-          support@example.com
-        </a>{" "}
-        {t("contactInformation.phoneText")}
-      </p>
-
-      <p className="mb-6">{t("contactInformation.privacyText")}</p>
-
-      <p className="mb-6">{t("contactInformation.thankYouText")} </p>
+      <ul className="mt-8 list-disc space-y-4 pl-5">
+        <li>
+          {t("contact.demoRequest")}{" "}
+          <a href="/demo" className="text-blue-500 underline">
+            {t("contact.link")}
+          </a>
+        </li>
+        <li>
+          {t("contact.waitlistPrompt")} ,
+          <a href="/demo" className="text-blue-500 underline">
+            {" "}
+            {t("contact.waitlist")}
+          </a>{" "}
+          {t("contact.now")}!
+        </li>
+      </ul>
     </div>
   );
 };

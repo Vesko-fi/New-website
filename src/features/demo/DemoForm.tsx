@@ -12,68 +12,65 @@ const DemoForm: React.FC = () => {
       additional={
         <>
           <div>
-            <Label htmlFor="message">
-              {t("contactForm.messagePlaceholder")}
-            </Label>
+            <Label htmlFor="message">{t("demo.messagePlaceholder")}</Label>
             <textarea
               id="message"
               className="block w-full resize-none rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-              placeholder={t("contactForm.messagePlaceholder")}
+              placeholder={t("demo.messagePlaceholder")}
               rows={5}
             />
           </div>
-          <p className="mt-2 text-xs">{t("contactForm.privacyText")}</p>{" "}
           <SubmitButton />
         </>
       }
     >
       <div>
-        <Label htmlFor="first_name">{t("contactForm.firstName")}</Label>
+        <Label htmlFor="first_name">{t("demo.firstName")}</Label>
         <Input id="first_name" type="text" placeholder="John" required />
       </div>
       <div>
         <div>
-          <Label htmlFor="last_name">{t("contactForm.lastName")}</Label>
+          <Label htmlFor="last_name">{t("demo.lastName")}</Label>
           <Input id="last_name" type="text" placeholder="Doe" required />
         </div>
-      </div>
+      </div>{" "}
       <div>
         <div>
-          <Label htmlFor="Company name">{t("contactForm.companyName")}</Label>
-          <Input
-            id="text"
-            type="text"
-            placeholder={t("contactForm.companyName")}
-            required
-          />
-        </div>
-      </div>
-      <div>
-        <div>
-          <Label htmlFor="email">{t("contactForm.email")}</Label>
+          <Label htmlFor="email">{t("demo.email")}</Label>
           <Input
             id="email"
             type="text"
-            placeholder={t("contactForm.email")}
+            placeholder={t("demo.email")}
             required
           />
         </div>
       </div>
       <div>
-        <Label htmlFor="number">{t("contactForm.contactNumber")}</Label>
+        <Label htmlFor="number">{t("demo.phoneNumber")}</Label>
         <Input
           id="number"
           type="number"
-          placeholder={t("contactForm.contactNumber")}
+          placeholder={t("demo.phoneNumber")}
           required
         />
       </div>{" "}
       <div>
-        <Label htmlFor="city">{t("contactForm.city")}</Label>
+        <div>
+          <Label htmlFor="Company name">{t("demo.companyRole")}</Label>
+          <Input
+            id="text"
+            type="text"
+            placeholder={t("demo.companyRole")}
+            required
+          />
+        </div>
+      </div>
+      <div>
+        <Label htmlFor="linkedIn">{t("demo.linkedin")}</Label>
         <Input
           id="city"
           type="text"
-          placeholder={t("contactForm.city")}
+          placeholder={t("demo.linkedin")}
           required
         />
       </div>

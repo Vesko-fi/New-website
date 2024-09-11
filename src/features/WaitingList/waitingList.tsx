@@ -6,18 +6,20 @@ const WaitingList: React.FC = () => {
 
   return (
     <div className="mt-4">
-      <h1 className="text-3xl font-bold">
-        {t("waitingList.join")}{" "}
-        <span className="text-accent1">{t("waitingList.waitlist")}</span>
+      <h1 className="text-3xl font-bold text-accent1">
+        {t("waitlist.header")}
       </h1>
-      <p className="mb-4 mt-10 font-bold">{t("waitingList.formPrompt")}</p>
-      <p className="mb-6">{t("waitingList.excitingThings")}</p>
-
-      <p className="mb-6">{t("waitingList.nextRelease")}</p>
-
-      <p className="mb-6">{t("waitingList.dontMissOut")}</p>
-
-      <p className="mb-6">{t("waitingList.signUp")}</p>
+      <p className="mb-4 mt-10 font-bold">{t("waitlist.subheader")}</p>
+      <ul className="mt-8 list-disc space-y-4 pl-5">
+        <li>{t("waitlist.benefit1")}</li>
+        <li>{t("waitlist.benefit2")}</li>
+      </ul>
+      <p className="mt-6">
+        {t("waitlist.miniheader")}{" "}
+        <a href="/demo" className="text-blue-500 underline">
+          {t("demo.formHeader")}
+        </a>
+      </p>
     </div>
   );
 };
