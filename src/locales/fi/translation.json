@@ -205,9 +205,7 @@
       "text": "Löydä aitoja tuotteita Suomesta ja nauti vaivattomasti shoppailusta"
     },
     "localShopping": {
-      "heading1": "Näe, Mitä",
-      "headingSpan": "Paikalliset Kivijalkakaupat",
-      "heading2": "Myyvät",
+      "heading": "Näe, mitä paikalliset kivijalkakaupat myyvät",
       "text": "Pian voit shoppailla paikallisista vähittäiskaupoista vaivattomasti, nähdä tuottiden saatavus reaaliajassa ja varmistaa, ettet tuhlaa aikaasi epävarmoihin ostosmatkoihin."
     },
     "options": {
@@ -222,10 +220,8 @@
       "option4Text": "Haluatko jäädä kotona? Voimme toimittaa tilauksesi kotiovelle asti."
     },
     "onlineShopping": {
-      "heading1": "Kyse ei ole Vain Paikallisesta kivijalkakaupasta,",
-      "span1": "Vesko",
-      "heading2": "Yhdistää sinut",
-      "span2": "kauppoihin ja brändeihin ympäri Suomen",
+      "heading": "Kyse ei ole Vain Paikallisesta kivijalkakaupasta,",
+      "span": " Vesko yhdistää sinut kauppoihin ja brändeihin ympäri Suomen",
       "text": "Shoppaile verkossa laajasta valikoimasta brändeistä ja kivijalkakaupasta ympäri Suomea. Vesko tarjoaa myös ainutlaatuisia tapoja olla yhteydessä myyjiin, parantaen asiakaspalvelua ja ostokokemusta."
     },
     "mission": {

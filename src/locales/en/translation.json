@@ -206,9 +206,7 @@
       "text": "Discover authentic products, engage with sellers, and enjoy a seamless shopping experience"
     },
     "localShopping": {
-      "heading1": "See what your",
-      "headingSpan": "local retail stores",
-      "heading2": "are selling",
+      "heading": "See What your Local Retail Stores are Selling",
       "text": "Soon you will be able to shop from your local retail stores with ease, see a real-time stock level to ensure you don’t waste your time on uncertain shopping trips."
     },
     "options": {
@@ -223,10 +221,8 @@
       "option4Text": "Prefer to stay home? We’ll deliver from your local store straight to your door."
     },
     "onlineShopping": {
-      "heading1": "It's Not Just About Local Retail,",
-      "span1": "Vesko",
-      "heading2": "Connects You with",
-      "span2": "Vendors Across Finland",
+      "heading": "It's Not Just About Local Retail,",
+      "span": "Vesko Connects You with Vendors Across Finland",
       "text": "Shop online from a wide range of brands and retail stores across Finland. Vesko also lets you connect with vendors in unique ways, enhancing your customer service and shopping experience."
     },
     "mission": {

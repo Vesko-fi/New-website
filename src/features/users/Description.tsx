@@ -12,13 +12,9 @@ const Description = () => {
       <Container className="flex flex-col items-center justify-between gap-12 md:flex-row-reverse">
         <div>
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
-            {t("users.onlineShopping.heading1")}{" "}
+            {t("users.onlineShopping.heading")}{" "}
             <span className="text-accent1">
-              {t("users.onlineShopping.span1")}{" "}
-            </span>
-            {t("users.onlineShopping.heading2")}{" "}
-            <span className="text-accent1">
-              {t("users.onlineShopping.span2")}
+              {t("users.onlineShopping.span")}{" "}
             </span>
           </h1>
           <p className="text-sm xl:text-base">
