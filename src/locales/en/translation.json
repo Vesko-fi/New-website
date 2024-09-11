@@ -226,11 +226,26 @@
     "missionP2": "At Vesko, we are committed to bridge this gap by giving the Finnish brands and stores an online presence, allowing you to discover and support these local firms and entrepreneurs, no matter where you are."
   },
   "about": {
-    "main": {
-      "p1": "Vesko Ltd. is a Finland-based company, proudly operating from Joensuu, with a dynamic and diverse team of talented individuals. Our team consists of highly experienced engineers and fresh graduates, all united by a common passion, which is helping our Finnish & local entrepreneurs to grow their businesses.",
-      "p2": "At Vesko, we want to transform the way small businesses thrive in a digital world. We believe every brick-and-mortar store should have the power to expand its reach without losing its personal touch. That’s why we are building a next-generation marketplace that empowers local retailers to create fully integrated omnichannel online stores in just a few minutes without the high costs typically associated with building an omnichannel online store.",
-      "p3": "We understand the challenges that come with managing both online and offline sales, and we’re here to simplify that. With Vesko, merchants can seamlessly connect their physical stores with an online platform, making it easier to serve local customers while expanding their reach globally.",
-      "p4": "Our goal is to help businesses grow by providing them with the tools they need to compete with larger and foreign retailers from across the seas, all while reducing overhead costs and time. We are passionate about creating a smarter and more connected shopping experience for everyone."
+    "p1": {
+      "heading": "Who Are We",
+      "span": "Vesko Ltd.",
+      "text": "is a Finland-based company proudly operating from Joensuu, with a dynamic and diverse team of talented individuals. Our team includes both highly experienced engineers and fresh graduates, all united by a common goal: to help Finnish entrepreneurs grow their businesses."
+    },
+    "p2": {
+      "heading": "What We Believe In",
+      "text": "At Vesko, we are transforming how small businesses thrive in a digital world. We believe that every brick-and-mortar  store should have the opportunity to expand its reach without sacrificing its personal touch, nor small online vendors. That’s why we’re building a next-generation marketplace that enables local retailers to create fully integrated omnichannel online stores in few minutes, without the high costs typically associated with such platforms."
+    },
+    "p3": {
+      "heading": "We Are Here & We Will Make A Change",
+      "text": "We understand the complexities of managing both online and offline sales, and we’re here to simplify the process. With Vesko, merchants can seamlessly connect their physical stores to an online platform, making it easier to serve local customers while expanding their reach nationally and, eventually, globally."
+    },
+    "p4": {
+      "heading": "We Understand The Pain",
+      "text": "As international giants and online marketplaces continue to dominate the Finnish market, local businesses are finding it increasingly difficult to compete with their scale and pricing. This challenge extends beyond retailers, impacting local manufacturers of Finnish-made goods and threatening the livelihoods of families who depend on these businesses."
+    },
+    "p5": {
+      "heading": "We Will Do It!",
+      "text": "Our mission is to help these businesses grow by equipping them with the tools they need to compete with larger, foreign retailers, all while reducing overhead costs and time. We are passionate about creating a smarter and more connected shopping experience for everyone."
     }
   }
 }
