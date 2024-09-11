@@ -65,7 +65,7 @@
 
   "vendors": {
     "hero": {
-      "heading1": "",
+      "heading": "Monikanavainen Verkkokauppa",
       "headingSpan": "Monikanavainen ",
       "heading2": "Verkkokauppa",
       "text": "Veskon verkkokauppa auttaa sinua kasvattamaan kivijalkakauppasi myyntiä."
@@ -126,18 +126,18 @@
       ]
     },
     "uniqueOmnichannel": {
-      "heading": "Veskon monikanavajärjestelmä yhdistää sinun verkkokauppa ja kivijalkakauppa",
-      "text": "Vesko mahdollistaa saman tuotteen listauksen sekä verkossa että myymälässä – maailman ensimmäinen alusta, jolla on tämä ominaisuus. Tämä tarkoittaa, että voit täyttää verkkotilaukset suoraan myymälän hyllyiltä."
+      "heading": "Veskon monikanavajärjestelmä ",
+      "headingSpan": "yhdistää sinun verkkokauppasi ja kivijalkakaupan",
+      "text": "Vesko mahdollistaa saman tuotteen listauksen sekä verkossa että myymälässä – maailman ensimmäinen alusta, jolla on tämä ominaisuus. Tämä tarkoittaa, että voit täyttää verkkotilaukset suoraan myymälän hyllyiltä.",
+      "img": "src/assets/fi/omnichannel-chart.png"
     },
     "onlineStoreOverview": {
-      "heading1": "Skaalautuva verkkokauppa, jossa on ",
-      "headingSpan": "ainutlaatuiset viestintä ominaisuudet, ",
-      "heading2": " suunniteltu auttamaan brändisi kasvattamisessa."
+      "heading": "Skaalautuva verkkokauppa, jossa on ainutlaatuiset viestintä ominaisuudet, ",
+      "headingSpan": "suunniteltu auttamaan brändisi kasvattamisessa."
     },
     "benefits": {
-      "heading": "Markkinapaikka, Mutta Se On Sinun Verkkokauppa ",
-      "heading1": "Markkinapaikka, Mutta Se On ",
-      "heading1Span": "Sinun Verkkokauppa",
+      "heading": "Markkinapaikka, ",
+      "headingSpan": "Mutta Se On Sinun Verkkokauppa",
       "text": "Sisäänrakennetulla varastonhallinta järjestelmällä ja omalla hakukoneella, Veskon kauppa voi täyttää tarpeesi, olitpa sitten kasvattamassa brändiäsi tai sinulla on jo iso kauppa laaja valikoimalla.",
       "options": [
         {

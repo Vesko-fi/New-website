@@ -10,9 +10,7 @@ const HeroSetion: React.FC = () => {
     <Section>
       <Container className="py-16">
         <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
-          {t("vendors.hero.heading1")}
-          <span className="text-accent1">{t("vendors.hero.headingSpan")}</span>
-          {t("vendors.hero.heading2")}
+          {t("vendors.hero.heading")}
         </h1>
         <p className="text-center text-base">{t("vendors.hero.text")}</p>
         {/**

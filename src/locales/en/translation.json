@@ -68,6 +68,7 @@
 
   "vendors": {
     "hero": {
+      "heading": "An Omnichannel-Powered Online Store",
       "heading1": "An ",
       "headingSpan": "Omnichannel-Powered ",
       "heading2": "Online Store ",
@@ -130,13 +131,14 @@
       ]
     },
     "uniqueOmnichannel": {
-      "heading": "Vesko's Omnichannel Unifies Your Retail Presence",
-      "text": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves."
+      "heading": "Vesko's Omnichannel ",
+      "headingSpan": "Unifies Your Retail Presence",
+      "text": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves.",
+      "img": "src/assets/omnichannel-chart.png"
     },
     "onlineStoreOverview": {
-      "heading1": "A scalable online store with ",
-      "headingSpan": "unique messaging capabilities ",
-      "heading2": "designed to help you grow your brand."
+      "heading": "A  scalable online store with unique messaging capabilities ",
+      "headingSpan": "designed to help you grow your brand."
     },
     "benefits": {
       "heading": "A marketplace, but it's your own online store ",
