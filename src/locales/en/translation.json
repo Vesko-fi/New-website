@@ -113,18 +113,22 @@
       "heading": "How Vesko's Omnichannel Store Works",
       "options": [
         {
+          "icon": "box",
           "heading": "New Stock",
           "text": "You receive new items and you add it to your Vesko's online store (your customer will be informed about new products)."
         },
         {
+          "icon": "check-square",
           "heading": "Product Availability",
           "text": "Your customers will be able to see your store's inventory to check product's availability before buying it online or in store."
         },
         {
+          "icon": "trending-up",
           "heading": "Purchasing",
           "text": "Customer will be able book product, buy online & pickup in store, or have it deliver to their doors."
         },
         {
+          "icon": "bar-chart",
           "heading": "Continuous Updating",
           "text": "After an item is being purchased, Vesko's store will update the item inventory balance."
         }

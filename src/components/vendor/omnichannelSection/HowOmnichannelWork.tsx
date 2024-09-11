@@ -2,6 +2,7 @@ import { Card } from "@components/ui/Card";
 import { useTranslation } from "react-i18next";
 
 interface options {
+  icon: string;
   heading: string;
   text: string;
 }
@@ -28,7 +29,7 @@ const HowOmnichannelWork: React.FC = () => {
         {options.map((option, index) => (
           <Card
             key={index}
-            icon="box"
+            icon={option.icon}
             title={t(option.heading)}
             description={t(option.text)}
           />
