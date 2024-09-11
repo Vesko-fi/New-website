@@ -1,4 +1,5 @@
 import IconImg from "@assets/Icon-img.png";
+import AboutImg from "@assets/about-section-img.jpg";
 import expandReachImg from "@assets/expand-reach-img.png";
 import heroImgBg from "@assets/hero-img-bg.png";
 import heroImgCheckout from "@assets/hero-img-checkout.png";
@@ -19,6 +20,7 @@ import securePaymentImg from "@assets/secure-payment.png";
 import logo from "@assets/vesko-logo.png";
 
 export {
+  AboutImg,
   IconImg,
   expandReachImg,
   heroImg,

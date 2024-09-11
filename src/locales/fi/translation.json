@@ -223,5 +223,28 @@
     "missionHeading": "Tehtävämme on yhdistää sinut",
     "missionP1": "Suomessa on monia pieniä kauppoja ja brändejä, jotka tarjoavat ainutlaatuisia ja aitoja tuotteita, usein paikallisesti ja kestävällä tavalla valmistettuja. Nämä tuotteet ovat erityisiä ja usein saatavilla vain pienistä liikkeistä, eivät suurista ketjukaupoista tai suurilta ulkomaisilta verkkokauppiailta. Monet näistä yrityksistä eivät pysty myymään tuotteitaan verkkokauppoihin tai heillä ei ole mahdollisuutta verkkonäkyvyyteen.",
     "missionP2": "Veskolla olemme sitoutuneet kuromaan tämän eron umpeen antamalla suomalaisille brändeille ja kaupoille verkkoalustan, jonka avulla voit löytää ja tukea näitä paikallisia yrityksiä ja yrittäjiä, olitpa missä tahansa."
+  },
+  "about": {
+    "p1": {
+      "heading": "Ketä Me Ollaan",
+      "span": "Vesko Oy",
+      "text": "on Joensuussa toimiva suomalainen yritys, jolla on dynaaminen ja monipuolinen tiimi lahjakkaita yksilöitä. Tiimimme koostuu sekä erittäin kokeneista insinööreistä että vastavalmistuneista, joita yhdistää yhteinen tavoite: auttaa suomalaisia yrittäjiä kasvattamaan liiketoimintaansa."
+    },
+    "p2": {
+      "heading": "Mihin Me Uskomme",
+      "text": "Veskolla haluamme muuttaa tapaa, jolla pienet yritykset menestyvät digitaalisessa maailmassa. Uskomme, että jokaisella kivijalkaliikkeellä tulisi olla mahdollisuus laajentaa toimintaansa menettämättä henkilökohtaista otettaan. Siksi rakennamme seuraavan sukupolven markkinapaikkaa, joka mahdollistaa paikallisille jälleenmyyjille täysin integroitujen monikanavaisten verkkokauppojen luomisen muutamassa minuutissa, ilman tyypillisesti korkeita kustannuksia, joita tällaisen järjestelmän rakentaminen edellyttää."
+    },
+    "p3": {
+      "heading": "Olemme Täällä Ja Teemme Muutoksen",
+      "text": "Ymmärrämme, että sekä verkko, että kivijalkamyyntiä voi olla haastavaa hallita, ja haluamme yksinkertaistaa tätä prosessia. Veskon avulla kauppiaat voivat yhdistää fyysiset myymälänsä saumattomasti verkkokauppaan, mikä helpottaa paikallisten asiakkaiden palvelemista ja laajentaa samalla toimintaansa kansallisella ja myöhemmin globaalilla tasolla."
+    },
+    "p4": {
+      "heading": "Ymmärrämme Tuskan",
+      "text": "Kun kansainväliset suuryritykset ja verkkokaupat jatkavat Suomen markkinoiden valtaamista, paikallisten yritysten on yhä vaikeampaa kilpailla niiden mittakaavan ja hintojen kanssa. Tämä haaste vaikuttaa yksittäisten jälleenmyyjien lisäksi myös suomalaisia tuotteita valmistaviin yrityksiin, uhaten niiden perheiden toimeentuloa, jotka ovat näistä yrityksistä riippuvaisia."
+    },
+    "p5": {
+      "heading": "Me Teemme Sen!",
+      "text": "Tavoitteemme on auttaa näitä yrityksiä kasvamaan tarjoamalla heille työkalut, joilla he voivat kilpailla suurempien ja ulkomaisten jälleenmyyjien kanssa, samalla kun vähennämme yleiskustannuksia ja säästämme aikaa. Olemme intohimoisia luomaan älykkäämmän ja paremmin ostokokemuksen kaikille."
+    }
   }
 }
