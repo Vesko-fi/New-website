@@ -1,60 +1,31 @@
 import { useTranslation } from "react-i18next";
 
 import { Section } from "@components/ui/Section";
-import { useEffect, useState } from "react";
-import {
-  vendorHeroImg1,
-  vendorHeroImg2,
-  vendorHeroImg3,
-} from "@constants/assets";
-
-const images = [vendorHeroImg1, vendorHeroImg2, vendorHeroImg3];
+import { vendorHeroImg3 } from "@constants/assets";
 
 const HeroSetion: React.FC = () => {
   const { t } = useTranslation();
-  const [currentIndex, setCurrentIndex] = useState(0);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      nextSlide();
-    }, 6000);
-    return () => clearInterval(interval);
-  }, [currentIndex]);
-
-  const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
   return (
     <Section>
       <div className="relative h-[600px] overflow-hidden md:h-[682px]">
-        {images.map((image, index) => (
-          <div
-            key={index}
-            className={`absolute h-full w-full transform transition-transform duration-700 ease-in-out ${
-              index === currentIndex ? "translate-x-0" : "translate-x-full"
-            }`}
-            style={{
-              transform: `translateX(${(index - currentIndex) * 100}%)`,
-            }}
-          >
-            <div
-              className="h-full w-full bg-cover bg-center"
-              style={{
-                backgroundImage: `url(${image})`,
-              }}
-            >
-              {/* Overlay text */}
-              <div className="absolute inset-0 flex flex-col items-center justify-start bg-black bg-opacity-30 text-white">
-                <h1 className="px-8 py-2 text-5xl font-bold sm:text-balance sm:text-6xl md:text-7xl lg:text-8xl">
-                  {t("vendors.hero.heading")}
-                </h1>
-                <p className="px-4 py-2 text-center text-2xl leading-8 sm:text-3xl md:text-4xl">
-                  {t("vendors.hero.text")}
-                </p>
-              </div>
-            </div>
-          </div>
-        ))}
+        <div className="h-full w-full bg-cover bg-center">
+          <img
+            src={vendorHeroImg3}
+            alt={`Slide image`}
+            className="h-full w-full object-cover"
+          />
+        </div>
+
+        {/* Overlay text */}
+        <div className="absolute inset-0 bg-black/50 px-8 py-10 text-white sm:px-28">
+          <h1 className="max-w-4xl text-3xl font-bold sm:text-balance md:text-5xl lg:text-6xl xl:text-7xl">
+            {t("vendors.hero.heading")}
+          </h1>
+          <p className="xl:4xl mt-2 text-xl sm:mt-4 md:text-2xl lg:mt-6 lg:text-3xl">
+            {t("vendors.hero.text")}
+          </p>
+        </div>
       </div>
     </Section>
   );

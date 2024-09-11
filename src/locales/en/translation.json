@@ -6,7 +6,34 @@
     "body": "You might have the wrong address, or the page may have moved.",
     "button": "Back to Home"
   },
-
+  "navbar": {
+    "home": {
+      "href": "",
+      "label": "Home"
+    },
+    "forVendors": {
+      "href": "for-vendors",
+      "label": "For Vendors"
+    },
+    "forUsers": {
+      "href": "for-users",
+      "label": "For Users"
+    },
+    "contactUs": {
+      "href": "contact-us",
+      "label": "Contact Us"
+    }
+  },
+  "footer": {
+    "text": "The expected release date of the beta version is during the second quarter of 2025.",
+    "company": {
+      "heading": "Company",
+      "name": "Vesko Ltd.",
+      "address": "Joensuu, Finland",
+      "businessId": "Business ID 3472131-6",
+      "contact": "Contact Us"
+    }
+  },
   "home": {
     "landingPage": {
       "heading": "A Next Generation Marketplace Platform with ",

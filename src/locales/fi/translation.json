@@ -6,6 +6,34 @@
     "body": "Saitat saattavat olla väärät, tai sivu saattaa olla siirretty.",
     "button": "Takaisin etusivulle"
   },
+  "navbar": {
+    "home": {
+      "href": "",
+      "label": "Etusivu"
+    },
+    "forVendors": {
+      "href": "for-vendors",
+      "label": "Kaupialle"
+    },
+    "forUsers": {
+      "href": "for-users",
+      "label": "Käyttille"
+    },
+    "contactUs": {
+      "href": "contact-us,",
+      "label": "Ota Yhteyttä,"
+    }
+  },
+  "footer": {
+    "text": "Veskon ensimmäisen version arvioitu julkaisupäivä on vuoden 2025 toisella neljänneksellä.",
+    "company": {
+      "heading": "Yhtiö",
+      "name": "Vesko Oy",
+      "address": "Joensuu, Suomi",
+      "businessId": "Y-tunnus: 3472131-6",
+      "contact": "Ota Yhteyttä"
+    }
+  },
   "home": {
     "landingPage": {
       "heading": "Seuraavan sukupolven markkinapaikka, joka tarjoaa ",
@@ -58,8 +86,8 @@
       "heading": "Rakenna brändiäsi Veskon kanssa",
       "text": "katso, kuinka monikanavainen markkinapaikka auttaa sinua rakentamaan brändiäsi.",
       "textSpan": "",
-      "buttonDemo": "Pyydä esittely",
-      "buttonWaitlist": "Join the Waitlist"
+      "buttonDemo": "Pyydä Esittely",
+      "buttonWaitlist": "Liity Jonotuslistalle"
     }
   },
 
@@ -108,18 +136,22 @@
       "heading": "Miten Veskon Monikanavainen Verkkokauppa toimii",
       "options": [
         {
+          "icon": "box",
           "heading": "Uusi kuorma",
           "text": "Saat uusia tuotteita ja lisäät ne Veskon verkkokauppaan (asiakkaasi saavat tiedon uusista tuotteista heti)."
         },
         {
+          "icon": "check-square",
           "heading": "Tuotteen saatavuus",
           "text": "Asiakkaasi voivat tarkistaa myymäläsi varastotilanteen ennen ostopäätöstä, joko verkossa tai myymälässä."
         },
         {
+          "icon": "trending-up",
           "heading": "Ostaminen",
           "text": "Asiakas voi varata tuotteen, ostaa sen verkossa ja noutaa myymälästä tai tilata sen toimitettavaksi kotiin."
         },
         {
+          "icon": "bar-chart",
           "heading": "Jatkuva päivitys",
           "text": "Kun tuote ostetaan, Vesko päivittää automaattisesti tuotteen saatavuus."
         }
@@ -172,7 +204,7 @@
       "text": "Paranna asiakkaidesi ostokokemusta ja yksinkertaista myyntiprosessia tehokkaalla kassa järjestelmällä. Se ei ainoastaan hyödytä asiakkaita, vaan pitää myös varastosaldo ja tuotetilanne ajan tasalla. Lisäksi se on olennainen osa monikanavainen-järjestelmässä."
     },
     "faq": {
-      "heading": "FAQs",
+      "heading": "Usein Kysytyt Kysymykset",
       "text": "",
       "options": [
         {
