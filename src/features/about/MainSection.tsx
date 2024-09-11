@@ -10,7 +10,7 @@ const MainSection: React.FC = () => {
   return (
     <Section>
       <Container className="flex flex-col items-center gap-12 py-6">
-        <div className="flex max-w-[800px] flex-col gap-4">
+        <div className="flex max-w-[800px] flex-col gap-4 text-justify">
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p1.heading")}
           </h1>
@@ -20,25 +20,25 @@ const MainSection: React.FC = () => {
           </p>
           <img src={AboutImg} alt="" className="mx-auto sm:w-auto" />
         </div>
-        <div className="flex max-w-[800px] flex-col gap-4">
+        <div className="flex max-w-[800px] flex-col gap-4 text-justify">
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p2.heading")}
           </h1>
           <p>{t("about.p2.text")}</p>
         </div>
-        <div className="flex max-w-[800px] flex-col gap-4">
-          <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
+        <div className="flex max-w-[800px] flex-col gap-4 text-justify">
+          <h1 className="mb-1 text-center text-2xl font-bold text-balance lg:text-3xl xl:text-4xl">
             {t("about.p3.heading")}
           </h1>
           <p>{t("about.p3.text")}</p>
         </div>
-        <div className="flex max-w-[800px] flex-col gap-4">
+        <div className="flex max-w-[800px] flex-col gap-4 text-justify">
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p4.heading")}
           </h1>
           <p>{t("about.p4.text")}</p>
         </div>
-        <div className="flex max-w-[800px] flex-col gap-4">
+        <div className="flex max-w-[800px] flex-col gap-4 text-justify">
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p5.heading")}
           </h1>
