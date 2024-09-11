@@ -5,7 +5,7 @@ const VeskoOmnichannel: React.FC = () => {
 
   return (
     <>
-      <div className="text-balance py-20 text-center">
+      <div className="text-balance py-24 text-center">
         <h1 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.uniqueOmnichannel.heading")}
           <span className="text-accent1">
@@ -15,7 +15,6 @@ const VeskoOmnichannel: React.FC = () => {
         <p className="mt-2 text-sm lg:text-base">
           {t("vendors.uniqueOmnichannel.text")}
         </p>
-
         <img
           src={t("vendors.uniqueOmnichannel.img")}
           alt="Omnichannel chart on how Vesko Omnichannel differs from others"

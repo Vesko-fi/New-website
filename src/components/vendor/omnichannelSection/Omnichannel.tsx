@@ -7,7 +7,7 @@ interface options {
   text: string;
 }
 
-const WhyOmnichannel: React.FC = () => {
+const Omnichannel: React.FC = () => {
   const { t } = useTranslation();
 
   const options: Array<options> = t(
@@ -19,7 +19,7 @@ const WhyOmnichannel: React.FC = () => {
 
   return (
     <>
-      <div className="space-y-2 text-balance py-8 text-center">
+      <div className="space-y-2 text-balance pb-2 text-center">
         <h1 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.omnichannel.heading")}
           <span className="text-accent1">
@@ -45,6 +45,7 @@ const WhyOmnichannel: React.FC = () => {
             );
           })}
         </div>
+
         <img
           src={omnichannelImg}
           alt="Product in store shelf"
@@ -55,5 +56,5 @@ const WhyOmnichannel: React.FC = () => {
   );
 };
 
-WhyOmnichannel.displayName = "WhyOmnichannel";
-export { WhyOmnichannel };
+Omnichannel.displayName = "Omnichannel";
+export { Omnichannel };

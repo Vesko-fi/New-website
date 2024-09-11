@@ -23,7 +23,7 @@
           "usp_num": "01",
           "heading": "Maximise your Physical Store Sales",
           "text": "The built-in omnichannel system brings your store and its product line closer to your customer by giving them access to your inventory.",
-          "img": "src/assets/new-arrival-img.png"
+          "img": "src/assets/product-details.png"
         },
         {
           "usp_num": "02",
@@ -145,9 +145,8 @@
       "headingSpan": "designed to help you grow your brand."
     },
     "benefits": {
-      "heading": "A marketplace, but it's your own online store ",
-      "heading1": "A marketplace, but it's your own ",
-      "heading1Span": "online store ",
+      "heading": "A marketplace, but it's your own ",
+      "headingSpan": "online store ",
       "text": "With a built in inventory management system and own search engine,Vesko's store can meet your needs whether you're growing your brand or you have already a big store with hundreds of different products.",
       "options": [
         {

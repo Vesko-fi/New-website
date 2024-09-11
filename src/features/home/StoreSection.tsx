@@ -31,13 +31,8 @@ const StoreSection: React.FC = () => {
           {options.map((option, index) => (
             <div
               key={index}
-              className="mt-12 flex flex-col items-center justify-between gap-4 md:flex-row even:md:flex-row-reverse lg:gap-24"
+              className="mt-12 flex flex-col items-center justify-between gap-4 md:flex-row odd:md:flex-row-reverse lg:gap-24"
             >
-              <img
-                src={option.img}
-                alt={t(option.heading)}
-                className="sm:w-96 lg:w-auto"
-              />
               <div className="flex flex-col items-start gap-4">
                 <div className="text-3xl text-accent1-40 sm:text-4xl md:text-5xl lg:text-7xl">
                   <span>{option.usp_num}</span>
@@ -48,6 +43,11 @@ const StoreSection: React.FC = () => {
                 </div>
                 <p className="text-sm md:text-base">{t(option.text)}</p>
               </div>
+              <img
+                src={option.img}
+                alt={t(option.heading)}
+                className="sm:w-96 lg:w-[580px]"
+              />
             </div>
           ))}
         </div>

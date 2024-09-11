@@ -16,7 +16,7 @@ const HowOmnichannelWork: React.FC = () => {
 
   return (
     <>
-      <div className="space-y-2 text-balance text-center">
+      <div className="space-y-2 text-balance py-16 text-center">
         <h1 className="text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.whyVesko.heading")}?
         </h1>
