@@ -6,7 +6,7 @@ interface options {
   text: string;
 }
 
-const BenefitsSecond: React.FC = () => {
+const Benefits: React.FC = () => {
   const { t } = useTranslation();
   const options: Array<options> = t("vendors.benefits.options", {
     returnObjects: true,
@@ -46,5 +46,5 @@ const BenefitsSecond: React.FC = () => {
   );
 };
 
-BenefitsSecond.displayName = "BenefitsSecond";
-export { BenefitsSecond };
+Benefits.displayName = "Benefits";
+export { Benefits };

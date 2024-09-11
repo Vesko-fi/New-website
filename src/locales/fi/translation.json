@@ -8,15 +8,15 @@
   },
   "home": {
     "landingPage": {
-      "heading": "Seuraavan Sukupolven Markkinapaikka, Joka ",
-      "headingSpan": "Tarjoaa Käyttövalmiin Monikanavainen",
+      "heading": "Seuraavan sukupolven markkinapaikka, joka tarjoaa ",
+      "headingSpan": "Käyttövalmiin monikanavainen verkkokaupan",
       "text": "Vesko auttaa sinua yhdistämään sinun kivijalkamyymälän ja verkkokaupan, tehden asiakkaiden siirtymisestä digitaalisesta selaamisesta fyysiseen ostamiseen saumattoman. Veskon monikanavaratkaisu sujuvoittaa tilausten käsittelyä, jolloin voit myydä samoja tuotteita sekä verkossa että myymälässä.",
       "buttonText": "Pyydä esittely"
     },
     "sellingPoint": {
       "heading": "Markkinapaikka, ",
-      "heading2": "Mutta Se On Sinun Verkkokauppa",
-      "text": "Vesko Antaa Sinulle Täydellisen Hallinnan Verkkokauppasi Myyntiehtoihin.",
+      "heading2": "mutta se on sinun verkkokauppa",
+      "text": "Vesko antaa sinulle täydellisen hallinnan verkkokauppasi myyntiehtoihin.",
       "options": [
         {
           "usp_num": "01",
