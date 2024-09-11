@@ -1,25 +1,32 @@
 import { useTranslation } from "react-i18next";
 
-import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-import { heroImg } from "@constants/assets";
+import { vendorHeroImg3 } from "@constants/assets";
 
 const HeroSetion: React.FC = () => {
   const { t } = useTranslation();
+
   return (
     <Section>
-      <Container className="py-16">
-        <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
-          {t("vendors.hero.heading1")}
-          <span className="text-accent1">{t("vendors.hero.headingSpan")}</span>
-          {t("vendors.hero.heading2")}
-        </h1>
-        <p className="text-center text-base">{t("vendors.hero.text")}</p>
-        {/**
-         * Test Image
-         */}
-        <img src={heroImg} alt="" className="mx-auto mt-8 h-96 sm:w-auto" />
-      </Container>
+      <div className="relative h-[600px] overflow-hidden md:h-[682px]">
+        <div className="h-full w-full bg-cover bg-center">
+          <img
+            src={vendorHeroImg3}
+            alt={`Slide image`}
+            className="h-full w-full object-cover"
+          />
+        </div>
+
+        {/* Overlay text */}
+        <div className="absolute inset-0 bg-black/50 px-8 py-12 text-white sm:px-8">
+          <h1 className="max-w-4xl text-3xl font-bold sm:text-balance md:text-5xl lg:text-6xl xl:text-7xl">
+            {t("vendors.hero.heading")}
+          </h1>
+          <p className="xl:4xl mt-2 text-xl sm:mt-4 md:text-2xl lg:mt-6 lg:text-3xl">
+            {t("vendors.hero.text")}
+          </p>
+        </div>
+      </div>
     </Section>
   );
 };

@@ -2,6 +2,7 @@ import { Card } from "@components/ui/Card";
 import { useTranslation } from "react-i18next";
 
 interface options {
+  icon: string;
   heading: string;
   text: string;
 }
@@ -15,7 +16,7 @@ const HowOmnichannelWork: React.FC = () => {
 
   return (
     <>
-      <div className="space-y-2 text-balance text-center">
+      <div className="space-y-2 text-balance py-16 text-center">
         <h1 className="text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.whyVesko.heading")}?
         </h1>
@@ -28,7 +29,7 @@ const HowOmnichannelWork: React.FC = () => {
         {options.map((option, index) => (
           <Card
             key={index}
-            icon="box"
+            icon={option.icon}
             title={t(option.heading)}
             description={t(option.text)}
           />

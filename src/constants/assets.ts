@@ -14,9 +14,13 @@ import optimizeLogisticImg from "@assets/optimize-logistics.png";
 import orderManagementImg from "@assets/order-management.png";
 import orderOnlineImg from "@assets/order-online-img.png";
 import posImg from "@assets/pos-img.png";
+import onlineStoreImage from "@assets/profile-vendor-user.png";
 import reinDeer2 from "@assets/reindeer-img-2.png";
 import reinDeer from "@assets/reindeer-img.png";
 import securePaymentImg from "@assets/secure-payment.png";
+import vendorHeroImg1 from "@assets/vendor-hero-img1.jpg";
+import vendorHeroImg2 from "@assets/vendor-hero-img2.jpg";
+import vendorHeroImg3 from "@assets/vendor-hero-img3.jpg";
 import logo from "@assets/vesko-logo.png";
 
 export {
@@ -33,6 +37,7 @@ export {
   newArrivalImg,
   omnichannelChartImg,
   omnichannelImg,
+  onlineStoreImage,
   optimizeLogisticImg,
   orderManagementImg,
   orderOnlineImg,
@@ -40,4 +45,7 @@ export {
   reinDeer,
   reinDeer2,
   securePaymentImg,
+  vendorHeroImg1,
+  vendorHeroImg2,
+  vendorHeroImg3,
 };
