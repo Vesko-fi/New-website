@@ -9,7 +9,7 @@ const StoreSelling = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col items-center justify-between gap-4 md:gap-12 md:flex-row">
+      <Container className="flex flex-col items-center justify-between gap-4 md:flex-row md:gap-12">
         <div>
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("users.localShopping.heading")}{" "}
@@ -18,7 +18,10 @@ const StoreSelling = () => {
             {t("users.localShopping.text")}
           </p>
         </div>
-        <img src={UserShoppingImg} className="sm:w-96 lg:w-[500px] xl:w-[650px]" />
+        <img
+          src={UserShoppingImg}
+          className="sm:w-96 lg:w-[500px] xl:w-[650px]"
+        />
       </Container>
     </Section>
   );
