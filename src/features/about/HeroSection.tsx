@@ -11,12 +11,10 @@ const HeroSection: React.FC = () => {
     <Section>
       <Container className="py-6">
         <div className="flex flex-col gap-4">
-          <h1 className="mb-4 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
-            {t("about.heroHeading")}
-          </h1>
-          <p className="text-sm xl:text-base">{t("about.heroP1")}</p>
-          <p className="text-sm xl:text-base">{t("about.heroP2")}</p>
-          <p className="text-sm xl:text-base">{t("about.heroP3")}</p>
+          <p className="text-sm xl:text-base">{t("about.hero.p1")}</p>
+          <p className="text-sm xl:text-base">{t("about.hero.p2")}</p>
+          <p className="text-sm xl:text-base">{t("about.hero.p3")}</p>
+          <p className="text-sm xl:text-base">{t("about.hero.p4")}</p>
         </div>
         <img src={heroImg} alt="" className="mx-auto mt-8 h-96 sm:w-auto" />
       </Container>
