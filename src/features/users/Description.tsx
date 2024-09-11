@@ -12,12 +12,12 @@ const Description = () => {
       <Container className="flex flex-col items-center justify-between gap-12 md:flex-row-reverse">
         <div>
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
-            {t("users.descriptionHeading1")}{" "}
-            <span className="text-accent1">{t("users.descriptionSpan1")} </span>
-            {t("users.descriptionHeading2")}{" "}
-            <span className="text-accent1">{t("users.descriptionSpan2")}</span>
+            {t("users.onlineShopping.heading1")}{" "}
+            <span className="text-accent1">{t("users.onlineShopping.span1")} </span>
+            {t("users.onlineShopping.heading2")}{" "}
+            <span className="text-accent1">{t("users.onlineShopping.span2")}</span>
           </h1>
-          <p className="text-sm xl:text-base">{t("users.descriptionText")}</p>
+          <p className="text-sm xl:text-base">{t("users.onlineShopping.text")}</p>
         </div>
         <img src={IconImg} className="sm:w-96 lg:w-[500px] xl:w-auto" />
       </Container>

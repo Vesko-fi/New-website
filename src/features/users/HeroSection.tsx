@@ -12,8 +12,9 @@ const HeroSection: React.FC = () => {
       <Container className="py-16">
         <div>
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
-            {t("users.heroHeading")}
+            {t("users.hero.heading")}
           </h1>
+          <p className="text-center text-base">{t("users.hero.text")}</p>
         </div>
         <img src={heroImg} alt="" className="mx-auto mt-8 h-96 sm:w-auto" />
       </Container>

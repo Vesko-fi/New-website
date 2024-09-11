@@ -15,10 +15,10 @@ const Mission = () => {
       <Container className="flex flex-col items-center justify-between gap-12">
         <div className="md: flex flex-col gap-2 px-6 text-center md:px-16 lg:gap-8 lg:px-40">
           <h1 className="mb-2 text-2xl font-bold md:mb-4 lg:text-3xl xl:text-4xl">
-            {t("users.missionHeading")}
+            {t("users.mission.heading")}
           </h1>
-          <p>{t("users.missionP1")}</p>
-          <p>{t("users.missionP2")}</p>
+          <p>{t("users.mission.p1")}</p>
+          <p>{t("users.mission.p2")}</p>
         </div>
       </Container>
     </Section>

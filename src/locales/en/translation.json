@@ -201,28 +201,38 @@
     }
   },
   "users": {
-    "heroHeading": "Enhancing Your Shopping Experience with Local and Nationwide Retailers",
-    "heroText": "",
-    "sellingHeading1": "See what your",
-    "sellingHeadingSpan": "local retail stores",
-    "sellingHeading2": "are selling",
-    "sellingText": "Soon you will be able to shop from your local retail stores with ease, see a real-time stock level to ensure you don’t waste your time on uncertain shopping trips.",
-    "optionMainHeading": "Explore How Vesko’s Buying Options Enhance Your Shopping Journey",
-    "option1Heading": "Product Availability",
-    "option1Text": "Why travel long distances to find a product? Through Vesko you can check who sells it and if it's available in-store or not.",
-    "option2Heading": "BOPIS (Buy Online, Pick Up In-Store)",
-    "option2Text": "Vesko helps you to find products from local retails, Buy them Online in Vesko and Pick them In Store.",
-    "option3Heading": "Product Booking",
-    "option3Text": "Want to buy the last item but unsure if it meets your needs? Vesko lets you easily book it online.",
-    "option4Heading": "Home Delivery",
-    "option4Text": "Prefer to stay home? We’ll deliver from your local store straight to your door.",
-    "descriptionHeading1": "It's Not Just About Local Retail,",
-    "descriptionSpan1": "Vesko",
-    "descriptionHeading2": "Connects You with",
-    "descriptionSpan2": "Vendors Across Finland",
-    "descriptionText": "Shop online from a wide range of brands and retail stores across Finland. Vesko also lets you connect with vendors in unique ways, enhancing your customer service and shopping experience.",
-    "missionHeading": "Our Mission is to connect You",
-    "missionP1": "Finland is home to many small stores and brands that offer unique & authentic products and items often crafted locally and sustainably. These products are distinct and often unavailable in large chain stores or through major foreign online vendors. Most of these firms are not able to list their product in online stores or do not have the opportunity to have an online presence.",
-    "missionP2": "At Vesko, we are committed to bridge this gap by giving the Finnish brands and stores an online presence, allowing you to discover and support these local firms and entrepreneurs, no matter where you are."
+    "hero": {
+      "heading": "Shop & Connect",
+      "text": "Discover authentic products, engage with sellers, and enjoy a seamless shopping experience"
+    },
+    "localShopping": {
+      "heading1": "See what your",
+      "headingSpan": "local retail stores",
+      "heading2": "are selling",
+      "text": "Soon you will be able to shop from your local retail stores with ease, see a real-time stock level to ensure you don’t waste your time on uncertain shopping trips."
+    },
+    "options": {
+      "heading": "Explore How Vesko’s Buying Options Enhance Your Shopping Journey",
+      "option1Heading": "Product Availability",
+      "option1Text": "Why travel long distances to find a product? Through Vesko you can check who sells it and if it's available in-store or not.",
+      "option2Heading": "BOPIS (Buy Online, Pick Up In-Store)",
+      "option2Text": "Vesko helps you to find products from local retails, Buy them Online in Vesko and Pick them In Store.",
+      "option3Heading": "Product Booking",
+      "option3Text": "Want to buy the last item but unsure if it meets your needs? Vesko lets you easily book it online.",
+      "option4Heading": "Home Delivery",
+      "option4Text": "Prefer to stay home? We’ll deliver from your local store straight to your door."
+    },
+    "onlineShopping": {
+      "heading1": "It's Not Just About Local Retail,",
+      "span1": "Vesko",
+      "heading2": "Connects You with",
+      "span2": "Vendors Across Finland",
+      "text": "Shop online from a wide range of brands and retail stores across Finland. Vesko also lets you connect with vendors in unique ways, enhancing your customer service and shopping experience."
+    },
+    "mission": {
+      "heading": "Our Mission is to connect You",
+      "p1": "Finland is home to many small stores and brands that offer unique & authentic products and items often crafted locally and sustainably. These products are distinct and often unavailable in large chain stores or through major foreign online vendors. Most of these firms are not able to list their product in online stores or do not have the opportunity to have an online presence.",
+      "p2": "At Vesko, we are committed to bridge this gap by giving the Finnish brands and stores an online presence, allowing you to discover and support these local firms and entrepreneurs, no matter where you are."
+    }
   }
 }
