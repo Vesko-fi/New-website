@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
           </div>
           <div className="flex flex-1 lg:max-w-[60%]">
             <div className="flex-1">
-              <h4 className="mb-2 px-3 text-lg font-semibold">
+              <h4 className="mb-2 text-lg font-semibold">
                 {t("footer.company.heading")}
               </h4>
               <ul>

@@ -18,7 +18,7 @@ const HeroSetion: React.FC = () => {
         </div>
 
         {/* Overlay text */}
-        <div className="absolute inset-0 bg-black/50 px-8 py-10 text-white sm:px-28">
+        <div className="absolute inset-0 bg-black/50 px-8 py-12 text-white sm:px-8">
           <h1 className="max-w-4xl text-3xl font-bold sm:text-balance md:text-5xl lg:text-6xl xl:text-7xl">
             {t("vendors.hero.heading")}
           </h1>
