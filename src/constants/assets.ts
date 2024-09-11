@@ -13,6 +13,7 @@ import omnichannelChartImg from "@assets/omnichannel-chart.png";
 import posImg from "@assets/pos-img.png";
 import ReinDeer from "@assets/reindeer-img.png";
 import IconImg from "@assets/Icon-img.png";
+import AboutImg from "@assets/about-section-img.jpg"
 
 export {
   expandReachImg,
@@ -30,4 +31,5 @@ export {
   posImg,
   ReinDeer,
   IconImg,
+  AboutImg,
 };
