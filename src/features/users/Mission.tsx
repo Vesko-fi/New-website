@@ -8,8 +8,8 @@ const Mission = () => {
 
   return (
     <>
-      <Section className="relative mt-52 min-h-screen !p-0 md:mt-0">
-        <div className="absolute inset-x-0 -top-40 bg-gradient-to-b from-[#FAFAFA] via-[#FAFAFA] px-6 pb-10 pt-20 text-center md:top-0 md:pt-32">
+      <Section className="relative mt-52 min-h-screen !p-0 lg:mt-32">
+        <div className="absolute inset-x-0 -top-40 bg-gradient-to-b from-[#FAFAFA] via-[#FAFAFA] px-6 pb-10 pt-20 text-center lg:-top-20 lg:pt-32">
           <div className="relative z-10 mx-auto max-w-4xl">
             <h1 className="mb-6 text-2xl font-bold md:mb-8 lg:text-3xl xl:text-4xl">
               {t("users.missionHeading")}
@@ -24,7 +24,7 @@ const Mission = () => {
         </div>
         <img
           src={reinDeer}
-          className="h-[800px] w-full object-cover lg:h-full"
+          className="h-[800px] w-full object-cover md:h-[950px] lg:h-full"
         />
         <img
           src={reinDeer2}
