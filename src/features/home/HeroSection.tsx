@@ -19,7 +19,7 @@ const HeroSection: React.FC = () => {
             </span>
           </h1>
           <p className="text-sm xl:text-base">{t("home.landingPage.text")}</p>
-          <Link variant="primary" size="lg" href="/" className="mt-8">
+          <Link variant="primary" size="lg" href="/demo" className="mt-8">
             {t("home.landingPage.buttonText")}
           </Link>
         </div>

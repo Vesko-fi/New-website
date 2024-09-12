@@ -24,7 +24,7 @@ const OrderManagment: React.FC = () => {
             </span>
             {t("home.orderManagement.heading2")}
           </h2>
-          <Link variant="primary" size="lg" href="/" className="mt-8">
+          <Link variant="primary" size="lg" href="/demo" className="mt-8">
             {t("home.orderManagement.buttonText")}
           </Link>
         </div>
