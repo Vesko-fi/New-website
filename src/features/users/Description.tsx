@@ -2,7 +2,7 @@ import { useTranslation } from "react-i18next";
 
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-import { UserOnlineShoppingImg } from "@constants/assets";
+import { UserOnlineImg } from "@constants/assets";
 
 const Description = () => {
   const { t } = useTranslation();
@@ -22,8 +22,8 @@ const Description = () => {
           </p>
         </div>
         <img
-          src={UserOnlineShoppingImg}
-          className="sm:w-96 lg:w-[500px] xl:w-[650px]"
+          src={UserOnlineImg}
+          className="sm:w-96 lg:w-[500px] xl:w-[650px] rounded-xl"
         />
       </Container>
     </Section>

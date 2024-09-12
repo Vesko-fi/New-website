@@ -13,7 +13,7 @@ const HeroSection: React.FC = () => {
       style={{ backgroundImage: `url(${UserHeroImg})` }}
     >
       <Container className="flex flex-col justify-start gap-8 text-white">
-        <h1 className="mb-1 text-center text-6xl font-bold shadow-lg sm:text-balance md:text-left md:text-8xl">
+        <h1 className="mb-1 text-center text-6xl font-bold sm:text-balance md:text-left md:text-8xl">
           {t("users.hero.heading")}
         </h1>
         <p className="text-center text-3xl font-bold shadow-lg md:text-left md:text-4xl">

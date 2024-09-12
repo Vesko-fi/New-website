@@ -16,6 +16,7 @@ import IconImg from "@assets/Icon-img.png";
 import UserShoppingImg from "@assets/user-shopping-img.jpeg";
 import UserOnlineShoppingImg from "@assets/user-online-shopping-img.png";
 import UserHeroImg from "@assets/user-hero-img.jpg";
+import UserOnlineImg from "@assets/shopping-online-img.jpg";
 
 export {
   expandReachImg,
@@ -36,4 +37,5 @@ export {
   UserShoppingImg,
   UserOnlineShoppingImg,
   UserHeroImg,
+  UserOnlineImg,
 };

@@ -20,7 +20,7 @@ const StoreSelling = () => {
         </div>
         <img
           src={UserShoppingImg}
-          className="sm:w-96 lg:w-[500px] xl:w-[650px]"
+          className="sm:w-96 lg:w-[500px] xl:w-[650px] rounded-xl"
         />
       </Container>
     </Section>
