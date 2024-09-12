@@ -44,10 +44,10 @@ const WaitingListForm: React.FC = () => {
     };
     emailjs
       .send(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID as string,
+        import.meta.env.VITE_EMAILJS_SERVICE_ID_WAITLIST as string,
         import.meta.env.VITE_EMAILJS_TEMPLATE_ID_WAITLIST as string,
         params,
-        import.meta.env.VITE_EMAILJS_USER_ID as string
+        import.meta.env.VITE_EMAILJS_USER_ID_WAITLIST as string
       )
       .then(
         (result) => {
