@@ -1,5 +1,5 @@
-import { Button } from "@components/ui/Button";
 import { Container } from "@components/ui/Container";
+import { Link } from "@components/ui/Link";
 import { Section } from "@components/ui/Section";
 import { useTranslation } from "react-i18next";
 
@@ -24,8 +24,17 @@ const MissionBrandSection: React.FC = () => {
             </span>
           </p>
           <div className="flex items-center justify-center gap-4">
-            <Button>{t("home.brand.buttonDemo")}</Button>
-            <Button variant="outline">{t("home.brand.buttonWaitlist")}</Button>
+            <Link variant="primary" size="md" href="/demo" className="mt-8">
+              {t("home.orderManagement.buttonText")}
+            </Link>
+            <Link
+              variant="outline"
+              size="md"
+              href="/waiting-list"
+              className="mt-8"
+            >
+              {t("waitlist.formHeader")}
+            </Link>
           </div>
         </div>
       </Container>
