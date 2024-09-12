@@ -1,11 +1,11 @@
-import { HTMLProps } from "react";
+import { HTMLProps, ReactNode } from "react";
 
 import { cn } from "@utils/cn";
 import { Icon } from "./Icon";
 
 interface CardProps extends HTMLProps<HTMLDivElement> {
   className?: string;
-  icon?: string;
+  icon?: string | ReactNode;
   title?: string;
   description?: string;
 }
@@ -15,7 +15,7 @@ const Card: React.FC<CardProps> = ({ className, icon, title, description }) => {
     <div className={cn("rounded-md bg-white p-6", className)}>
       {icon && (
         <div className="mb-6 flex size-14 items-center justify-center rounded-md bg-accent1-20">
-          <Icon icon={icon} />
+          {typeof icon === "string" ? <Icon icon={icon} /> : icon}
         </div>
       )}
       {title && (

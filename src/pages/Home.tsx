@@ -3,8 +3,8 @@ import React from "react";
 import { SEO } from "@components/SEO";
 import { HeroSection } from "@features/home/HeroSection";
 import { MissionBrandSection } from "@features/home/MissionBrandSection";
-import { Options } from "@features/home/Options";
 import { StoreSection } from "@features/home/StoreSection";
+import { OrderManagment } from "@features/home/OrderManagment";
 
 const Home: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const Home: React.FC = () => {
       />
       <HeroSection />
       <StoreSection />
-      <Options />
+      <OrderManagment />
       <MissionBrandSection />
     </>
   );

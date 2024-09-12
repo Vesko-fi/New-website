@@ -7,8 +7,11 @@ import { Container } from "./ui/Container";
 import { Icon } from "./ui/Icon";
 import { Link } from "./ui/Link";
 import { Logo } from "./ui/Logo";
+import { useTranslation } from "react-i18next";
 
 const Header: React.FC = () => {
+  const { t } = useTranslation();
+
   const [isOpen, setIsOpen] = useState(false);
 
   const handleToggleMenu = () => setIsOpen((prev) => !prev);
@@ -25,7 +28,7 @@ const Header: React.FC = () => {
         <div className="hidden items-center gap-4 md:flex">
           <ToggleLocale />
           <Link variant="primary" size="md" href="/demo">
-            Get a Demo
+            {t("home.landingPage.buttonText")} {/**Later it can be updated */}
           </Link>
         </div>
         <Button
@@ -46,7 +49,7 @@ const Header: React.FC = () => {
           </nav>
           <ToggleLocale />
           <Link variant="primary" size="md" href="/">
-            Get a Demo
+            {t("home.landingPage.buttonText")} {/**Later it can be updated */}
           </Link>
         </div>
       </Container>

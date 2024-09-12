@@ -1,16 +1,33 @@
-import Brand from "@components/home/Brand";
+import { Button } from "@components/ui/Button";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
+import { useTranslation } from "react-i18next";
 
 const MissionBrandSection: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <Section className="bg-gradient-to-t from-[#dafef0]">
       <Container className="max-w-4xl py-16">
         <p className="text-balance text-center text-xl font-medium md:text-2xl">
-          Our Mission is to connect you! At Vesko we are committed to bring
-          authentic Finnish brands and stores closer to the Finnish Consumer.
+          {t("home.mission")}
         </p>
-        <Brand />
+        <div className="mt-12 text-center">
+          <h2 className="text-4xl font-semibold md:text-5xl xl:text-7xl">
+            {t("home.brand.heading")}
+          </h2>
+          <p className="mx-auto mb-10 mt-4 max-w-96 text-base md:max-w-4xl md:text-xl">
+            {t("home.brand.text")}
+            <br />
+            <span className="mt-2 block font-medium">
+              {t("home.brand.textSpan")}
+            </span>
+          </p>
+          <div className="flex items-center justify-center gap-4">
+            <Button>{t("home.brand.buttonDemo")}</Button>
+            <Button variant="outline">{t("home.brand.buttonWaitlist")}</Button>
+          </div>
+        </div>
       </Container>
     </Section>
   );
