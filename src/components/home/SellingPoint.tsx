@@ -1,5 +1,5 @@
 interface SellingPoint {
-  usp_num: number;
+  usp_num: string;
   heading: string;
   text: string;
   img: string;

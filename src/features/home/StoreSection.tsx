@@ -1,9 +1,14 @@
+import { useTranslation } from "react-i18next";
 import { SellingPoint } from "@components/home/SellingPoint";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-import { orderOnlineImg, orderOnlineImgFi } from "@constants/assets";
-
-import { useTranslation } from "react-i18next";
+import {
+  expandReachImg,
+  onlineStoreImage,
+  orderOnlineImg,
+  orderOnlineImgFi,
+  UserOnlineShoppingImg,
+} from "@constants/assets";
 
 interface options {
   usp_num: string;
@@ -29,10 +34,28 @@ const StoreSection: React.FC<options> = () => {
         </p>
         <div className="mt-6">
           <SellingPoint
-            usp_num={1}
-            heading="test heading"
-            text="text"
+            usp_num={"01"}
+            heading={t("home.sellingPoint.option1Heading")}
+            text={t("home.sellingPoint.option1Text")}
+            img={UserOnlineShoppingImg}
+          />
+          <SellingPoint
+            usp_num={"02"}
+            heading={t("home.sellingPoint.option2Heading")}
+            text={t("home.sellingPoint.option2Text")}
+            img={expandReachImg}
+          />
+          <SellingPoint
+            usp_num={"03"}
+            heading={t("home.sellingPoint.option3Heading")}
+            text={t("home.sellingPoint.option3Text")}
             img={veskoChart}
+          />
+          <SellingPoint
+            usp_num={"04"}
+            heading={t("home.sellingPoint.option4Heading")}
+            text={t("home.sellingPoint.option4Text")}
+            img={onlineStoreImage}
           />
         </div>
       </Container>
