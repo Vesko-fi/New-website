@@ -11,9 +11,9 @@ import {
 } from "@constants/assets";
 
 interface options {
-  usp_num: string;
-  heading: string;
-  text: string;
+  usp_num?: string;
+  heading?: string;
+  text?: string;
   img?: string;
 }
 

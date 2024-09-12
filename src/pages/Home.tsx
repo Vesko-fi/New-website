@@ -6,14 +6,7 @@ import { MissionBrandSection } from "@features/home/MissionBrandSection";
 import { StoreSection } from "@features/home/StoreSection";
 import { OrderManagment } from "@features/home/OrderManagment";
 
-interface options {
-  usp_num?: string;
-  heading?: string;
-  text?: string;
-  img?: string;
-}
-
-const Home: React.FC<options> = () => {
+const Home: React.FC = () => {
   return (
     <>
       <SEO
@@ -22,7 +15,7 @@ const Home: React.FC<options> = () => {
         keywords="vesko, services"
       />
       <HeroSection />
-      <StoreSection usp_num="" heading="" text="" img="" />
+      <StoreSection />
       <OrderManagment />
       <MissionBrandSection />
     </>
