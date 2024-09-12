@@ -16,7 +16,7 @@ const HeroSection: React.FC = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col items-center justify-between gap-12 py-24 md:flex-row">
+      <Container className="flex flex-col items-center justify-between gap-12 pb-24 md:flex-row">
         <div className="w-full flex-1">
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("home.landingPage.heading")}
@@ -30,7 +30,7 @@ const HeroSection: React.FC = () => {
             onClick={handleClick}
             variant="primary"
             size="lg"
-            className="mt-8"
+            className="mb-16 mt-8"
           >
             {t("home.landingPage.buttonText")}
           </Link>
