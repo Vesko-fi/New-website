@@ -3,16 +3,17 @@ import expandReachImg from "@assets/expand-reach-img.png";
 import heroImgBg from "@assets/hero-img-bg.png";
 import heroImgCheckout from "@assets/hero-img-checkout.png";
 import heroImgProduct from "@assets/hero-img-product.png";
-import heroImg from "@assets/hero-img.png";
 import landingHeroImg from "@assets/home-hero-img.png";
 import vendorHeroImg from "@assets/vendor-hero-img.jpg";
 import inventoryImg from "@assets/inventory-img.png";
 import newArrivalImg from "@assets/new-arrival-img.png";
 import omnichannelChartImg from "@assets/omnichannel-chart.png";
+import omnichannelChartImgFi from "@assets/omnichannel-chart-fi.png";
 import omnichannelImg from "@assets/omnichannel-img.jpg";
 import optimizeLogisticImg from "@assets/optimize-logistics.png";
 import orderManagementImg from "@assets/order-management.png";
 import orderOnlineImg from "@assets/order-online-img.png";
+import orderOnlineImgFi from "@assets/vesko-chart-fi.png";
 import posImg from "@assets/pos-img.png";
 import onlineStoreImage from "@assets/profile-vendor-user.png";
 import reinDeer2 from "@assets/reindeer-img-2.png";
@@ -30,7 +31,6 @@ import UserOnlineImg from "@assets/shopping-online-img.jpg";
 export {
   AboutImg,
   expandReachImg,
-  heroImg,
   heroImgBg,
   heroImgCheckout,
   heroImgProduct,
@@ -40,11 +40,13 @@ export {
   logo,
   newArrivalImg,
   omnichannelChartImg,
+  omnichannelChartImgFi,
   omnichannelImg,
   onlineStoreImage,
   optimizeLogisticImg,
   orderManagementImg,
   orderOnlineImg,
+  orderOnlineImgFi,
   posImg,
   reinDeer,
   reinDeer2,

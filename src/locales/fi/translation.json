@@ -13,11 +13,11 @@
     },
     "forVendors": {
       "href": "for-vendors",
-      "label": "Kaupialle"
+      "label": "Kauppiaalle"
     },
     "forUsers": {
       "href": "for-users",
-      "label": "Käyttille"
+      "label": "Käyttäjälle"
     },
     "aboutUs": {
       "href": "about-us",
@@ -164,8 +164,7 @@
     "uniqueOmnichannel": {
       "heading": "Veskon monikanavajärjestelmä ",
       "headingSpan": "yhdistää sinun verkkokauppasi ja kivijalkakaupan",
-      "text": "Vesko mahdollistaa saman tuotteen listauksen sekä verkossa että myymälässä – maailman ensimmäinen alusta, jolla on tämä ominaisuus. Tämä tarkoittaa, että voit täyttää verkkotilaukset suoraan myymälän hyllyiltä.",
-      "img": "src/assets/fi/omnichannel-chart.png"
+      "text": "Vesko mahdollistaa saman tuotteen listauksen sekä verkossa että myymälässä – maailman ensimmäinen alusta, jolla on tämä ominaisuus. Tämä tarkoittaa, että voit täyttää verkkotilaukset suoraan myymälän hyllyiltä."
     },
     "onlineStoreOverview": {
       "heading": "Skaalautuva verkkokauppa, jossa on ainutlaatuiset viestintä ominaisuudet, ",

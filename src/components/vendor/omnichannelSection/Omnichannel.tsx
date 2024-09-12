@@ -15,8 +15,10 @@ const Omnichannel: React.FC = () => {
     {
       returnObjects: true,
     }
+    
   );
 
+  
   return (
     <>
       <div className="text-balance py-10 text-center">
