@@ -22,9 +22,6 @@ const Faqs: React.FC = () => {
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("vendors.faq.heading")}
           </h1>
-          <p className="text-balance text-center text-base">
-            {t("vendors.faq.text")}
-          </p>
         </div>
 
         {options.map((option, index) => {

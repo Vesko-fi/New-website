@@ -6,7 +6,34 @@
     "body": "You might have the wrong address, or the page may have moved.",
     "button": "Back to Home"
   },
-
+  "navbar": {
+    "home": {
+      "href": "",
+      "label": "Home"
+    },
+    "forVendors": {
+      "href": "for-vendors",
+      "label": "For Vendors"
+    },
+    "forUsers": {
+      "href": "for-users",
+      "label": "For Users"
+    },
+    "contactUs": {
+      "href": "contact-us",
+      "label": "Contact Us"
+    }
+  },
+  "footer": {
+    "text": "The expected release date of the beta version is during the second quarter of 2025.",
+    "company": {
+      "heading": "Company",
+      "name": "Vesko Ltd.",
+      "address": "Joensuu, Finland",
+      "businessId": "Business: ID 3472131-6",
+      "contact": "Contact Us"
+    }
+  },
   "home": {
     "landingPage": {
       "heading": "A Next Generation Marketplace Platform with ",
@@ -23,7 +50,7 @@
           "usp_num": "01",
           "heading": "Maximise your Physical Store Sales",
           "text": "The built-in omnichannel system brings your store and its product line closer to your customer by giving them access to your inventory.",
-          "img": "src/assets/new-arrival-img.png"
+          "img": "src/assets/product-details.png"
         },
         {
           "usp_num": "02",
@@ -45,27 +72,30 @@
         }
       ]
     },
+
+    "orderManagement": {
+      "heading": "Integrated  ",
+      "headingSpan": "Safe Payment and Reliable Logistic ",
+      "heading2": "System With A Built in Order Management System",
+      "buttonText": "Get a Demo",
+      "paymentHeading": "Secured payment powered by industry leaders",
+      "logisticHeading": "Order management system integrated with logistics proividers",
+      "orderHeading": "Optimised logistics for local and intercity shipment"
+    },
+
     "mission": "Our Mission is to connect you! At Vesko we are committed to bring authentic Finnish brands and stores closer to the Finnish Consumer.",
     "brand": {
-      "heading": "Build your Brand",
+      "heading": "Build your brand",
       "text": "See how omnichannel powered marketplace will help you build your brand.",
       "textSpan": "Be the first to access early version of Vesko.",
       "buttonDemo": "Get a Demo",
       "buttonWaitlist": "Join the Waitlist"
     }
   },
-  "options": {
-    "heading": "Integrated Payment and Logistic System With A Built in Order Management System",
-    "link": "Get a Demo",
-    "paymentHeading": "Secure Payments",
-    "paymentText": "Secured payment powered by industry leaders.",
-    "orderHeading": "Order Management",
-    "orderText": "Order management system integrated with logistics proividers.",
-    "logisticHeading": "Optimized Logistics",
-    "logisticText": "Optimised logistics for local and intercity shipment."
-  },
+
   "vendors": {
     "hero": {
+      "heading": "An Omnichannel-Powered Online Store",
       "heading1": "An ",
       "headingSpan": "Omnichannel-Powered ",
       "heading2": "Online Store ",
@@ -110,35 +140,39 @@
       "heading": "How Vesko's Omnichannel Store Works",
       "options": [
         {
+          "icon": "box",
           "heading": "New Stock",
           "text": "You receive new items and you add it to your Vesko's online store (your customer will be informed about new products)."
         },
         {
+          "icon": "check-square",
           "heading": "Product Availability",
           "text": "Your customers will be able to see your store's inventory to check product's availability before buying it online or in store."
         },
         {
+          "icon": "trending-up",
           "heading": "Purchasing",
           "text": "Customer will be able book product, buy online & pickup in store, or have it deliver to their doors."
         },
         {
+          "icon": "bar-chart",
           "heading": "Continuous Updating",
           "text": "After an item is being purchased, Vesko's store will update the item inventory balance."
         }
       ]
     },
     "uniqueOmnichannel": {
-      "heading": "Vesko's Omnichannel Unifies Your Retail Presence",
-      "text": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves."
+      "heading": "Vesko's Omnichannel ",
+      "headingSpan": "Unifies Your Retail Presence",
+      "text": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves.",
+      "img": "src/assets/omnichannel-chart.png"
     },
     "onlineStoreOverview": {
-      "heading1": "A scalable online store with ",
-      "headingSpan": "unique messaging capabilities ",
-      "heading2": "designed to help you grow your brand."
+      "heading": "A  scalable online store with unique messaging capabilities ",
+      "headingSpan": "designed to help you grow your brand."
     },
     "benefits": {
-      "heading": "A marketplace, but it's your own online store ",
-      "heading1": "A marketplace, but it's your own ",
+      "heading": "A marketplace, but it's your own ",
       "headingSpan": "online store ",
       "text": "With a built in inventory management system and own search engine,Vesko's store can meet your needs whether you're growing your brand or you have already a big store with hundreds of different products.",
       "options": [
@@ -229,6 +263,29 @@
       "heading": "Our Mission is to connect You",
       "p1": "Finland is home to many small stores and brands that offer unique & authentic products and items often crafted locally and sustainably. These products are distinct and often unavailable in large chain stores or through major foreign online vendors. Most of these firms are not able to list their product in online stores or do not have the opportunity to have an online presence.",
       "p2": "At Vesko, we are committed to bridge this gap by giving the Finnish brands and stores an online presence, allowing you to discover and support these local firms and entrepreneurs, no matter where you are."
+  },
+  "about": {
+    "p1": {
+      "heading": "Who Are We",
+      "span": "Vesko Ltd.",
+      "text": "is a Finland-based company proudly operating from Joensuu, with a dynamic and diverse team of talented individuals. Our team includes both highly experienced engineers and fresh graduates, all united by a common goal: to help Finnish entrepreneurs grow their businesses."
+    },
+    "p2": {
+      "heading": "What We Believe In",
+      "text": "At Vesko, we are transforming how small businesses thrive in a digital world. We believe that every brick-and-mortar  store should have the opportunity to expand its reach without sacrificing its personal touch, nor small online vendors. That’s why we’re building a next-generation marketplace that enables local retailers to create fully integrated omnichannel online stores in few minutes, without the high costs typically associated with such platforms."
+    },
+    "p3": {
+      "heading": "We Are Here & We Will Make A Change",
+      "text": "We understand the complexities of managing both online and offline sales, and we’re here to simplify the process. With Vesko, merchants can seamlessly connect their physical stores to an online platform, making it easier to serve local customers while expanding their reach nationally and, eventually, globally."
+    },
+    "p4": {
+      "heading": "We Understand The Pain",
+      "text": "As international giants and online marketplaces continue to dominate the Finnish market, local businesses are finding it increasingly difficult to compete with their scale and pricing. This challenge extends beyond retailers, impacting local manufacturers of Finnish-made goods and threatening the livelihoods of families who depend on these businesses."
+    },
+    "p5": {
+      "heading": "We Will Do It!",
+      "text": "Our mission is to help these businesses grow by equipping them with the tools they need to compete with larger, foreign retailers, all while reducing overhead costs and time. We are passionate about creating a smarter and more connected shopping experience for everyone."
+    }
     }
   }
 }

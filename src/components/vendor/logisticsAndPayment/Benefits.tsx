@@ -6,7 +6,7 @@ interface options {
   text: string;
 }
 
-const BenefitsSecond: React.FC = () => {
+const Benefits: React.FC = () => {
   const { t } = useTranslation();
   const options: Array<options> = t("vendors.benefits.options", {
     returnObjects: true,
@@ -16,9 +16,9 @@ const BenefitsSecond: React.FC = () => {
     <>
       <div className="text-balance py-20 text-center">
         <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
-          {t("vendors.benefits.heading1")}
+          {t("vendors.benefits.heading")}
           <span className="text-accent1">
-            {t("vendors.benefits.heading1Span")}
+            {t("vendors.benefits.headingSpan")}
           </span>
         </h1>
         <p className="text-balance text-sm lg:text-base">
@@ -46,5 +46,5 @@ const BenefitsSecond: React.FC = () => {
   );
 };
 
-BenefitsSecond.displayName = "BenefitsSecond";
-export { BenefitsSecond };
+Benefits.displayName = "Benefits";
+export { Benefits };

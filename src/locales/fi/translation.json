@@ -6,23 +6,51 @@
     "body": "Saitat saattavat olla väärät, tai sivu saattaa olla siirretty.",
     "button": "Takaisin etusivulle"
   },
+  "navbar": {
+    "home": {
+      "href": "",
+      "label": "Etusivu"
+    },
+    "forVendors": {
+      "href": "for-vendors",
+      "label": "Kaupialle"
+    },
+    "forUsers": {
+      "href": "for-users",
+      "label": "Käyttille"
+    },
+    "contactUs": {
+      "href": "contact-us,",
+      "label": "Ota Yhteyttä,"
+    }
+  },
+  "footer": {
+    "text": "Veskon ensimmäisen version arvioitu julkaisupäivä on vuoden 2025 toisella neljänneksellä.",
+    "company": {
+      "heading": "Yhtiö",
+      "name": "Vesko Oy",
+      "address": "Joensuu, Suomi",
+      "businessId": "Y-tunnus: 3472131-6",
+      "contact": "Ota Yhteyttä"
+    }
+  },
   "home": {
     "landingPage": {
-      "heading": "Seuraavan Sukupolven Markkinapaikka, Joka ",
-      "headingSpan": "Tarjoaa Käyttövalmiin Monikanavainen",
+      "heading": "Seuraavan sukupolven markkinapaikka, joka tarjoaa ",
+      "headingSpan": "Käyttövalmiin monikanavainen verkkokaupan",
       "text": "Vesko auttaa sinua yhdistämään sinun kivijalkamyymälän ja verkkokaupan, tehden asiakkaiden siirtymisestä digitaalisesta selaamisesta fyysiseen ostamiseen saumattoman. Veskon monikanavaratkaisu sujuvoittaa tilausten käsittelyä, jolloin voit myydä samoja tuotteita sekä verkossa että myymälässä.",
       "buttonText": "Pyydä esittely"
     },
     "sellingPoint": {
       "heading": "Markkinapaikka, ",
-      "heading2": "Mutta Se On Sinun Verkkokauppa",
-      "text": "Vesko Antaa Sinulle Täydellisen Hallinnan Verkkokauppasi Myyntiehtoihin.",
+      "heading2": "mutta se on sinun verkkokauppa",
+      "text": "Vesko antaa sinulle täydellisen hallinnan verkkokauppasi myyntiehtoihin.",
       "options": [
         {
           "usp_num": "01",
           "heading": "Maksimoi ja Kasvata Sun Kivijalkakaupan Myyntiä",
           "text": "Sisäänrakennettu monikanavainen järjestelmä tuo kauppasi lähemmäksi asiakkaita, sillä he voivat nähdä suonin kaupan tuotevalikoima ja tarkistaa tuotteiden saatavuuden reaaliajassa. Veskon verkkokauppa auttaa houkuttelemaan lisää paikallisia asiakkaita sinun kivijalkakauppaan.",
-          "img": "src/assets/new-arrival-img.png"
+          "img": "src/assets/product-details.png"
         },
         {
           "usp_num": "02",
@@ -34,7 +62,7 @@
           "usp_num": "03",
           "heading": "Täytä Verkkotilaukset Suoraan Myymälähyllyltä",
           "text": "Vesko on maailman ensimmäinen verkkokauppa-alusta, joka yhdistää kivijalka- ja verkkokaupan varasto ilman tarvetta lisä varastolle verkko myynnille. Tämä ainutlaatuinen ominaisuus mahdollistaa verkkokaupan perustamisen kivijalkakauppasi rinnalle ilman verkkovarastoa, maksimoi myynnin ja minimoi kustannukset.",
-          "img": "src/assets/order-online-img.png"
+          "img": "src/assets/fi/vesko-chart.png"
         },
         {
           "usp_num": "04",
@@ -44,29 +72,28 @@
         }
       ]
     },
+    "orderManagement": {
+      "heading": " Integroitu  ",
+      "headingSpan": "turvallinen maksu ja luotettava logistiikkajärjestelmä ",
+      "heading2": "sisäänrakennetulla tilaustenhallinta järjestelmällä",
+      "buttonText": "Pyydä esittely",
+      "paymentHeading": "Turvalliset maksut alan johtavien toimijoiden takaamana",
+      "logisticHeading": "Optimoitu logistiikka paikallisiin ja kaupunkien välisiin toimituksiin",
+      "orderHeading": "Tilaustenhallintajärjestelmä integroituna logistiikka-toimittajien kanssa"
+    },
     "mission": "Missiomme on yhdistää teidät! Olemme Veskolla sitoutuneet tuomaan aitoja suomalaisia ​​brändejä ja myymälää lähemmäs suomalaista kuluttajaa.",
     "brand": {
       "heading": "Rakenna brändiäsi Veskon kanssa",
       "text": "katso, kuinka monikanavainen markkinapaikka auttaa sinua rakentamaan brändiäsi.",
-      "textSpan": "Be the first to access early version of Vesko.",
-      "buttonDemo": "Pyydä esittely",
-      "buttonWaitlist": "Join the Waitlist"
+      "textSpan": "",
+      "buttonDemo": "Pyydä Esittely",
+      "buttonWaitlist": "Liity Jonotuslistalle"
     }
   },
 
-  "options": {
-    "heading": "Integroitu maksujärjestelmä ja logistiikkajärjestelmä, jossa on sisäänrakennettu tilaustenhallintajärjestelmä",
-    "link": "Pyydä demoa",
-    "paymentHeading": "Turvalliset maksut",
-    "paymentText": "Turvalliset maksut alan johtajien tukemana.",
-    "orderHeading": "Tilausten hallinta",
-    "orderText": "Tilaustenhallintajärjestelmä integroituna logistiikkapalveluntarjoajiin.",
-    "logisticHeading": "Optimoitu logistiikka",
-    "logisticText": "Optimoitu logistiikka paikallisille ja kaupunkien välisille lähetyksille."
-  },
   "vendors": {
     "hero": {
-      "heading1": "",
+      "heading": "Monikanavainen Verkkokauppa",
       "headingSpan": "Monikanavainen ",
       "heading2": "Verkkokauppa",
       "text": "Veskon verkkokauppa auttaa sinua kasvattamaan kivijalkakauppasi myyntiä."
@@ -109,36 +136,40 @@
       "heading": "Miten Veskon Monikanavainen Verkkokauppa toimii",
       "options": [
         {
+          "icon": "box",
           "heading": "Uusi kuorma",
           "text": "Saat uusia tuotteita ja lisäät ne Veskon verkkokauppaan (asiakkaasi saavat tiedon uusista tuotteista heti)."
         },
         {
+          "icon": "check-square",
           "heading": "Tuotteen saatavuus",
           "text": "Asiakkaasi voivat tarkistaa myymäläsi varastotilanteen ennen ostopäätöstä, joko verkossa tai myymälässä."
         },
         {
+          "icon": "trending-up",
           "heading": "Ostaminen",
           "text": "Asiakas voi varata tuotteen, ostaa sen verkossa ja noutaa myymälästä tai tilata sen toimitettavaksi kotiin."
         },
         {
+          "icon": "bar-chart",
           "heading": "Jatkuva päivitys",
           "text": "Kun tuote ostetaan, Vesko päivittää automaattisesti tuotteen saatavuus."
         }
       ]
     },
     "uniqueOmnichannel": {
-      "heading": "Veskon monikanavajärjestelmä yhdistää sinun verkkokauppa ja kivijalkakauppa",
-      "text": "Vesko mahdollistaa saman tuotteen listauksen sekä verkossa että myymälässä – maailman ensimmäinen alusta, jolla on tämä ominaisuus. Tämä tarkoittaa, että voit täyttää verkkotilaukset suoraan myymälän hyllyiltä."
+      "heading": "Veskon monikanavajärjestelmä ",
+      "headingSpan": "yhdistää sinun verkkokauppasi ja kivijalkakaupan",
+      "text": "Vesko mahdollistaa saman tuotteen listauksen sekä verkossa että myymälässä – maailman ensimmäinen alusta, jolla on tämä ominaisuus. Tämä tarkoittaa, että voit täyttää verkkotilaukset suoraan myymälän hyllyiltä.",
+      "img": "src/assets/fi/omnichannel-chart.png"
     },
     "onlineStoreOverview": {
-      "heading1": "Skaalautuva verkkokauppa, jossa on ",
-      "headingSpan": "ainutlaatuiset viestintä ominaisuudet, ",
-      "heading2": " suunniteltu auttamaan brändisi kasvattamisessa."
+      "heading": "Skaalautuva verkkokauppa, jossa on ainutlaatuiset viestintä ominaisuudet, ",
+      "headingSpan": "suunniteltu auttamaan brändisi kasvattamisessa."
     },
     "benefits": {
-      "heading": "Markkinapaikka, Mutta Se On Sinun Verkkokauppa ",
-      "heading1": "Markkinapaikka, Mutta Se On ",
-      "heading1Span": "Sinun Verkkokauppa",
+      "heading": "Markkinapaikka, ",
+      "headingSpan": "Mutta Se On Sinun Verkkokauppa",
       "text": "Sisäänrakennetulla varastonhallinta järjestelmällä ja omalla hakukoneella, Veskon kauppa voi täyttää tarpeesi, olitpa sitten kasvattamassa brändiäsi tai sinulla on jo iso kauppa laaja valikoimalla.",
       "options": [
         {
@@ -173,7 +204,7 @@
       "text": "Paranna asiakkaidesi ostokokemusta ja yksinkertaista myyntiprosessia tehokkaalla kassa järjestelmällä. Se ei ainoastaan hyödytä asiakkaita, vaan pitää myös varastosaldo ja tuotetilanne ajan tasalla. Lisäksi se on olennainen osa monikanavainen-järjestelmässä."
     },
     "faq": {
-      "heading": "FAQs",
+      "heading": "Usein Kysytyt Kysymykset",
       "text": "",
       "options": [
         {
@@ -228,6 +259,29 @@
       "heading": "Tehtävämme on yhdistää sinut",
       "p1": "Suomessa on monia pieniä kauppoja ja brändejä, jotka tarjoavat ainutlaatuisia ja aitoja tuotteita, usein paikallisesti ja kestävällä tavalla valmistettuja. Nämä tuotteet ovat erityisiä ja usein saatavilla vain pienistä liikkeistä, eivät suurista ketjukaupoista tai suurilta ulkomaisilta verkkokauppiailta. Monet näistä yrityksistä eivät pysty myymään tuotteitaan verkkokauppoihin tai heillä ei ole mahdollisuutta verkkonäkyvyyteen.",
       "p2": "Veskolla olemme sitoutuneet kuromaan tämän eron umpeen antamalla suomalaisille brändeille ja kaupoille verkkoalustan, jonka avulla voit löytää ja tukea näitä paikallisia yrityksiä ja yrittäjiä, olitpa missä tahansa."
+  },
+  "about": {
+    "p1": {
+      "heading": "Ketä Me Ollaan",
+      "span": "Vesko Oy",
+      "text": "on Joensuussa toimiva suomalainen yritys, jolla on dynaaminen ja monipuolinen tiimi lahjakkaita yksilöitä. Tiimimme koostuu sekä erittäin kokeneista insinööreistä että vastavalmistuneista, joita yhdistää yhteinen tavoite: auttaa suomalaisia yrittäjiä kasvattamaan liiketoimintaansa."
+    },
+    "p2": {
+      "heading": "Mihin Me Uskomme",
+      "text": "Veskolla haluamme muuttaa tapaa, jolla pienet yritykset menestyvät digitaalisessa maailmassa. Uskomme, että jokaisella kivijalkaliikkeellä tulisi olla mahdollisuus laajentaa toimintaansa menettämättä henkilökohtaista otettaan. Siksi rakennamme seuraavan sukupolven markkinapaikkaa, joka mahdollistaa paikallisille jälleenmyyjille täysin integroitujen monikanavaisten verkkokauppojen luomisen muutamassa minuutissa, ilman tyypillisesti korkeita kustannuksia, joita tällaisen järjestelmän rakentaminen edellyttää."
+    },
+    "p3": {
+      "heading": "Olemme Täällä Ja Teemme Muutoksen",
+      "text": "Ymmärrämme, että sekä verkko, että kivijalkamyyntiä voi olla haastavaa hallita, ja haluamme yksinkertaistaa tätä prosessia. Veskon avulla kauppiaat voivat yhdistää fyysiset myymälänsä saumattomasti verkkokauppaan, mikä helpottaa paikallisten asiakkaiden palvelemista ja laajentaa samalla toimintaansa kansallisella ja myöhemmin globaalilla tasolla."
+    },
+    "p4": {
+      "heading": "Ymmärrämme Tuskan",
+      "text": "Kun kansainväliset suuryritykset ja verkkokaupat jatkavat Suomen markkinoiden valtaamista, paikallisten yritysten on yhä vaikeampaa kilpailla niiden mittakaavan ja hintojen kanssa. Tämä haaste vaikuttaa yksittäisten jälleenmyyjien lisäksi myös suomalaisia tuotteita valmistaviin yrityksiin, uhaten niiden perheiden toimeentuloa, jotka ovat näistä yrityksistä riippuvaisia."
+    },
+    "p5": {
+      "heading": "Me Teemme Sen!",
+      "text": "Tavoitteemme on auttaa näitä yrityksiä kasvamaan tarjoamalla heille työkalut, joilla he voivat kilpailla suurempien ja ulkomaisten jälleenmyyjien kanssa, samalla kun vähennämme yleiskustannuksia ja säästämme aikaa. Olemme intohimoisia luomaan älykkäämmän ja paremmin ostokokemuksen kaikille."
+    }
     }
   }
 }
