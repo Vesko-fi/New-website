@@ -1,4 +1,3 @@
-import IconImg from "@assets/Icon-img.png";
 import AboutImg from "@assets/about-section-img.jpg";
 import expandReachImg from "@assets/expand-reach-img.png";
 import heroImgBg from "@assets/hero-img-bg.png";
@@ -10,7 +9,7 @@ import vendorHeroImg from "@assets/vendor-hero-img.jpg";
 import inventoryImg from "@assets/inventory-img.png";
 import newArrivalImg from "@assets/new-arrival-img.png";
 import omnichannelChartImg from "@assets/omnichannel-chart.png";
-import omnichannelImg from "@assets/omnichannel-img.png";
+import omnichannelImg from "@assets/omnichannel-img.jpg";
 import optimizeLogisticImg from "@assets/optimize-logistics.png";
 import orderManagementImg from "@assets/order-management.png";
 import orderOnlineImg from "@assets/order-online-img.png";
@@ -30,7 +29,6 @@ import UserOnlineImg from "@assets/shopping-online-img.jpg";
 
 export {
   AboutImg,
-  IconImg,
   expandReachImg,
   heroImg,
   heroImgBg,
