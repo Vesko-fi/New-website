@@ -16,6 +16,7 @@ const WaitingListForm: React.FC = () => {
     phone_number: "",
     Company_name: "",
     sell: "",
+    location: "",
     linkedIn: "",
     message: "",
   });
@@ -37,13 +38,14 @@ const WaitingListForm: React.FC = () => {
       phone_number: formData.phone_number,
       Company_name: formData.Company_name,
       sell: formData.sell,
+      location: formData.location,
       linkedIn: formData.linkedIn,
       message: formData.message,
     };
     emailjs
       .send(
         import.meta.env.VITE_EMAILJS_SERVICE_ID as string,
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID_DEMO as string,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID_WAITLIST as string,
         params,
         import.meta.env.VITE_EMAILJS_USER_ID as string
       )
@@ -72,6 +74,7 @@ const WaitingListForm: React.FC = () => {
               placeholder={t("waitlist.messagePlaceholder")}
               rows={5}
               onChange={handleChange}
+              value={formData.message}
             />
           </div>
           <SubmitButton />
@@ -85,6 +88,7 @@ const WaitingListForm: React.FC = () => {
           type="text"
           placeholder={t("waitlist.firstName")}
           required
+          value={formData.first_name}
           onChange={handleChange}
         />
       </div>
@@ -95,6 +99,7 @@ const WaitingListForm: React.FC = () => {
           type="text"
           placeholder={t("waitlist.lastName")}
           required
+          value={formData.last_name}
           onChange={handleChange}
         />
       </div>
@@ -105,16 +110,18 @@ const WaitingListForm: React.FC = () => {
           type="text"
           placeholder={t("waitlist.email")}
           required
+          value={formData.email}
           onChange={handleChange}
         />
       </div>{" "}
       <div>
-        <Label htmlFor="number">{t("waitlist.phoneNumber")}</Label>
+        <Label htmlFor="phone_number">{t("waitlist.phoneNumber")}</Label>
         <Input
-          id="number"
+          id="phone_number"
           type="number"
           placeholder={t("waitlist.phoneNumber")}
           required
+          value={formData.phone_number}
           onChange={handleChange}
         />
       </div>
@@ -125,6 +132,7 @@ const WaitingListForm: React.FC = () => {
           type="text"
           placeholder={t("waitlist.companyRole")}
           required
+          value={formData.Company_name}
           onChange={handleChange}
         />
       </div>
@@ -135,26 +143,29 @@ const WaitingListForm: React.FC = () => {
           type="text"
           placeholder={t("waitlist.sell")}
           required
+          value={formData.sell}
           onChange={handleChange}
         />
       </div>
       <div>
         <Label htmlFor="location">{t("waitlist.location")}</Label>
         <Input
-          id="sell"
+          id="location"
           type="text"
           placeholder={t("waitlist.location")}
           required
+          value={formData.location}
           onChange={handleChange}
         />
       </div>
       <div>
-        <Label htmlFor="linkedin">{t("waitlist.linkedin")}</Label>
+        <Label htmlFor="linkedIn">{t("waitlist.linkedin")}</Label>
         <Input
-          id="sell"
+          id="linkedIn"
           type="text"
           placeholder={t("waitlist.linkedin")}
           required
+          value={formData.linkedIn}
           onChange={handleChange}
         />
       </div>
