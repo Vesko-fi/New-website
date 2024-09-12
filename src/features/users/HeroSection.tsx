@@ -20,7 +20,7 @@ const HeroSection: React.FC = () => {
           <h1 className="max-w-4xl text-3xl font-bold sm:text-balance md:text-5xl lg:text-6xl xl:text-7xl">
             {t("users.hero.heading")}
           </h1>
-          <p className="xl:4xl mt-2 text-xl sm:mt-4 md:text-2xl lg:mt-6 lg:text-3xl max-w-2xl">
+          <p className="xl:4xl mt-2 max-w-2xl text-xl sm:mt-4 md:text-2xl lg:mt-6 lg:text-3xl">
             {t("users.hero.text")}
           </p>
         </div>
