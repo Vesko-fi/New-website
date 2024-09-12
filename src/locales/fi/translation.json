@@ -287,5 +287,60 @@
       "heading": "Me Teemme Sen!",
       "text": "Tavoitteemme on auttaa näitä yrityksiä kasvamaan tarjoamalla heille työkalut, joilla he voivat kilpailla suurempien ja ulkomaisten jälleenmyyjien kanssa, samalla kun vähennämme yleiskustannuksia ja säästämme aikaa. Olemme intohimoisia luomaan älykkäämmän ja paremmin ostokokemuksen kaikille."
     }
+  },
+  "contact": {
+    "header": "Ota yhteyttä meihin",
+    "subheader": "Täytä lomake ottaaksesi yhteyttä edustajaan.",
+    "demoRequest": "Demo-pyyntöä varten, käy ",
+    "link": "tällä linkillä.",
+    "waitlistPrompt": "Ole ensimmäinen, joka kokee Veskon",
+    "waitlist": "Liity jonotuslistalle",
+    "now": "nyt",
+    "formHeader": "Ota yhteyttä",
+    "firstName": "Etunimi",
+    "lastName": "Sukunimi",
+
+    "email": "Sähköposti",
+    "phoneNumber": "Puhelinnumero",
+    "message": "Kirjoita viesti",
+    "messagePlaceholder": "Kirjoita viesti tähän",
+    "submitButton": "Lähetä"
+  },
+  "demo": {
+    "header": "Näe Vesko toiminnassa, pyydä henkilökohtainen alustan esittely",
+    "subheader": "Tutustu, miten Vesko auttaa sinua tavoittamaan enemmän asiakkaita ja kasvattamaan yritystäsi. Aikatauluta live-demo jo tänään!",
+    "benefit1": "Vähennä kustannuksia käyttämällä yhtä varastoa sekä verkkomyyntiin että kivijalkamyymälään",
+    "benefit2": "Tee parempaa ja ainutlaatuista viestintää, joka auttaa sinua kasvattamaan brändiäsi",
+    "benefit3": "Hyödynnä monikanavainen verkkokauppa houkutellaksesi enemmän asiakkaita kivijalkamyymälääsi",
+    "formHeader": "Pyydä Demo",
+    "firstName": "Etunimi",
+    "lastName": "Sukunimi",
+    "email": "Sähköposti",
+    "phoneNumber": "Puhelinnumero",
+    "companyRole": "Yhtiö / Yritys – Rooli",
+    "linkedin": "LinkedIn",
+    "message": "Kirjoita viesti",
+    "messagePlaceholder": "Kirjoita viesti tähän",
+    "submitButton": "Pyydä demo"
+  },
+  "waitlist": {
+    "header": "Ole ensimmäinen, joka kokeilee ja testaa Veskoa – liity nyt!",
+    "subheader": "Rekisteröidy tänään saadaksesi ennakkokäyttöoikeuden ja ole ensimmäisten joukossa tutustumassa Veskon innovatiivisiin vähittäiskaupan ratkaisuihin.",
+    "benefit1": "Ole ensimmäisten joukossa, jotka myyvät Veskossa",
+    "benefit2": "Saa eksklusiivinen ennakkotarjouspaketti",
+    "formHeader": "Liity jonotuslistalle",
+    "firstName": "Etunimi",
+    "lastName": "Sukunimi",
+    "email": "Sähköposti",
+    "phoneNumber": "Puhelinnumero",
+    "companyRole": "Yhtiö / Yritys – Rooli",
+    "location": "paikka",
+    "websiteLink": "Verkkosivun linkki",
+    "message": "Kirjoita viesti",
+    "messagePlaceholder": "Kirjoita viesti tähän",
+    "submitButton": "Liity nyt",
+    "linkedin": "LinkedIn",
+    "sell": " Mitä myyt?",
+    "miniheader": "Haluatko nähdä, kuinka Vesko auttaa sinua rakentamaan brändiäsi? Pyydä henkilökohtainen alustan esittely"
   }
 }

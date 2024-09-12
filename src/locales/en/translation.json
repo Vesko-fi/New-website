@@ -291,5 +291,60 @@
       "heading": "We Will Do It!",
       "text": "Our mission is to help these businesses grow by equipping them with the tools they need to compete with larger, foreign retailers, all while reducing overhead costs and time. We are passionate about creating a smarter and more connected shopping experience for everyone."
     }
+  },
+
+  "contact": {
+    "header": "Contact our Team",
+    "subheader": "Fill the form to get in touch with a representative.",
+    "demoRequest": "For a demo request, please visit ",
+    "link": "this link",
+    "waitlistPrompt": "Be the First to Experience Vesko",
+    "waitlist": "Join the waitlist",
+    "now": "now",
+    "formHeader": "Contact Us",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here",
+    "submitButton": "Submit"
+  },
+  "demo": {
+    "header": "See Vesko in Action, Request a Personalized Demo",
+    "subheader": "Discover how Vesko can transform your online presence and streamline your retail operations. Schedule your live demo today!",
+    "benefit1": "Reduce costs using one inventory for your online orders and offline sales",
+    "benefit2": "Do better and unique messaging that will help you grow your brand",
+    "benefit3": "Leverage the omnichannel-powered online store to attract more offline shoppers to your brick-and-mortar store",
+    "formHeader": "Get a Demo",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "companyRole": "Company / Institution – Role",
+    "linkedin": "LinkedIn",
+    "message": "Message",
+    "messagePlaceholder": "Write your message here",
+    "submitButton": "Request Demo"
+  },
+  "waitlist": {
+    "header": "Be the First to Experience Vesko, Join Us Now!",
+    "subheader": "Sign up today to get early access and be among the first to explore Vesko's innovative retail solutions.",
+    "benefit1": "Be among the first who sell on Vesko",
+    "benefit2": "Get exclusive early bird discount package",
+    "formHeader": "Join the Waitlist",
+    "firstName": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phoneNumber": "Phone number",
+    "companyRole": "Company / Institution – Role",
+    "location": "Location",
+    "websiteLink": "Website link",
+    "message": "Message",
+    "linkedin": "LinkedIn",
+    "messagePlaceholder": "Write your message here",
+    "submitButton": "Join Now",
+    "miniheader": "You want to see how Vesko will help you to build your brand?",
+    "sell": "What do you sell?"
   }
 }

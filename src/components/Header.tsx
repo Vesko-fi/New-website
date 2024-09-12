@@ -27,7 +27,7 @@ const Header: React.FC = () => {
         </nav>
         <div className="hidden items-center gap-4 md:flex">
           <ToggleLocale />
-          <Link variant="primary" size="md" href="/">
+          <Link variant="primary" size="md" href="/demo">
             {t("home.landingPage.buttonText")} {/**Later it can be updated */}
           </Link>
         </div>

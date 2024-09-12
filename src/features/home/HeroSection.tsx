@@ -1,8 +1,9 @@
+import { useTranslation } from "react-i18next";
+
 import { Container } from "@components/ui/Container";
 import { Link } from "@components/ui/Link";
 import { Section } from "@components/ui/Section";
 import { heroImgBg, heroImgCheckout, heroImgProduct } from "@constants/assets";
-import { useTranslation } from "react-i18next";
 
 const HeroSection: React.FC = () => {
   const { t } = useTranslation();
