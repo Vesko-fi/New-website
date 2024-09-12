@@ -12,29 +12,29 @@ const BuyingOptions = () => {
       <Container>
         <div>
           <h1 className="mb-6 text-balance text-center text-2xl font-bold lg:mb-12 lg:text-3xl xl:text-4xl">
-            {t("users.optionMainHeading")}
+            {t("users.options.heading")}
           </h1>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Card
             icon="box"
-            title={t("users.option1Heading")}
-            description={t("users.option1Text")}
+            title={t("users.options.option1Heading")}
+            description={t("users.options.option1Text")}
           />
           <Card
             icon="hand-coin"
-            title={t("users.option2Heading")}
-            description={t("users.option2Text")}
+            title={t("users.options.option2Heading")}
+            description={t("users.options.option2Text")}
           />
           <Card
             icon="product-booking"
-            title={t("users.option3Heading")}
-            description={t("users.option3Text")}
+            title={t("users.options.option3Heading")}
+            description={t("users.options.option3Text")}
           />
           <Card
             icon="truck-delivery"
-            title={t("users.option4Heading")}
-            description={t("users.option4Text")}
+            title={t("users.options.option4Heading")}
+            description={t("users.options.option4Text")}
           />
         </div>
       </Container>

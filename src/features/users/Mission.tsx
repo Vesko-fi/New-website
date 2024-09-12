@@ -12,13 +12,13 @@ const Mission = () => {
         <div className="absolute inset-x-0 -top-40 bg-gradient-to-b from-[#FAFAFA] via-[#FAFAFA] px-6 pb-10 pt-20 text-center lg:-top-20 lg:pt-32">
           <div className="relative z-10 mx-auto max-w-4xl">
             <h1 className="mb-6 text-2xl font-bold md:mb-8 lg:text-3xl xl:text-4xl">
-              {t("users.missionHeading")}
+              {t("users.mission.heading")}
             </h1>
             <p className="mb-4 text-sm font-medium sm:text-base">
-              {t("users.missionP1")}
+              {t("users.mission.p1")}
             </p>
             <p className="text-sm font-medium sm:text-base">
-              {t("users.missionP2")}
+              {t("users.mission.p2")}
             </p>
           </div>
         </div>

@@ -1,22 +1,30 @@
 import { useTranslation } from "react-i18next";
 
-import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-import { heroImg } from "@constants/assets";
+import { UserHeroImg } from "@constants/assets";
 
 const HeroSection: React.FC = () => {
   const { t } = useTranslation();
 
   return (
     <Section>
-      <Container className="py-16">
-        <div>
-          <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
-            {t("users.heroHeading")}
-          </h1>
+      <div className="relative h-[600px] overflow-hidden md:h-[682px]">
+        <div className="h-full w-full bg-cover bg-center">
+          <img
+            src={UserHeroImg}
+            alt={`shopping`}
+            className="h-full w-full object-cover"
+          />
         </div>
-        <img src={heroImg} alt="" className="mx-auto mt-8 h-96 sm:w-auto" />
-      </Container>
+        <div className="absolute inset-0 flex flex-col justify-center bg-black/20 px-8 py-12 text-white sm:px-8">
+          <h1 className="max-w-4xl text-3xl font-bold sm:text-balance md:text-5xl lg:text-6xl xl:text-7xl">
+            {t("users.hero.heading")}
+          </h1>
+          <p className="xl:4xl mt-2 text-xl sm:mt-4 md:text-2xl lg:mt-6 lg:text-3xl">
+            {t("users.hero.text")}
+          </p>
+        </div>
+      </div>
     </Section>
   );
 };

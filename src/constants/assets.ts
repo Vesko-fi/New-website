@@ -23,6 +23,10 @@ import vendorHeroImg1 from "@assets/vendor-hero-img1.jpg";
 import vendorHeroImg2 from "@assets/vendor-hero-img2.jpg";
 import vendorHeroImg3 from "@assets/vendor-hero-img3.jpg";
 import logo from "@assets/vesko-logo.png";
+import UserShoppingImg from "@assets/user-shopping-img.jpeg";
+import UserOnlineShoppingImg from "@assets/user-online-shopping-img.png";
+import UserHeroImg from "@assets/user-hero-img.jpg";
+import UserOnlineImg from "@assets/shopping-online-img.jpg";
 
 export {
   AboutImg,
@@ -50,4 +54,8 @@ export {
   vendorHeroImg1,
   vendorHeroImg2,
   vendorHeroImg3,
+  UserShoppingImg,
+  UserOnlineShoppingImg,
+  UserHeroImg,
+  UserOnlineImg,
 };
