@@ -19,9 +19,13 @@
       "href": "for-users",
       "label": "Käyttille"
     },
+    "aboutUs": {
+      "href": "about-us",
+      "label": "Tietoa Meistä"
+    },
     "contactUs": {
       "href": "contact-us,",
-      "label": "Ota Yhteyttä,"
+      "label": "Ota Yhteyttä"
     }
   },
   "footer": {
@@ -68,7 +72,7 @@
           "usp_num": "04",
           "heading": "Skaalautuva Myymälä Sisäänrakennetuilla Varasto ja Tilaus Järjestelmillä",
           "text": "Veskossa myymäläsi voi kasvaa brändisi mukana. Se on suunniteltu käsittelemään laajaa varastoa ja sisältää sisäänrakennetun hakukoneen sekä räätälöitävän kategorisointi järjestelmän, jotka tukevat kaupan kasvu.",
-          "img": "src/assets/inventory-img.png"
+          "img": "src/assets/profile-vendor-user.png"
         }
       ]
     },
@@ -231,29 +235,35 @@
     }
   },
   "users": {
-    "heroHeading": "Parannamme ostokokemustasi paikallisten ja valtakunnallisten jälleenmyyjien kanssa",
-    "heroText": "",
-    "sellingHeading1": "Näe, Mitä",
-    "sellingHeadingSpan": "Paikalliset Kivijalkakaupat",
-    "sellingHeading2": "Myyvät",
-    "sellingText": "Pian voit shoppailla paikallisista vähittäiskaupoista vaivattomasti, nähdä tuottiden saatavus reaaliajassa ja varmistaa, ettet tuhlaa aikaasi epävarmoihin ostosmatkoihin.",
-    "optionMainHeading": "Tutustu, miten Veskon ostovaihtoehdot parantavat osto sinun kokemusta",
-    "option1Heading": "Tuotteen saatavuus",
-    "option1Text": "Miksi matkustaa pitkiä matkoja tuotteen perässä? Veskon kautta voit tarkistaa, kuka sitä myy ja onko se saatavilla myymälässä.",
-    "option2Heading": "BOPIS (Osta verkosta, nouda myymälästä)",
-    "option2Text": "Vesko auttaa sinua löytämään tuotteita paikallisista vähittäiskaupoista, ostamaan ne verkossa ja noutamaan myymälästä.",
-    "option3Heading": "Tuotteen varaaminen",
-    "option3Text": "Haluatko ostaa viimeisen tuotteen, mutta et ole varma, vastaako se tarpeitasi? Veskossa voit helposti varata sen verkossa.",
-    "option4Heading": "Kotiinkuljetus",
-    "option4Text": "Haluatko jäädä kotona? Voimme toimittaa tilauksesi kotiovelle asti.",
-    "descriptionHeading1": "Kyse ei ole Vain Paikallisesta kivijalkakaupasta,",
-    "descriptionSpan1": "Vesko",
-    "descriptionHeading2": "Yhdistää sinut",
-    "descriptionSpan2": "kauppoihin ja brändeihin ympäri Suomen",
-    "descriptionText": "Shoppaile verkossa laajasta valikoimasta brändeistä ja kivijalkakaupasta ympäri Suomea. Vesko tarjoaa myös ainutlaatuisia tapoja olla yhteydessä myyjiin, parantaen asiakaspalvelua ja ostokokemusta.",
-    "missionHeading": "Tehtävämme on yhdistää sinut",
-    "missionP1": "Suomessa on monia pieniä kauppoja ja brändejä, jotka tarjoavat ainutlaatuisia ja aitoja tuotteita, usein paikallisesti ja kestävällä tavalla valmistettuja. Nämä tuotteet ovat erityisiä ja usein saatavilla vain pienistä liikkeistä, eivät suurista ketjukaupoista tai suurilta ulkomaisilta verkkokauppiailta. Monet näistä yrityksistä eivät pysty myymään tuotteitaan verkkokauppoihin tai heillä ei ole mahdollisuutta verkkonäkyvyyteen.",
-    "missionP2": "Veskolla olemme sitoutuneet kuromaan tämän eron umpeen antamalla suomalaisille brändeille ja kaupoille verkkoalustan, jonka avulla voit löytää ja tukea näitä paikallisia yrityksiä ja yrittäjiä, olitpa missä tahansa."
+    "hero": {
+      "heading": "Osta & Verkostoidu",
+      "text": "Löydä aitoja tuotteita Suomesta ja nauti vaivattomasti shoppailusta"
+    },
+    "localShopping": {
+      "heading": "Näe, mitä paikalliset kivijalkakaupat myyvät",
+      "text": "Pian voit shoppailla paikallisista vähittäiskaupoista vaivattomasti, nähdä tuottiden saatavus reaaliajassa ja varmistaa, ettet tuhlaa aikaasi epävarmoihin ostosmatkoihin."
+    },
+    "options": {
+      "heading": "Tutustu, miten Veskon ostovaihtoehdot parantavat osto sinun kokemusta",
+      "option1Heading": "Tuotteen saatavuus",
+      "option1Text": "Miksi matkustaa pitkiä matkoja tuotteen perässä? Veskon kautta voit tarkistaa, kuka sitä myy ja onko se saatavilla myymälässä.",
+      "option2Heading": "BOPIS (Osta verkosta, nouda myymälästä)",
+      "option2Text": "Vesko auttaa sinua löytämään tuotteita paikallisista vähittäiskaupoista, ostamaan ne verkossa ja noutamaan myymälästä.",
+      "option3Heading": "Tuotteen varaaminen",
+      "option3Text": "Haluatko ostaa viimeisen tuotteen, mutta et ole varma, vastaako se tarpeitasi? Veskossa voit helposti varata sen verkossa.",
+      "option4Heading": "Kotiinkuljetus",
+      "option4Text": "Haluatko jäädä kotona? Voimme toimittaa tilauksesi kotiovelle asti."
+    },
+    "onlineShopping": {
+      "heading": "Kyse ei ole Vain Paikallisesta kivijalkakaupasta,",
+      "span": " Vesko yhdistää sinut kauppoihin ja brändeihin ympäri Suomen",
+      "text": "Shoppaile verkossa laajasta valikoimasta brändeistä ja kivijalkakaupasta ympäri Suomea. Vesko tarjoaa myös ainutlaatuisia tapoja olla yhteydessä myyjiin, parantaen asiakaspalvelua ja ostokokemusta."
+    },
+    "mission": {
+      "heading": "Tehtävämme on yhdistää sinut",
+      "p1": "Suomessa on monia pieniä kauppoja ja brändejä, jotka tarjoavat ainutlaatuisia ja aitoja tuotteita, usein paikallisesti ja kestävällä tavalla valmistettuja. Nämä tuotteet ovat erityisiä ja usein saatavilla vain pienistä liikkeistä, eivät suurista ketjukaupoista tai suurilta ulkomaisilta verkkokauppiailta. Monet näistä yrityksistä eivät pysty myymään tuotteitaan verkkokauppoihin tai heillä ei ole mahdollisuutta verkkonäkyvyyteen.",
+      "p2": "Veskolla olemme sitoutuneet kuromaan tämän eron umpeen antamalla suomalaisille brändeille ja kaupoille verkkoalustan, jonka avulla voit löytää ja tukea näitä paikallisia yrityksiä ja yrittäjiä, olitpa missä tahansa."
+    }
   },
   "about": {
     "p1": {
