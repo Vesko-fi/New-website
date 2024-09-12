@@ -8,9 +8,16 @@ import { Icon } from "./ui/Icon";
 import { Link } from "./ui/Link";
 import { Logo } from "./ui/Logo";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 const Header: React.FC = () => {
   const { t } = useTranslation();
+
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/demo");
+  };
 
   const [isOpen, setIsOpen] = useState(false);
 
@@ -27,7 +34,7 @@ const Header: React.FC = () => {
         </nav>
         <div className="hidden items-center gap-4 md:flex">
           <ToggleLocale />
-          <Link variant="primary" size="md" href="/demo">
+          <Link onClick={handleClick} variant="primary" size="md">
             {t("home.landingPage.buttonText")} {/**Later it can be updated */}
           </Link>
         </div>
