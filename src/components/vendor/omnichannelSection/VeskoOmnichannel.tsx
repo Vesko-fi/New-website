@@ -1,7 +1,11 @@
+import { omnichannelChartImg, omnichannelChartImgFi } from "@constants/assets";
 import { useTranslation } from "react-i18next";
 
 const VeskoOmnichannel: React.FC = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const omnichannelChartImage =
+    i18n.language === "fi" ? omnichannelChartImgFi : omnichannelChartImg;
 
   return (
     <>
@@ -16,7 +20,7 @@ const VeskoOmnichannel: React.FC = () => {
           {t("vendors.uniqueOmnichannel.text")}
         </p>
         <img
-          src={t("vendors.uniqueOmnichannel.img")}
+          src={omnichannelChartImage}
           alt="Omnichannel chart on how Vesko Omnichannel differs from others"
           className="mx-auto mt-16 w-3/4"
         />
