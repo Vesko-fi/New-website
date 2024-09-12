@@ -19,6 +19,10 @@
       "href": "for-users",
       "label": "For Users"
     },
+    "aboutUs": {
+      "href": "about-us",
+      "label": "About Us"
+    },
     "contactUs": {
       "href": "contact-us",
       "label": "Contact Us"
@@ -99,7 +103,7 @@
       "heading1": "An ",
       "headingSpan": "Omnichannel-Powered ",
       "heading2": "Online Store ",
-      "text": "Vesko's online store helps you to boost your offline sales."
+      "text": "Vesko's online store helps you to boost your brick-and-mortar store's sales."
     },
     "omnichannel": {
       "heading": "What is an ",

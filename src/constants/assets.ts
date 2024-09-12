@@ -6,6 +6,7 @@ import heroImgCheckout from "@assets/hero-img-checkout.png";
 import heroImgProduct from "@assets/hero-img-product.png";
 import heroImg from "@assets/hero-img.png";
 import landingHeroImg from "@assets/home-hero-img.png";
+import vendorHeroImg from "@assets/vendor-hero-img.jpg";
 import inventoryImg from "@assets/inventory-img.png";
 import newArrivalImg from "@assets/new-arrival-img.png";
 import omnichannelChartImg from "@assets/omnichannel-chart.png";
@@ -37,6 +38,7 @@ export {
   heroImgProduct,
   inventoryImg,
   landingHeroImg,
+  vendorHeroImg,
   logo,
   newArrivalImg,
   omnichannelChartImg,

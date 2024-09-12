@@ -19,9 +19,13 @@
       "href": "for-users",
       "label": "Käyttille"
     },
+    "aboutUs": {
+      "href": "about-us",
+      "label": "Tietoa Meistä"
+    },
     "contactUs": {
       "href": "contact-us,",
-      "label": "Ota Yhteyttä,"
+      "label": "Ota Yhteyttä"
     }
   },
   "footer": {
