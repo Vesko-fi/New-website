@@ -22,8 +22,8 @@ const OrderManagment: React.FC = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col gap-4 px-2 lg:gap-12 xl:flex-row xl:items-center">
-        <div>
+      <Container className="mt-8 flex flex-col items-center gap-8 px-4 lg:gap-12 xl:flex-row xl:items-center">
+        <div className="mb-8 text-center lg:text-start">
           <h2 className="max-w-2xl text-2xl font-bold lg:text-3xl">
             {t("home.orderManagement.heading")}
             <span className="text-accent1">
