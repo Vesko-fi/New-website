@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 import { NavItem } from "./nav/NavItem";
 import { ToggleLocale } from "./ToggleLocale";
@@ -13,8 +13,25 @@ const Header: React.FC = () => {
   const { t } = useTranslation();
 
   const [isOpen, setIsOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);;
 
   const handleToggleMenu = () => setIsOpen((prev) => !prev);
+
+  const handleCloseMenu = (event: MouseEvent) => {
+    if (
+      menuRef.current &&
+      !menuRef.current.contains(event.target as Node)
+    ) {
+      setIsOpen(false);
+    }
+  };
+
+  useEffect(() => {
+    document.addEventListener('mousedown', handleCloseMenu);
+    return () => {
+      document.removeEventListener('mousedown', handleCloseMenu);
+    };
+  }, []);
 
   return (
     <header className="sticky top-0 z-50 overflow-x-clip py-2 backdrop-blur-2xl bg-background-80">
@@ -41,6 +58,7 @@ const Header: React.FC = () => {
         </Button>
         <div
           className={`absolute right-2 top-20 flex w-52 flex-col gap-2 rounded-lg border bg-background p-2 transition-all duration-200 border-secondary-20 md:hidden ${isOpen ? "opacity-1 translate-x-0" : "translate-x-[150%] opacity-0"}`}
+          ref={menuRef}
         >
           <nav>
             <ul>
@@ -48,8 +66,8 @@ const Header: React.FC = () => {
             </ul>
           </nav>
           <ToggleLocale />
-          <Link variant="primary" size="md" href="/">
-            {t("home.landingPage.buttonText")} {/**Later it can be updated */}
+          <Link variant="primary" size="md" href="/demo">
+            {t("home.landingPage.buttonText")}
           </Link>
         </div>
       </Container>
