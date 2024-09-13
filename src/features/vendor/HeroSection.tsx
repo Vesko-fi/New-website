@@ -13,7 +13,7 @@ const HeroSetion: React.FC = () => {
           <img
             loading="lazy"
             src={vendorHero}
-            alt="Female employee inspecting product items on a vendor display"
+            alt="Female employee / customer inspecting product items on a vendor display"
             className="h-full w-full transform object-cover"
           />
         </div>

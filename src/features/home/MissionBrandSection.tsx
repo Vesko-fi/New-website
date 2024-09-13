@@ -41,7 +41,7 @@ const MissionBrandSection: React.FC = () => {
             >
               {t("home.orderManagement.buttonText")}
             </Link>
-            <span className="mt-8 font-semibold">OR</span>
+            <span className="mt-8 font-semibold">{t("home.brand.or")}</span>
             <Link
               variant="outline"
               size="md"
