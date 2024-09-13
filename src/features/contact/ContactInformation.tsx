@@ -11,7 +11,7 @@ const ContactInformation: React.FC = () => {
 
       <ul className="mt-8 list-disc space-y-4 pl-5">
         <li>
-          {t("contact.demoRequest")}{" "}
+          {t("contact.demoRequest")}
           <a href="/demo" className="text-blue-500 underline">
             {t("contact.link")}
           </a>
@@ -19,9 +19,8 @@ const ContactInformation: React.FC = () => {
         <li>
           {t("contact.waitlistPrompt")} ,
           <a href="/waiting-list" className="text-blue-500 underline">
-            {" "}
             {t("contact.waitlist")}
-          </a>{" "}
+          </a>
           {t("contact.now")}!
         </li>
       </ul>
