@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
               <ul>
                 {NAV_ITEMS.map(({ label, href }) => (
                   <li key={label}>
-                    <Link href={href}> {t(label)}</Link>
+                    <Link href={`/${t(href)}`}> {t(label)}</Link>
                   </li>
                 ))}
               </ul>
