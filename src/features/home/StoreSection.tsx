@@ -5,9 +5,9 @@ import { Section } from "@components/ui/Section";
 import {
   expandReachImg,
   onlineStoreImage,
-  orderOnlineImg,
-  orderOnlineImgFi,
-  UserOnlineShoppingImg,
+  veskoChartEn,
+  veskoChartFi,
+  maximiseStores,
 } from "@constants/assets";
 
 interface options {
@@ -20,7 +20,7 @@ interface options {
 const StoreSection: React.FC<options> = () => {
   const { t, i18n } = useTranslation();
 
-  const veskoChart = i18n.language === "fi" ? orderOnlineImgFi : orderOnlineImg;
+  const veskoChart = i18n.language === "fi" ? veskoChartFi : veskoChartEn;
 
   return (
     <Section>
@@ -37,7 +37,7 @@ const StoreSection: React.FC<options> = () => {
             usp_num={"01"}
             heading={t("home.sellingPoint.option1Heading")}
             text={t("home.sellingPoint.option1Text")}
-            img={UserOnlineShoppingImg}
+            img={maximiseStores}
           />
           <SellingPoint
             usp_num={"02"}
