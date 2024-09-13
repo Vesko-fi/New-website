@@ -49,7 +49,7 @@ const Omnichannel: React.FC = () => {
         <img
           src={omnichannelImg}
           alt="Product in store shelf"
-          className="sm:w-96 lg:w-[500px] xl:w-[600px]"
+          className="rounded-xl sm:w-96 lg:w-[500px] xl:w-[600px]"
         />
       </div>
     </>

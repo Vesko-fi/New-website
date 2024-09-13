@@ -18,7 +18,7 @@ const ContactInformation: React.FC = () => {
         </li>
         <li>
           {t("contact.waitlistPrompt")} ,
-          <a href="/demo" className="text-blue-500 underline">
+          <a href="/waiting-list" className="text-blue-500 underline">
             {" "}
             {t("contact.waitlist")}
           </a>{" "}

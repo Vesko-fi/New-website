@@ -283,7 +283,7 @@
 
     "email": "Sähköposti",
     "phoneNumber": "Puhelinnumero",
-    "message": "Kirjoita viesti",
+    "message": "Viesti",
     "messagePlaceholder": "Kirjoita viesti tähän",
     "submitButton": "Lähetä"
   },
@@ -300,7 +300,7 @@
     "phoneNumber": "Puhelinnumero",
     "companyRole": "Yhtiö / Yritys – Rooli",
     "linkedin": "LinkedIn",
-    "message": "Kirjoita viesti",
+    "message": "Viesti",
     "messagePlaceholder": "Kirjoita viesti tähän",
     "submitButton": "Pyydä demo"
   },
@@ -315,13 +315,14 @@
     "email": "Sähköposti",
     "phoneNumber": "Puhelinnumero",
     "companyRole": "Yhtiö / Yritys – Rooli",
-    "location": "paikka",
+    "location": "Kaupunki/Alue",
     "websiteLink": "Verkkosivun linkki",
-    "message": "Kirjoita viesti",
+    "message": "Viesti",
     "messagePlaceholder": "Kirjoita viesti tähän",
     "submitButton": "Liity nyt",
     "linkedin": "LinkedIn",
     "sell": " Mitä myyt?",
+    "link": "Pyydä esittely",
     "miniheader": "Haluatko nähdä, kuinka Vesko auttaa sinua rakentamaan brändiäsi? Pyydä henkilökohtainen alustan esittely"
   }
 }
