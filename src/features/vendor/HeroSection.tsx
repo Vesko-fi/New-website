@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import { Section } from "@components/ui/Section";
-import { vendorHeroImg } from "@constants/assets";
+import { vendorHero } from "@constants/assets";
 
 const HeroSetion: React.FC = () => {
   const { t } = useTranslation();
@@ -11,8 +11,9 @@ const HeroSetion: React.FC = () => {
       <div className="relative h-[600px] overflow-hidden md:h-[682px]">
         <div className="h-full w-full bg-cover bg-center">
           <img
-            src={vendorHeroImg}
-            alt={`Slide image`}
+            loading="lazy"
+            src={vendorHero}
+            alt="Female employee inspecting product items on a vendor display"
             className="h-full w-full transform object-cover"
           />
         </div>

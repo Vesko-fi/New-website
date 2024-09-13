@@ -15,6 +15,7 @@ import optimizeLogisticImg from "@assets/home/optimize-logistics.png";
 import orderManagementImg from "@assets/home/order-management.png";
 
 import vendorHeroImg from "@assets/vendors/vendor-hero-img.jpg";
+import vendorHero from "@assets/vendors/vendor-hero.jpg";
 import omnichannelChartImg from "@assets/vendors/omnichannel-chart.png";
 import omnichannelChartImgFi from "@assets/vendors/omnichannel-chart-fi.png";
 import omnichannelImg from "@assets/vendors/omnichannel-img.jpg";
@@ -35,6 +36,7 @@ export {
   heroImgCheckout,
   heroImgProduct,
   vendorHeroImg,
+  vendorHero,
   expandReachImg,
   veskoChartEn,
   veskoChartFi,
