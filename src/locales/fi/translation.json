@@ -315,7 +315,7 @@
     "email": "Sähköposti",
     "phoneNumber": "Puhelinnumero",
     "companyRole": "Yhtiö / Yritys – Rooli",
-    "location": "paikka",
+    "location": "Kaupunki/Alue",
     "websiteLink": "Verkkosivun linkki",
     "message": "Kirjoita viesti",
     "messagePlaceholder": "Kirjoita viesti tähän",
