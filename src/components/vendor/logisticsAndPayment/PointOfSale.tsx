@@ -17,7 +17,7 @@ const PointOfSale: React.FC = () => {
         <img
           src={posImg}
           alt="point of sale screen dashboard, order is being picked"
-          className="mx-auto mt-8 sm:w-auto sm:p-0"
+          className="mx-auto mt-8 rounded-xl sm:w-auto sm:p-0"
         />
       </div>
     </>
