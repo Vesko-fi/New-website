@@ -9,7 +9,7 @@ const List: React.FC<ListProps> = ({ className, title, description }) => {
   return (
     <>
       <div className={cn(className)}>
-        <ul className="space-y-4 py-2 text-sm lg:text-base">
+        <ul className="list-disc space-y-4 p-4 py-2 text-sm lg:text-base">
           {title && description && (
             <li>
               <span className="font-bold">{title}:</span> {description}
