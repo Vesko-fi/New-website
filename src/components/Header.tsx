@@ -46,7 +46,7 @@ const Header: React.FC = () => {
             <NavItem />
           </ul>
         </nav>
-        <div>
+        <div ref={menuRef}>
           <div className="hidden items-center gap-4 md:flex">
             <ToggleLocale />
             <Link onClick={handleClick} variant="primary" size="md">
@@ -63,7 +63,6 @@ const Header: React.FC = () => {
           </Button>
           <div
             className={`absolute right-2 top-20 flex w-52 flex-col gap-2 rounded-lg border bg-background p-2 transition-all duration-200 border-secondary-20 md:hidden ${isOpen ? "opacity-1 translate-x-0" : "translate-x-[150%] opacity-0"}`}
-            ref={menuRef}
           >
             <nav>
               <ul>
