@@ -1,15 +1,1 @@
-# Redirect for Navigation Items
-
-/navbar.home.href /home 301
-/navbar.forVendors.href /vendors 301
-/navbar.forUsers.href /users 301
-/navbar.aboutUs.href /about-us 301
-/navbar.contactUs.href /contact-us 301
-
-# Redirect for Socials
-
-https://www.linkedin.com/company/veskofinland/ /linkedin 301
-
-# SPA Fallback for React app (to handle client-side routing)
-
 /\* /index.html 200
