@@ -20,7 +20,7 @@ const OnlineStoreSection: React.FC = () => {
         <img
           src={onlineStoreImage}
           alt=" Product in store shelf"
-          className="mx-auto sm:w-auto sm:p-0 md:w-[680px] lg:w-[700px] rounded-xl"
+          className="mx-auto rounded-xl sm:w-auto sm:p-0 md:w-[680px] lg:w-[700px]"
         />
       </Container>
     </Section>

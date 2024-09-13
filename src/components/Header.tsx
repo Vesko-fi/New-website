@@ -35,7 +35,7 @@ const Header: React.FC = () => {
     };
   }, []);
 
-  const handleToggleMenu = () => setIsOpen((prev) => !prev); 
+  const handleToggleMenu = () => setIsOpen((prev) => !prev);
 
   return (
     <header className="sticky top-0 z-50 overflow-x-clip py-2 backdrop-blur-2xl bg-background-80">

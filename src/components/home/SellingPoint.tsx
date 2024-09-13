@@ -24,7 +24,11 @@ const SellingPoint: React.FC<SellingPoint> = ({
           </div>
           <p className="text-sm md:text-base">{text}</p>
         </div>
-        <img src={img} alt={heading} className="sm:w-96 lg:w-[580px] rounded-xl" />
+        <img
+          src={img}
+          alt={heading}
+          className="rounded-xl sm:w-96 lg:w-[580px]"
+        />
       </div>
     </>
   );
