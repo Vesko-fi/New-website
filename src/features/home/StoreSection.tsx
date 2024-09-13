@@ -5,9 +5,9 @@ import { Section } from "@components/ui/Section";
 import {
   expandReachImg,
   onlineStoreImage,
-  orderOnlineImg,
-  orderOnlineImgFi,
-  UserOnlineShoppingImg,
+  veskoChartEn,
+  veskoChartFi,
+  maximiseStores,
 } from "@constants/assets";
 
 interface options {
@@ -20,15 +20,16 @@ interface options {
 const StoreSection: React.FC<options> = () => {
   const { t, i18n } = useTranslation();
 
-  const veskoChart = i18n.language === "fi" ? orderOnlineImgFi : orderOnlineImg;
+  const veskoChart = i18n.language === "fi" ? veskoChartFi : veskoChartEn;
 
   return (
     <Section>
       <Container>
-        <h2 className="lg:w-53 mb-2 text-center text-3xl font-bold">
-          <span className="block"> {t("home.sellingPoint.heading")}</span>
-          <span className="block">{t("home.sellingPoint.heading2")}</span>
+        <h2 className="text-center text-3xl font-bold uppercase leading-tight lg:w-auto">
+          <span className="mb-1 block">{t("home.sellingPoint.heading")}</span>
+          <span className="mb-2 block">{t("home.sellingPoint.heading2")}</span>
         </h2>
+
         <p className="text-balance px-4 text-center">
           {t("home.sellingPoint.text")}
         </p>
@@ -37,7 +38,7 @@ const StoreSection: React.FC<options> = () => {
             usp_num={"01"}
             heading={t("home.sellingPoint.option1Heading")}
             text={t("home.sellingPoint.option1Text")}
-            img={UserOnlineShoppingImg}
+            img={maximiseStores}
           />
           <SellingPoint
             usp_num={"02"}
