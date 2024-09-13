@@ -319,13 +319,14 @@
     "email": "Email",
     "phoneNumber": "Phone number",
     "companyRole": "Company / Institution – Role",
-    "location": "Location",
+    "location": "City",
     "websiteLink": "Website link",
     "message": "Message",
     "linkedin": "LinkedIn",
     "messagePlaceholder": "Write your message here",
     "submitButton": "Join Now",
     "miniheader": "You want to see how Vesko will help you to build your brand?",
-    "sell": "What do you sell?"
+    "sell": "What do you sell?",
+    "link": "Get a Demo"
   }
 }
