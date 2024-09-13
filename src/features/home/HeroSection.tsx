@@ -16,8 +16,8 @@ const HeroSection: React.FC = () => {
 
   return (
     <Section>
-      <Container className="flex flex-col items-center justify-between gap-12 lg:flex-row lg:py-24">
-        <div className="w-full flex-1 text-balance pb-20 text-center">
+      <Container className="flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-12 lg:py-24">
+        <div className="w-full flex-1 text-balance pb-20">
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("home.landingPage.heading")}
             <span className="text-accent1">
