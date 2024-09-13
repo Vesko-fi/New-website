@@ -2,9 +2,18 @@ import { Container } from "@components/ui/Container";
 import { Link } from "@components/ui/Link";
 import { Section } from "@components/ui/Section";
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 const MissionBrandSection: React.FC = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+
+  const handleClick = () => {
+    navigate("/demo");
+  };
+  const handleClickWaitList = () => {
+    navigate("/waiting-list");
+  };
 
   return (
     <Section className="bg-gradient-to-t from-[#dafef0]">
@@ -24,13 +33,18 @@ const MissionBrandSection: React.FC = () => {
             </span>
           </p>
           <div className="flex items-center justify-center gap-4">
-            <Link variant="primary" size="md" href="/demo" className="mt-8">
+            <Link
+              onClick={handleClick}
+              variant="primary"
+              size="md"
+              className="mt-8"
+            >
               {t("home.orderManagement.buttonText")}
             </Link>
             <Link
               variant="outline"
               size="md"
-              href="/waiting-list"
+              onClick={handleClickWaitList}
               className="mt-8"
             >
               {t("waitlist.formHeader")}

@@ -49,32 +49,14 @@
       "heading": "A marketplace, ",
       "heading2": "but it's your store",
       "text": "Vesko gives you a complete control on your store selling terms & conditions.",
-      "options": [
-        {
-          "usp_num": "01",
-          "heading": "Maximise your Physical Store Sales",
-          "text": "The built-in omnichannel system brings your store and its product line closer to your customer by giving them access to your inventory.",
-          "img": "src/assets/product-details.png"
-        },
-        {
-          "usp_num": "02",
-          "heading": "Expand your Reach & Grow",
-          "text": "Why limit your sales to just one channel when you can maximise your reach by selling through both online and offline channels simultaneously?",
-          "img": "src/assets/expand-reach-img.png"
-        },
-        {
-          "usp_num": "03",
-          "heading": "Fulfill online orders from store shelf",
-          "text": "Vesko unifys your offline and online inventory which enables you listing the same item online and offline to maximise your sales and eliminate the need for extra storage for online sales, 1st e-commerce platform in the world.",
-          "img": "src/assets/order-online-img.png"
-        },
-        {
-          "usp_num": "04",
-          "heading": "Scalable store with built in inventory and order management system",
-          "text": "Vesko's store can hold a large number of products as your store will have its own search engine, predefined and customisable categorising system.",
-          "img": "src/assets/profile-vendor-user.png"
-        }
-      ]
+      "option1Heading": "Maximise your Physical Store Sales",
+      "option1Text": "The built-in omnichannel system brings your store and its product line closer to your customer by giving them access to your inventory.",
+      "option2Heading": "Expand your Reach & Grow",
+      "option2Text": " Why limit your sales to just one channel when you can utilise both? With Vesko, you can maximise your reach by selling seamlessly through both online and offline channels. Soon, Vesko will help you connect with customers across Finland and eventually, around the globe.",
+      "option3Heading": "Fulfill online orders from store shelf",
+      "option3Text": "Vesko is the world’s first e-commerce platform that will unify your offline and online inventory without requiring additional storage for online sales. This unique feature allows you to create an online store besides your brick-and-mortar store without the need for an online warehouse, maximising sales while minimising costs.",
+      "option4Heading": "Scalable store with built in inventory and order management system",
+      "option4Text": " In Vesko, your store can grow alongside your brand, it’s designed to handle a vast inventory, featuring a built-in search engine and customizable categorisation system to support your store growth."
     },
 
     "orderManagement": {
@@ -168,8 +150,7 @@
     "uniqueOmnichannel": {
       "heading": "Vesko's Omnichannel ",
       "headingSpan": "Unifies Your Retail Presence",
-      "text": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves.",
-      "img": "src/assets/omnichannel-chart.png"
+      "text": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves."
     },
     "onlineStoreOverview": {
       "heading": "A  scalable online store with unique messaging capabilities ",

@@ -1,21 +1,26 @@
+import { useTranslation } from "react-i18next";
+import { SellingPoint } from "@components/home/SellingPoint";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-
-import { useTranslation } from "react-i18next";
+import {
+  expandReachImg,
+  onlineStoreImage,
+  orderOnlineImg,
+  orderOnlineImgFi,
+  UserOnlineShoppingImg,
+} from "@constants/assets";
 
 interface options {
-  usp_num: string;
-  heading: string;
-  text: string;
+  usp_num?: string;
+  heading?: string;
+  text?: string;
   img?: string;
 }
 
-const StoreSection: React.FC = () => {
-  const { t } = useTranslation();
+const StoreSection: React.FC<options> = () => {
+  const { t, i18n } = useTranslation();
 
-  const options: Array<options> = t("home.sellingPoint.options", {
-    returnObjects: true,
-  });
+  const veskoChart = i18n.language === "fi" ? orderOnlineImgFi : orderOnlineImg;
 
   return (
     <Section>
@@ -28,28 +33,30 @@ const StoreSection: React.FC = () => {
           {t("home.sellingPoint.text")}
         </p>
         <div className="mt-6">
-          {options.map((option, index) => (
-            <div
-              key={index}
-              className="mt-12 flex flex-col items-center justify-between gap-4 md:flex-row odd:md:flex-row-reverse lg:gap-24"
-            >
-              <div className="flex flex-col items-start gap-4">
-                <div className="text-3xl text-accent1-40 sm:text-4xl md:text-5xl lg:text-7xl">
-                  <span>{option.usp_num}</span>
-                  <span className="block h-1 w-full bg-accent1-40"></span>
-                </div>
-                <div className="text-balance text-xl font-semibold sm:text-2xl md:text-3xl lg:text-4xl">
-                  {t(option.heading)}
-                </div>
-                <p className="text-sm md:text-base">{t(option.text)}</p>
-              </div>
-              <img
-                src={option.img}
-                alt={t(option.heading)}
-                className="sm:w-96 lg:w-[580px]"
-              />
-            </div>
-          ))}
+          <SellingPoint
+            usp_num={"01"}
+            heading={t("home.sellingPoint.option1Heading")}
+            text={t("home.sellingPoint.option1Text")}
+            img={UserOnlineShoppingImg}
+          />
+          <SellingPoint
+            usp_num={"02"}
+            heading={t("home.sellingPoint.option2Heading")}
+            text={t("home.sellingPoint.option2Text")}
+            img={expandReachImg}
+          />
+          <SellingPoint
+            usp_num={"03"}
+            heading={t("home.sellingPoint.option3Heading")}
+            text={t("home.sellingPoint.option3Text")}
+            img={veskoChart}
+          />
+          <SellingPoint
+            usp_num={"04"}
+            heading={t("home.sellingPoint.option4Heading")}
+            text={t("home.sellingPoint.option4Text")}
+            img={onlineStoreImage}
+          />
         </div>
       </Container>
     </Section>
