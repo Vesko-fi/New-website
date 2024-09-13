@@ -70,7 +70,7 @@ const Header: React.FC = () => {
               </ul>
             </nav>
             <ToggleLocale />
-            <Link variant="primary" size="md" href="/demo">
+            <Link variant="primary" size="md" onClick={handleClick}>
               {t("home.landingPage.buttonText")}
             </Link>
           </div>
