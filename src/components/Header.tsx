@@ -13,23 +13,20 @@ const Header: React.FC = () => {
   const { t } = useTranslation();
 
   const [isOpen, setIsOpen] = useState(false);
-  const menuRef = useRef<HTMLDivElement>(null);;
+  const menuRef = useRef<HTMLDivElement>(null);
 
   const handleToggleMenu = () => setIsOpen((prev) => !prev);
 
   const handleCloseMenu = (event: MouseEvent) => {
-    if (
-      menuRef.current &&
-      !menuRef.current.contains(event.target as Node)
-    ) {
+    if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
       setIsOpen(false);
     }
   };
 
   useEffect(() => {
-    document.addEventListener('mousedown', handleCloseMenu);
+    document.addEventListener("mousedown", handleCloseMenu);
     return () => {
-      document.removeEventListener('mousedown', handleCloseMenu);
+      document.removeEventListener("mousedown", handleCloseMenu);
     };
   }, []);
 
