@@ -17,7 +17,7 @@ const WaitingList: React.FC = () => {
       <p className="mt-6">
         {t("waitlist.miniheader")}{" "}
         <a href="/demo" className="text-blue-500 underline">
-          {t("demo.formHeader")}
+          {t("waitlist.link")}
         </a>
       </p>
     </div>
