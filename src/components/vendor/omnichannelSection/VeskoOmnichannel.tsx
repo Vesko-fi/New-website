@@ -22,7 +22,7 @@ const VeskoOmnichannel: React.FC = () => {
         <img
           src={omnichannelChartImage}
           alt="Omnichannel chart on how Vesko Omnichannel differs from others"
-          className="mx-auto mt-16 w-3/4"
+          className="mx-auto mt-16 sm:w-3/4"
         />
       </div>
     </>
