@@ -41,12 +41,12 @@ const Header: React.FC = () => {
     <header className="sticky top-0 z-50 overflow-x-clip py-2 backdrop-blur-2xl bg-background-80">
       <Container className="flex items-center justify-between">
         <Logo />
-          <nav className="hidden md:block">
-            <ul className="flex items-center">
-              <NavItem />
-            </ul>
-          </nav>
-          <div>
+        <nav className="hidden md:block">
+          <ul className="flex items-center">
+            <NavItem />
+          </ul>
+        </nav>
+        <div>
           <div className="hidden items-center gap-4 md:flex">
             <ToggleLocale />
             <Link onClick={handleClick} variant="primary" size="md">
@@ -75,7 +75,7 @@ const Header: React.FC = () => {
               {t("home.landingPage.buttonText")}
             </Link>
           </div>
-          </div>
+        </div>
       </Container>
     </header>
   );
