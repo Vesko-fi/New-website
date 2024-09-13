@@ -10,7 +10,7 @@ import ScrollToTop from "@components/ScrollToTop";
 const App = () => {
   return (
     <BrowserRouter>
-    <ScrollToTop/>
+      <ScrollToTop />
       <I18nextProvider i18n={i18n}>
         <Header />
         <main className="min-h-[90dvh]">
