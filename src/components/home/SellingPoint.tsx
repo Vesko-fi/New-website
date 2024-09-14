@@ -27,7 +27,7 @@ const SellingPoint: React.FC<SellingPoint> = ({
 
         <img
           src={img}
-          alt={heading}
+          alt="Unique selling points"
           className="rounded-xl sm:w-96 lg:w-[580px]"
         />
       </div>

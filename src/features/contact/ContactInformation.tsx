@@ -5,7 +5,7 @@ const ContactInformation: React.FC = () => {
   return (
     <div className="mt-4">
       <h1 className="text-3xl font-bold">
-        <span className="text-accent1">{t("contact.header")}</span>{" "}
+        <span className="text-accent1">{t("contact.header")}</span>
       </h1>
       <p className="mb-4 mt-10 font-bold">{t("contact.subheader")}</p>
 
