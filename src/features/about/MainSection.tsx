@@ -25,7 +25,7 @@ const MainSection: React.FC = () => {
             {t("about.p1.text")}
           </p>
         </div>
-        <div className="flex max-w-[800px] flex-col gap-4 text-justify">
+        <div className="flex max-w-[800px] flex-col gap-4 text-start">
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p2.heading")}
           </h1>

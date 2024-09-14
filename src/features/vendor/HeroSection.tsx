@@ -11,9 +11,8 @@ const HeroSetion: React.FC = () => {
       <div className="relative h-[600px] overflow-hidden md:h-[682px]">
         <div className="h-full w-full bg-cover bg-center">
           <img
-            loading="lazy"
             src={vendorHero}
-            alt="Female employee / customer inspecting product items on a vendor display"
+            alt="Female employee or customer inspecting product items on a vendor display"
             className="h-full w-full transform object-cover"
           />
         </div>
