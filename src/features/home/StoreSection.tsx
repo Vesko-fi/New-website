@@ -24,7 +24,7 @@ const StoreSection: React.FC<options> = () => {
 
   return (
     <Section>
-      <Container className="px-4 pt-32 lg:py-12">
+      <Container className="px-8 pt-20 lg:py-8">
         <div className="lg:pb-8">
           <h2 className="text-center text-3xl font-bold leading-tight lg:w-auto">
             <span className="mb-1 block">{t("home.sellingPoint.heading")}</span>

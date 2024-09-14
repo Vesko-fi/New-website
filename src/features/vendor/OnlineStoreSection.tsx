@@ -8,7 +8,7 @@ const OnlineStoreSection: React.FC = () => {
 
   return (
     <Section className="bg-gradient-to-t from-[#F0F5FF]">
-      <Container className="flex flex-col items-center justify-between gap-12 py-16 lg:flex-row">
+      <Container className="flex flex-col items-center justify-between gap-12 py-8 lg:flex-row">
         <div>
           <h1 className="text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("vendors.onlineStoreOverview.heading")}

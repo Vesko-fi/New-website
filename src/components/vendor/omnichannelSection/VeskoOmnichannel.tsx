@@ -9,7 +9,7 @@ const VeskoOmnichannel: React.FC = () => {
 
   return (
     <>
-      <div className="text-balance py-24 text-center">
+      <div className="text-balance py-20 text-center">
         <h1 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.uniqueOmnichannel.heading")}
           <span className="text-accent1">

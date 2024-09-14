@@ -14,7 +14,7 @@ const Benefits: React.FC = () => {
 
   return (
     <>
-      <div className="text-balance py-20 text-center">
+      <div className="text-balance py-16 text-center">
         <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.benefits.heading")}
           <span className="text-accent1">

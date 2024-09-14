@@ -8,7 +8,7 @@ const MainSection: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <Section>
+    <Section className="scroll-margin-top-[64px] -mt-8">
       <img
         src={AboutImg}
         alt=""

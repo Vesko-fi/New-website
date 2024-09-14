@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
   return (
     <footer className="relative bottom-0 bg-gradient-to-t from-[rgba(2,89,56,0.5)] to-[#dafef0ff] py-12">
       <Container>
-        <div className="flex flex-col justify-between gap-12 md:flex-row md:gap-6">
-          <div className="flex-1 px-3 lg:max-w-[40%]">
+        <div className="flex flex-col justify-center space-y-8 px-4 text-center md:flex-row md:gap-6 md:space-y-0">
+          <div className="flex flex-1 flex-col items-center md:items-start lg:max-w-[40%]">
             <Logo />
-            <p className="mt-3 text-balance text-sm lg:text-base">
+            <p className="mt-3 text-balance text-center text-sm md:text-start lg:text-base">
               {t("footer.text")}
             </p>
             <div className="mt-6 flex items-center gap-3">
@@ -30,40 +30,39 @@ const Footer: React.FC = () => {
               ))}
             </div>
           </div>
-          <div className="flex flex-1 lg:max-w-[60%]">
-            <div className="flex-1">
-              <h4 className="mb-2 text-lg font-semibold">
-                {t("footer.company.heading")}
-              </h4>
-              <ul>
-                <li>{t("footer.company.name")}</li>
-                <li>{t("footer.company.address")}</li>
-                <li>{t("footer.company.businessId")}</li>
-              </ul>
-            </div>
-            <div className="flex-1">
-              <h4 className="mb-2 px-3 text-lg font-semibold">{}</h4>
-              <ul>
-                {NAV_ITEMS.map(({ label, href }) => (
-                  <li
-                    key={t(label)}
-                    className="cursor-pointer rounded-md px-3 py-2 text-sm font-medium transition-all duration-200 hover:text-accent1 hover:bg-accent1-10"
+
+          <div className="flex-1">
+            <h4 className="py-2 text-lg font-semibold">
+              {t("footer.company.heading")}
+            </h4>
+            <ul className="space-y-1">
+              <li>{t("footer.company.name")}</li>
+              <li>{t("footer.company.address")}</li>
+              <li>{t("footer.company.businessId")}</li>
+            </ul>
+          </div>
+
+          <div className="flex flex-1 justify-center md:justify-end">
+            <ul>
+              {NAV_ITEMS.map(({ label, href }) => (
+                <li
+                  key={t(label)}
+                  className="cursor-pointer rounded-md px-8 py-1 text-sm font-medium transition-all duration-200 hover:text-accent1 hover:bg-accent1-10 md:text-start"
+                >
+                  <NavLink
+                    to={`/${t(href)}`}
+                    className={({ isActive }) =>
+                      `${isActive ? "text-accent1 underline underline-offset-4" : "underline-offset-0"}`
+                    }
                   >
-                    <NavLink
-                      to={`/${t(href)}`}
-                      className={({ isActive }) =>
-                        `${isActive ? "text-accent1 underline underline-offset-4" : "underline-offset-0"}`
-                      }
-                    >
-                      {t(label)}
-                    </NavLink>
-                  </li>
-                ))}
-              </ul>
-            </div>
+                    {t(label)}
+                  </NavLink>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
-        <hr className="border-t-1 my-12 border-primary-40" />
+        <hr className="border-t-1 my-10 border-primary-40" />
         <p className="text-center font-medium">
           &copy; 2024 Vesko. All Rights Reserved
         </p>

@@ -16,15 +16,16 @@ const HowOmnichannelWork: React.FC = () => {
 
   return (
     <>
-      <div className="space-y-2 text-balance py-16 text-center">
+      <div className="space-y-2 text-balance pb-16 pt-20 text-center">
         <h1 className="text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.whyVesko.heading")}?
         </h1>
         <p className="text-sm lg:text-base">{t("vendors.whyVesko.text")}</p>
       </div>
-      <h1 className="p-12 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
+      <h1 className="mb-8 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
         {t("vendors.howOmnichannelWorks.heading")}?
       </h1>
+
       <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {options.map((option, index) => (
           <Card

@@ -7,18 +7,17 @@ const HeroSetion: React.FC = () => {
   const { t } = useTranslation();
 
   return (
-    <Section>
-      <div className="relative h-[600px] overflow-hidden md:h-[682px]">
+    <Section className="scroll-margin-top-[64px] -mt-8">
+      <div className="relative h-[630px] md:h-[720px]">
         <div className="h-full w-full bg-cover bg-center">
           <img
             src={vendorHero}
-            alt="Female employee or customer inspecting product items on a vendor display"
-            className="h-full w-full transform object-cover"
+            alt="Vendor Hero"
+            className="h-full w-full object-cover"
           />
         </div>
 
-        {/* Overlay text */}
-        <div className="absolute inset-0 bg-black/50 px-8 py-16 text-white sm:px-14">
+        <div className="absolute inset-0 bg-black/50 px-8 py-32 text-white sm:px-14">
           <h1 className="max-w-4xl text-3xl font-bold sm:text-balance md:text-5xl lg:text-6xl xl:text-7xl">
             {t("vendors.hero.heading")}
           </h1>

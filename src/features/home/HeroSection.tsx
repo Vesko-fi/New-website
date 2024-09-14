@@ -11,10 +11,10 @@ const HeroSection: React.FC = () => {
     navigate("/demo");
   };
   return (
-    <Section>
+    <Section className="scroll-m-0 scroll-p-0">
       <Container className="flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-12 lg:py-24">
         {/* Left side text section */}
-        <div className="w-full flex-1 pb-20 text-center lg:text-left">
+        <div className="w-full flex-1 pb-4 text-center lg:text-left">
           <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("home.landingPage.heading")}
             <span className="text-accent1">
