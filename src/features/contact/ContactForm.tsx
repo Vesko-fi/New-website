@@ -1,11 +1,10 @@
 import { useTranslation } from "react-i18next";
 import emailjs from "emailjs-com";
-
 import { Form } from "@components/forms/form";
 import { SubmitButton } from "@components/forms/SubmitButton";
 import { Input } from "@components/ui/Input";
 import { Label } from "@components/ui/Label";
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 
 const ContactForm: React.FC = () => {
   const { t } = useTranslation();
@@ -17,15 +16,57 @@ const ContactForm: React.FC = () => {
     message: "",
   });
 
+  const [errors, setErrors] = useState({
+    phone_number: "",
+    message: "",
+  });
+
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
 
+  const validatePhoneNumber = (phone: string) => {
+    const phoneRegex = /^[0-9]{10,15}$/;
+    return phoneRegex.test(phone);
+  };
+
+  const validateMessageLength = (message: string) => {
+    return message.length >= 32 && message.length <= 499;
+  };
+
+  const validateForm = useCallback(() => {
+    const phoneError = !validatePhoneNumber(formData.phone_number)
+      ? t("Invalid phone number format. Please enter a valid number.")
+      : "";
+    const messageError = !validateMessageLength(formData.message)
+      ? t("Message must be between 32 and 499 characters.")
+      : "";
+
+    setErrors({
+      phone_number: phoneError,
+      message: messageError,
+    });
+
+    return !phoneError && !messageError;
+  }, [formData, t]);
+
+  useEffect(() => {
+    if (isSubmitted) {
+      validateForm();
+    }
+  }, [formData, isSubmitted, validateForm]);
+
   const sendEmail = (e: React.FormEvent) => {
-    e.persist();
     e.preventDefault();
+    setIsSubmitted(true);
+
+    if (!validateForm()) {
+      return;
+    }
 
     const params = {
       first_name: formData.first_name,
@@ -53,6 +94,7 @@ const ContactForm: React.FC = () => {
         }
       );
   };
+
   return (
     <Form
       onSubmit={sendEmail}
@@ -62,12 +104,19 @@ const ContactForm: React.FC = () => {
             <Label htmlFor="message">{t("contact.message")}</Label>
             <textarea
               id="message"
-              className="block w-full resize-none rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+              className={`block w-full resize-none rounded-lg border ${
+                errors.message && isSubmitted
+                  ? "border-red-500"
+                  : "border-gray-300"
+              } bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500`}
               placeholder={t("contact.messagePlaceholder")}
               rows={5}
               value={formData.message}
               onChange={handleChange}
             />
+            {errors.message && isSubmitted && (
+              <p className="mt-1 text-sm text-red-500">{errors.message}</p>
+            )}
           </div>
           <SubmitButton />
         </>
@@ -102,7 +151,7 @@ const ContactForm: React.FC = () => {
           <Label htmlFor="email">{t("contact.email")}</Label>
           <Input
             id="email"
-            type="text"
+            type="email"
             placeholder={t("contact.email")}
             required
             value={formData.email}
@@ -119,7 +168,11 @@ const ContactForm: React.FC = () => {
           required
           value={formData.phone_number}
           onChange={handleChange}
+          className={errors.phone_number && isSubmitted ? "border-red-500" : ""}
         />
+        {errors.phone_number && isSubmitted && (
+          <p className="mt-1 text-sm text-red-500">{errors.phone_number}</p>
+        )}
       </div>
     </Form>
   );
