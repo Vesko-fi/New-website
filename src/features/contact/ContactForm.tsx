@@ -5,10 +5,11 @@ import { SubmitButton } from "@components/forms/SubmitButton";
 import { Input } from "@components/ui/Input";
 import { Label } from "@components/ui/Label";
 import { useState, useEffect, useCallback } from "react";
-import { validateForm } from "@utils/formValidationUtils"; // Import the validation logic
+import { validateForm } from "@utils/formValidationUtils";
 
 const ContactForm: React.FC = () => {
   const { t } = useTranslation();
+  
   const [formData, setFormData] = useState({
     first_name: "",
     last_name: "",
@@ -18,6 +19,9 @@ const ContactForm: React.FC = () => {
   });
 
   const [errors, setErrors] = useState({
+    first_name: "",
+    last_name: "",
+    email: "",
     phone_number: "",
     message: "",
   });
@@ -30,23 +34,29 @@ const ContactForm: React.FC = () => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
 
-  const handleValidation = useCallback(() => {
-    const validationErrors = validateForm(formData, t); // Use the utility function for validation
+  const handleValidateForm = useCallback(() => {
+    const validationErrors = validateForm(formData, t);
     setErrors(validationErrors);
-    return !validationErrors.phone_number && !validationErrors.message;
+    return (
+      !validationErrors.first_name &&
+      !validationErrors.last_name &&
+      !validationErrors.email &&
+      !validationErrors.phone_number &&
+      !validationErrors.message
+    );
   }, [formData, t]);
 
   useEffect(() => {
     if (isSubmitted) {
-      handleValidation();
+      handleValidateForm();
     }
-  }, [formData, isSubmitted, handleValidation]);
+  }, [formData, isSubmitted, handleValidateForm]);
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitted(true);
 
-    if (!handleValidation()) {
+    if (!handleValidateForm()) {
       return;
     }
 
@@ -68,11 +78,11 @@ const ContactForm: React.FC = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Message sent successfully!");
+          alert(t("contact.successMessage"));
         },
         (error) => {
           console.log(error.text);
-          alert("Failed to send message. Please try again.");
+          alert(t("contact.errorMessage"));
         }
       );
   };
@@ -109,45 +119,52 @@ const ContactForm: React.FC = () => {
         <Input
           id="first_name"
           type="text"
-          placeholder="John"
-          required
+          placeholder={t("contact.firstName")}
           value={formData.first_name}
           onChange={handleChange}
+          className={errors.first_name && isSubmitted ? "border-red-500" : ""}
         />
+        {errors.first_name && isSubmitted && (
+          <p className="mt-1 text-sm text-red-500">{errors.first_name}</p>
+        )}
       </div>
+
       <div>
-        <div>
-          <Label htmlFor="last_name">{t("contact.lastName")}</Label>
-          <Input
-            id="last_name"
-            type="text"
-            placeholder="Doe"
-            required
-            value={formData.last_name}
-            onChange={handleChange}
-          />
-        </div>
+        <Label htmlFor="last_name">{t("contact.lastName")}</Label>
+        <Input
+          id="last_name"
+          type="text"
+          placeholder={t("contact.lastName")}
+          value={formData.last_name}
+          onChange={handleChange}
+          className={errors.last_name && isSubmitted ? "border-red-500" : ""}
+        />
+        {errors.last_name && isSubmitted && (
+          <p className="mt-1 text-sm text-red-500">{errors.last_name}</p>
+        )}
       </div>
+
       <div>
-        <div>
-          <Label htmlFor="email">{t("contact.email")}</Label>
-          <Input
-            id="email"
-            type="email"
-            placeholder={t("contact.email")}
-            required
-            value={formData.email}
-            onChange={handleChange}
-          />
-        </div>
+        <Label htmlFor="email">{t("contact.email")}</Label>
+        <Input
+          id="email"
+          type="email"
+          placeholder={t("contact.email")}
+          value={formData.email}
+          onChange={handleChange}
+          className={errors.email && isSubmitted ? "border-red-500" : ""}
+        />
+        {errors.email && isSubmitted && (
+          <p className="mt-1 text-sm text-red-500">{errors.email}</p>
+        )}
       </div>
+
       <div>
         <Label htmlFor="phone_number">{t("contact.phoneNumber")}</Label>
         <Input
           id="phone_number"
           type="text"
           placeholder={t("contact.phoneNumber")}
-          required
           value={formData.phone_number}
           onChange={handleChange}
           className={errors.phone_number && isSubmitted ? "border-red-500" : ""}
@@ -159,6 +176,7 @@ const ContactForm: React.FC = () => {
     </Form>
   );
 };
+
 ContactForm.displayName = "ContactPage";
 
 export { ContactForm };
