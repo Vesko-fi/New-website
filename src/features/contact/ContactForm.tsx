@@ -5,6 +5,7 @@ import { SubmitButton } from "@components/forms/SubmitButton";
 import { Input } from "@components/ui/Input";
 import { Label } from "@components/ui/Label";
 import { useState, useEffect, useCallback } from "react";
+import { validateForm } from "@utils/formValidationUtils"; // Import the validation logic
 
 const ContactForm: React.FC = () => {
   const { t } = useTranslation();
@@ -29,42 +30,23 @@ const ContactForm: React.FC = () => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
 
-  const validatePhoneNumber = (phone: string) => {
-    const phoneRegex = /^[0-9]{10,15}$/;
-    return phoneRegex.test(phone);
-  };
-
-  const validateMessageLength = (message: string) => {
-    return message.length >= 32 && message.length <= 499;
-  };
-
-  const validateForm = useCallback(() => {
-    const phoneError = !validatePhoneNumber(formData.phone_number)
-      ? t("Invalid phone number format. Please enter a valid number.")
-      : "";
-    const messageError = !validateMessageLength(formData.message)
-      ? t("Message must be between 32 and 499 characters.")
-      : "";
-
-    setErrors({
-      phone_number: phoneError,
-      message: messageError,
-    });
-
-    return !phoneError && !messageError;
+  const handleValidation = useCallback(() => {
+    const validationErrors = validateForm(formData, t); // Use the utility function for validation
+    setErrors(validationErrors);
+    return !validationErrors.phone_number && !validationErrors.message;
   }, [formData, t]);
 
   useEffect(() => {
     if (isSubmitted) {
-      validateForm();
+      handleValidation();
     }
-  }, [formData, isSubmitted, validateForm]);
+  }, [formData, isSubmitted, handleValidation]);
 
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitted(true);
 
-    if (!validateForm()) {
+    if (!handleValidation()) {
       return;
     }
 
