@@ -56,7 +56,7 @@ const Footer: React.FC = () => {
                     <NavLink
                       to={`/${t(href)}`}
                       className={({ isActive }) =>
-                        `${isActive ? "text-accent1 underline underline-offset-4" : "underline-offset-0"}`
+                        `${isActive ? "text-accent1 underline-offset-4" : "underline-offset-0"}`
                       }
                     >
                       {t(label)}
