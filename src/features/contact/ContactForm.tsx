@@ -9,7 +9,7 @@ import { validateForm } from "@utils/formValidationUtils";
 
 const ContactForm: React.FC = () => {
   const { t } = useTranslation();
-  
+
   const [formData, setFormData] = useState({
     first_name: "",
     last_name: "",

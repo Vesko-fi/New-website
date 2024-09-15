@@ -1,4 +1,3 @@
-
 import { TFunction } from "i18next";
 
 export const validatePhoneNumber = (phone: string) => {
@@ -10,21 +9,24 @@ export const validateMessageLength = (message: string) => {
   return message.length >= 32 && message.length <= 499;
 };
 
-export const initialErrorState =  {
+export const initialErrorState = {
   first_name: "",
   last_name: "",
   email: "",
   phone_number: "",
   message: "",
-}
+};
 
-export const validateForm = (formData: {
-  first_name: string;
-  last_name: string;
-  email: string;
-  phone_number: string;
-  message: string;
-}, t: TFunction) => {
+export const validateForm = (
+  formData: {
+    first_name: string;
+    last_name: string;
+    email: string;
+    phone_number: string;
+    message: string;
+  },
+  t: TFunction
+) => {
   const newErrors = {
     first_name: "",
     last_name: "",

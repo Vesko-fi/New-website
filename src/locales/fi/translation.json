@@ -282,12 +282,18 @@
     "formHeader": "Ota yhteyttä",
     "firstName": "Etunimi",
     "lastName": "Sukunimi",
-
     "email": "Sähköposti",
     "phoneNumber": "Puhelinnumero",
     "message": "Viesti",
     "messagePlaceholder": "Kirjoita viesti tähän",
-    "submitButton": "Lähetä"
+    "submitButton": "Lähetä",
+    "error": {
+      "invalidPhoneNumber": "Anna kelvollinen puhelinnumero.",
+      "messageLength": "Viestin on oltava 32–499 merkkiä pitkä.",
+      "requiredFirstName": "Etunimi on pakollinen.",
+      "requiredLastName": "Sukunimi on pakollinen.",
+      "requiredEmail": "Sähköposti on pakollinen."
+    }
   },
   "demo": {
     "header": "Näe Vesko toiminnassa, pyydä henkilökohtainen alustan esittely",
