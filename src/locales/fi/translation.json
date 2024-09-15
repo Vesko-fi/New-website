@@ -36,7 +36,8 @@
       "address": "Joensuu, Suomi",
       "businessId": "Y-tunnus: 3472131-6",
       "contact": "Ota Yhteyttä"
-    }
+    },
+    "link": "Linkit"
   },
   "home": {
     "landingPage": {
@@ -50,13 +51,13 @@
       "heading2": "Mutta se on sinun verkkokauppa",
       "text": "Vesko antaa sinulle täydellisen hallinnan verkkokauppasi myyntiehtoihin.",
       "option1Heading": "Maksimoi ja kasvata sinun kivijalkakaupan myyntiä",
-      "option1Text": "Sisäänrakennettu monikanavainen järjestelmä tuo kauppasi lähemmäksi asiakkaita, sillä he voivat nähdä suonin kaupan tuotevalikoima ja tarkistaa tuotteiden saatavuuden reaaliajassa. Veskon verkkokauppa auttaa houkuttelemaan lisää paikallisia asiakkaita sinun kivijalkakauppaan.",
+      "option1Text": "Sisäänrakennettu monikanavainen järjestelmä tuo kauppasi lähemmäksi asiakkaita, sillä he voivat nähdä sinun kaupan tuotevalikoiman ja tarkistaa tuotteiden saatavuuden reaaliajassa. Veskon verkkokauppa auttaa houkuttelemaan lisää paikallisia asiakkaita sinun kivijalkakauppaan.",
       "option2Heading": "Kasvata brändiäsi laajentamalla tavoittavuuttasi",
       "option2Text": "Miksi rajoittaa myyntisi vain yhteen kanavaan, kun voit tehdä sen molemmissa? Veskon avulla voit maksimoida tavoittavuutesi myymällä saumattomasti sekä verkossa että myymälässä. Pian Vesko auttaa sinua luomaan yhteyksiä asiakkaisiin ympäri Suomea ja myöhemmin myös globaalisti.",
-      "option3Heading": "Täytä verkkotilaukset suoraan myymälä hyllyltä",
-      "option3Text": "Vesko on maailman ensimmäinen verkkokauppa-alusta, joka yhdistää kivijalka- ja verkkokaupan varasto ilman tarvetta lisä varastolle verkko myynnille. Tämä ainutlaatuinen ominaisuus mahdollistaa verkkokaupan perustamisen kivijalkakauppasi rinnalle ilman verkkovarastoa, maksimoi myynnin ja minimoi kustannukset.",
+      "option3Heading": "Täytä verkkotilaukset suoraan myymäläsi hyllyltä",
+      "option3Text": "Vesko on maailman ensimmäinen verkkokauppa-alusta, joka yhdistää kivijalka- ja verkkokaupan varaston ilman tarvetta lisävarastolle verkko myynnille. Tämä ainutlaatuinen ominaisuus mahdollistaa verkkokaupan perustamisen kivijalkakauppasi rinnalle ilman verkkovarastoa, maksimoi myynnin ja minimoi kustannukset.",
       "option4Heading": "Skaalautuva myymälä sisäänrakennetuilla varasto-ja tilaus järjestelmillä ",
-      "option4Text": "Veskossa myymäläsi voi kasvaa brändisi mukana. Se on suunniteltu käsittelemään laajaa varastoa ja sisältää sisäänrakennetun hakukoneen sekä räätälöitävän kategorisointi järjestelmän, jotka tukevat kaupan kasvu."
+      "option4Text": "Veskossa myymäläsi voi kasvaa brändisi mukana. Se on suunniteltu käsittelemään laajaa varastoa ja sisältää sisäänrakennetun hakukoneen sekä räätälöitävän kategorisointi järjestelmän, jotka tukevat kaupan kasvua."
     },
     "orderManagement": {
       "heading": "Integroitu ",
@@ -88,7 +89,7 @@
     "omnichannel": {
       "heading": "Mikä on ",
       "headingSpan": "Monikanavainen Verkkokauppa",
-      "text": "Monikanavainen järjestelmä integroi sinun kivijalkakauppai verkkokauppaasi, jolloin paikalliset asiakkaat voivat nähdä reaaliaikaisen tuotteen saatavuuden sinun kivijalkakaupassa. Tämä integraatio auttaa sinua houkuttelemaan lisää paikallisia asiakkaita ja tehostamaan sekä verkko, että fyysistä myyntiä."
+      "text": "Monikanavainen järjestelmä integroi sinun Kivijalkakauppasi verkkokauppaasi, jolloin paikalliset asiakkaat voivat nähdä reaaliaikaisen tuotteen saatavuuden sinun kivijalkakaupassa. Tämä integraatio auttaa sinua houkuttelemaan lisää paikallisia asiakkaita ja tehostamaan sekä verkko, että fyysistä myyntiä."
     },
     "tranditionalRequirements": {
       "heading": "Perinteisen monikanavainen kaupan vaatimukset",
@@ -117,7 +118,7 @@
     },
     "whyVesko": {
       "heading": "Miksi Veskon monikanavainen verkkokaupan",
-      "text": "Miksi maksaa tuhansia euroja, odottaa kuukausia ja palkata IT-yritys monikanavainen-verkkokauppasi rakentamiseen ja ylläpitoon? Veskon avulla saat sen toimimaan muutamassa minuutissa, prosessi on vaivaton ja kustannustehokas."
+      "text": "Miksi maksaa tuhansia euroja, odottaa kuukausia ja palkata IT-yritys monikanavaisen-verkkokauppasi rakentamiseen ja ylläpitoon? Veskon avulla saat sen toimimaan muutamassa minuutissa, prosessi on vaivaton ja kustannustehokas."
     },
     "howOmnichannelWorks": {
       "heading": "Miten Veskon monikanavainen verkkokauppa toimii",
@@ -206,7 +207,7 @@
           "text": "Vesko tulee olemaan saatavilla Suomessa kesän 2025 aikana tai sen jälkeen, ja muissa Pohjoismaissa noin kolme kuukautta Suomen lanseerauksen jälkeen."
         },
         {
-          "heading": "Mitä sääntöjä Vesko asettaa kuppiaalle?",
+          "heading": "Mitä sääntöjä Vesko asettaa kauppiaalle?",
           "text": "Verkkokauppiaille ja brändeille ei aseteta pakollisia sääntöjä myynti käytännöistä, kuten pakollisista palautuksista tai reklamaatioista. Fyysisille myymälöille kuitenkin sääntö on tiukasti valvottu: omnichannel-hintasääntö. Fyysisten myymälöiden omistajien on ylläpidettävä johdonmukaisia hintoja sekä verkko, että myymälä kanavissa. Tämä varmistaa, että kuluttajat löytävät saman hinnan fyysisissä myymälöissä kuin verkkokaupoissa, edistäen saumattoman ja reilun ostokokemuksen."
         },
         {
@@ -223,7 +224,7 @@
     },
     "localShopping": {
       "heading": "Näe, mitä paikalliset kivijalkakaupat myyvät",
-      "text": "Pian voit shoppailla paikallisista vähittäiskaupoista vaivattomasti, nähdä tuotteiden saatavuus reaaliajassa ja varmistaa, ettet tuhlaa aikaasi epävarmoihin ostosmatkoihin."
+      "text": "Pian voit shoppailla paikallisista vähittäiskaupoista vaivattomasti, nähdä tuotteiden saatavuuden reaaliajassa ja varmistaa, ettet tuhlaa aikaasi epävarmoihin ostosmatkoihin."
     },
     "options": {
       "heading": "Tutustu, miten Veskon ostovaihtoehdot parantavat osto sinun kokemusta",
@@ -243,7 +244,7 @@
     },
     "mission": {
       "heading": "Tehtävämme on yhdistää sinut",
-      "p1": "Suomessa on monia pieniä kauppoja ja brändejä, jotka tarjoavat ainutlaatuisia ja aitoja tuotteita, usein paikallisesti ja kestävällä tavalla valmistettuja. Nämä tuotteet ovat erityisiä ja usein saatavilla vain pienistä liikkeistä, eivät suurista ketjukaupoista tai suurilta ulkomaisilta verkkokauppiailta. Monet näistä yrityksistä eivät pysty myymään tuotteitaan verkkokauppoihin tai heillä ei ole mahdollisuutta verkkonäkyvyyteen.",
+      "p1": "Suomessa on monia pieniä kauppoja ja brändejä, jotka tarjoavat ainutlaatuisia ja aitoja tuotteita, usein paikallisesti ja kestävällä tavalla valmistettuna. Nämä tuotteet ovat erityisiä ja usein saatavilla vain pienistä liikkeistä, eivät suurista ketjukaupoista tai suurilta ulkomaisilta verkkokauppiailta. Monet näistä yrityksistä eivät pysty myymään tuotteitaan verkkokauppoihin tai heillä ei ole mahdollisuutta verkkonäkyvyyteen.",
       "p2": "Veskolla olemme sitoutuneet kuromaan tämän eron umpeen antamalla suomalaisille brändeille ja kaupoille verkkoalustan, jonka avulla voit löytää ja tukea näitä paikallisia yrityksiä ja yrittäjiä, olitpa missä tahansa."
     }
   },
