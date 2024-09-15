@@ -31,35 +31,40 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex-1">
-            <h4 className="py-2 text-lg font-semibold">
-              {t("footer.company.heading")}
-            </h4>
-            <ul className="space-y-1">
-              <li>{t("footer.company.name")}</li>
-              <li>{t("footer.company.address")}</li>
-              <li>{t("footer.company.businessId")}</li>
-            </ul>
+          <div className="flex flex-1 flex-col md:items-end">
+            <div>
+              <h4 className="py-2 text-lg font-semibold">
+                {t("footer.company.heading")}
+              </h4>
+              <ul className="space-y-1">
+                <li>{t("footer.company.name")}</li>
+                <li>{t("footer.company.address")}</li>
+                <li>{t("footer.company.businessId")}</li>
+              </ul>
+            </div>
           </div>
 
-          <div className="flex flex-1 justify-center md:justify-end">
-            <ul>
-              {NAV_ITEMS.map(({ label, href }) => (
-                <li
-                  key={t(label)}
-                  className="cursor-pointer rounded-md px-8 py-1 text-sm font-medium transition-all duration-200 hover:text-accent1 hover:bg-accent1-10 md:text-start"
-                >
-                  <NavLink
-                    to={`/${t(href)}`}
-                    className={({ isActive }) =>
-                      `${isActive ? "text-accent1 underline underline-offset-4" : "underline-offset-0"}`
-                    }
+          <div className="flex flex-1 flex-col md:items-end">
+            <div>
+              <h4 className="py-2 text-lg font-semibold">{t("footer.link")}</h4>
+              <ul className="space-y-2 text-center">
+                {NAV_ITEMS.map(({ label, href }) => (
+                  <li
+                    key={t(label)}
+                    className="cursor-pointer rounded-md px-4 text-sm font-medium transition-all duration-200 hover:text-accent1 hover:bg-accent1-10"
                   >
-                    {t(label)}
-                  </NavLink>
-                </li>
-              ))}
-            </ul>
+                    <NavLink
+                      to={`/${t(href)}`}
+                      className={({ isActive }) =>
+                        `${isActive ? "text-accent1 underline underline-offset-4" : "underline-offset-0"}`
+                      }
+                    >
+                      {t(label)}
+                    </NavLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
           </div>
         </div>
         <hr className="border-t-1 my-10 border-primary-40" />
