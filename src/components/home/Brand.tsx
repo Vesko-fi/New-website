@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
+import { useNavigate } from "react-router-dom";
 
 import { Button } from "@components/ui/Button";
-import { useNavigate } from "react-router-dom";
 
 const Brand: React.FC = () => {
   const navigate = useNavigate();

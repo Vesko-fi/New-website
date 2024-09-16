@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import { Section } from "@components/ui/Section";
+
 import { UserHeroImg } from "@constants/assets";
 
 const HeroSection: React.FC = () => {

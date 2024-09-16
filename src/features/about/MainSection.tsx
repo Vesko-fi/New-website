@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
 
-import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
+import { Container } from "@components/ui/Container";
+
 import { AboutImg } from "@constants/assets";
 
 const MainSection: React.FC = () => {

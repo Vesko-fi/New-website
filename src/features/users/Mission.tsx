@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 
 import { Section } from "@components/ui/Section";
+
 import { reinDeer, reinDeer2 } from "@constants/assets";
 
 const Mission = () => {

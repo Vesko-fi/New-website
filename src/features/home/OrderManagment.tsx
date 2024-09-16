@@ -1,24 +1,20 @@
 import { useTranslation } from "react-i18next";
 
-import { OptionItems } from "@components/home/OptionItems";
-import { Container } from "@components/ui/Container";
-import { Link } from "@components/ui/Link";
 import { Section } from "@components/ui/Section";
+import { Container } from "@components/ui/Container";
+
+import { OptionItems } from "@components/home/OptionItems";
+
+import { Link } from "@components/ui/Link";
+
 import {
   optimizeLogisticImg,
   orderManagementImg,
   securePaymentImg,
 } from "@constants/assets";
-import { useNavigate } from "react-router-dom";
 
 const OrderManagment: React.FC = () => {
   const { t } = useTranslation();
-
-  const navigate = useNavigate();
-
-  const handleClick = () => {
-    navigate("/demo");
-  };
 
   return (
     <Section>
@@ -31,12 +27,7 @@ const OrderManagment: React.FC = () => {
             </span>
             {t("home.orderManagement.heading2")}
           </h2>
-          <Link
-            onClick={handleClick}
-            variant="primary"
-            size="lg"
-            className="mt-8"
-          >
+          <Link href="/demo" variant="primary" size="lg" className="mt-8">
             {t("home.orderManagement.buttonText")}
           </Link>
         </div>

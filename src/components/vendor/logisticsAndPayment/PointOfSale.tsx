@@ -1,5 +1,5 @@
-import { posImg } from "@constants/assets";
 import { useTranslation } from "react-i18next";
+import { posImg } from "@constants/assets";
 
 const PointOfSale: React.FC = () => {
   const { t } = useTranslation();

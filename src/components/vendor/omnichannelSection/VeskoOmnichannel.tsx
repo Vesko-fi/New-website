@@ -1,5 +1,5 @@
-import { omnichannelChartImg, omnichannelChartImgFi } from "@constants/assets";
 import { useTranslation } from "react-i18next";
+import { omnichannelChartImg, omnichannelChartImgFi } from "@constants/assets";
 
 const VeskoOmnichannel: React.FC = () => {
   const { t, i18n } = useTranslation();

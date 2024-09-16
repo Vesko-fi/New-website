@@ -1,5 +1,6 @@
-import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
+import { Container } from "@components/ui/Container";
+
 import { HowOmnichannelWork } from "@components/vendor/omnichannelSection/HowOmnichannelWork";
 import { Omnichannel } from "@components/vendor/omnichannelSection/Omnichannel";
 import { VeskoOmnichannel } from "@components/vendor/omnichannelSection/VeskoOmnichannel";

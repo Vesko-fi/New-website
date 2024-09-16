@@ -1,8 +1,9 @@
 import { useTranslation } from "react-i18next";
 
-import { Accordion } from "@components/ui/Accordion";
-import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
+import { Container } from "@components/ui/Container";
+
+import { Accordion } from "@components/ui/Accordion";
 
 interface options {
   heading: string;

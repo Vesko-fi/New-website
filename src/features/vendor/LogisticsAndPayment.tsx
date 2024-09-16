@@ -1,5 +1,6 @@
-import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
+import { Container } from "@components/ui/Container";
+
 import { Benefits } from "@components/vendor/logisticsAndPayment/Benefits";
 import { PointOfSale } from "@components/vendor/logisticsAndPayment/PointOfSale";
 import { Slider } from "@components/vendor/logisticsAndPayment/Slider";

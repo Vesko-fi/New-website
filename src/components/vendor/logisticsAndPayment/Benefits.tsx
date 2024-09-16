@@ -1,5 +1,5 @@
-import { Card } from "@components/ui/Card";
 import { useTranslation } from "react-i18next";
+import { Card } from "@components/ui/Card";
 interface options {
   icon: string;
   heading: string;

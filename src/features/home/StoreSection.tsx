@@ -1,7 +1,10 @@
 import { useTranslation } from "react-i18next";
-import { SellingPoint } from "@components/home/SellingPoint";
-import { Container } from "@components/ui/Container";
+
 import { Section } from "@components/ui/Section";
+import { Container } from "@components/ui/Container";
+
+import { SellingPoint } from "@components/home/SellingPoint";
+
 import {
   expandReachImg,
   onlineStoreImage,

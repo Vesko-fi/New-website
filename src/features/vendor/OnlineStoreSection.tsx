@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
-import { Container } from "@components/ui/Container";
+
 import { Section } from "@components/ui/Section";
+import { Container } from "@components/ui/Container";
+
 import { onlineStoreImage } from "@constants/assets";
 
 const OnlineStoreSection: React.FC = () => {

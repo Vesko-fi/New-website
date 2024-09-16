@@ -1,8 +1,10 @@
 import { useTranslation } from "react-i18next";
 
-import { Section } from "@components/ui/Section";
-import { vendorHero } from "@constants/assets";
 import { SEO } from "@components/SEO";
+
+import { Section } from "@components/ui/Section";
+
+import { vendorHero } from "@constants/assets";
 
 const HeroSetion: React.FC = () => {
   const { t } = useTranslation();
