@@ -8,6 +8,10 @@ export const NAV_ITEMS = [
 
 export const SOCIALS = [
   { href: "https://www.linkedin.com/company/veskofinland/", icon: "linkedin" },
+  {
+    href: "https://www.instagram.com/vesko.fi/?igsh=MXJneHd2bHcxZ3lybQ%3D%3D&utm_source=qr",
+    icon: "instagram",
+  },
 ];
 
 export const LOCALE_ITEMS = [
