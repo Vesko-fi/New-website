@@ -291,7 +291,14 @@
     "phoneNumber": "Phone number",
     "message": "Message",
     "messagePlaceholder": "Write your message here",
-    "submitButton": "Submit"
+    "submitButton": "Submit",
+    "error": {
+      "invalidPhoneNumber": "Please enter a valid phone number.",
+      "messageLength": "Message must be between 32 and 499 characters.",
+      "requiredFirstName": "First name is required.",
+      "requiredLastName": "Last name is required.",
+      "requiredEmail": "Email is required."
+    }
   },
   "demo": {
     "header": "See Vesko in Action, Request a Personalized Demo",
