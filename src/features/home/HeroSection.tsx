@@ -3,19 +3,15 @@ import { Container } from "@components/ui/Container";
 import { Link } from "@components/ui/Link";
 import { Section } from "@components/ui/Section";
 import { heroImgBg, heroImgCheckout, heroImgProduct } from "@constants/assets";
-import { useNavigate } from "react-router-dom";
 import { SEO } from "@components/SEO";
 const HeroSection: React.FC = () => {
   const { t } = useTranslation();
-  const navigate = useNavigate();
-  const handleClick = () => {
-    navigate("/demo");
-  };
+
   return (
     <>
       <SEO
         title={`${t("navbar.home.label")} | ${t("home.seo")}`}
-        description={t("home.hero.landingPage.text")}
+        description={t("home.landingPage.text")}
         keywords="vesko, online-market, retail-stores, consumer-behaviour, digitalisation AI"
       />
       <Section className="scroll-m-0 scroll-p-0">
@@ -30,7 +26,7 @@ const HeroSection: React.FC = () => {
             </h1>
             <p className="text-sm xl:text-base">{t("home.landingPage.text")}</p>
             <Link
-              onClick={handleClick}
+              href={"/demo"}
               variant="primary"
               size="lg"
               className="mb-16 mt-8"
