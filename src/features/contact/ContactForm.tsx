@@ -37,6 +37,8 @@ const ContactForm: React.FC = () => {
   const [dialogContent, setDialogContent] = useState({
     message: "",
   });
+  const [isLoading, setIsLoading] = useState(false);
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -68,7 +70,7 @@ const ContactForm: React.FC = () => {
     if (!handleValidateForm()) {
       return;
     }
-
+    setIsLoading(true);
     const params = {
       first_name: formData.first_name,
       last_name: formData.last_name,
@@ -93,6 +95,8 @@ const ContactForm: React.FC = () => {
           setDialogVisible(true);
           setFormData(initialFormData);
           setIsSubmitted(false);
+          setIsLoading(false); // Hide loading state
+          setDialogVisible(true); // Show success dialog
         },
         (error) => {
           console.log(error.text);
@@ -100,6 +104,8 @@ const ContactForm: React.FC = () => {
             message: t("contact.errorMessage"),
           });
           setDialogVisible(true);
+          setIsLoading(false); // Hide loading state
+          setDialogVisible(true); // Show error dialog
         }
       );
   };
@@ -194,11 +200,9 @@ const ContactForm: React.FC = () => {
           )}
         </div>
       </Form>{" "}
-      {dialogVisible && (
-        <DialogeBox
-          message={dialogContent.message}
-          onClose={() => setDialogVisible(false)}
-        />
+      {isLoading && <div className="loader"></div>}
+      {dialogVisible && !isLoading && (
+        <DialogeBox message={dialogContent.message} />
       )}
     </>
   );

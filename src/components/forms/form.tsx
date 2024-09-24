@@ -7,7 +7,7 @@ interface FormProps {
 const Form: React.FC<FormProps> = ({ children, additional, onSubmit }) => {
   return (
     <div className="rounded-lg border bg-white p-6 border-accent1-40">
-      <form onSubmit={onSubmit}>
+      <form autoComplete="off" onSubmit={onSubmit}>
         <div className="mb-6 grid gap-4 md:grid-cols-2">{children}</div>
         {additional}
       </form>

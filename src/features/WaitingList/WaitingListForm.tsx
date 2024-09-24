@@ -134,7 +134,7 @@ const WaitingListForm: React.FC = () => {
           <Label htmlFor="phone_number">{t("waitlist.phoneNumber")}</Label>
           <Input
             id="phone_number"
-            type="number"
+            type="text"
             placeholder={t("waitlist.phoneNumber")}
             required
             value={formData.phone_number}

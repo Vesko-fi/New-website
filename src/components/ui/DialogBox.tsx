@@ -3,10 +3,16 @@ import { Button } from "./Button";
 
 interface DialogueBoxProps {
   message: string;
-  onClose: () => void;
 }
-const DialogeBox: React.FC<DialogueBoxProps> = ({ message, onClose }) => {
+const DialogeBox: React.FC<DialogueBoxProps> = ({ message }) => {
   const { t } = useTranslation();
+
+  const onClose = () => {
+    // Close the dialog box and reload the page
+
+    window.location.reload(); // Refresh the page
+  };
+
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50">
       <div className="rounded-lg bg-white p-6 shadow-lg">
