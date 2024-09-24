@@ -345,6 +345,10 @@
     "submitButton": "Join Now",
     "miniheader": "You want to see how Vesko will help you to build your brand?",
     "sell": "What do you sell?",
-    "link": "Get a Demo"
+    "link": "Get a Demo",
+    "success": "Submitted Successfully",
+    "successMessage": "Thank you for joining the waiting list.",
+    "errorMessage": "Error",
+    "close": "Close"
   }
 }

@@ -316,7 +316,7 @@
     "messagePlaceholder": "Kirjoita viesti tähän",
     "submitButton": "Pyydä demo",
     "success": "Lähetetty onnistuneesti",
-    "successMessage": "Kiitos yhteydenotostasi.",
+    "successMessage": "Kiitos, että liityit demolistalle.",
     "errorMessage": "error",
     "close": "lähellä"
   },
@@ -339,6 +339,10 @@
     "linkedin": "LinkedIn",
     "sell": " Mitä myyt?",
     "link": "Pyydä esittely",
-    "miniheader": "Haluatko nähdä, kuinka Vesko auttaa sinua rakentamaan brändiäsi? Pyydä henkilökohtainen alustan esittely"
+    "miniheader": "Haluatko nähdä, kuinka Vesko auttaa sinua rakentamaan brändiäsi? Pyydä henkilökohtainen alustan esittely",
+    "success": "Lähetetty onnistuneesti",
+    "successMessage": "Kiitos jonotuslistalle liittymisestä.",
+    "errorMessage": "error",
+    "close": "lähellä"
   }
 }
