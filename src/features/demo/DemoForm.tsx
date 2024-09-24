@@ -48,7 +48,7 @@ const DemoForm: React.FC = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert("Message sent successfully!");
+          alert("Thank you! Your form has been successfully submitted.");
         },
         (error) => {
           console.log(error.text);
@@ -117,7 +117,7 @@ const DemoForm: React.FC = () => {
         <Label htmlFor="phone_number">{t("demo.phoneNumber")}</Label>
         <Input
           id="phone_number"
-          type="number"
+          type="text"
           placeholder={t("demo.phoneNumber")}
           required
           value={formData.phone_number}
