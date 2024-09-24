@@ -12,21 +12,24 @@ import { validateForm } from "@utils/formValidationUtils";
 const ContactForm: React.FC = () => {
   const { t } = useTranslation();
 
-  const [formData, setFormData] = useState({
+  const initialFormState = {
     first_name: "",
     last_name: "",
     email: "",
     phone_number: "",
     message: "",
-  });
+  };
 
-  const [errors, setErrors] = useState({
+  const initialErrorState = {
     first_name: "",
     last_name: "",
     email: "",
     phone_number: "",
     message: "",
-  });
+  };
+  const [formData, setFormData] = useState(initialFormState);
+
+  const [errors, setErrors] = useState(initialErrorState);
 
   const [isSubmitted, setIsSubmitted] = useState(false);
 
@@ -54,6 +57,12 @@ const ContactForm: React.FC = () => {
     }
   }, [formData, isSubmitted, handleValidateForm]);
 
+  const clearForm = () => {
+    setFormData(initialFormState);
+    setErrors(initialErrorState);
+    setIsSubmitted(false);
+  };
+
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitted(true);
@@ -78,9 +87,9 @@ const ContactForm: React.FC = () => {
         import.meta.env.VITE_EMAILJS_USER_ID as string
       )
       .then(
-        (result) => {
-          console.log(result.text);
+        () => {
           alert(t("contact.successMessage"));
+          clearForm();
         },
         (error) => {
           console.log(error.text);
