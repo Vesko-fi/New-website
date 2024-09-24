@@ -293,7 +293,11 @@
       "requiredFirstName": "Etunimi on pakollinen.",
       "requiredLastName": "Sukunimi on pakollinen.",
       "requiredEmail": "Sähköposti on pakollinen."
-    }
+    },
+    "success": "Lähetetty onnistuneesti",
+    "successMessage": "Kiitos yhteydenotostasi.",
+    "errorMessage": "error",
+    "close": "lähellä"
   },
   "demo": {
     "header": "Näe Vesko toiminnassa, pyydä henkilökohtainen alustan esittely",
@@ -310,7 +314,11 @@
     "linkedin": "LinkedIn",
     "message": "Viesti",
     "messagePlaceholder": "Kirjoita viesti tähän",
-    "submitButton": "Pyydä demo"
+    "submitButton": "Pyydä demo",
+    "success": "Lähetetty onnistuneesti",
+    "successMessage": "Kiitos, että liityit demolistalle.",
+    "errorMessage": "error",
+    "close": "lähellä"
   },
   "waitlist": {
     "header": "Ole ensimmäinen, joka kokeilee ja testaa Veskoa – liity nyt!",
@@ -331,6 +339,10 @@
     "linkedin": "LinkedIn",
     "sell": " Mitä myyt?",
     "link": "Pyydä esittely",
-    "miniheader": "Haluatko nähdä, kuinka Vesko auttaa sinua rakentamaan brändiäsi? Pyydä henkilökohtainen alustan esittely"
+    "miniheader": "Haluatko nähdä, kuinka Vesko auttaa sinua rakentamaan brändiäsi? Pyydä henkilökohtainen alustan esittely",
+    "success": "Lähetetty onnistuneesti",
+    "successMessage": "Kiitos jonotuslistalle liittymisestä.",
+    "errorMessage": "error",
+    "close": "lähellä"
   }
 }

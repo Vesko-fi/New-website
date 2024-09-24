@@ -9,16 +9,20 @@ import { Input } from "@components/ui/Input";
 import { Label } from "@components/ui/Label";
 import { validateForm } from "@utils/formValidationUtils";
 
+import "react-toastify/dist/ReactToastify.css";
+import { DialogeBox } from "@components/ui/DialogBox";
+
 const ContactForm: React.FC = () => {
   const { t } = useTranslation();
 
-  const initialFormState = {
+  const initialFormData = {
     first_name: "",
     last_name: "",
     email: "",
     phone_number: "",
     message: "",
   };
+  const [formData, setFormData] = useState(initialFormData);
 
   const initialErrorState = {
     first_name: "",
@@ -27,11 +31,15 @@ const ContactForm: React.FC = () => {
     phone_number: "",
     message: "",
   };
-  const [formData, setFormData] = useState(initialFormState);
 
   const [errors, setErrors] = useState(initialErrorState);
 
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [dialogVisible, setDialogVisible] = useState(false);
+  const [dialogContent, setDialogContent] = useState({
+    message: "",
+  });
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -57,12 +65,6 @@ const ContactForm: React.FC = () => {
     }
   }, [formData, isSubmitted, handleValidateForm]);
 
-  const clearForm = () => {
-    setFormData(initialFormState);
-    setErrors(initialErrorState);
-    setIsSubmitted(false);
-  };
-
   const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitted(true);
@@ -70,7 +72,7 @@ const ContactForm: React.FC = () => {
     if (!handleValidateForm()) {
       return;
     }
-
+    setIsLoading(true);
     const params = {
       first_name: formData.first_name,
       last_name: formData.last_name,
@@ -87,104 +89,124 @@ const ContactForm: React.FC = () => {
         import.meta.env.VITE_EMAILJS_USER_ID as string
       )
       .then(
-        () => {
-          alert(t("contact.successMessage"));
-          clearForm();
+        (result) => {
+          console.log(result.text);
+          setDialogContent({
+            message: t("contact.successMessage"),
+          });
+          setDialogVisible(true);
+          setFormData(initialFormData);
+          setIsSubmitted(false);
+          setIsLoading(false); // Hide loading state
+          setDialogVisible(true); // Show success dialog
         },
         (error) => {
           console.log(error.text);
-          alert(t("contact.errorMessage"));
+          setDialogContent({
+            message: t("contact.errorMessage"),
+          });
+          setDialogVisible(true);
+          setIsLoading(false); // Hide loading state
+          setDialogVisible(true); // Show error dialog
         }
       );
   };
 
   return (
-    <Form
-      onSubmit={sendEmail}
-      additional={
-        <>
-          <div>
-            <Label htmlFor="message">{t("contact.message")}</Label>
-            <textarea
-              id="message"
-              className={`block w-full resize-none rounded-lg border ${
-                errors.message && isSubmitted
-                  ? "border-red-500"
-                  : "border-gray-300"
-              } bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500`}
-              placeholder={t("contact.messagePlaceholder")}
-              rows={5}
-              value={formData.message}
-              onChange={handleChange}
-            />
-            {errors.message && isSubmitted && (
-              <p className="mt-1 text-sm text-red-500">{errors.message}</p>
-            )}
-          </div>
-          <SubmitButton />
-        </>
-      }
-    >
-      <div>
-        <Label htmlFor="first_name">{t("contact.firstName")}</Label>
-        <Input
-          id="first_name"
-          type="text"
-          placeholder={t("contact.firstName")}
-          value={formData.first_name}
-          onChange={handleChange}
-          className={errors.first_name && isSubmitted ? "border-red-500" : ""}
-        />
-        {errors.first_name && isSubmitted && (
-          <p className="mt-1 text-sm text-red-500">{errors.first_name}</p>
-        )}
-      </div>
+    <>
+      <Form
+        onSubmit={sendEmail}
+        additional={
+          <>
+            <div>
+              <Label htmlFor="message">{t("contact.message")}</Label>
+              <textarea
+                id="message"
+                className={`block w-full resize-none rounded-lg border ${
+                  errors.message && isSubmitted
+                    ? "border-red-500"
+                    : "border-gray-300"
+                } bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500`}
+                placeholder={t("contact.messagePlaceholder")}
+                rows={5}
+                value={formData.message}
+                onChange={handleChange}
+              />
+              {errors.message && isSubmitted && (
+                <p className="mt-1 text-sm text-red-500">{errors.message}</p>
+              )}
+            </div>
+            <SubmitButton />
+          </>
+        }
+      >
+        <div>
+          <Label htmlFor="first_name">{t("contact.firstName")}</Label>
+          <Input
+            id="first_name"
+            type="text"
+            placeholder={t("contact.firstName")}
+            value={formData.first_name}
+            onChange={handleChange}
+            className={errors.first_name && isSubmitted ? "border-red-500" : ""}
+          />
+          {errors.first_name && isSubmitted && (
+            <p className="mt-1 text-sm text-red-500">{errors.first_name}</p>
+          )}
+        </div>
 
-      <div>
-        <Label htmlFor="last_name">{t("contact.lastName")}</Label>
-        <Input
-          id="last_name"
-          type="text"
-          placeholder={t("contact.lastName")}
-          value={formData.last_name}
-          onChange={handleChange}
-          className={errors.last_name && isSubmitted ? "border-red-500" : ""}
-        />
-        {errors.last_name && isSubmitted && (
-          <p className="mt-1 text-sm text-red-500">{errors.last_name}</p>
-        )}
-      </div>
+        <div>
+          <Label htmlFor="last_name">{t("contact.lastName")}</Label>
+          <Input
+            id="last_name"
+            type="text"
+            placeholder={t("contact.lastName")}
+            value={formData.last_name}
+            onChange={handleChange}
+            className={errors.last_name && isSubmitted ? "border-red-500" : ""}
+          />
+          {errors.last_name && isSubmitted && (
+            <p className="mt-1 text-sm text-red-500">{errors.last_name}</p>
+          )}
+        </div>
 
-      <div>
-        <Label htmlFor="email">{t("contact.email")}</Label>
-        <Input
-          id="email"
-          type="email"
-          placeholder={t("contact.email")}
-          value={formData.email}
-          onChange={handleChange}
-          className={errors.email && isSubmitted ? "border-red-500" : ""}
-        />
-        {errors.email && isSubmitted && (
-          <p className="mt-1 text-sm text-red-500">{errors.email}</p>
-        )}
-      </div>
+        <div>
+          <Label htmlFor="email">{t("contact.email")}</Label>
+          <Input
+            id="email"
+            type="email"
+            placeholder={t("contact.email")}
+            value={formData.email}
+            onChange={handleChange}
+            className={errors.email && isSubmitted ? "border-red-500" : ""}
+          />
+          {errors.email && isSubmitted && (
+            <p className="mt-1 text-sm text-red-500">{errors.email}</p>
+          )}
+        </div>
 
-      <div>
-        <Label htmlFor="phone_number">{t("contact.phoneNumber")}</Label>
-        <Input
-          id="phone_number"
-          type="text"
-          placeholder={t("contact.phoneNumber")}
-          value={formData.phone_number}
-          onChange={handleChange}
-          className={errors.phone_number && isSubmitted ? "border-red-500" : ""}
-        />
-        {errors.phone_number && isSubmitted && (
-          <p className="mt-1 text-sm text-red-500">{errors.phone_number}</p>
-        )}
-      </div>
-    </Form>
+        <div>
+          <Label htmlFor="phone_number">{t("contact.phoneNumber")}</Label>
+          <Input
+            id="phone_number"
+            type="text"
+            placeholder={t("contact.phoneNumber")}
+            value={formData.phone_number}
+            onChange={handleChange}
+            className={
+              errors.phone_number && isSubmitted ? "border-red-500" : ""
+            }
+          />
+          {errors.phone_number && isSubmitted && (
+            <p className="mt-1 text-sm text-red-500">{errors.phone_number}</p>
+          )}
+        </div>
+      </Form>{" "}
+      {isLoading && <div className="loader"></div>}
+      {dialogVisible && !isLoading && (
+        <DialogeBox message={dialogContent.message} />
+      )}
+    </>
   );
 };
 

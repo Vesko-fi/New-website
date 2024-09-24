@@ -300,7 +300,11 @@
       "requiredFirstName": "First name is required.",
       "requiredLastName": "Last name is required.",
       "requiredEmail": "Email is required."
-    }
+    },
+    "success": "Submitted Successfully",
+    "successMessage": "Thank you for contacting us.",
+    "errorMessage": "Error",
+    "close": "Close"
   },
   "demo": {
     "header": "See Vesko in Action, Request a Personalized Demo",
@@ -317,7 +321,11 @@
     "linkedin": "LinkedIn",
     "message": "Message",
     "messagePlaceholder": "Write your message here",
-    "submitButton": "Request Demo"
+    "submitButton": "Request Demo",
+    "success": "Submitted Successfully",
+    "successMessage": "Thank you for joining the demo list.",
+    "errorMessage": "Error",
+    "close": "Close"
   },
   "waitlist": {
     "header": "Be the First to Experience Vesko, Join Us Now!",
@@ -338,6 +346,10 @@
     "submitButton": "Join Now",
     "miniheader": "You want to see how Vesko will help you to build your brand?",
     "sell": "What do you sell?",
-    "link": "Get a Demo"
+    "link": "Get a Demo",
+    "success": "Submitted Successfully",
+    "successMessage": "Thank you for joining the waiting list.",
+    "errorMessage": "Error",
+    "close": "Close"
   }
 }
