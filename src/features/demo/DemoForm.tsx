@@ -130,7 +130,7 @@ const DemoForm: React.FC = () => {
           <Label htmlFor="phone_number">{t("demo.phoneNumber")}</Label>
           <Input
             id="phone_number"
-            type="number"
+            type="text"
             placeholder={t("demo.phoneNumber")}
             required
             value={formData.phone_number}
@@ -162,12 +162,7 @@ const DemoForm: React.FC = () => {
           />
         </div>
       </Form>{" "}
-      {dialogVisible && (
-        <DialogeBox
-          message={dialogContent.message}
-          onClose={() => setDialogVisible(false)}
-        />
-      )}
+      {dialogVisible && <DialogeBox message={dialogContent.message} />}
     </>
   );
 };

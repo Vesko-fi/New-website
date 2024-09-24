@@ -24,13 +24,15 @@ const ContactForm: React.FC = () => {
   };
   const [formData, setFormData] = useState(initialFormData);
 
-  const [errors, setErrors] = useState({
+  const initialErrorState = {
     first_name: "",
     last_name: "",
     email: "",
     phone_number: "",
     message: "",
-  });
+  };
+
+  const [errors, setErrors] = useState(initialErrorState);
 
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [dialogVisible, setDialogVisible] = useState(false);

@@ -8,9 +8,7 @@ const DialogeBox: React.FC<DialogueBoxProps> = ({ message }) => {
   const { t } = useTranslation();
 
   const onClose = () => {
-    // Close the dialog box and reload the page
-
-    window.location.reload(); // Refresh the page
+    window.location.reload();
   };
 
   return (
