@@ -293,7 +293,6 @@
     "message": "Message",
     "messagePlaceholder": "Write your message here",
     "submitButton": "Submit",
-    "successMessage": "Thank you for reaching out to us",
     "error": {
       "invalidPhoneNumber": "Please enter a valid phone number.",
       "messageLength": "Message must be between 32 and 499 characters.",

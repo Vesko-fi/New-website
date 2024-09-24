@@ -186,12 +186,7 @@ const WaitingListForm: React.FC = () => {
           />
         </div>
       </Form>{" "}
-      {dialogVisible && (
-        <DialogeBox
-          message={dialogContent.message}
-          onClose={() => setDialogVisible(false)}
-        />
-      )}
+      {dialogVisible && <DialogeBox message={dialogContent.message} />}
     </>
   );
 };
