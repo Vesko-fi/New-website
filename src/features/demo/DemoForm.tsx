@@ -41,6 +41,9 @@ const DemoForm: React.FC = () => {
   ) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
+  const checkFormCompletion = () => {
+    return Object.values(formData).some((value) => value === "");
+  };
   const handleValidateForm = useCallback(() => {
     const validationErrors = validateDemoForm(formData, t);
     setErrors(validationErrors);
@@ -122,7 +125,10 @@ const DemoForm: React.FC = () => {
                 <p className="mt-1 text-sm text-red-500">{errors.message}</p>
               )}
             </div>
-            <SubmitButton />
+            <SubmitButton
+              isSubmitting={isSubmitted || !errors}
+              isDisabled={checkFormCompletion()}
+            />
           </>
         }
       >
