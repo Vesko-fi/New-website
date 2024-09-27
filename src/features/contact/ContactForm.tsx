@@ -9,7 +9,6 @@ import { Input } from "@components/ui/Input";
 import { Label } from "@components/ui/Label";
 import { validateForm } from "@utils/formValidationUtils";
 
-import "react-toastify/dist/ReactToastify.css";
 import { DialogeBox } from "@components/ui/DialogBox";
 
 const ContactForm: React.FC = () => {

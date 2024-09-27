@@ -302,7 +302,7 @@
       "requiredEmail": "Email is required."
     },
     "success": "Submitted Successfully",
-    "successMessage": "Thank you for contacting us.",
+    "successMessagePrompt": "Thank you for contacting us.",
     "errorMessage": "Error",
     "close": "Close"
   },
@@ -325,7 +325,14 @@
     "success": "Submitted Successfully",
     "successMessage": "Thank you for joining the demo list.",
     "errorMessage": "Error",
-    "close": "Close"
+    "close": "Close",
+    "error": {
+      "invalidPhoneNumber": "Please enter a valid phone number.",
+      "messageLength": "Message must be between 32 and 499 characters.",
+      "requiredFirstName": "First name is required.",
+      "requiredLastName": "Last name is required.",
+      "requiredEmail": "Email is required."
+    }
   },
   "waitlist": {
     "header": "Be the First to Experience Vesko, Join Us Now!",
