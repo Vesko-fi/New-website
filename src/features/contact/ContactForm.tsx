@@ -1,7 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { useState, useEffect, useCallback } from "react";
 
-import emailjs from "emailjs-com";
+import emailjs from "@emailjs/browser";
 
 import { Form } from "@components/forms/form";
 import { SubmitButton } from "@components/forms/SubmitButton";
@@ -9,7 +9,6 @@ import { Input } from "@components/ui/Input";
 import { Label } from "@components/ui/Label";
 import { validateForm } from "@utils/formValidationUtils";
 
-import "react-toastify/dist/ReactToastify.css";
 import { DialogeBox } from "@components/ui/DialogBox";
 
 const ContactForm: React.FC = () => {
@@ -39,7 +38,10 @@ const ContactForm: React.FC = () => {
   const [dialogContent, setDialogContent] = useState({
     message: "",
   });
-  const [isLoading, setIsLoading] = useState(false);
+
+  const checkFormCompletion = () => {
+    return Object.values(formData).some((value) => value === "");
+  };
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -72,7 +74,7 @@ const ContactForm: React.FC = () => {
     if (!handleValidateForm()) {
       return;
     }
-    setIsLoading(true);
+
     const params = {
       first_name: formData.first_name,
       last_name: formData.last_name,
@@ -97,8 +99,6 @@ const ContactForm: React.FC = () => {
           setDialogVisible(true);
           setFormData(initialFormData);
           setIsSubmitted(false);
-          setIsLoading(false); // Hide loading state
-          setDialogVisible(true); // Show success dialog
         },
         (error) => {
           console.log(error.text);
@@ -106,8 +106,6 @@ const ContactForm: React.FC = () => {
             message: t("contact.errorMessage"),
           });
           setDialogVisible(true);
-          setIsLoading(false); // Hide loading state
-          setDialogVisible(true); // Show error dialog
         }
       );
   };
@@ -136,7 +134,10 @@ const ContactForm: React.FC = () => {
                 <p className="mt-1 text-sm text-red-500">{errors.message}</p>
               )}
             </div>
-            <SubmitButton />
+            <SubmitButton
+              isSubmitting={isSubmitted || !errors}
+              isDisabled={checkFormCompletion()}
+            />
           </>
         }
       >
@@ -202,10 +203,7 @@ const ContactForm: React.FC = () => {
           )}
         </div>
       </Form>{" "}
-      {isLoading && <div className="loader"></div>}
-      {dialogVisible && !isLoading && (
-        <DialogeBox message={dialogContent.message} />
-      )}
+      {dialogVisible && <DialogeBox message={dialogContent.message} />}
     </>
   );
 };
