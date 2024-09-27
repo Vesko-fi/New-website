@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 import emailjs from "emailjs-com";
 
@@ -9,6 +9,7 @@ import { SubmitButton } from "@components/forms/SubmitButton";
 import { Input } from "@components/ui/Input";
 import { Label } from "@components/ui/Label";
 import { DialogeBox } from "@components/ui/DialogBox";
+import { waitlistFormValidation } from "@utils/waitlistFormValidation";
 
 const WaitingListForm: React.FC = () => {
   const { t } = useTranslation();
@@ -25,18 +26,55 @@ const WaitingListForm: React.FC = () => {
   };
   const [formData, setFormData] = useState(initialFormData);
   const [dialogVisible, setDialogVisible] = useState(false);
-  const [dialogContent, setDialogContent] = useState({
+  const [dialogContent, setDialogContent] = useState({ message: "" });
+
+  const initialErrorState = {
+    first_name: "",
+    last_name: "",
+    email: "",
+    phone_number: "",
+    Company_name: "",
+    sell: "",
+    location: "",
+    linkedIn: "",
     message: "",
-  });
+  };
+
+  const [errors, setErrors] = useState(initialErrorState);
+
+  const [isSubmitted, setIsSubmitted] = useState(false);
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
     setFormData({ ...formData, [e.target.id]: e.target.value });
   };
+  const checkFormCompletion = () => {
+    return Object.values(formData).some((value) => value === "");
+  };
+  const handleValidateForm = useCallback(() => {
+    const validationErrors = waitlistFormValidation(formData, t);
+    setErrors(validationErrors);
+    return (
+      !validationErrors.first_name &&
+      !validationErrors.last_name &&
+      !validationErrors.email &&
+      !validationErrors.phone_number &&
+      !validationErrors.message
+    );
+  }, [formData, t]);
+
+  useEffect(() => {
+    if (isSubmitted) {
+      handleValidateForm();
+    }
+  }, [formData, isSubmitted, handleValidateForm]);
 
   const sendEmail = (e: React.FormEvent) => {
-    e.persist();
     e.preventDefault();
+    setIsSubmitted(true);
+    if (!handleValidateForm()) {
+      return;
+    }
 
     const params = {
       first_name: formData.first_name,
@@ -64,6 +102,7 @@ const WaitingListForm: React.FC = () => {
           });
           setDialogVisible(true);
           setFormData(initialFormData);
+          setIsSubmitted(false);
         },
         (error) => {
           console.log(error.text);
@@ -91,9 +130,15 @@ const WaitingListForm: React.FC = () => {
                 rows={5}
                 onChange={handleChange}
                 value={formData.message}
-              />
+              />{" "}
+              {errors.message && isSubmitted && (
+                <p className="mt-1 text-sm text-red-500">{errors.message}</p>
+              )}
             </div>
-            <SubmitButton />
+            <SubmitButton
+              isSubmitting={isSubmitted || !errors}
+              isDisabled={checkFormCompletion()}
+            />
           </>
         }
       >
@@ -106,7 +151,11 @@ const WaitingListForm: React.FC = () => {
             required
             value={formData.first_name}
             onChange={handleChange}
-          />
+            className={errors.first_name && isSubmitted ? "border-red-500" : ""}
+          />{" "}
+          {errors.first_name && isSubmitted && (
+            <p className="mt-1 text-sm text-red-500">{errors.first_name}</p>
+          )}
         </div>
         <div>
           <Label htmlFor="last_name">{t("waitlist.lastName")}</Label>
@@ -117,7 +166,11 @@ const WaitingListForm: React.FC = () => {
             required
             value={formData.last_name}
             onChange={handleChange}
+            className={errors.last_name && isSubmitted ? "border-red-500" : ""}
           />
+          {errors.last_name && isSubmitted && (
+            <p className="mt-1 text-sm text-red-500">{errors.last_name}</p>
+          )}
         </div>
         <div>
           <Label htmlFor="email">{t("waitlist.email")}</Label>
@@ -128,7 +181,11 @@ const WaitingListForm: React.FC = () => {
             required
             value={formData.email}
             onChange={handleChange}
+            className={errors.email && isSubmitted ? "border-red-500" : ""}
           />
+          {errors.email && isSubmitted && (
+            <p className="mt-1 text-sm text-red-500">{errors.email}</p>
+          )}
         </div>{" "}
         <div>
           <Label htmlFor="phone_number">{t("waitlist.phoneNumber")}</Label>
@@ -139,7 +196,13 @@ const WaitingListForm: React.FC = () => {
             required
             value={formData.phone_number}
             onChange={handleChange}
+            className={
+              errors.phone_number && isSubmitted ? "border-red-500" : ""
+            }
           />
+          {errors.phone_number && isSubmitted && (
+            <p className="mt-1 text-sm text-red-500">{errors.phone_number}</p>
+          )}
         </div>
         <div>
           <Label htmlFor="Company_name">{t("waitlist.companyRole")}</Label>
