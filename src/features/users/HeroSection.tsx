@@ -13,7 +13,6 @@ const HeroSection: React.FC = () => {
       <SEO
         title={`${t("navbar.forUsers.label")} | ${t("users.hero.heading")} `}
         description={t("vendors.hero.text")}
-        keywords="Vesko user platform, Vesko users, Vesko product details, Vesko mission, how to use Vesko, Vesko for users, Vesko user features"
       />
       <Section className="scroll-margin-top-[64px] -mt-8">
         <div className="relative h-[630px] overflow-hidden md:h-[720px]">

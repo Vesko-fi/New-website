@@ -13,7 +13,7 @@ const Users: React.FC = () => {
       <SEO
         title="Users"
         description="Vesko for Users"
-        keywords="vesko, users"
+        keywords=" vesko for users, vesko user platform, Vesko users, Vesko product details, Vesko mission, how to use Vesko, Vesko for users, Vesko user features"
       />
       <HeroSection />
       <StoreSelling />

@@ -11,7 +11,7 @@ const Vendors: React.FC = () => {
       <SEO
         title="Vendors"
         description="Vesko for Vendors"
-        keywords="vesko, vendors"
+        keywords="vesko for vendors, vesko omnichannel store, omnichannel online store, omnichannel retail solution, unify retail presence, scalable online store, Vesko vendor tools, custom online store platform, point of sale system for vendors, logistics and payment solutions, Vesko for vendors, grow your brand online, omnichannel sales for vendors, retail and online store integration"
       />
       <HeroSetion />
       <OmnichannelSection />
