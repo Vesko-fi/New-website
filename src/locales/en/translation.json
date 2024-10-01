@@ -254,6 +254,7 @@
     }
   },
   "about": {
+    "aboutImageAltText": "Two reindeers in a snowy winter landscape, representing Vesko's connection to local businesses and community in a global market",
     "p1": {
       "heading": "Who Are We",
       "span": "Vesko Ltd.",
@@ -357,5 +358,11 @@
     "successMessage": "Thank you for joining the waiting list.",
     "errorMessage": "Error",
     "close": "Close"
+  },
+
+  "seo": {
+    "contactUs": "Contact Vesko today! Fill out the form to connect with our representatives and discover how our solutions can elevate your retail operations.",
+    "getDemo": "Request a personalized demo of Vesko! Experience our solutions and discover how we can transform your online presence and streamline retail operations.",
+    "joinTheWaitlist": "Join the waitlist for Vesko and secure your spot! Be among the first to access our innovative retail solutions. Sign up now for early access!"
   }
 }

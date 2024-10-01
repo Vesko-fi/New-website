@@ -12,9 +12,10 @@ const MainSection: React.FC = () => {
     <Section className="scroll-margin-top-[64px] -mt-8">
       <img
         src={AboutImg}
-        alt=""
+        alt={t("about.aboutImageAltText")}
         className="h-[500px] w-full object-cover"
         style={{ clipPath: "inset(0 0 20% 0)" }}
+        loading="lazy"
       />
       <Container className="flex flex-col items-center gap-12 pb-6">
         <div className="mt-[-60px] flex max-w-[800px] flex-col gap-4 text-justify">
@@ -27,28 +28,27 @@ const MainSection: React.FC = () => {
           </p>
         </div>
         <div className="flex max-w-[800px] flex-col gap-4 text-justify">
-          <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
+          <h2 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p2.heading")}
-          </h1>
-
+          </h2>
           <p>{t("about.p2.text")}</p>
         </div>
         <div className="flex max-w-[800px] flex-col gap-4 text-justify">
-          <h1 className="mb-1 text-balance text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
+          <h2 className="mb-1 text-balance text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("about.p3.heading")}
-          </h1>
+          </h2>
           <p>{t("about.p3.text")}</p>
         </div>
         <div className="flex max-w-[800px] flex-col gap-4 text-justify">
-          <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
+          <h2 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p4.heading")}
-          </h1>
+          </h2>
           <p>{t("about.p4.text")}</p>
         </div>
         <div className="flex max-w-[800px] flex-col gap-4 text-justify">
-          <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
+          <h2 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p5.heading")}
-          </h1>
+          </h2>
           <p>{t("about.p5.text")}</p>
         </div>
       </Container>

@@ -6,17 +6,22 @@ const PointOfSale: React.FC = () => {
 
   return (
     <>
+      {/**
+       *
+       * A Point of Sale to Ease Your Sales
+       *
+       */}
       <div className="py-8">
-        <h1 className="mb-2 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
+        <h2 className="mb-2 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.pointOfSale.heading")}
           <span className="text-accent1">
             {t("vendors.pointOfSale.headingSpan")}
           </span>
-        </h1>
+        </h2>
         <p className="text-center text-sm">{t("vendors.pointOfSale.text")}</p>
         <img
           src={posImg}
-          alt="point of sale screen dashboard, order is being picked"
+          alt="Point of sale screen dashboard displaying bakery items with an order being picked, featuring a customer and employee interacting in a busy retail environment."
           className="mx-auto mt-8 rounded-xl sm:w-auto sm:p-0"
         />
       </div>

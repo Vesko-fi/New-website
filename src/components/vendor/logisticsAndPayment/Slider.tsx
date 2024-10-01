@@ -5,10 +5,15 @@ const Slider: React.FC = () => {
 
   return (
     <>
+      {/**
+       *
+       * Logistics & Payment in Vesko
+       *
+       */}
       <div className="text-balance py-20 text-center">
-        <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
+        <h2 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.logisticPayment.heading")}
-        </h1>
+        </h2>
         <p className="text-sm lg:text-base">
           {t("vendors.logisticPayment.text")}
         </p>

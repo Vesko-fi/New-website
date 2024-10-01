@@ -21,7 +21,7 @@ const OnlineStoreSection: React.FC = () => {
         </div>
         <img
           src={onlineStoreImage}
-          alt=" Product in store shelf"
+          alt="Vesko platform displaying a vendor's products featured prominently in the online marketplace, highlighting a diverse range of shoes items for the customers."
           className="mx-auto rounded-xl sm:w-auto sm:p-0 md:w-[680px] lg:w-[700px]"
         />
       </Container>

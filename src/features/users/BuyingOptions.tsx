@@ -12,9 +12,9 @@ const BuyingOptions = () => {
     <Section className="bg-gradient-to-t from-[#F0F5FF]">
       <Container>
         <div>
-          <h1 className="mb-6 text-balance text-center text-2xl font-bold lg:mb-12 lg:text-3xl xl:text-4xl">
+          <h2 className="mb-6 text-balance text-center text-2xl font-bold lg:mb-12 lg:text-3xl xl:text-4xl">
             {t("users.options.heading")}
-          </h1>
+          </h2>
         </div>
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Card
