@@ -11,8 +11,9 @@ const VeskoOmnichannel: React.FC = () => {
   return (
     <>
       <SEO
-        title={`${t("seo.vendors.whyVeskoHeading")} | omnichannel online store | vesko`}
+        title={`${t("navbar.forVendors.label")} | ${t("vendors.hero.heading")}`}
         description={t("seo.vendors.whyVesko")}
+        keywords="vesko omnichannel store, omnichannel online store, why vesko, omnichannel retail solution, unify retail presence, scalable online store, Vesko vendor tools, custom online store platform, point of sale system for vendors, logistics and payment solutions, Vesko for vendors, grow your brand online, omnichannel sales for vendors, retail and online store integration"
       />
       <div className="text-balance py-20 text-center">
         <h2 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
