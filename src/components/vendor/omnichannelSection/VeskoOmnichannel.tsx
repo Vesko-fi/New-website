@@ -1,5 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { omnichannelChartImg, omnichannelChartImgFi } from "@constants/assets";
+import { SEO } from "@components/SEO";
 
 const VeskoOmnichannel: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -9,6 +10,10 @@ const VeskoOmnichannel: React.FC = () => {
 
   return (
     <>
+      <SEO
+        title={`${t("seo.vendors.whyVeskoHeading")} | omnichannel online store | vesko`}
+        description={t("seo.vendors.whyVesko")}
+      />
       <div className="text-balance py-20 text-center">
         <h2 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.uniqueOmnichannel.heading")}

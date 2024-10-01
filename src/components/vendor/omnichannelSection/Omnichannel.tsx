@@ -1,6 +1,7 @@
 import { useTranslation } from "react-i18next";
 import { omnichannelImg } from "@constants/assets";
 import { List } from "@components/ui/List";
+import { SEO } from "@components/SEO";
 
 interface options {
   heading: string;
@@ -19,6 +20,10 @@ const Omnichannel: React.FC = () => {
 
   return (
     <>
+      <SEO
+        title={`${t("seo.vendors.omnichannelOnlineStoreHeading")} | omnichannel online store | vesko`}
+        description={t("seo.vendors.omnichannelOnlineStore")}
+      />
       <div className="text-balance py-10 text-center">
         <h2 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.omnichannel.heading")}
