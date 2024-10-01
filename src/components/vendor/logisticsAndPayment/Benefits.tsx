@@ -14,13 +14,18 @@ const Benefits: React.FC = () => {
 
   return (
     <>
+      {/**
+       *
+       * A Marketplace, But it's Your Own Online Store and options
+       *
+       */}
       <div className="text-balance py-16 text-center">
-        <h1 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
+        <h2 className="mb-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.benefits.heading")}
           <span className="text-accent1">
             {t("vendors.benefits.headingSpan")}
           </span>
-        </h1>
+        </h2>
         <p className="text-balance text-sm lg:text-base">
           {t("vendors.benefits.text")}
         </p>

@@ -20,13 +20,13 @@ const Omnichannel: React.FC = () => {
   return (
     <>
       <div className="text-balance py-10 text-center">
-        <h1 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
+        <h2 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.omnichannel.heading")}
           <span className="text-accent1">
             {t("vendors.omnichannel.headingSpan")}
           </span>
           ?
-        </h1>
+        </h2>
         <p className="text-sm lg:text-base">{t("vendors.omnichannel.text")}</p>
       </div>
 

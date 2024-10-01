@@ -20,9 +20,9 @@ const Faqs: React.FC = () => {
     <Section className="bg-gradient-to-t from-[#F0F5FF]">
       <Container className="py-16">
         <div className="mb-8 flex flex-col items-center gap-4">
-          <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
+          <h2 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("vendors.faq.heading")}
-          </h1>
+          </h2>
         </div>
 
         {options.map((option, index) => {
