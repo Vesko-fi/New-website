@@ -15,6 +15,7 @@ const Contact: React.FC = () => {
       <SEO
         title={`${t("navbar.contactUs.label")} | ${t("seo.contactUs")}`}
         description={t("contact.header")}
+        keywords="vesko, contact us"
       />
       <Section>
         <Container className="mt-16 grid gap-12 !px-12 md:grid-cols-2">

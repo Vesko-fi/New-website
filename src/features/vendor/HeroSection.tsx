@@ -1,7 +1,5 @@
 import { useTranslation } from "react-i18next";
 
-import { SEO } from "@components/SEO";
-
 import { Section } from "@components/ui/Section";
 
 import { vendorHero } from "@constants/assets";
@@ -11,11 +9,6 @@ const HeroSetion: React.FC = () => {
 
   return (
     <>
-      <SEO
-        title={`${t("navbar.forVendors.label")} | ${t("vendors.hero.heading")}`}
-        description={t("vendors.hero.text")}
-        keywords="vesko omnichannel store, omnichannel online store, why vesko, omnichannel retail solution, unify retail presence, scalable online store, Vesko vendor tools, custom online store platform, point of sale system for vendors, logistics and payment solutions, Vesko for vendors, grow your brand online, omnichannel sales for vendors, retail and online store integration"
-      />
       <Section className="scroll-margin-top-[64px] -mt-8">
         <div className="relative h-[630px] md:h-[720px]">
           <div className="h-full w-full bg-cover bg-center">

@@ -1,7 +1,5 @@
 import { useTranslation } from "react-i18next";
 
-import { SEO } from "@components/SEO";
-
 import { Section } from "@components/ui/Section";
 import { Container } from "@components/ui/Container";
 
@@ -14,10 +12,6 @@ const HeroSection: React.FC = () => {
 
   return (
     <>
-      <SEO
-        title={`${t("navbar.home.label")} | ${t("home.seo")}`}
-        description={t("home.landingPage.text")}
-      />
       <Section className="scroll-m-0 scroll-p-0">
         <Container className="flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-12 lg:py-24">
           {/* Left side text section */}

@@ -14,6 +14,7 @@ const WaitingListPage: React.FC = () => {
       <SEO
         title={`${t("navbar.contactUs.label")} | ${t("seo.joinTheWaitlist")}`}
         description={t("seo.joinTheWaitlist")}
+        keywords="vesko, join the waiting list"
       />
       <Section>
         <Container className="mt-16 grid gap-12 !px-12 lg:grid-cols-2">

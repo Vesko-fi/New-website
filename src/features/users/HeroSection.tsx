@@ -3,17 +3,12 @@ import { useTranslation } from "react-i18next";
 import { Section } from "@components/ui/Section";
 
 import { UserHeroImg } from "@constants/assets";
-import { SEO } from "@components/SEO";
 
 const HeroSection: React.FC = () => {
   const { t } = useTranslation();
 
   return (
     <>
-      <SEO
-        title={`${t("navbar.forUsers.label")} | ${t("users.hero.heading")} `}
-        description={t("vendors.hero.text")}
-      />
       <Section className="scroll-margin-top-[64px] -mt-8">
         <div className="relative h-[630px] overflow-hidden md:h-[720px]">
           <div className="h-full w-full bg-cover bg-center">

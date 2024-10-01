@@ -13,6 +13,7 @@ const DemoPage: React.FC = () => {
       <SEO
         title={`${t("navbar.contactUs.label")} | ${t("seo.getDemo")}`}
         description={t("seo.getDemo")}
+        keywords="vesko, get demo"
       />
       <Section>
         <Container className="mt-16 grid gap-12 !px-12 lg:grid-cols-2">
