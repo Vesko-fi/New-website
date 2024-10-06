@@ -345,5 +345,82 @@
     "successMessage": "Kiitos jonotuslistalle liittymisestä.",
     "errorMessage": "error",
     "close": "lähellä"
+  },
+  "privacyPolicy": {
+    "heading": "Tietosuojakäytäntö",
+    "date": "Päivitys 6.10.2024",
+    "Introduction": {
+      "heading": "Johdanto",
+      "text1": "Vesko Ltd. pyrkii turvaamaan tietosuojasi. Tämä tietosuojakäytäntö kertoo, miten käsittelemme henkilötietojasi. Tietosuojakäytäntöä voidaan päivittää, ja uusin versio löytyy tältä sivulta. Ilmoitamme myös merkittävistä muutoksista sähköpostitse.",
+      "text2": "Tätä tietosuojakäytäntöä sovelletaan henkilötietoihin, joita keräämme sinulta jonotuslistalta ja “esittely pyynnön” yhteydenottolomakkeesta. Vesko Ltd., yritystunnus 3472131-6, toimii henkilötietojen rekisterinpitäjänä."
+    },
+    "purpose": {
+      "heading": "Käsittelyn tarkoitus ja oikeusperusteet",
+      "waitlist": {
+        "heading": "Jonotuslista",
+        "option1": {
+          "heading": "Käsittelyn tarkoitus:",
+          "text": " liittyminen jonotuslistalle ja sinulle tärkeiden uutisten lähettäminen Vesko-sovellusten kehityksestä ja julkaisupäivästä."
+        },
+        "option2": {
+          "heading": "Henkilötietojen ryhmät:",
+          "text": " yhteystiedot (nimi, puhelinnumero, sähköpostiosoite)."
+        },
+        "option3": {
+          "heading": "Laillinen peruste:",
+          "text": "Suostumus."
+        }
+      },
+      "demoRequest": {
+        "heading": "Esittelypyyntö",
+        "option1": {
+          "heading": "Käsittelyn tarkoitus:",
+          "text": "tuotearvostelupyyntöjen lähettäminen ja tuotearvostelujen näyttäminen verkkosivuilla."
+        },
+        "option2": {
+          "heading": "Henkilötietojen ryhmät:",
+          "text": " yhteystiedot (nimi, puhelinnumero, sähköpostiosoite)."
+        },
+        "option3": {
+          "heading": "Laillinen peruste:",
+          "text": "Oikeutettu etu."
+        }
+      }
+    },
+    "dataProtection": {
+      "heading": "Henkilötietojen suojaus ja säilytys",
+      "text1": "Ainoastaan määrätyillä Vesko Oy:n työntekijöillä on oikeus käyttää asiakasjärjestelmän tietoja. Järjestelmän käyttäjillä on henkilökohtaiset tunnukset ja salasanat, ja henkilöstö käyttää tietoja vain työtehtäviensä mukaisesti.",
+      "text2": "Henkilötietoja säilytetään vain niin kauan kuin on tarpeen käsittelyn tarkoituksen täyttämiseksi tai voimassa olevan lainsäädännön mukaisesti. Voit pyytää tietojesi poistamista milloin tahansa."
+    },
+    "dataTransfer": {
+      "heading": "Tietojen siirrot EU/ETA ulkopuolelle",
+      "text": "Henkilötietoja käsitellään vain EU/ETA-alueen sisäpuolella."
+    },
+    "personalDataRight": {
+      "heading": "Oikeutesi henkilötietoihisi liittyen",
+      "options": {
+        "option1": {
+          "heading": "Oikeus tietojen poistamiseen:",
+          "text": "Sinulla on oikeus pyytää tietojesi poistamista. Poistamme tietosi, mikäli niiden säilyttämiselle ei ole esimerkiksi lainsäädännöstä johtuvaa perustetta. Poistamme tiedot myös, jos henkilötietojen käsittely on perustunut suostumukseen ja peruutat suostumuksesi, tai jos vastustat henkilötietojesi käsittelyä eikä käsittelylle ole muuta perustetta."
+        },
+        "option2": {
+          "heading": "Oikeus vastustaa tietojen käsittelyä:",
+          "text": "Sinulla on oikeus vastustaa henkilötietojesi käsittelyä, esimerkiksi jos käsittely perustuu oikeutettuun etuun."
+        },
+        "option3": {
+          "heading": "Oikeus saada pääsy tietoihin:",
+          "text": "Sinulla on oikeus pyytää kopio henkilötiedoistasi, joita olemme keränneet. Jos teet pyynnön, saatamme kysyä lisätietoja varmistaaksemme henkilöllisyytesi ennen tietojen luovuttamista."
+        },
+        "option4": {
+          "heading": "Oikeus tietojen oikaisuun:",
+          "text": "Jos havaitset, että tiedot, joita olemme sinusta keränneet, ovat virheellisiä tai puutteellisia, sinulla on oikeus pyytää tietojen oikaisua."
+        }
+      },
+      "privacyContactText": "Voit käyttää oikeuksiasi ottamalla yhteyttä sähköpostitse: vesko.finland@gmail.com"
+    },
+    "dataSharing": {
+      "heading": "Kolmansille osapuolille luovuttaminen",
+      "text": "Emme luovuta henkilötietoja kolmansille osapuolille ilman suostumustasi."
+    }
   }
 }
