@@ -71,6 +71,12 @@ const Footer: React.FC = () => {
         <p className="text-center font-medium">
           &copy; 2024 Vesko. All Rights Reserved
         </p>
+        <NavLink
+          to={"/privacy-policy"}
+          className="my-2 flex justify-center font-medium underline"
+        >
+          {t("privacyPolicy.heading")}
+        </NavLink>
       </Container>
     </footer>
   );

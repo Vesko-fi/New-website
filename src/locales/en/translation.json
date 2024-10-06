@@ -370,5 +370,86 @@
     "contactUs": "Contact Vesko today! Fill out the form to connect with our representatives and discover how our solutions can elevate your retail operations.",
     "getDemo": "Request a personalized demo of Vesko! Experience our solutions and discover how we can transform your online presence and streamline retail operations.",
     "joinTheWaitlist": "Join the waitlist for Vesko and secure your spot! Be among the first to access our innovative retail solutions. Sign up now for early access!"
+  },
+  "privacyPolicy": {
+    "heading": "Privacy Policy",
+    "date": "Updated 6.10.2024",
+    "introduction": {
+      "heading": "Introduction",
+      "text1": "Vesko Ltd. is committed to protecting your privacy. This privacy policy explains how we handle your personal data. This policy may be updated, and the latest version can always be found on this page. We will also notify you of significant changes by email.",
+      "text2": "This privacy policy applies to personal data we collect from the waitlist and the 'demo request' contact form. Vesko Ltd., business ID 3472131-6, is the controller responsible for your personal data."
+    },
+    "purpose": {
+      "heading": "Purpose of Processing and Legal Basis",
+      "waitlist": {
+        "heading": "Waitlist",
+        "options": [
+          {
+            "heading": "Purpose of Processing: ",
+            "text": "Joining the waitlist and sending you important updates regarding the development and release date of Vesko applications."
+          },
+          {
+            "heading": "Categories of Personal Data: ",
+            "text": "Contact information (name, phone number, email address)."
+          },
+          {
+            "heading": "Legal Basis: ",
+            "text": "Consent."
+          }
+        ]
+      },
+      "demoRequest": {
+        "heading": "Demo Request",
+        "options": [
+          {
+            "heading": "Purpose of Processing: ",
+            "text": "Sending demo requests and displaying product reviews on the website."
+          },
+          {
+            "heading": "Categories of Personal Data: ",
+            "text": "Contact information (name, phone number, email address)."
+          },
+          {
+            "heading": "Legal Basis: ",
+            "text": "Legitimate interest."
+          }
+        ]
+      }
+    },
+    "dataProtection": {
+      "heading": "Protection and Retention of Personal Data",
+      "text1": "Only authorised Vesko Ltd. employees have the right to access customer system data. Each system user has personal credentials and passwords, and employees use the data only as necessary for their work tasks.",
+      "text2": "Personal data will be retained only as long as necessary to fulfil the purpose of the processing or as required by applicable laws. You may request the deletion of your data at any time."
+    },
+    "dataTransfer": {
+      "heading": "Transfers of Data Outside the EU/EEA",
+      "text": "Personal data will only be processed within the EU/EEA."
+    },
+    "personalDataRight": {
+      "heading": "Your Rights Regarding Personal Data",
+      "options": [
+        {
+          "heading": "Right to Deletion: ",
+          "text": "You have the right to request the deletion of your personal data. We will delete your data if there is no legal basis for retaining it, such as a legal obligation. We will also delete the data if the processing was based on consent and you withdraw your consent, or if you object to the processing and there are no other legal grounds for processing."
+        },
+        {
+          "heading": "Right to Object to Processing: ",
+          "text": "You have the right to object to the processing of your personal data, for example, if the processing is based on legitimate interest."
+        },
+        {
+          "heading": "Right to Access Your Data: ",
+          "text": "You have the right to request a copy of the personal data we have collected about you. If you make such a request, we may ask for additional information to verify your identity before releasing the data."
+        },
+        {
+          "heading": "Right to Rectification: ",
+          "text": "If you find that the information we have about you is inaccurate or incomplete, you have the right to request the correction of the data."
+        }
+      ],
+      "privacyContactText": "To exercise your rights, please contact us via email: vesko.finland@gmail.com"
+    },
+    "dataSharing": {
+      "heading": "Sharing Data with Third Parties",
+      "text": "We do not share personal data with third parties without your consent."
+    }
   }
 }

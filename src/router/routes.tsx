@@ -8,6 +8,7 @@ import { DemoPage } from "@pages/DemoPage";
 import Vendors from "@pages/Vendors";
 import Users from "@pages/Users";
 import AboutUs from "@pages/AboutUs";
+import PrivacyPolicyPage from "@pages/PrivacyPolicyPage";
 
 export const routes: RouteObject[] = [
   { path: "/", Component: Home },
@@ -17,6 +18,7 @@ export const routes: RouteObject[] = [
   { path: "/contact-us", Component: Contact },
   { path: "/waiting-list", Component: WaitingListPage },
   { path: "/demo", Component: DemoPage },
+  { path: "/privacy-policy", Component: PrivacyPolicyPage },
 
   { path: "*", Component: NotFoundPage },
 ];
