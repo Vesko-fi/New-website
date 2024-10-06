@@ -9,7 +9,7 @@ const BuyingOptions = () => {
   const { t } = useTranslation();
 
   return (
-    <Section className="bg-gradient-to-t from-[#F0F5FF]">
+    <Section className="bg-gradient-to-t from-[#F0F5FF] px-4">
       <Container>
         <div>
           <h2 className="mb-6 text-balance text-center text-2xl font-bold lg:mb-12 lg:text-3xl xl:text-4xl">

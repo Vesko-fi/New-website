@@ -1,7 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { omnichannelImg } from "@constants/assets";
 import { List } from "@components/ui/List";
-import { SEO } from "@components/SEO";
 
 interface options {
   heading: string;
@@ -20,22 +19,20 @@ const Omnichannel: React.FC = () => {
 
   return (
     <>
-      <SEO
-        title={`${t("navbar.forVendors.label")} | ${t("vendors.hero.heading")}`}
-        keywords="vesko omnichannel store, omnichannel online store, why vesko, omnichannel retail solution, unify retail presence, scalable online store, Vesko vendor tools, custom online store platform, point of sale system for vendors, logistics and payment solutions, Vesko for vendors, grow your brand online, omnichannel sales for vendors, retail and online store integration"
-      />
-      <div className="text-balance py-10 text-center">
-        <h2 className="text-2xl font-bold lg:text-3xl xl:text-4xl">
+      <div className="mb-10 text-balance px-2 text-center">
+        <h2 className="my-4 text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.omnichannel.heading")}
           <span className="text-accent1">
             {t("vendors.omnichannel.headingSpan")}
           </span>
           ?
         </h2>
-        <p className="text-sm lg:text-base">{t("vendors.omnichannel.text")}</p>
+        <p className="text-balance text-sm lg:text-base">
+          {t("vendors.omnichannel.text")}
+        </p>
       </div>
 
-      <div className="flex flex-col items-center justify-between gap-12 space-y-8 md:flex-row">
+      <div className="flex flex-col items-center justify-between gap-12 space-y-8 px-2 md:flex-row">
         <div>
           <h2 className="text-2xl font-bold">
             {t("vendors.tranditionalRequirements.heading")}:

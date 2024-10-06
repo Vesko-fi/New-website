@@ -11,7 +11,7 @@ const PointOfSale: React.FC = () => {
        * A Point of Sale to Ease Your Sales
        *
        */}
-      <div className="py-8">
+      <div className="px-4 py-8 md:px-2">
         <h2 className="mb-2 text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
           {t("vendors.pointOfSale.heading")}
           <span className="text-accent1">

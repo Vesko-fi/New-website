@@ -17,12 +17,12 @@ const MainContents = () => {
               {t("privacyPolicy.heading")}
             </h2>
           </div>
-          <div className="flex flex-col gap-4 text-justify">
+          <div className="flex flex-col gap-4 text-start">
             <p className="text-sm xl:text-base">{t("privacyPolicy.date")}</p>
-            <h2 className="text-balance text-xl font-bold lg:text-2xl xl:text-3xl">
+            <h2 className="text-xl font-bold lg:text-2xl xl:text-3xl">
               {t("privacyPolicy.introduction.heading")}
             </h2>
-            <p className="text-sm xl:text-base">
+            <p className="text-start text-sm xl:text-base">
               {t("privacyPolicy.introduction.text1")}
             </p>
             <p className="text-sm xl:text-base">
@@ -36,7 +36,7 @@ const MainContents = () => {
             <WaitingList />
             <DemoRequest />
 
-            <div className="my-4 flex flex-col gap-4 text-justify">
+            <div className="my-4 flex flex-col gap-4 text-start">
               <h2 className="text-start text-xl font-bold lg:text-2xl xl:text-3xl">
                 {t("privacyPolicy.dataProtection.heading")}
               </h2>
@@ -47,7 +47,7 @@ const MainContents = () => {
                 {t("privacyPolicy.dataProtection.text2")}
               </p>
             </div>
-            <div className="my-4 flex flex-col gap-2 text-justify">
+            <div className="my-4 flex flex-col gap-2 text-start">
               <h2 className="text-start text-xl font-bold lg:text-2xl xl:text-3xl">
                 {t("privacyPolicy.dataTransfer.heading")}
               </h2>
@@ -56,7 +56,7 @@ const MainContents = () => {
               </p>
             </div>
             <PersonalDataRight />
-            <div className="my-4 flex flex-col gap-4 text-justify">
+            <div className="my-4 flex flex-col gap-4 text-start">
               <h2 className="text-start text-xl font-bold lg:text-2xl xl:text-3xl">
                 {t("privacyPolicy.dataSharing.heading")}
               </h2>
