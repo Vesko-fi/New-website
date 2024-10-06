@@ -16,14 +16,14 @@ const DemoRequest = () => {
   return (
     <>
       <div className="my-4">
-        <h3 className="text-lg font-bold lg:text-lg xl:text-xl">
+        <h3 className="text-sm font-bold md:text-lg xl:text-xl">
           B - {t("privacyPolicy.purpose.demoRequest.heading")}
         </h3>
         <ul className="list-disc text-start">
           {options.map((option, index) => {
             return (
               <div key={index} className="my-2">
-                <li>
+                <li className="text-sm xl:text-base">
                   <b>{t(option.heading)}</b>
                   {t(option.text)}
                 </li>

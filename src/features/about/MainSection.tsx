@@ -17,13 +17,15 @@ const MainSection: React.FC = () => {
         style={{ clipPath: "inset(0 0 20% 0)" }}
         loading="lazy"
       />
-      <Container className="flex flex-col items-center gap-12 pb-6">
+      <Container className="flex flex-col items-center gap-12 px-8 pb-6">
         <div className="mt-[-60px] flex max-w-[800px] flex-col gap-4 text-justify">
           <h1 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p1.heading")}
           </h1>
-          <p>
-            <span className="font-bold">{t("about.p1.span")} </span>
+          <p className="text-sm xl:text-base">
+            <span className="text-sm font-bold xl:text-base">
+              {t("about.p1.span")}{" "}
+            </span>
             {t("about.p1.text")}
           </p>
         </div>
@@ -31,25 +33,25 @@ const MainSection: React.FC = () => {
           <h2 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p2.heading")}
           </h2>
-          <p>{t("about.p2.text")}</p>
+          <p className="text-sm xl:text-base">{t("about.p2.text")}</p>
         </div>
         <div className="flex max-w-[800px] flex-col gap-4 text-justify">
           <h2 className="mb-1 text-balance text-center text-2xl font-bold lg:text-3xl xl:text-4xl">
             {t("about.p3.heading")}
           </h2>
-          <p>{t("about.p3.text")}</p>
+          <p className="text-sm xl:text-base">{t("about.p3.text")}</p>
         </div>
         <div className="flex max-w-[800px] flex-col gap-4 text-justify">
           <h2 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p4.heading")}
           </h2>
-          <p>{t("about.p4.text")}</p>
+          <p className="text-sm xl:text-base">{t("about.p4.text")}</p>
         </div>
         <div className="flex max-w-[800px] flex-col gap-4 text-justify">
           <h2 className="mb-1 text-center text-2xl font-bold sm:text-balance lg:text-3xl xl:text-4xl">
             {t("about.p5.heading")}
           </h2>
-          <p>{t("about.p5.text")}</p>
+          <p className="text-sm xl:text-base">{t("about.p5.text")}</p>
         </div>
       </Container>
     </Section>

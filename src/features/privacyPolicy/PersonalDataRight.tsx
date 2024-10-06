@@ -19,7 +19,7 @@ const PersonalDataRight = () => {
           {options.map((option, index) => {
             return (
               <div key={index} className="my-4">
-                <li>
+                <li className="text-sm xl:text-base">
                   <b>{t(option.heading)}</b>
                   {t(option.text)}
                 </li>
