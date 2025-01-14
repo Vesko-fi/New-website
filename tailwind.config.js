@@ -14,6 +14,25 @@ module.exports = {
         tertiary: "var(--tertiary-color-rgb)",
         accent1: "var(--accent-color-1-rgb)",
       },
+      animation: {
+        "gradient-running": "gradient-running 9s ease infinite",
+      },
+      keyframes: {
+        "gradient-running": {
+          "0%": {
+            backgroundPosition: "0% 50%",
+          },
+          "50%": {
+            backgroundPosition: "100% 50%",
+          },
+          "100%": {
+            backgroundPosition: "0% 50%",
+          },
+        },
+      },
+      backgroundSize: {
+        "400%": "400% 400%",
+      },
     },
   },
   plugins: [

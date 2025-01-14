@@ -29,6 +29,19 @@ import reinDeer2 from "@assets/users/reindeer-img-2.png";
 
 import AboutImg from "@assets/aboutUs/about-section-img.jpg";
 
+import banner from "@assets/events/banner.png";
+import bannerTwo from "@assets/events/banner-second.png";
+import leo from "@assets/events/leo-fadi.jpg";
+import heikki from "@assets/events/heikki-immonen.jpg";
+import pinja from "@assets/events/pinja-konttinen.jpg";
+import mikko from "@assets/events/mikko-jarvilheto.png";
+import anna from "@assets/events/anna-logrén.jpg";
+import veikko from "@assets/events/veikko-meittinen.jpg";
+import lotta from "@assets/events/lotta-liija.jpg";
+import daniel from "@assets/events/daniel.jpg";
+import saima from "@assets/events/saima.jpg";
+import miro from "@assets/events/miro.jpg";
+
 export {
   logo,
   AboutImg,
@@ -54,4 +67,19 @@ export {
   maximiseStores,
   UserHeroImg,
   UserOnlineImg,
+};
+
+export {
+  banner,
+  bannerTwo,
+  leo,
+  heikki,
+  pinja,
+  anna,
+  mikko,
+  veikko,
+  lotta,
+  daniel,
+  saima,
+  miro,
 };

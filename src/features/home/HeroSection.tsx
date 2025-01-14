@@ -6,13 +6,28 @@ import { Container } from "@components/ui/Container";
 import { Link } from "@components/ui/Link";
 
 import { heroImgBg, heroImgCheckout, heroImgProduct } from "@constants/assets";
+import { useNavigate } from "react-router-dom";
+import { Button } from "@components/ui/Button";
 
 const HeroSection: React.FC = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
+  const handleEvents = () => {
+    navigate("/events");
+  };
 
   return (
     <>
       <Section className="scroll-m-0 scroll-p-0">
+        <div className="flex justify-center py-8">
+          <Button
+            onClick={handleEvents}
+            className="h-14 w-64 transform animate-gradient-running self-center rounded-lg bg-gradient-to-r from-teal-600 to-neutral-900 bg-[length:400%_400%] text-center font-semibold text-white shadow-lg transition-all duration-300 hover:scale-105 hover:shadow-2xl sm:w-96"
+          >
+            <span className="font-mono text-xl">Events</span>
+          </Button>
+        </div>
+
         <Container className="flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-12 lg:py-24">
           {/* Left side text section */}
           <div className="w-full flex-1 pb-4 text-center lg:text-left">
