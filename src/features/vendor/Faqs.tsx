@@ -13,7 +13,7 @@ interface options {
 const Faqs: React.FC = () => {
   const { t } = useTranslation();
 
-  const options: options[]= t("vendors.faq.options", {
+  const options: options[] = t("vendors.faq.options", {
     returnObjects: true,
   });
   return (
