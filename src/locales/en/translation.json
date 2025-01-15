@@ -256,28 +256,16 @@
     "faq": {
       "heading": "Frequently Asked Questions",
       "text": "Vesko enables you to list the same item online and offline, the first platform in the world to have this feature. Means that you can fulfil online orders even from store shelves.",
-      "options": [
-        {
-          "heading": "When will Vesko be ready?",
-          "text": "The beta version is expected to be ready in the second quarter of 2025. We will do two or four weeks of Beta testing in Tampere next spring to test the first version of Vesko. So, if you are a vendor from Tampere and you own or run a local retail store or online store, you can join the waitlist to be among the first who are going to test Vesko."
-        },
-        {
-          "heading": "Will Vesko be available in Mobile App?",
-          "text": "Vesko will be available on web and mobile apps."
-        },
-        {
-          "heading": "Where will Vesko be available?",
-          "text": "Vesko will be available in Finland during or after summer of 2025 and in the rest of Nordic countries about three months after launching in Finland."
-        },
-        {
-          "heading": "What rules does Vesko enforce on vendors?",
-          "text": "For online vendors and brands, no mandatory rules will be imposed on their selling practices, such as enforced returns or reclamations. However, for physical store vendors, one key rule will be strictly enforced: the omnichannel pricing rule. Physical store owners will be required to maintain consistent pricing across both online and offline channels. This ensures that consumers will find the same prices in physical stores as they do in online stores, promoting a seamless and fair shopping experience."
-        },
-        {
-          "heading": "Who will be handling the customer service (consumer/shoppers)?",
-          "text": "Vesko has a direct messaging feature that allows users and vendors to communicate directly, enabling consumers to address any issues or inquiries. Therefore, vendors handle their own customer service, providing personalized support and resolving customer concerns directly."
-        }
-      ]
+      "heading1": "When will Vesko be ready?",
+      "text1": "The beta version is expected to be ready in the second quarter of 2025. We will do two or four weeks of Beta testing in Tampere next spring to test the first version of Vesko. So, if you are a vendor from Tampere and you own or run a local retail store or online store, you can join the waitlist to be among the first who are going to test Vesko.",
+      "heading2": "Will Vesko be available in Mobile App?",
+      "text2": "Vesko will be available on web and mobile apps.",
+      "heading3": "Where will Vesko be available?",
+      "text3": "Vesko will be available in Finland during or after summer of 2025 and in the rest of Nordic countries about three months after launching in Finland.",
+      "heading4": "What rules does Vesko enforce on vendors?",
+      "text4": "For online vendors and brands, no mandatory rules will be imposed on their selling practices, such as enforced returns or reclamations. However, for physical store vendors, one key rule will be strictly enforced: the omnichannel pricing rule. Physical store owners will be required to maintain consistent pricing across both online and offline channels. This ensures that consumers will find the same prices in physical stores as they do in online stores, promoting a seamless and fair shopping experience.",
+      "heading5": "Who will be handling the customer service (consumer/shoppers)?",
+      "text5": "Vesko has a direct messaging feature that allows users and vendors to communicate directly, enabling consumers to address any issues or inquiries. Therefore, vendors handle their own customer service, providing personalized support and resolving customer concerns directly."
     }
   },
   "users": {
@@ -441,37 +429,27 @@
       "heading": "Purpose of Processing and Legal Basis",
       "waitlist": {
         "heading": "Waitlist",
-        "options": [
-          {
-            "heading": "Purpose of Processing: ",
-            "text": "Joining the waitlist and sending you important updates regarding the development and release date of Vesko applications."
-          },
-          {
-            "heading": "Categories of Personal Data: ",
-            "text": "Contact information (name, phone number, email address)."
-          },
-          {
-            "heading": "Legal Basis: ",
-            "text": "Consent."
-          }
-        ]
+        "heading1": "Purpose of Processing: ",
+        "text1": "Joining the waitlist and sending you important updates regarding the development and release date of Vesko applications.",
+        "heading2": "Categories of Personal Data: ",
+        "text2": "Contact information (name, phone number, email address).",
+        "heading3": "Legal Basis: ",
+        "text3": "Consent."
       },
       "demoRequest": {
         "heading": "Demo Request",
-        "options": [
-          {
-            "heading": "Purpose of Processing: ",
-            "text": "Sending demo requests and displaying product reviews on the website."
-          },
-          {
-            "heading": "Categories of Personal Data: ",
-            "text": "Contact information (name, phone number, email address)."
-          },
-          {
-            "heading": "Legal Basis: ",
-            "text": "Legitimate interest."
-          }
-        ]
+        "options1": {
+          "heading": "Purpose of Processing: ",
+          "text": "Sending demo requests and displaying product reviews on the website."
+        },
+        "options2": {
+          "heading": "Categories of Personal Data: ",
+          "text": "Contact information (name, phone number, email address)."
+        },
+        "options3": {
+          "heading": "Legal Basis: ",
+          "text": "Legitimate interest."
+        }
       }
     },
     "dataProtection": {
@@ -485,24 +463,22 @@
     },
     "personalDataRight": {
       "heading": "Your Rights Regarding Personal Data",
-      "options": [
-        {
-          "heading": "Right to Deletion: ",
-          "text": "You have the right to request the deletion of your personal data. We will delete your data if there is no legal basis for retaining it, such as a legal obligation. We will also delete the data if the processing was based on consent and you withdraw your consent, or if you object to the processing and there are no other legal grounds for processing."
-        },
-        {
-          "heading": "Right to Object to Processing: ",
-          "text": "You have the right to object to the processing of your personal data, for example, if the processing is based on legitimate interest."
-        },
-        {
-          "heading": "Right to Access Your Data: ",
-          "text": "You have the right to request a copy of the personal data we have collected about you. If you make such a request, we may ask for additional information to verify your identity before releasing the data."
-        },
-        {
-          "heading": "Right to Rectification: ",
-          "text": "If you find that the information we have about you is inaccurate or incomplete, you have the right to request the correction of the data."
-        }
-      ],
+      "options1": {
+        "heading": "Right to Deletion: ",
+        "text": "You have the right to request the deletion of your personal data. We will delete your data if there is no legal basis for retaining it, such as a legal obligation. We will also delete the data if the processing was based on consent and you withdraw your consent, or if you object to the processing and there are no other legal grounds for processing."
+      },
+      "options2": {
+        "heading": "Right to Object to Processing: ",
+        "text": "You have the right to object to the processing of your personal data, for example, if the processing is based on legitimate interest."
+      },
+      "options3": {
+        "heading": "Right to Access Your Data: ",
+        "text": "You have the right to request a copy of the personal data we have collected about you. If you make such a request, we may ask for additional information to verify your identity before releasing the data."
+      },
+      "options4": {
+        "heading": "Right to Rectification: ",
+        "text": "If you find that the information we have about you is inaccurate or incomplete, you have the right to request the correction of the data."
+      },
       "privacyContactText": "To exercise your rights, please contact us via email: vesko.finland@gmail.com"
     },
     "dataSharing": {

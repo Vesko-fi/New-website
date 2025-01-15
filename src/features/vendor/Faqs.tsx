@@ -13,9 +13,29 @@ interface options {
 const Faqs: React.FC = () => {
   const { t } = useTranslation();
 
-  const options: Array<options> = t("vendors.faq.options", {
-    returnObjects: true,
-  });
+  const options: options[] = [
+    {
+      heading: t("vendors.faq.heading1"),
+      text: t("vendors.faq.text1"),
+    },
+    {
+      heading: t("vendors.faq.heading2"),
+      text: t("vendors.faq.text2"),
+    },
+    {
+      heading: t("vendors.faq.heading3"),
+      text: t("vendors.faq.text3"),
+    },
+    {
+      heading: t("vendors.faq.heading4"),
+      text: t("vendors.faq.text4"),
+    },
+    {
+      heading: t("vendors.faq.heading5"),
+      text: t("vendors.faq.text5"),
+    },
+  ];
+
   return (
     <Section className="bg-gradient-to-t from-[#F0F5FF]">
       <Container className="py-16">

@@ -7,12 +7,21 @@ interface options {
 
 const DemoRequest = () => {
   const { t } = useTranslation();
-  const options: Array<options> = t(
-    "privacyPolicy.purpose.demoRequest.options",
+  const options: options[] = [
     {
-      returnObjects: true,
-    }
-  );
+      heading: t("privacyPolicy.purpose.demoRequest.options1.heading"),
+      text: t("privacyPolicy.purpose.demoRequest.options1.text"),
+    },
+    {
+      heading: t("privacyPolicy.purpose.demoRequest.options2.heading"),
+      text: t("privacyPolicy.purpose.demoRequest.options2.text"),
+    },
+    {
+      heading: t("privacyPolicy.purpose.demoRequest.options3.heading"),
+      text: t("privacyPolicy.purpose.demoRequest.options3.text"),
+    },
+  ];
+
   return (
     <>
       <div className="my-4">

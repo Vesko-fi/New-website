@@ -7,9 +7,21 @@ interface options {
 
 const WaitingList = () => {
   const { t } = useTranslation();
-  const options: Array<options> = t("privacyPolicy.purpose.waitlist.options", {
-    returnObjects: true,
-  });
+
+  const options: options[] = [
+    {
+      heading: t("privacyPolicy.purpose.waitlist.heading1"),
+      text: t("privacyPolicy.purpose.waitlist.text1"),
+    },
+    {
+      heading: t("privacyPolicy.purpose.waitlist.heading2"),
+      text: t("privacyPolicy.purpose.waitlist.text2"),
+    },
+    {
+      heading: t("privacyPolicy.purpose.waitlist.heading3"),
+      text: t("privacyPolicy.purpose.waitlist.text3"),
+    },
+  ];
   return (
     <>
       <div className="my-2">

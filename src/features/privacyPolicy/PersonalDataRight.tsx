@@ -6,9 +6,25 @@ interface options {
 
 const PersonalDataRight = () => {
   const { t } = useTranslation();
-  const options: Array<options> = t("privacyPolicy.personalDataRight.options", {
-    returnObjects: true,
-  });
+  const options: options[] = [
+    {
+      heading: t("privacyPolicy.personalDataRight.options1.heading"),
+      text: t("privacyPolicy.personalDataRight.options1.text"),
+    },
+    {
+      heading: t("privacyPolicy.personalDataRight.options2.heading"),
+      text: t("privacyPolicy.personalDataRight.options2.text"),
+    },
+    {
+      heading: t("privacyPolicy.personalDataRight.options3.heading"),
+      text: t("privacyPolicy.personalDataRight.options3.text"),
+    },
+    {
+      heading: t("privacyPolicy.personalDataRight.options4.heading"),
+      text: t("privacyPolicy.personalDataRight.options4.text"),
+    },
+  ];
+
   return (
     <>
       <div className="my-4 flex flex-col gap-2 text-justify">
