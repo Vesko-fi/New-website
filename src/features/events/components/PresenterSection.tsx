@@ -1,11 +1,30 @@
-import { presenters } from "./constants/mock.data";
-import { Speaker } from "./constants/types";
+import { useTranslation } from "react-i18next";
+import { Speaker } from "../constants/types";
+import { miro, saima } from "@constants/assets";
 
 const PresenterSection = () => {
+  const { t } = useTranslation();
+  const presenters: Speaker[] = [
+    {
+      id: 1,
+      title: `${t("events.presenters.presenter")}`,
+      name: "Miro Ryynänen",
+      description: `${t("events.presenters.presenter1")}`,
+      image: `${miro}`,
+    },
+    {
+      id: 2,
+      title: `${t("events.presenters.presenter")}`,
+      name: "Saima Haque",
+      description: `${t("events.presenters.presenter2")}`,
+      image: `${saima}`,
+    },
+  ];
+
   return (
     <div className="px-6 py-16 md:px-12 lg:px-8">
       <h2 className="mb-12 text-start text-4xl font-bold text-neutral-50 md:text-center">
-        Presenters of MIOPIA 2025
+        {t("events.presenters.heading")}
       </h2>
       <div className="grid grid-cols-1 gap-4 md:gap-12 lg:grid-cols-2">
         {presenters.map((presenter: Speaker) => (

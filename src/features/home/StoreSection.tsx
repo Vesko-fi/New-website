@@ -1,10 +1,5 @@
 import { useTranslation } from "react-i18next";
 
-import { Section } from "@components/ui/Section";
-import { Container } from "@components/ui/Container";
-
-import { SellingPoint } from "@components/home/SellingPoint";
-
 import {
   expandReachImg,
   onlineStoreImage,
@@ -12,6 +7,13 @@ import {
   veskoChartFi,
   maximiseStores,
 } from "@constants/assets";
+
+import ForWebsite from "@features/events/components/ForWebsite";
+
+import { Section } from "@components/ui/Section";
+import { Container } from "@components/ui/Container";
+
+import { SellingPoint } from "@components/home/SellingPoint";
 
 interface options {
   usp_num?: string;
@@ -28,6 +30,7 @@ const StoreSection: React.FC<options> = () => {
   return (
     <Section>
       <Container className="px-8 pt-20 lg:py-8">
+        <ForWebsite />
         <div className="lg:pb-8">
           <h2 className="text-center text-3xl font-bold leading-tight lg:w-auto">
             <span className="mb-1 block">{t("home.sellingPoint.heading")}</span>

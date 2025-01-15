@@ -28,6 +28,79 @@
       "label": "Ota Yhteyttä"
     }
   },
+
+  "events": {
+    "welcome": "Intro, welcome to MIOPIA",
+    "visitUsHeading": "MIOPIA-tapahtuma 2025",
+    "visit": "Vieraile SOHJO",
+    "learnMore": "Lue lisää SOHJO:stä",
+    "forWebsite": {
+      "heading": "Tule käymään MIOPIA 2025",
+      "text": "Tule tapaamaan meitä MIOPIA-tapahtuman ständi alueella ja tutustumaan paremmin Veskoon! MIOPIA 2025 -tapahtuma järjestetään Joensuussa 12.3.2025 Metria-rakennuksessa (UEF). Bisnekseen ja opiskelijoihin keskittyvä tapahtuma tuo yhteen ICT- ja vähittäiskaupan alat, startupit, luovat ammattilaiset, aluekehittäjät ja intohimoiset yksilöt. Tutustu MIOPIA-tapahtuman verkkosivuihin ",
+      "span": "täältä."
+    },
+    "registration": {
+      "span1": "Virallinen",
+      "span2": "Sivutapahtuma",
+      "theme": "Teknologia x Asiakas x Opiskelijat",
+      "location": "MIOPIA pidetään Metria UEF:ssä Joensuussa keskiviikkona 12.3.2025.",
+      "button": "Ilmoittaudu nyt",
+      "text": "Ilmoittaudu ja varaa paikkasi, se on maksutonta."
+    },
+
+    "about": {
+      "heading": "Mikä on MIOPIA 2025?",
+      "subheading": "Joensuussa 12.3.2025 järjestettävä MIOPIA 2025-  on bisnekseen ja opiskelijoihin keskittyvä tapahtuma tuo yhteen ICT-a ja kaupan alat, startupit, luovat ammattilaiset, aluekehittäjät ja intohimoiset ihmiset.",
+      "pText1": "Joensuussa 12.3.2025 järjestettävä MIOPIA 2025- bisnekseen ja opiskelijoihin keskittyvä tapahtuma tuo yhteen ICT-a ja kaupan alat, startupit, luovat ammattilaiset, aluekehittäjät ja intohimoiset ihmiset.",
+      "pDate": "12.3.2025",
+
+      "pText2": "Se on liiketoiminta- ja opiskelijakeskeinen tapahtuma, joka tuo yhteen ICT- ja vähittäiskauppa-aloja, startup-yrityksiä, luovia ammattilaisia, aluekehittäjiä ja intohimoisia henkilöitä.",
+      "p2Text1": "MIOPIA on virallinen",
+      "p2Text2": "sivutapahtuma, joka keskittyy kolmeen tärkeään teemaan:",
+      "technology": "Teknologia",
+      "customer": "Digi-Asiakas",
+      "and": "ja",
+      "students": "Opiskelijat",
+      "p2Text3": "Sen tavoitteena on vahvistaa Joensuun asemaa digitaalisen ja innovaatioiden keskuksena.",
+      "p3Text": "Tapahtuma tarjoaa osallistujille tiiviin, mutta kiehtovan ohjelman, johon sisältyy inspiroivia keynote-puheenvuoroja, yritysten esittelyalue verkostoitumista varten opiskelijoiden ja osaajien kanssa sekä verkostoitumismahdollisuuden yrityksille.. ",
+      "option1": {
+        "title": "Teknologia",
+        "description": "Teknologia ohjaa nykypäivän elämää ja kehittyy nopeasti, mikä vaatii yrityksiltä sopeutumiskykyä pysyäkseen mukana muutoksessa."
+      },
+      "option2": {
+        "title": "Digi-Asiakas",
+        "description": "Digitaalinen asiakas teema nostaa esiin aiheita, jotka monilla toimialoilla jäävät usein huomioimatta: miten tavoittaa asiakkaat tehokkaasti digitaalisten kanavien kautta ja edistää liiketoiminnan kasvua."
+      },
+      "option3": {
+        "title": "Opiskelijat",
+        "description": "Joensuussa asuu yli 20 000 opiskelijaa, joihin kuuluu myös monia kansainvälisiä tutkinto- ja vaihto-opiskelijoita. He kaikki edustavat merkittävää voimavaraa Joensuun ja Pohjois-Karjalan alueen kasvulle."
+      }
+    },
+    "speakers": {
+      "heading": "Keynote puhujat MIOPIA 2025",
+      "speaker1": "Toimitusjohtaja & Perustaja Vesko Ltd",
+      "speaker2": "Karelian AMK:n yrittäjyyden yli lehtori ja Hifiction Oy:n perustaja Samota",
+      "speaker3": "Kehityspäällikkö Business Joensuu & ICT Hub Joensuussa",
+      "speaker4": "Senior Business Advisor Business Joensuussa & Palkittu innovaattori",
+      "speaker5": "Projektipäällikkö Itä-Suomen yliopistosto",
+      "speaker6": "Projektikoordinaattori Itä-Suomen yliopisto",
+      "speaker7": "Yrittäjä Circutus Oy.",
+      "speaker8": "Yrittäjä & lehtori @ Karelia AMK"
+    },
+    "presenters": {
+      "heading": "Juontajat MIOPIA 2025",
+      "presenter": "Juonto",
+      "presenter1": "Operaatiopäällikkö Tier Mobility",
+      "presenter2": "Viestintä ja markkinointiasiantuntija"
+    },
+    "timeline": {
+      "heading": "Ohjelma",
+      "opening1": "Yritysten ständialue alue",
+      "opening2": "Opiskelijan lava",
+      "opening3": "Yritysten lava",
+      "networking": "Yritysten verkostoituminen"
+    }
+  },
   "footer": {
     "text": "Veskon ensimmäisen version arvioitu julkaisupäivä on vuoden 2025 toisella neljänneksellä.",
     "company": {

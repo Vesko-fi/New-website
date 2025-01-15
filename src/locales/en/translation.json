@@ -30,35 +30,73 @@
   },
 
   "events": {
-    "hero": {},
+    "welcome": "Intro, welcome to MIOPIA",
+    "visitUsHeading": "MIOPIA Event 2025",
+    "visit": "Visit SOHJO",
+    "learnMore": "Learn more about SOHJO 2025",
+    "forWebsite": {
+      "heading": "Come visit us at MIOPIA 2025",
+      "text": "Come visit us at the stand area of the MIOPIA event to learn more about Vesko. The MIOPIA 2025 event will be held in Joensuu on 12.3. 2025 Metria UEF. It is a business and student-focused event that brings together the ICT and retail industries, startups, creative professionals, regional developers, and passionate individuals. Visit MIOPIA website",
+      "span": "here"
+    },
     "registration": {
-      "theme": "Technology x Customer x Student",
+      "span1": "An Official",
+      "span2": "Side Event",
+      "theme": "Technology x Customer x Students",
       "location": "MIOPIA will be held at Metria UEF in Joensuu on Wednesday, 12.3.2025.",
       "button": "Register Now",
       "text": "Register & book your place, it’s free of charge."
     },
     "about": {
       "heading": "What is MIOPIA?",
-      "pText1": "The MIOPIA 2025 event will be held in Joensuu on",
-      "pDate": "12.3.2025",
-      "pText2": "It is a business and student-focused event that brings together the ICT and retail industries, startups, creative professionals, regional developers, and passionate individuals.",
+      "subheading": "The MIOPIA 2025 event will be held in Joensuu on 12.3.2025. It is a business and student-focused event that brings together the ICT and retail industries, startups, creative professionals, regional developers, and passionate individuals.",
+
       "p2Text1": "MIOPIA is an official",
-      "sohjo": "SOHJO",
       "p2Text2": "side-event, concentrating on three critical themes:",
       "technology": "Technology",
       "customer": "Digital Customer",
-      "and": "And",
+      "and": "and",
       "students": "Students",
-      "p2Text3": "Its aim is to strengthen Joensuu’s position as a digital and innovation hub.",
-      "p3Text": "The event offers attendees a compact yet engaging program featuring inspiring keynote speakers, a company stand area for networking with students and talents, and a dedicated networking session for companies."
+      "p2Text3": "MIOPIA aims to strengthen Joensuu’s position as a digital and innovation hub.",
+
+      "p3Text": "The event offers attendees a compact yet engaging program featuring inspiring keynote speakers, a company stand area for networking with students and talents, and a dedicated networking session for companies.",
+      "option1": {
+        "title": "Technology",
+        "description": "Technology drives modern life, evolving rapidly and requiring businesses to adapt quickly to stay competitive in the digital age."
+      },
+      "option2": {
+        "title": "Digital Customer",
+        "description": "The Digital Customer theme highlights an often-overlooked topic in many industries: effectively reaching customers through digital channels to drive business growth."
+      },
+      "option3": {
+        "title": "Students",
+        "description": "Joensuu is home to over 20,000 students, including many international and exchange students, representing a vital resource for the growth of Joensuu and the North Karelia region."
+      }
     },
     "speakers": {
-      "heading": "Keynote Speakers of MIOPIA 2025"
+      "heading": "Keynote Speakers of MIOPIA 2025",
+      "speaker1": "CEO & Founder Vesko Ltd",
+      "speaker2": "Principal Lecturer of Entrepreneurship at Karelia UAS and Samota Co-founder at Hifiction Oy ",
+      "speaker3": "Development Manager at Business Joensuu & ICT Hub Joensuu",
+      "speaker4": "Senior Business Advisor at Business Joensuu & Award winning innovator.",
+      "speaker5": "Project Manager at University of Eastern Finland.",
+      "speaker6": "Project coordinator at University of Eastern Finland.",
+      "speaker7": "Founder at Circutus Ltd.",
+      "speaker8": "Entrepreneur & Lecturer at Karelia UAS"
     },
     "presenters": {
-      "heading": "Presenters of MIOPIA 2025"
+      "heading": "Presenters of MIOPIA 2025",
+      "presenter": "Juonto",
+      "presenter1": "Operation manager at Tier Mobility",
+      "presenter2": " Communication and Marketing specialist"
     },
-    "timeline": {}
+    "timeline": {
+      "heading": "Program",
+      "opening1": "Company Stand area open",
+      "opening2": "Student Stage",
+      "opening3": "Company Stage",
+      "networking": "Networking for the companies"
+    }
   },
   "footer": {
     "text": "The expected release date of the beta version is during the second quarter of 2025.",

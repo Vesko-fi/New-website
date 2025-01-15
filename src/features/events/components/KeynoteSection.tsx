@@ -1,9 +1,78 @@
 import { useTranslation } from "react-i18next";
-import { keynotes } from "./constants/mock.data";
-import { Speaker } from "./constants/types";
+import { Speaker } from "../constants/types";
+import {
+  anna,
+  daniel,
+  heikki,
+  leo,
+  lotta,
+  mikko,
+  pinja,
+  veikko,
+} from "@constants/assets";
 
 const KeynoteSection = () => {
   const { t } = useTranslation();
+  const keynotes: Speaker[] = [
+    {
+      id: 1,
+      title: "Keynote",
+      name: "Leo Fadi",
+      description: `${t("events.speakers.speaker1")}`,
+      image: `${leo}`,
+    },
+    {
+      id: 2,
+      title: "Keynote",
+      name: "Heikki Immonen",
+      description: `${t("events.speakers.speaker2")}`,
+      image: `${heikki}`,
+    },
+    {
+      id: 3,
+      title: "Keynote",
+      name: "Pinja Konttinen",
+      description: `${t("events.speakers.speaker3")}`,
+      image: `${pinja}`,
+    },
+    {
+      id: 4,
+      title: "Keynote",
+      name: "Mikko Jarvilheto",
+      description: `${t("events.speakers.speaker4")}`,
+      image: `${mikko}`,
+    },
+    {
+      id: 5,
+      title: "Keynote",
+      name: "Anna Logrén",
+      description: `${t("events.speakers.speaker5")}`,
+      image: `${anna}`,
+    },
+    {
+      id: 6,
+      title: "Keynote",
+      name: "Veikko Miettinen",
+      description: `${t("events.speakers.speaker6")}`,
+
+      image: `${veikko}`,
+    },
+    {
+      id: 7,
+      title: "Keynote",
+      name: "Lotta Lilja",
+      description: `${t("events.speakers.speaker7")}`,
+
+      image: `${lotta}`,
+    },
+    {
+      id: 8,
+      title: "Keynote",
+      name: "Daniel Bågeberg",
+      description: `${t("events.speakers.speaker8")}`,
+      image: `${daniel}`,
+    },
+  ];
 
   return (
     <div className="px-6 pt-16 md:px-12 lg:px-8">

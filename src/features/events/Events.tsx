@@ -1,12 +1,12 @@
 import React from "react";
 import { Container } from "@components/ui/Container";
 import { Section } from "@components/ui/Section";
-import { HeroSection } from "./HeroSection";
-import { KeynoteSection } from "./KeynoteSection";
-import { Registration } from "./Registration";
-import { AboutSection } from "./AboutSection";
-import { PresenterSection } from "./PresenterSection";
-import { TimelineSection } from "./TimelineSection";
+import { HeroSection } from "./components/HeroSection";
+import { KeynoteSection } from "./components/KeynoteSection";
+import { Registration } from "./components/Registration";
+import { AboutSection } from "./components/AboutSection";
+import { PresenterSection } from "./components/PresenterSection";
+import { TimelineSection } from "./components/TimelineSection";
 
 const Events: React.FC = () => {
   return (

@@ -24,7 +24,7 @@ const AppWithFooter = () => {
 
   return (
     <I18nextProvider i18n={i18n}>
-      <Header />
+      {!isEventPage && <Header />}
       <main className="min-h-[90dvh]">
         <AppRouter />
       </main>

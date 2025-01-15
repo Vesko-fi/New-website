@@ -93,6 +93,7 @@ const ContactForm: React.FC = () => {
       .then(
         (result) => {
           console.log(result.text);
+
           setDialogContent({
             message: t("contact.successMessage"),
           });
