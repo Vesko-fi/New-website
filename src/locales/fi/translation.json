@@ -167,28 +167,26 @@
     },
     "tranditionalRequirements": {
       "heading": "Perinteisen monikanavainen kaupan vaatimukset",
-      "options": [
-        {
-          "heading": "Erillinen infrastruktuuri",
-          "text": " Edellyttää itsenäisiä varastoja online-tilauksille."
-        },
-        {
-          "heading": "Monimutkainen integrointi",
-          "text": "Aikaa vievät IT-projektit myymälä- ja verkkojärjestelmien integroimiseksi."
-        },
-        {
-          "heading": "Laaja huolto",
-          "text": "Tarvitsee ryhmiä ylläpitämään järjestelmää ja hallitsemaan verkkovarastoa."
-        },
-        {
-          "heading": "Korkeat kustannukset",
-          "text": "Sekä käyttöönotto, että käyttökustannukset ovat huomattavasti korkeat."
-        },
-        {
-          "heading": "Pitkä käyttöönotto aika",
-          "text": "Perinteisten asetusten käyttöönotto voi kestää useista kuukausista yli vuoteen."
-        }
-      ]
+      "option1": {
+        "heading": "Erillinen infrastruktuuri",
+        "text": " Edellyttää itsenäisiä varastoja online-tilauksille."
+      },
+      "option2": {
+        "heading": "Monimutkainen integrointi",
+        "text": "Aikaa vievät IT-projektit myymälä- ja verkkojärjestelmien integroimiseksi."
+      },
+      "option3": {
+        "heading": "Laaja huolto",
+        "text": "Tarvitsee ryhmiä ylläpitämään järjestelmää ja hallitsemaan verkkovarastoa."
+      },
+      "option4": {
+        "heading": "Korkeat kustannukset",
+        "text": "Sekä käyttöönotto, että käyttökustannukset ovat huomattavasti korkeat."
+      },
+      "option5": {
+        "heading": "Pitkä käyttöönotto aika",
+        "text": "Perinteisten asetusten käyttöönotto voi kestää useista kuukausista yli vuoteen."
+      }
     },
     "whyVesko": {
       "heading": "Miksi Veskon monikanavainen verkkokaupan",
@@ -196,28 +194,22 @@
     },
     "howOmnichannelWorks": {
       "heading": "Miten Veskon monikanavainen verkkokauppa toimii",
-      "options": [
-        {
-          "icon": "box",
-          "heading": "Uusi kuorma",
-          "text": "Saat uusia tuotteita ja lisäät ne Veskon verkkokauppaan (asiakkaasi saavat tiedon uusista tuotteista heti)."
-        },
-        {
-          "icon": "check-square",
-          "heading": "Tuotteen saatavuus",
-          "text": "Asiakkaasi voivat tarkistaa myymäläsi varastotilanteen ennen ostopäätöstä, joko verkossa tai myymälässä."
-        },
-        {
-          "icon": "trending-up",
-          "heading": "Ostaminen",
-          "text": "Asiakas voi varata tuotteen, ostaa sen verkossa ja noutaa myymälästä tai tilata sen toimitettavaksi kotiin."
-        },
-        {
-          "icon": "bar-chart",
-          "heading": "Jatkuva päivitys",
-          "text": "Kun tuote ostetaan, Vesko päivittää automaattisesti tuotteen saatavuus."
-        }
-      ]
+      "option1": {
+        "heading": "Uusi kuorma",
+        "text": "Saat uusia tuotteita ja lisäät ne Veskon verkkokauppaan (asiakkaasi saavat tiedon uusista tuotteista heti)."
+      },
+      "option2": {
+        "heading": "Tuotteen saatavuus",
+        "text": "Asiakkaasi voivat tarkistaa myymäläsi varastotilanteen ennen ostopäätöstä, joko verkossa tai myymälässä."
+      },
+      "option3": {
+        "heading": "Ostaminen",
+        "text": "Asiakas voi varata tuotteen, ostaa sen verkossa ja noutaa myymälästä tai tilata sen toimitettavaksi kotiin."
+      },
+      "option4": {
+        "heading": "Jatkuva päivitys",
+        "text": "Kun tuote ostetaan, Vesko päivittää automaattisesti tuotteen saatavuus."
+      }
     },
     "uniqueOmnichannel": {
       "heading": "Veskon monikanavajärjestelmä ",
@@ -232,28 +224,24 @@
       "heading": "Markkinapaikka, ",
       "headingSpan": "mutta se on sinun verkkokauppa",
       "text": "Sisäänrakennetulla varastonhallinta järjestelmällä ja omalla hakukoneella, Veskon kauppa voi täyttää tarpeesi, olitpa sitten kasvattamassa brändiäsi tai sinulla on jo iso kauppa laaja valikoimalla.",
-      "options": [
-        {
-          "icon": "box",
-          "heading": "Varastonhallinta",
-          "text": " Ennalta määritelty ja räätälöitävä kategorisointi prosessi auttaa sinua lajittelemaan tuotteesi ja tekemään lisämyyntiä."
-        },
-        {
-          "icon": "check-square",
-          "heading": "Tilausten täyttäminen",
-          "text": "Suunniteltu auttamaan tilausten täyttämisessä ja lähettämisessä muutamalla klikkauksella."
-        },
-        {
-          "icon": "trending-up",
-          "heading": "Lisämyynti",
-          "text": "Veskon edistyksellinen kategorisointi, ja ryhmittely järjestelmä auttaa sinua myymään enemmän."
-        },
-        {
-          "icon": "bar-chart",
-          "heading": "Myyntitilastot",
-          "text": "Yksityiskohtaiset myyntitilastot auttavat sinua optimoimaan ja hallitsemaan myymälääsi ja myyntiä."
-        }
-      ]
+
+      "option1": {
+        "heading": "Varastonhallinta",
+        "text": " Ennalta määritelty ja räätälöitävä kategorisointi prosessi auttaa sinua lajittelemaan tuotteesi ja tekemään lisämyyntiä."
+      },
+
+      "option2": {
+        "heading": "Tilausten täyttäminen",
+        "text": "Suunniteltu auttamaan tilausten täyttämisessä ja lähettämisessä muutamalla klikkauksella."
+      },
+      "option3": {
+        "heading": "Lisämyynti",
+        "text": "Veskon edistyksellinen kategorisointi, ja ryhmittely järjestelmä auttaa sinua myymään enemmän."
+      },
+      "option4": {
+        "heading": "Myyntitilastot",
+        "text": "Yksityiskohtaiset myyntitilastot auttavat sinua optimoimaan ja hallitsemaan myymälääsi ja myyntiä."
+      }
     },
     "logisticPayment": {
       "heading": "Logistiikka ja maksaminen Veskossa",

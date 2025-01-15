@@ -2,21 +2,31 @@ import { useTranslation } from "react-i18next";
 import { omnichannelImg } from "@constants/assets";
 import { List } from "@components/ui/List";
 
-interface options {
-  heading: string;
-  text: string;
-}
-
 const Omnichannel: React.FC = () => {
   const { t } = useTranslation();
 
-  const options: Array<options> = t(
-    "vendors.tranditionalRequirements.options",
+  const options = [
     {
-      returnObjects: true,
-    }
-  );
-
+      title: `${t("vendors.tranditionalRequirements.option1.heading")}`,
+      description: `${t("vendors.tranditionalRequirements.option1.text")}`,
+    },
+    {
+      title: `${t("vendors.tranditionalRequirements.option2.heading")}`,
+      description: `${t("vendors.tranditionalRequirements.option2.text")}`,
+    },
+    {
+      title: `${t("vendors.tranditionalRequirements.option3.heading")}`,
+      description: `${t("vendors.tranditionalRequirements.option3.text")}`,
+    },
+    {
+      title: `${t("vendors.tranditionalRequirements.option4.heading")}`,
+      description: `${t("vendors.tranditionalRequirements.option4.text")}`,
+    },
+    {
+      title: `${t("vendors.tranditionalRequirements.option5.heading")}`,
+      description: `${t("vendors.tranditionalRequirements.option5.text")}`,
+    },
+  ];
   return (
     <>
       <div className="mb-10 text-balance px-2 text-center">
@@ -41,8 +51,8 @@ const Omnichannel: React.FC = () => {
             return (
               <List
                 key={index}
-                title={option.heading}
-                description={option.text}
+                title={option.title}
+                description={option.description}
               />
             );
           })}

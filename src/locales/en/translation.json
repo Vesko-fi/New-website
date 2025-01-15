@@ -168,28 +168,27 @@
 
     "tranditionalRequirements": {
       "heading": "Traditional Omnichannel Requirements",
-      "options": [
-        {
-          "heading": "Separate Infrastructure",
-          "text": "Requires independent warehouses for online orders."
-        },
-        {
-          "heading": "Complex Integration",
-          "text": "Time-consuming IT projects to integrate in-store and online systems."
-        },
-        {
-          "heading": "Extensive Maintenance",
-          "text": "Needs dedicated teams to manage online inventory, logistics, and customer service."
-        },
-        {
-          "heading": "High Costs",
-          "text": "Both implementation and operational maintenance costs are significantly high."
-        },
-        {
-          "heading": "Long Implementation Time",
-          "text": "Traditional setups can take several months to over a year to go live."
-        }
-      ]
+
+      "option1": {
+        "heading": "Separate Infrastructure",
+        "text": "Requires independent warehouses for online orders."
+      },
+      "option2": {
+        "heading": "Complex Integration",
+        "text": "Time-consuming IT projects to integrate in-store and online systems."
+      },
+      "option3": {
+        "heading": "Extensive Maintenance",
+        "text": "Needs dedicated teams to manage online inventory, logistics, and customer service."
+      },
+      "option4": {
+        "heading": "High Costs",
+        "text": "Both implementation and operational maintenance costs are significantly high."
+      },
+      "option5": {
+        "heading": "Long Implementation Time",
+        "text": "Traditional setups can take several months to over a year to go live."
+      }
     },
     "whyVesko": {
       "heading": "Why Vesko",
@@ -197,28 +196,22 @@
     },
     "howOmnichannelWorks": {
       "heading": "How Vesko's Omnichannel Store Works",
-      "options": [
-        {
-          "icon": "box",
-          "heading": "New Stock",
-          "text": "You receive new items and you add it to your Vesko's online store (your customer will be informed about new products)."
-        },
-        {
-          "icon": "check-square",
-          "heading": "Product Availability",
-          "text": "Your customers will be able to see your store's inventory to check product's availability before buying it online or in store."
-        },
-        {
-          "icon": "trending-up",
-          "heading": "Purchasing",
-          "text": "Customer will be able book product, buy online & pickup in store, or have it deliver to their doors."
-        },
-        {
-          "icon": "bar-chart",
-          "heading": "Continuous Updating",
-          "text": "After an item is being purchased, Vesko's store will update the item inventory balance."
-        }
-      ]
+      "option1": {
+        "heading": "New Stock",
+        "text": "You receive new items and you add it to your Vesko's online store (your customer will be informed about new products)."
+      },
+      "option2": {
+        "heading": "Product Availability",
+        "text": "Your customers will be able to see your store's inventory to check product's availability before buying it online or in store."
+      },
+      "option3": {
+        "heading": "Purchasing",
+        "text": "Customer will be able book product, buy online & pickup in store, or have it deliver to their doors."
+      },
+      "option4": {
+        "heading": "Continuous Updating",
+        "text": "After an item is being purchased, Vesko's store will update the item inventory balance."
+      }
     },
     "uniqueOmnichannel": {
       "heading": "Vesko's Omnichannel ",
@@ -233,28 +226,23 @@
       "heading": "A Marketplace, But it's Your Own ",
       "headingSpan": "Online Store",
       "text": "With a built in inventory management system and own search engine,Vesko's store can meet your needs whether you're growing your brand or you have already a big store with hundreds of different products.",
-      "options": [
-        {
-          "icon": "box",
-          "heading": "Inventory Management",
-          "text": "A predefined and customisable categorising process helps you to sort your product and do upselling."
-        },
-        {
-          "icon": "check-square",
-          "heading": "Order Fulfillment",
-          "text": "Designed to help you fulfil and send an order out for delivery in few clicks."
-        },
-        {
-          "icon": "trending-up",
-          "heading": "Upselling",
-          "text": "Vesko's advance categorising and grouping system helps you to sell more even in the checkout process."
-        },
-        {
-          "icon": "bar-chart",
-          "heading": "Sales Stats",
-          "text": "A comprehensive sales stats that help you in optimising and managing your store & sales."
-        }
-      ]
+
+      "option1": {
+        "heading": "Inventory Management",
+        "text": "A predefined and customisable categorising process helps you to sort your product and do upselling."
+      },
+      "option2": {
+        "heading": "Order Fulfillment",
+        "text": "Designed to help you fulfil and send an order out for delivery in few clicks."
+      },
+      "option3": {
+        "heading": "Upselling",
+        "text": "Vesko's advance categorising and grouping system helps you to sell more even in the checkout process."
+      },
+      "option4": {
+        "heading": "Sales Stats",
+        "text": "A comprehensive sales stats that help you in optimising and managing your store & sales."
+      }
     },
     "logisticPayment": {
       "heading": "Logistics & Payment in Vesko",

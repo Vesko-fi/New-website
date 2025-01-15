@@ -1,18 +1,31 @@
 import { useTranslation } from "react-i18next";
 import { Card } from "@components/ui/Card";
 
-interface options {
-  icon: string;
-  heading: string;
-  text: string;
-}
-
 const HowOmnichannelWork: React.FC = () => {
   const { t } = useTranslation();
 
-  const options: Array<options> = t("vendors.howOmnichannelWorks.options", {
-    returnObjects: true,
-  });
+  const options = [
+    {
+      icon: "box",
+      title: `${t("vendors.howOmnichannelWorks.option1.heading")}`,
+      description: `${t("vendors.howOmnichannelWorks.option1.text")}`,
+    },
+    {
+      icon: "check-square",
+      title: `${t("vendors.howOmnichannelWorks.option2.heading")}`,
+      description: `${t("vendors.howOmnichannelWorks.option2.text")}`,
+    },
+    {
+      icon: "trending-up",
+      title: `${t("vendors.howOmnichannelWorks.option3.heading")}`,
+      description: `${t("vendors.howOmnichannelWorks.option3.text")}`,
+    },
+    {
+      icon: "bar-chart",
+      title: `${t("vendors.howOmnichannelWorks.option4.heading")}`,
+      description: `${t("vendors.howOmnichannelWorks.option4.text")}`,
+    },
+  ];
 
   return (
     <>
@@ -31,8 +44,8 @@ const HowOmnichannelWork: React.FC = () => {
           <Card
             key={index}
             icon={option.icon}
-            title={t(option.heading)}
-            description={t(option.text)}
+            title={t(option.title)}
+            description={t(option.description)}
           />
         ))}
       </div>
