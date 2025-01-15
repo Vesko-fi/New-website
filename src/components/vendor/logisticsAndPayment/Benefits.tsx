@@ -1,16 +1,31 @@
 import { useTranslation } from "react-i18next";
 import { Card } from "@components/ui/Card";
-interface options {
-  icon: string;
-  heading: string;
-  text: string;
-}
 
 const Benefits: React.FC = () => {
   const { t } = useTranslation();
-  const options: Array<options> = t("vendors.benefits.options", {
-    returnObjects: true,
-  });
+
+  const options = [
+    {
+      icon: "box",
+      title: `${t("vendors.benefits.option1.heading")}`,
+      description: `${t("vendors.benefits.option1.text")}`,
+    },
+    {
+      icon: "check-square",
+      title: `${t("vendors.benefits.option2.heading")}`,
+      description: `${t("vendors.benefits.option2.text")}`,
+    },
+    {
+      icon: "trending-up",
+      title: `${t("vendors.benefits.option3.heading")}`,
+      description: `${t("vendors.benefits.option3.text")}`,
+    },
+    {
+      icon: "bar-chart",
+      title: `${t("vendors.benefits.option3.heading")}`,
+      description: `${t("vendors.benefits.option4.text")}`,
+    },
+  ];
 
   return (
     <>
@@ -40,8 +55,8 @@ const Benefits: React.FC = () => {
             >
               <Card
                 icon={option.icon}
-                title={t(option.heading)}
-                description={t(option.text)}
+                title={t(option.title)}
+                description={t(option.description)}
               />
             </div>
           );

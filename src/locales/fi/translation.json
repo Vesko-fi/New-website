@@ -167,28 +167,26 @@
     },
     "tranditionalRequirements": {
       "heading": "Perinteisen monikanavainen kaupan vaatimukset",
-      "options": [
-        {
-          "heading": "Erillinen infrastruktuuri",
-          "text": " Edellyttää itsenäisiä varastoja online-tilauksille."
-        },
-        {
-          "heading": "Monimutkainen integrointi",
-          "text": "Aikaa vievät IT-projektit myymälä- ja verkkojärjestelmien integroimiseksi."
-        },
-        {
-          "heading": "Laaja huolto",
-          "text": "Tarvitsee ryhmiä ylläpitämään järjestelmää ja hallitsemaan verkkovarastoa."
-        },
-        {
-          "heading": "Korkeat kustannukset",
-          "text": "Sekä käyttöönotto, että käyttökustannukset ovat huomattavasti korkeat."
-        },
-        {
-          "heading": "Pitkä käyttöönotto aika",
-          "text": "Perinteisten asetusten käyttöönotto voi kestää useista kuukausista yli vuoteen."
-        }
-      ]
+      "option1": {
+        "heading": "Erillinen infrastruktuuri",
+        "text": " Edellyttää itsenäisiä varastoja online-tilauksille."
+      },
+      "option2": {
+        "heading": "Monimutkainen integrointi",
+        "text": "Aikaa vievät IT-projektit myymälä- ja verkkojärjestelmien integroimiseksi."
+      },
+      "option3": {
+        "heading": "Laaja huolto",
+        "text": "Tarvitsee ryhmiä ylläpitämään järjestelmää ja hallitsemaan verkkovarastoa."
+      },
+      "option4": {
+        "heading": "Korkeat kustannukset",
+        "text": "Sekä käyttöönotto, että käyttökustannukset ovat huomattavasti korkeat."
+      },
+      "option5": {
+        "heading": "Pitkä käyttöönotto aika",
+        "text": "Perinteisten asetusten käyttöönotto voi kestää useista kuukausista yli vuoteen."
+      }
     },
     "whyVesko": {
       "heading": "Miksi Veskon monikanavainen verkkokaupan",
@@ -196,28 +194,22 @@
     },
     "howOmnichannelWorks": {
       "heading": "Miten Veskon monikanavainen verkkokauppa toimii",
-      "options": [
-        {
-          "icon": "box",
-          "heading": "Uusi kuorma",
-          "text": "Saat uusia tuotteita ja lisäät ne Veskon verkkokauppaan (asiakkaasi saavat tiedon uusista tuotteista heti)."
-        },
-        {
-          "icon": "check-square",
-          "heading": "Tuotteen saatavuus",
-          "text": "Asiakkaasi voivat tarkistaa myymäläsi varastotilanteen ennen ostopäätöstä, joko verkossa tai myymälässä."
-        },
-        {
-          "icon": "trending-up",
-          "heading": "Ostaminen",
-          "text": "Asiakas voi varata tuotteen, ostaa sen verkossa ja noutaa myymälästä tai tilata sen toimitettavaksi kotiin."
-        },
-        {
-          "icon": "bar-chart",
-          "heading": "Jatkuva päivitys",
-          "text": "Kun tuote ostetaan, Vesko päivittää automaattisesti tuotteen saatavuus."
-        }
-      ]
+      "option1": {
+        "heading": "Uusi kuorma",
+        "text": "Saat uusia tuotteita ja lisäät ne Veskon verkkokauppaan (asiakkaasi saavat tiedon uusista tuotteista heti)."
+      },
+      "option2": {
+        "heading": "Tuotteen saatavuus",
+        "text": "Asiakkaasi voivat tarkistaa myymäläsi varastotilanteen ennen ostopäätöstä, joko verkossa tai myymälässä."
+      },
+      "option3": {
+        "heading": "Ostaminen",
+        "text": "Asiakas voi varata tuotteen, ostaa sen verkossa ja noutaa myymälästä tai tilata sen toimitettavaksi kotiin."
+      },
+      "option4": {
+        "heading": "Jatkuva päivitys",
+        "text": "Kun tuote ostetaan, Vesko päivittää automaattisesti tuotteen saatavuus."
+      }
     },
     "uniqueOmnichannel": {
       "heading": "Veskon monikanavajärjestelmä ",
@@ -232,28 +224,24 @@
       "heading": "Markkinapaikka, ",
       "headingSpan": "mutta se on sinun verkkokauppa",
       "text": "Sisäänrakennetulla varastonhallinta järjestelmällä ja omalla hakukoneella, Veskon kauppa voi täyttää tarpeesi, olitpa sitten kasvattamassa brändiäsi tai sinulla on jo iso kauppa laaja valikoimalla.",
-      "options": [
-        {
-          "icon": "box",
-          "heading": "Varastonhallinta",
-          "text": " Ennalta määritelty ja räätälöitävä kategorisointi prosessi auttaa sinua lajittelemaan tuotteesi ja tekemään lisämyyntiä."
-        },
-        {
-          "icon": "check-square",
-          "heading": "Tilausten täyttäminen",
-          "text": "Suunniteltu auttamaan tilausten täyttämisessä ja lähettämisessä muutamalla klikkauksella."
-        },
-        {
-          "icon": "trending-up",
-          "heading": "Lisämyynti",
-          "text": "Veskon edistyksellinen kategorisointi, ja ryhmittely järjestelmä auttaa sinua myymään enemmän."
-        },
-        {
-          "icon": "bar-chart",
-          "heading": "Myyntitilastot",
-          "text": "Yksityiskohtaiset myyntitilastot auttavat sinua optimoimaan ja hallitsemaan myymälääsi ja myyntiä."
-        }
-      ]
+
+      "option1": {
+        "heading": "Varastonhallinta",
+        "text": " Ennalta määritelty ja räätälöitävä kategorisointi prosessi auttaa sinua lajittelemaan tuotteesi ja tekemään lisämyyntiä."
+      },
+
+      "option2": {
+        "heading": "Tilausten täyttäminen",
+        "text": "Suunniteltu auttamaan tilausten täyttämisessä ja lähettämisessä muutamalla klikkauksella."
+      },
+      "option3": {
+        "heading": "Lisämyynti",
+        "text": "Veskon edistyksellinen kategorisointi, ja ryhmittely järjestelmä auttaa sinua myymään enemmän."
+      },
+      "option4": {
+        "heading": "Myyntitilastot",
+        "text": "Yksityiskohtaiset myyntitilastot auttavat sinua optimoimaan ja hallitsemaan myymälääsi ja myyntiä."
+      }
     },
     "logisticPayment": {
       "heading": "Logistiikka ja maksaminen Veskossa",
@@ -267,28 +255,16 @@
     "faq": {
       "heading": "Usein Kysytyt Kysymykset",
       "text": "",
-      "options": [
-        {
-          "heading": "Milloin Vesko on valmis?",
-          "text": "Veskon beta-versio on odotettavissa valmiiksi vuoden 2025 toisella neljänneksellä. Suoritamme kaksi tai neljä viikkoa kestäviä beta-testejä Tampereella ensi keväänä testataksemme ensimmäistä Vesko-versiota. Jos olet tamperelainen myyjä ja omistat tai ylläpidät paikallista myymälää tai verkkokauppaa, voit liittyä jonotuslistalle ja olla yksi ensimmäisistä, jotka pääsevät testaamaan Veskon."
-        },
-        {
-          "heading": "Onko Vesko saatavilla mobiilisovelluksena?",
-          "text": "Vesko on saatavilla sekä verkkosivustona että mobiilisovelluksena."
-        },
-        {
-          "heading": "Missä Vesko tulee olemaan saatavilla?",
-          "text": "Vesko tulee olemaan saatavilla Suomessa kesän 2025 aikana tai sen jälkeen, ja muissa Pohjoismaissa noin kolme kuukautta Suomen lanseerauksen jälkeen."
-        },
-        {
-          "heading": "Mitä sääntöjä Vesko asettaa kauppiaalle?",
-          "text": "Verkkokauppiaille ja brändeille ei aseteta pakollisia sääntöjä myynti käytännöistä, kuten pakollisista palautuksista tai reklamaatioista. Fyysisille myymälöille kuitenkin sääntö on tiukasti valvottu: omnichannel-hintasääntö. Fyysisten myymälöiden omistajien on ylläpidettävä johdonmukaisia hintoja sekä verkko, että myymälä kanavissa. Tämä varmistaa, että kuluttajat löytävät saman hinnan fyysisissä myymälöissä kuin verkkokaupoissa, edistäen saumattoman ja reilun ostokokemuksen."
-        },
-        {
-          "heading": "Kuka hoitaa asiakaspalvelun (kuluttajat/ostajat)?",
-          "text": "Veskossa on suoran viestinnän ominaisuus, joka mahdollistaa käyttäjien ja myyjien välisen suoran kommunikaation, jolloin kuluttajat voivat käsitellä mahdollisia ongelmia tai kysymyksiä. Tämän vuoksi myyjät hoitavat oman asiakaspalvelunsa, tarjoten henkilökohtaista tukea vastaa asiakasten kysymykset suoraan."
-        }
-      ]
+      "heading1": "Milloin Vesko on valmis?",
+      "text1": "Veskon beta-versio on odotettavissa valmiiksi vuoden 2025 toisella neljänneksellä. Suoritamme kaksi tai neljä viikkoa kestäviä beta-testejä Tampereella ensi keväänä testataksemme ensimmäistä Vesko-versiota. Jos olet tamperelainen myyjä ja omistat tai ylläpidät paikallista myymälää tai verkkokauppaa, voit liittyä jonotuslistalle ja olla yksi ensimmäisistä, jotka pääsevät testaamaan Veskon.",
+      "heading2": "Onko Vesko saatavilla mobiilisovelluksena?",
+      "text2": "Vesko on saatavilla sekä verkkosivustona että mobiilisovelluksena.",
+      "heading3": "Missä Vesko tulee olemaan saatavilla?",
+      "text3": "Vesko tulee olemaan saatavilla Suomessa kesän 2025 aikana tai sen jälkeen, ja muissa Pohjoismaissa noin kolme kuukautta Suomen lanseerauksen jälkeen.",
+      "heading4": "Mitä sääntöjä Vesko asettaa kauppiaalle?",
+      "text4": "Verkkokauppiaille ja brändeille ei aseteta pakollisia sääntöjä myynti käytännöistä, kuten pakollisista palautuksista tai reklamaatioista. Fyysisille myymälöille kuitenkin sääntö on tiukasti valvottu: omnichannel-hintasääntö. Fyysisten myymälöiden omistajien on ylläpidettävä johdonmukaisia hintoja sekä verkko, että myymälä kanavissa. Tämä varmistaa, että kuluttajat löytävät saman hinnan fyysisissä myymälöissä kuin verkkokaupoissa, edistäen saumattoman ja reilun ostokokemuksen.",
+      "heading5": "Kuka hoitaa asiakaspalvelun (kuluttajat/ostajat)?",
+      "text5": "Veskossa on suoran viestinnän ominaisuus, joka mahdollistaa käyttäjien ja myyjien välisen suoran kommunikaation, jolloin kuluttajat voivat käsitellä mahdollisia ongelmia tai kysymyksiä. Tämän vuoksi myyjät hoitavat oman asiakaspalvelunsa, tarjoten henkilökohtaista tukea vastaa asiakasten kysymykset suoraan."
     }
   },
   "users": {
@@ -425,43 +401,33 @@
     "introduction": {
       "heading": "Johdanto",
       "text1": "Vesko Ltd. pyrkii turvaamaan tietosuojasi. Tämä tietosuojakäytäntö kertoo, miten käsittelemme henkilötietojasi. Tietosuojakäytäntöä voidaan päivittää, ja uusin versio löytyy tältä sivulta. Ilmoitamme myös merkittävistä muutoksista sähköpostitse.",
-      "text2": "Tätä tietosuojakäytäntöä sovelletaan henkilötietoihin, joita keräämme sinulta jonotuslistalta ja “esittely pyynnön” yhteydenottolomakkeesta. Vesko Ltd., yritystunnus 3472131-6, toimii henkilötietojen rekisterinpitäjänä."
+      "text2": "Tätä tietosuojakäytäntöä sovelletaan henkilötietoihin, joita keräämme sinulta jonotuslistalta ja 'esittely pyynnön' yhteydenottolomakkeesta. Vesko Ltd., yritystunnus 3472131-6, toimii henkilötietojen rekisterinpitäjänä."
     },
     "purpose": {
       "heading": "Käsittelyn tarkoitus ja oikeusperusteet",
       "waitlist": {
         "heading": "Jonotuslista",
-        "options": [
-          {
-            "heading": "Käsittelyn tarkoitus: ",
-            "text": " Liittyminen jonotuslistalle ja sinulle tärkeiden uutisten lähettäminen Vesko-sovellusten kehityksestä ja julkaisupäivästä."
-          },
-          {
-            "heading": "Henkilötietojen ryhmät: ",
-            "text": " Yhteystiedot (nimi, puhelinnumero, sähköpostiosoite)."
-          },
-          {
-            "heading": "Laillinen peruste: ",
-            "text": "Suostumus."
-          }
-        ]
+        "heading1": "Käsittelyn tarkoitus: ",
+        "text1": " Liittyminen jonotuslistalle ja sinulle tärkeiden uutisten lähettäminen Vesko-sovellusten kehityksestä ja julkaisupäivästä.",
+        "heading2": "Henkilötietojen ryhmät: ",
+        "text2": " Yhteystiedot (nimi, puhelinnumero, sähköpostiosoite).",
+        "heading3": "Laillinen peruste: ",
+        "text3": "Suostumus."
       },
       "demoRequest": {
         "heading": "Esittelypyyntö",
-        "options": [
-          {
-            "heading": "Käsittelyn tarkoitus: ",
-            "text": "Tuotearvostelupyyntöjen lähettäminen ja tuotearvostelujen näyttäminen verkkosivuilla."
-          },
-          {
-            "heading": "Henkilötietojen ryhmät: ",
-            "text": " Yhteystiedot (nimi, puhelinnumero, sähköpostiosoite)."
-          },
-          {
-            "heading": "Laillinen peruste: ",
-            "text": "Oikeutettu etu."
-          }
-        ]
+        "options1": {
+          "heading": "Käsittelyn tarkoitus: ",
+          "text": "Tuotearvostelupyyntöjen lähettäminen ja tuotearvostelujen näyttäminen verkkosivuilla."
+        },
+        "options2": {
+          "heading": "Henkilötietojen ryhmät: ",
+          "text": " Yhteystiedot (nimi, puhelinnumero, sähköpostiosoite)."
+        },
+        "options3": {
+          "heading": "Laillinen peruste: ",
+          "text": "Oikeutettu etu."
+        }
       }
     },
     "dataProtection": {
@@ -475,24 +441,22 @@
     },
     "personalDataRight": {
       "heading": "Oikeutesi henkilötietoihisi liittyen",
-      "options": [
-        {
-          "heading": "Oikeus tietojen poistamiseen: ",
-          "text": "Sinulla on oikeus pyytää tietojesi poistamista. Poistamme tietosi, mikäli niiden säilyttämiselle ei ole esimerkiksi lainsäädännöstä johtuvaa perustetta. Poistamme tiedot myös, jos henkilötietojen käsittely on perustunut suostumukseen ja peruutat suostumuksesi, tai jos vastustat henkilötietojesi käsittelyä eikä käsittelylle ole muuta perustetta."
-        },
-        {
-          "heading": "Oikeus vastustaa tietojen käsittelyä: ",
-          "text": "Sinulla on oikeus vastustaa henkilötietojesi käsittelyä, esimerkiksi jos käsittely perustuu oikeutettuun etuun."
-        },
-        {
-          "heading": "Oikeus saada pääsy tietoihin: ",
-          "text": "Sinulla on oikeus pyytää kopio henkilötiedoistasi, joita olemme keränneet. Jos teet pyynnön, saatamme kysyä lisätietoja varmistaaksemme henkilöllisyytesi ennen tietojen luovuttamista."
-        },
-        {
-          "heading": "Oikeus tietojen oikaisuun: ",
-          "text": "Jos havaitset, että tiedot, joita olemme sinusta keränneet, ovat virheellisiä tai puutteellisia, sinulla on oikeus pyytää tietojen oikaisua."
-        }
-      ],
+      "options1": {
+        "heading": "Oikeus tietojen poistamiseen: ",
+        "text": "Sinulla on oikeus pyytää tietojesi poistamista. Poistamme tietosi, mikäli niiden säilyttämiselle ei ole esimerkiksi lainsäädännöstä johtuvaa perustetta. Poistamme tiedot myös, jos henkilötietojen käsittely on perustunut suostumukseen ja peruutat suostumuksesi, tai jos vastustat henkilötietojesi käsittelyä eikä käsittelylle ole muuta perustetta."
+      },
+      "options2": {
+        "heading": "Oikeus vastustaa tietojen käsittelyä: ",
+        "text": "Sinulla on oikeus vastustaa henkilötietojesi käsittelyä, esimerkiksi jos käsittely perustuu oikeutettuun etuun."
+      },
+      "options3": {
+        "heading": "Oikeus saada pääsy tietoihin: ",
+        "text": "Sinulla on oikeus pyytää kopio henkilötiedoistasi, joita olemme keränneet. Jos teet pyynnön, saatamme kysyä lisätietoja varmistaaksemme henkilöllisyytesi ennen tietojen luovuttamista."
+      },
+      "options4": {
+        "heading": "Oikeus tietojen oikaisuun: ",
+        "text": "Jos havaitset, että tiedot, joita olemme sinusta keränneet, ovat virheellisiä tai puutteellisia, sinulla on oikeus pyytää tietojen oikaisua."
+      },
       "privacyContactText": "Voit käyttää oikeuksiasi ottamalla yhteyttä sähköpostitse: vesko.finland@gmail.com"
     },
     "dataSharing": {
