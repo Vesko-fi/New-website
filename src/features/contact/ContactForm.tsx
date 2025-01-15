@@ -60,7 +60,6 @@ const ContactForm: React.FC = () => {
       !validationErrors.message
     );
   }, [formData, t]);
-
   useEffect(() => {
     if (isSubmitted) {
       handleValidateForm();
@@ -74,7 +73,6 @@ const ContactForm: React.FC = () => {
     if (!handleValidateForm()) {
       return;
     }
-
     const params = {
       first_name: formData.first_name,
       last_name: formData.last_name,
