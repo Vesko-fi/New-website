@@ -10,8 +10,8 @@ const Registration = () => {
         <h1 className="text-7xl font-extrabold text-neutral-100">
           MIOPIA 2025
         </h1>
-        <div className="flex items-center gap-4 text-3xl sm:flex sm:items-center">
-          <span> {t("events.registration.span1")}</span>
+        <div className="flex flex-col items-center gap-4 sm:flex sm:items-center sm:text-3xl">
+          <span className="text-lg">{t("events.registration.span1")}</span>
           <a
             href="https://businessjoensuu.fi/sohjo2025"
             target="_blank"
@@ -20,7 +20,7 @@ const Registration = () => {
           >
             SOHJO
           </a>
-          <span> {t("events.registration.span2")}</span>
+          <span className="text-lg"> {t("events.registration.span2")}</span>
         </div>
         <h3 className="text-3xl font-extrabold text-neutral-200">
           {t("events.registration.theme")}

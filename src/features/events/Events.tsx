@@ -11,7 +11,7 @@ import { TimelineSection } from "./components/TimelineSection";
 const Events: React.FC = () => {
   return (
     <>
-      <Section className="scroll-margin-top-[64px] -mt-8 scroll-m-0 scroll-p-0 bg-black font-mono text-white">
+      <Section className="scroll-margin-top-[64px] -mt-8 scroll-m-0 scroll-p-0 overflow-hidden bg-black font-mono text-white">
         {/* Hero Section */}
         <Container>
           <HeroSection />
