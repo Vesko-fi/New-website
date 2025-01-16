@@ -30,8 +30,9 @@
   },
 
   "events": {
-    "welcome": "Intro, welcome to MIOPIA",
+    "welcome": "Intro, welcome to MIOPIA 2025",
     "visitUsHeading": "MIOPIA Event 2025",
+    "speakerToConfirmed": "Speaker to be confirmend",
     "visit": "Visit SOHJO",
     "learnMore": "Learn more about SOHJO 2025",
     "forWebsite": {

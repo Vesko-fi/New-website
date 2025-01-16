@@ -30,8 +30,9 @@
   },
 
   "events": {
-    "welcome": "Intro, welcome to MIOPIA",
+    "welcome": "Intro, Tervetuloa Miopian 2025",
     "visitUsHeading": "MIOPIA-tapahtuma 2025",
+    "speakerToConfirmed": "Puhuja varmistuu",
     "visit": "Vieraile SOHJO",
     "learnMore": "Lue lisää SOHJO:stä",
     "forWebsite": {

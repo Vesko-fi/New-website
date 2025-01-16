@@ -23,7 +23,7 @@ const TimelineSection = () => {
         { time: "16:30", title: "Veikko Miettinen" },
         { time: "16:40", title: "Daniel Bågeberg" },
         { time: "16:50", title: "Heikki Immonen" },
-        { time: "17:10", title: "Kati Hämäläinen" },
+        { time: "17:10", title: `${t("events.speakerToConfirmed")}` },
         { time: "17:20", title: "Leo Fadi" },
       ],
     },
