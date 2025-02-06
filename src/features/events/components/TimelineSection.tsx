@@ -19,7 +19,7 @@ const TimelineSection = () => {
     {
       sectionTitle: `${t("events.timeline.opening2")}`,
       items: [
-        { time: "16:25", title: `${t("events.welcome")}` },
+        { time: "16:25", title: "Intro, welcome to MIOPIA 2025" },
         { time: "16:30", title: "Veikko Miettinen" },
         { time: "16:40", title: "Daniel Bågeberg" },
         { time: "16:50", title: "Heikki Immonen" },
@@ -30,7 +30,10 @@ const TimelineSection = () => {
     {
       sectionTitle: `${t("events.timeline.opening3")}`,
       items: [
-        { time: "16:30", title: "Intro, welcome to MIOPIA" },
+        {
+          time: "16:30",
+          title: `${t("events.welcome")}`,
+        },
         { time: "16:35", title: "Pinja Konttinen" },
         { time: "16:50", title: "Leo Fadi" },
         { time: "17:00", title: "Lotta Lilja" },
